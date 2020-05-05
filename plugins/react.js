@@ -189,7 +189,11 @@ if (hasLibrary('react')) {
     ...defaultObject,
 
     parserOptions: { ecmaFeatures: { jsx: true } },
-    settings: { 'import/extensions': ['.jsx'], 'import/resolver': { node: { extensions: ['.jsx'] } } },
+    settings: {
+      react: { version: 'detect' },
+      'import/extensions': ['.jsx'],
+      'import/resolver': { node: { extensions: ['.jsx'] } },
+    },
     plugins: ['react'],
     rules,
   };
