@@ -1,0 +1,45 @@
+{
+  "name": "@kettil/eslint-config",
+  "version": "0.0.1",
+  "description": "this library contains a strict ESLint configuration.",
+  "main": "node.js",
+  "scripts": {
+    "lint": "eslint --config .eslintrc.json --fix .",
+    "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'"
+  },
+  "keywords": [
+    "ecmascript",
+    "es6",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "es2019",
+    "es2020",
+    "eslint",
+    "eslint-config",
+    "jest",
+    "react",
+    "typescript"
+  ],
+  "author": "Kjell Dießel <development@kettil.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint-plugin-formatjs": "^2.2.3",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.9.0",
+    "eslint-plugin-jest-dom": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-testing-library": "^3.1.0",
+    "eslint-plugin-unicorn": "^19.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
+  }
+}

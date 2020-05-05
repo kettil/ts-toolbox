@@ -1,0 +1,7 @@
+{
+  "extends": "./node.js",
+
+  "rules": {
+    "import/no-unused-modules": "off"
+  }
+}
