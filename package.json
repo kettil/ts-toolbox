@@ -52,14 +52,7 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "prettier": "^2.0.5"
-  },
-  "optionalDependencies": {
-    "@testing-library/jest-dom": "*",
-    "@testing-library/react": "*",
-    "@testing-library/react-hooks": "*",
-    "jest": "*",
-    "react": "*",
-    "typescript": "*"
+    "prettier": "^2.0.5",
+    "typescript": "^3.8.3"
   }
 }
