@@ -27,6 +27,16 @@
   ],
   "author": "Kjell Dießel <development@kettil.de>",
   "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/eslint-config/issues/new"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
