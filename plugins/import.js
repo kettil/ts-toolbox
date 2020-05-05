@@ -82,7 +82,7 @@ if (hasLibrary('typescript')) {
 if (hasLibrary('next')) {
   overrides.push({
     files: ['pages/**/*.jsx', 'pages/**/*.tsx'],
-    rules: { 'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }] },
+    rules: { 'import/no-unused-modules': ['off'] },
   });
 }
 
