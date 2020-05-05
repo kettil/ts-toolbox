@@ -1,0 +1,14 @@
+# Node.js folders/files
+node_modules
+npm-debug.log
+
+# OS folders/files
+.DS_Store
+
+# Settings folders/files
+.editorconfig
+.gitignore
+.gitlab-ci.yml
+.huskyrc
+.prettierignore
+.prettierrc
