@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "this library contains a strict ESLint configuration.",
   "main": "node.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint --config .eslintrc.json --fix .",
     "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'"
