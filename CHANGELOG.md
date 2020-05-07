@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kettil/eslint-config/compare/1.0.0...1.0.1) (2020-05-07)
+
+
+### Bug Fixes
+
+* Remove broken @semantic-release/github plugin ([f65ad48](https://github.com/kettil/eslint-config/commit/f65ad481d5b040c5db614df56b20c85a88f071fc))
+
 # [1.0.0](https://github.com/kettil/eslint-config/compare/0.3.0...1.0.0) (2020-05-07)
 
 
