@@ -6,6 +6,8 @@ npm-debug.log
 .DS_Store
 
 # Settings folders/files
+.github
+.dependabot
 .editorconfig
 .eslintignore
 .eslintrc.json
@@ -14,3 +16,4 @@ npm-debug.log
 .huskyrc
 .prettierignore
 .prettierrc
+.releaserc.json
