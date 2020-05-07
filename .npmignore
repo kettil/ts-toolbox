@@ -6,9 +6,14 @@ npm-debug.log
 .DS_Store
 
 # Settings folders/files
+.github
+.dependabot
 .editorconfig
+.eslintignore
+.eslintrc.json
 .gitignore
 .gitlab-ci.yml
 .huskyrc
 .prettierignore
 .prettierrc
+.releaserc.json
