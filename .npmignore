@@ -7,6 +7,8 @@ npm-debug.log
 
 # Settings folders/files
 .editorconfig
+.eslintignore
+.eslintrc.json
 .gitignore
 .gitlab-ci.yml
 .huskyrc
