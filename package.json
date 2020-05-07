@@ -8,7 +8,9 @@
   },
   "scripts": {
     "lint": "eslint --config .eslintrc.json --fix .",
-    "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'"
+    "lint:ci": "eslint --config .eslintrc.json --format codeframe .",
+    "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
+    "prettier:ci": "prettier --config './.prettierrc' --list-different '.prettierrc' './**/*.{json,md,scss,yml,html}'"
   },
   "keywords": [
     "ecmascript",
@@ -51,8 +53,11 @@
     "eslint-plugin-unicorn": "^19.0.1"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "eslint": "^6.8.0",
     "prettier": "^2.0.5",
+    "semantic-release": "^17.0.7",
     "typescript": "^3.8.3"
   }
 }
