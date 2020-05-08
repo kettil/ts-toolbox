@@ -9,7 +9,7 @@ update_configs:
     default_assignees:
       - 'kettil'
     default_labels:
-      - 'Dependencies'
+      - 'dependencies'
     commit_message:
       prefix: 'fix'
       prefix_development: 'chore'
