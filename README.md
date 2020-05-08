@@ -10,7 +10,7 @@ The library is a collection of very strict ESLint rules.
 ## Installation
 
 ```bash
-npm install eslint @kettil/eslint-config
+npm install -D eslint @kettil/eslint-config
 ```
 
 The following additional ESLint plugins are included by default:
@@ -38,7 +38,7 @@ If you want to use the rule collection, create the file `.eslintrc.json` with th
 
 ```json
 {
-  "extends": ["@kettil"]
+  "extends": "@kettil"
 }
 ```
 
