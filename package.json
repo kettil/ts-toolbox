@@ -1,0 +1,40 @@
+{
+  "name": "@kettil/semantic-release-config",
+  "version": "0.1.0",
+  "description": "The library contains the semantic-release configuration",
+  "main": "configuration.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --config .eslintrc.json --fix .",
+    "lint:ci": "eslint --config .eslintrc.json --format codeframe .",
+    "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
+    "prettier:ci": "prettier --config './.prettierrc' --list-different '.prettierrc' './**/*.{json,md,scss,yml,html}'"
+  },
+  "keywords": [
+    "semantic-release"
+  ],
+  "author": "Kjell Dießel <development@kettil.de>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/semantic-release-config"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/semantic-release-config/issues/new"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.0.7"
+  },
+  "devDependencies": {
+    "@kettil/eslint-config": "^1.0.2",
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.5"
+  }
+}
