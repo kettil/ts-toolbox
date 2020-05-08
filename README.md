@@ -10,7 +10,7 @@ The library contains the semantic-release configuration.
 ## Installation
 
 ```bash
-npm install eslint @kettil/semantic-release-config
+npm install -D eslint @kettil/semantic-release-config
 ```
 
 ## Quick Start
