@@ -562,6 +562,7 @@ const rules = {
 module.exports = {
   ...defaultObject,
   env: { es6: true, node: true },
+  globals: { Atomics: 'readonly', SharedArrayBuffer: 'readonly' },
   parserOptions: {
     ecmaVersion: 2020,
     ecmaFeatures: { globalReturn: false, impliedStrict: false },
