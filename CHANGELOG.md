@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/kettil/eslint-config/compare/1.0.4...1.0.5) (2020-05-10)
+
+
+### Bug Fixes
+
+* Add the Atomics and SharedArrayBuffer setting ([87bea60](https://github.com/kettil/eslint-config/commit/87bea60a918950711f5343be650ecf446cddb9dc))
+
 ## [1.0.4](https://github.com/kettil/eslint-config/compare/1.0.3...1.0.4) (2020-05-09)
 
 
