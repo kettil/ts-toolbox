@@ -98,12 +98,6 @@ const overrides = [
     },
     parser: '@typescript-eslint/parser',
     parserOptions: { project: path.join('.', 'tsconfig.json') },
-    settings: {
-      'import/extensions': ['.ts', '.tsx', '.d.ts'],
-      'import/external-module-folders': ['node_modules', 'node_modules/@types'],
-      'import/parsers': { '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'] },
-      'import/resolver': { node: { extensions: ['.ts', '.tsx', '.d.ts'] } },
-    },
   },
   {
     files: ['*.test.tsx'],
@@ -114,6 +108,12 @@ const overrides = [
 if (hasLibrary('typescript')) {
   module.exports = {
     ...defaultObject,
+    settings: {
+      'import/extensions': ['.ts', '.tsx', '.d.ts'],
+      'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+      'import/parsers': { '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'] },
+      'import/resolver': { node: { extensions: ['.ts', '.tsx', '.d.ts'] } },
+    },
     parserOptions: { ecmaVersion: 2020, sourceType: 'module' },
     plugins: ['@typescript-eslint'],
     rules,
