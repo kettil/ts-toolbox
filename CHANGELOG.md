@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kettil/eslint-config/compare/1.0.7...1.1.0) (2020-05-11)
+
+
+### Features
+
+* **import:** Disabled a rule for src/index file ([24a4e8a](https://github.com/kettil/eslint-config/commit/24a4e8a21b33dfe2ccd094b0a3d6508778b060a1))
+
 ## [1.0.7](https://github.com/kettil/eslint-config/compare/1.0.6...1.0.7) (2020-05-11)
 
 
