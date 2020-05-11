@@ -62,7 +62,12 @@ const rules = {
   'import/unambiguous': ['off'],
 };
 
-const overrides = [];
+const overrides = [
+  {
+    files: ['src/index.js', 'src/index.ts'],
+    rules: { 'import/no-unused-modules': ['off'] },
+  },
+];
 
 if (hasLibrary('typescript')) {
   overrides.push(
