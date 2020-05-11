@@ -7,8 +7,8 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint --config .eslintrc.json --fix .",
-    "lint:ci": "eslint --config .eslintrc.json --format codeframe .",
+    "lint": "eslint --config .eslintrc.json --ext 'js,ts,tsx' --fix .",
+    "lint:ci": "eslint --config .eslintrc.json --ext 'js,ts,tsx' --format codeframe .",
     "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
     "prettier:ci": "prettier --config './.prettierrc' --list-different '.prettierrc' './**/*.{json,md,scss,yml,html}'"
   },
