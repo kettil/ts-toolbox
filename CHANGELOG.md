@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/kettil/eslint-config/compare/1.0.5...1.0.6) (2020-05-11)
+
+
+### Bug Fixes
+
+* **typescript:** Move settings to global object ([a14fb1b](https://github.com/kettil/eslint-config/commit/a14fb1bea014d98fc9a127a41045f61c0ae6e485))
+
 ## [1.0.5](https://github.com/kettil/eslint-config/compare/1.0.4...1.0.5) (2020-05-10)
 
 
