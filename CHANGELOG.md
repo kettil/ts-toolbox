@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/kettil/eslint-config/compare/1.1.0...1.1.1) (2020-05-12)
+
+
+### Bug Fixes
+
+* **eslint:** Update the id-blacklist rule ([afd5938](https://github.com/kettil/eslint-config/commit/afd593859c5cd3c0d8b1956aca8120d2eb3974c1))
+
 # [1.1.0](https://github.com/kettil/eslint-config/compare/1.0.7...1.1.0) (2020-05-11)
 
 
