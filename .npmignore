@@ -1,0 +1,25 @@
+# Node.js folders/files
+node_modules
+npm-debug.log
+
+# OS folders/files
+.DS_Store
+._*
+
+# Settings folders/files
+.github
+.dependabot
+.editorconfig
+.eslint*
+.git*
+.huskyrc
+.prettier*
+.releaserc.json
+jest*
+tsconfig*
+
+
+# Project folders/files
+coverage
+src
+tests

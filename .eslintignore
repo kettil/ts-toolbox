@@ -1,0 +1,7 @@
+# Node.js folders/files
+build
+node_modules
+
+# Project folders/files
+coverage
+CHANGELOG.md
