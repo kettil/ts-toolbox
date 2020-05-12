@@ -93,7 +93,7 @@ const rules = {
   'grouped-accessor-pairs': ['off'],
   'guard-for-in': ['error'],
   'handle-callback-err': ['off'],
-  'id-blacklist': ['error', 'any', 'Number', 'number', 'String', 'string', 'Boolean', 'boolean', 'Undefined'],
+  'id-blacklist': ['error', 'any', 'number', 'string', 'boolean', 'Undefined'],
   'id-length': ['off'],
   'id-match': ['error'],
   'implicit-arrow-linebreak': ['off', 'beside'],
