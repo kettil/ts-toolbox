@@ -33,7 +33,7 @@
     "semantic-release": "^17.0.7"
   },
   "devDependencies": {
-    "@kettil/eslint-config": "^1.1.1",
+    "@kettil/eslint-config": "^1.1.2",
     "eslint": "^6.8.0",
     "prettier": "^2.0.5"
   }
