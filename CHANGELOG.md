@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/kettil/eslint-config/compare/1.1.6...1.1.7) (2020-05-13)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-react-hooks from 4.0.1 to 4.0.2 ([e65ef20](https://github.com/kettil/eslint-config/commit/e65ef20e50573f60866d3ef49e8bac46e0bd8a73))
+
 ## [1.1.6](https://github.com/kettil/eslint-config/compare/1.1.5...1.1.6) (2020-05-13)
 
 
