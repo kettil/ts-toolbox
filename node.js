@@ -1,10 +1,11 @@
-/* eslint-disable global-require, import/order */
+/* eslint-disable node/global-require, import/order */
 
 const deepMerge = require('./lib/deepEqual');
 const defaultObject = require('./lib/defaultObject');
 
 const plugins = [
   require('./plugins/eslint'),
+  require('./plugins/node'),
   require('./plugins/typescript'),
 
   // common

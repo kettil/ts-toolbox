@@ -30,7 +30,7 @@
   "author": "Kjell Dießel <development@kettil.de>",
   "license": "MIT",
   "engines": {
-    "node": ">= 10"
+    "node": ">= 11"
   },
   "repository": {
     "type": "git",
@@ -47,6 +47,7 @@
     "eslint-plugin-jest": "^23.11.0",
     "eslint-plugin-jest-dom": "^2.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^4.0.1",
     "eslint-plugin-testing-library": "^3.1.2",
