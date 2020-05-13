@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/kettil/eslint-config/compare/1.1.5...1.1.6) (2020-05-13)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 2.31.0 to 2.33.0 ([22298b4](https://github.com/kettil/eslint-config/commit/22298b436de390b8f6f3c8a4020179db3874178c))
+
 ## [1.1.5](https://github.com/kettil/eslint-config/compare/1.1.4...1.1.5) (2020-05-13)
 
 
