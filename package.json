@@ -44,7 +44,7 @@
     "@types/jest": "^25.2.2",
     "@types/node": "^14.0.1",
     "eslint": "^6.0.0",
-    "eslint-plugin-jest": "^23.13.0",
+    "eslint-plugin-jest": "^23.13.1",
     "husky": "^4.2.5",
     "jest": "^25.0.0",
     "jest-cpf": "^1.0.0",
