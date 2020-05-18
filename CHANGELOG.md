@@ -1,3 +1,10 @@
+## [1.1.14](https://github.com/kettil/eslint-config/compare/1.1.13...1.1.14) (2020-05-18)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-unicorn from 19.0.1 to 20.0.0 ([d6f733b](https://github.com/kettil/eslint-config/commit/d6f733b33c7c3fe36835623205ed823927d935bb))
+
 ## [1.1.13](https://github.com/kettil/eslint-config/compare/1.1.12...1.1.13) (2020-05-18)
 
 
