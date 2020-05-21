@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kettil/ts-tools"
+    "url": "https://github.com/kettil/tool-lib"
   },
   "bugs": {
-    "url": "https://github.com/kettil/ts-tools/issues/new"
+    "url": "https://github.com/kettil/tool-lib/issues/new"
   },
   "dependencies": {},
   "devDependencies": {
