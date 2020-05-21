@@ -41,4 +41,12 @@ describe('arrayUnique()', () => {
 
     expect(value).toBe('localhost:3000');
   });
+
+  test('it should work without key', () => {
+    const value = env();
+
+    expect(typeof value).toBe('object');
+    expect(value).not.toBeNull();
+    expect(Array.isArray(value)).toBe(false);
+  });
 });
