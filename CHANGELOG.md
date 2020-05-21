@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/kettil/ts-tools/compare/1.1.0...1.2.0) (2020-05-21)
+
+
+### Features
+
+* **node:** env() can return the whole env object ([8bcf9d5](https://github.com/kettil/ts-tools/commit/8bcf9d5a72cba2b729f4c5491cffe925e669e6ba))
+
 # [1.1.0](https://github.com/kettil/ts-tools/compare/1.0.0...1.1.0) (2020-05-18)
 
 
