@@ -1,5 +1,5 @@
 /* eslint-disable unicorn/no-null, @typescript-eslint/no-empty-function */
-import isObject from './object';
+import isObject from './isObject';
 
 describe('isObject()', () => {
   test('it should work with return value true', () => {

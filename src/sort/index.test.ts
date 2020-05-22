@@ -1,12 +1,12 @@
-import sortCompareAsc from './compareAsc';
-import sortCompareDesc from './compareDesc';
-import sortCompareTransformAsc from './compareTransformAsc';
-import sortCompareTransformDesc from './compareTransformDesc';
+import compareAsc from './compareAsc';
+import compareDesc from './compareDesc';
+import compareTransformAsc from './compareTransformAsc';
+import compareTransformDesc from './compareTransformDesc';
 import * as sort from '.';
 
 describe('"sort" tools', () => {
   test('it should create object with all "sort" tools', () => {
-    const expected = { sortCompareAsc, sortCompareDesc, sortCompareTransformAsc, sortCompareTransformDesc };
+    const expected = { compareAsc, compareDesc, compareTransformAsc, compareTransformDesc };
 
     expect(sort).toEqual(expected);
   });

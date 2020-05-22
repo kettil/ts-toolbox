@@ -1,5 +1,5 @@
-import isArray from './array';
-import isObject from './object';
+import isArray from './isArray';
+import isObject from './isObject';
 import * as is from '.';
 
 describe('"is" tools', () => {

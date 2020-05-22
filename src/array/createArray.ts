@@ -1,4 +1,4 @@
-const arrayCreate = <T>(i: number, map?: (i: number) => T) => {
+const createArray = <T>(i: number, map?: (i: number) => T) => {
   const length = Math.max(0, Math.floor(i));
   const data = Array.from({ length });
 
@@ -9,4 +9,4 @@ const arrayCreate = <T>(i: number, map?: (i: number) => T) => {
   return data;
 };
 
-export default arrayCreate;
+export default createArray;
