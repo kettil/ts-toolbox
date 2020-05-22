@@ -1,4 +1,4 @@
-export { default as sortCompareAsc } from './compareAsc';
-export { default as sortCompareDesc } from './compareDesc';
-export { default as sortCompareTransformAsc } from './compareTransformAsc';
-export { default as sortCompareTransformDesc } from './compareTransformDesc';
+export { default as compareAsc } from './compareAsc';
+export { default as compareDesc } from './compareDesc';
+export { default as compareTransformAsc } from './compareTransformAsc';
+export { default as compareTransformDesc } from './compareTransformDesc';

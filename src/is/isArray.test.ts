@@ -1,5 +1,5 @@
 /* eslint-disable unicorn/no-null, @typescript-eslint/no-empty-function */
-import isArray from './array';
+import isArray from './isArray';
 
 describe('isArray()', () => {
   test('it should work with return value true', () => {

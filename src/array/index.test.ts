@@ -1,10 +1,10 @@
-import arrayCreate from './create';
-import arrayUnique from './unique';
+import createArray from './createArray';
+import uniqueArray from './uniqueArray';
 import * as array from '.';
 
 describe('"array" tools', () => {
   test('it should create object with all "array" tools', () => {
-    const expected = { arrayCreate, arrayUnique };
+    const expected = { createArray, uniqueArray };
 
     expect(array).toEqual(expected);
   });

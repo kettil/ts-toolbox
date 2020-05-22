@@ -1,2 +1,2 @@
-export { default as arrayCreate } from './create';
-export { default as arrayUnique } from './unique';
+export { default as createArray } from './createArray';
+export { default as uniqueArray } from './uniqueArray';
