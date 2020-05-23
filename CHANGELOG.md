@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/kettil/tool-lib/compare/1.3.0...2.0.0) (2020-05-23)
+
+
+* Merge pull request #28 from kettil/rename-of-function ([3ab1661](https://github.com/kettil/tool-lib/commit/3ab1661bae610a9a7c2ae743d7f9dcf824c39a2b)), closes [#28](https://github.com/kettil/tool-lib/issues/28)
+
+
+### BREAKING CHANGES
+
+* Renaming of some functions
+
 # [1.3.0](https://github.com/kettil/tool-lib/compare/1.2.0...1.3.0) (2020-05-23)
 
 
