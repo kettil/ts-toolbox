@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/kettil/tool-lib/compare/1.2.0...1.3.0) (2020-05-23)
+
+
+### Features
+
+* **node:** Add function delay() ([d9af110](https://github.com/kettil/tool-lib/commit/d9af110a289c11fe67a0e93db66ae92c1255a534))
+
 # [1.2.0](https://github.com/kettil/tool-lib/compare/1.1.0...1.2.0) (2020-05-21)
 
 
