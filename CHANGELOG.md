@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/kettil/eslint-config/compare/1.1.15...1.2.0) (2020-05-23)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.3.2 to 2.3.3 ([ed2fe4b](https://github.com/kettil/eslint-config/commit/ed2fe4bdb22ecfbd0cd5a4effc346b8f8761607a))
+
+
+### Features
+
+* **eslint:** Change the rule operator-linebreak ([59e50e2](https://github.com/kettil/eslint-config/commit/59e50e2a607afec729249ecb6c0f990ba473f7b0))
+
 ## [1.1.15](https://github.com/kettil/eslint-config/compare/1.1.14...1.1.15) (2020-05-21)
 
 
