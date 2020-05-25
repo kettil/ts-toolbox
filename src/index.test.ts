@@ -9,6 +9,7 @@ describe('main index', () => {
       'isObject',
       'delay',
       'env',
+      'objectEntries',
       'compareAsc',
       'compareDesc',
       'compareTransformAsc',
