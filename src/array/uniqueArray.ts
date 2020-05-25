@@ -1,3 +1,3 @@
-const uniqueArray = <T>(values: readonly T[]): readonly T[] => [...new Set(values)];
+const uniqueArray = <T>(values: readonly T[]): T[] => [...new Set(values)];
 
 export default uniqueArray;
