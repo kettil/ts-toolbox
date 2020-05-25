@@ -10,6 +10,7 @@ describe('main index', () => {
       'delay',
       'env',
       'objectEntries',
+      'objectKeys',
       'compareAsc',
       'compareDesc',
       'compareTransformAsc',
