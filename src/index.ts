@@ -10,6 +10,10 @@ export { default as isObject } from './is/isObject';
 export { default as delay } from './node/delay';
 export { default as env } from './node/env';
 
+// object
+export { default as objectEntries } from './object/objectEntries';
+export { default as objectKeys } from './object/objectKeys';
+
 // sort
 export { default as compareAsc } from './sort/compareAsc';
 export { default as compareDesc } from './sort/compareDesc';
