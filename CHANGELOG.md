@@ -1,3 +1,16 @@
+# [2.1.0](https://github.com/kettil/tool-lib/compare/2.0.0...2.1.0) (2020-05-25)
+
+
+### Bug Fixes
+
+* **array:** Change the type of the return value ([53e8842](https://github.com/kettil/tool-lib/commit/53e8842e8607bc6e5c378ce024e3a831f76f7db0))
+
+
+### Features
+
+* **object:** Add the function objectEntries ([236caf8](https://github.com/kettil/tool-lib/commit/236caf885336898f924a70c176539c06e20ee376))
+* **object:** Add the function objectKeys ([13882b1](https://github.com/kettil/tool-lib/commit/13882b1d95014f4e37c0eb2a666811020dcc3b04))
+
 # [2.0.0](https://github.com/kettil/tool-lib/compare/1.3.0...2.0.0) (2020-05-23)
 
 
