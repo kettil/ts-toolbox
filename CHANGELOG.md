@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/kettil/eslint-config/compare/1.2.1...1.2.2) (2020-05-26)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.3.5 to 2.3.6 ([0dd7e58](https://github.com/kettil/eslint-config/commit/0dd7e580c342f9f487381e8cccdce098927d31f8))
+* **deps:** bump eslint-plugin-jest from 23.13.1 to 23.13.2 ([2751ec8](https://github.com/kettil/eslint-config/commit/2751ec8430f19f719c84bfc6b6ee06b1e88f7920))
+* **deps:** bump eslint-plugin-react-hooks from 4.0.2 to 4.0.3 ([92b4cda](https://github.com/kettil/eslint-config/commit/92b4cdabfb8671c25a9e87f6c06bba055f6cf869))
+
 ## [1.2.1](https://github.com/kettil/eslint-config/compare/1.2.0...1.2.1) (2020-05-23)
 
 
