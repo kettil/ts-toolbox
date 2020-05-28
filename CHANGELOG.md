@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/kettil/tool-lib/compare/2.1.0...2.2.0) (2020-05-28)
+
+
+### Features
+
+* **array:** Add the function intersectArray ([f9c8c2e](https://github.com/kettil/tool-lib/commit/f9c8c2ec8c8c5aa0e9b2a5459d9587725360c6e9))
+
 # [2.1.0](https://github.com/kettil/tool-lib/compare/2.0.0...2.1.0) (2020-05-25)
 
 
