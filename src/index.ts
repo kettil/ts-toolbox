@@ -1,5 +1,6 @@
 // array
 export { default as createArray } from './array/createArray';
+export { default as intersectArray } from './array/intersectArray';
 export { default as uniqueArray } from './array/uniqueArray';
 
 // is

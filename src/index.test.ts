@@ -4,6 +4,7 @@ describe('main index', () => {
   test('it should return all tools', () => {
     const expected = [
       'createArray',
+      'intersectArray',
       'uniqueArray',
       'isArray',
       'isObject',
