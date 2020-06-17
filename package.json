@@ -50,6 +50,6 @@
     "jest-cpf": "^1.0.0",
     "prettier": "^2.0.5",
     "ts-jest": "^25.5.1",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.5"
   }
 }
