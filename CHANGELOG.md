@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/kettil/eslint-config/compare/1.2.7...1.2.8) (2020-06-22)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jsx-a11y from 6.3.0 to 6.3.1 ([51720e6](https://github.com/kettil/eslint-config/commit/51720e67d98e17b3d90ae9b255a7743d9a6508ee))
+
 ## [1.2.7](https://github.com/kettil/eslint-config/compare/1.2.6...1.2.7) (2020-06-22)
 
 
