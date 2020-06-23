@@ -20,6 +20,7 @@ The following additional ESLint plugins are included by default:
 | [eslint-plugin-formatjs](https://www.npmjs.com/package/eslint-plugin-formatjs)                     | -                                                      |
 | [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)                         | -                                                      |
 | [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)                       | -                                                      |
+| [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node)                             | -                                                      |
 | [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser)               | typescript                                             |
 | [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) | typescript                                             |
 | [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)                           | react                                                  |
