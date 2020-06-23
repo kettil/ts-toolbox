@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/kettil/eslint-config/compare/1.2.9...1.3.0) (2020-06-23)
+
+
+### Features
+
+* **node:** Add the plugin "node" ([01fc6e0](https://github.com/kettil/eslint-config/commit/01fc6e0de72ab679de813f3b9552090b3c66541e))
+
 ## [1.2.9](https://github.com/kettil/eslint-config/compare/1.2.8...1.2.9) (2020-06-22)
 
 
