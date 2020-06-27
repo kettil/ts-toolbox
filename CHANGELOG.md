@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/kettil/eslint-config/compare/1.3.1...1.3.2) (2020-06-27)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-import from 2.21.2 to 2.22.0 ([c204af7](https://github.com/kettil/eslint-config/commit/c204af7040763bd978b23ccb374157d5ef04b614))
+
 ## [1.3.1](https://github.com/kettil/eslint-config/compare/1.3.0...1.3.1) (2020-06-23)
 
 
