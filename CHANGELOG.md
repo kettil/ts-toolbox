@@ -1,3 +1,10 @@
+## [1.3.10](https://github.com/kettil/eslint-config/compare/1.3.9...1.3.10) (2020-07-04)
+
+
+### Bug Fixes
+
+* **typescript:** Remove old rules and add the replacing rule ([8b2a7ca](https://github.com/kettil/eslint-config/commit/8b2a7cab95c881e810efb836cf970cf6e9a800ae))
+
 ## [1.3.9](https://github.com/kettil/eslint-config/compare/1.3.8...1.3.9) (2020-07-04)
 
 
