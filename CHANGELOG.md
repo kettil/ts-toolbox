@@ -1,3 +1,10 @@
+## [1.3.11](https://github.com/kettil/eslint-config/compare/1.3.10...1.3.11) (2020-07-04)
+
+
+### Bug Fixes
+
+* **node:** adaptation of rule no-missing-import ([59a7cbd](https://github.com/kettil/eslint-config/commit/59a7cbdedc6fbb6a6b10f07936b9aa2c2191c01c))
+
 ## [1.3.10](https://github.com/kettil/eslint-config/compare/1.3.9...1.3.10) (2020-07-04)
 
 
