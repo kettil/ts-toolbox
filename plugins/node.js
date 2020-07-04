@@ -72,7 +72,7 @@ const rules = {
   'node/no-extraneous-require': ['error'],
   'node/no-exports-assign': ['error'],
   'node/no-new-require': ['error'],
-  'node/no-missing-import': ['error'],
+  'node/no-missing-import': ['error', { tryExtensions: ['.js', '.jsx', '.json'] }],
   'node/no-missing-require': ['error'],
   'node/no-mixed-requires': ['off'],
   'node/no-path-concat': ['error'],
@@ -103,6 +103,9 @@ const overrides = [
       exports: 'off',
       module: 'off',
       require: 'off',
+    },
+    rules: {
+      'node/no-missing-import': ['error', { tryExtensions: ['.ts', '.tsx'] }],
     },
   },
 ];
