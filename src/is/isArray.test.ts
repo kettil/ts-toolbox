@@ -3,17 +3,17 @@ import isArray from './isArray';
 
 describe('isArray()', () => {
   test('it should work with return value true', () => {
-    const result = isArray([]);
+    const isTrue = isArray([]);
 
-    expect(result).toBeTruthy();
+    expect(isTrue).toBeTruthy();
   });
 
   test.each([[null], ['string'], [Number.NaN], [13], [{}], [() => {}]])(
     'it should work with return value false (%p)',
     (value) => {
-      const result = isArray(value);
+      const isTrue = isArray(value);
 
-      expect(result).toBeFalsy();
+      expect(isTrue).toBeFalsy();
     },
   );
 });

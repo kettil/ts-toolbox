@@ -1,4 +1,4 @@
-/* eslint-disable import/no-unused-modules, global-require */
+/* eslint-disable import/no-unused-modules, node/global-require */
 
 // export modified jest config
 module.exports = {
