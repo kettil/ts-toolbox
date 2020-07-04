@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "@kettil/semantic-release-config": "^1.0.2",
-    "eslint": "^7.3.1",
+    "eslint": "^7.4.0",
     "prettier": "^2.0.5",
     "typescript": "^3.9.6"
   }
