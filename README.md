@@ -14,6 +14,8 @@ To use this configuration, create the file `.commitlintrc.json` with the followi
 
 ```json
 {
-  "extends": ["..."]
+  "extends": ["@kettil"]
 }
 ```
+
+You can find a list of rules in the [Github project](https://github.com/conventional-changelog/commitlint/blob/master/docs/reference-rules.md).
