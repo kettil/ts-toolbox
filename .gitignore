@@ -1,0 +1,6 @@
+# Node.js folders/files
+node_modules
+npm-debug.log
+
+# OS folders/files
+.DS_Store

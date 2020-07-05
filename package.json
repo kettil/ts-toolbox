@@ -1,0 +1,39 @@
+{
+  "name": "@kettil/commitlint-config",
+  "version": "0.1.0",
+  "description": "The library contains the commitlint configuration",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --config .eslintrc.json --fix .",
+    "lint:ci": "eslint --config .eslintrc.json --format codeframe .",
+    "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
+    "prettier:ci": "prettier --config './.prettierrc' --list-different '.prettierrc' './**/*.{json,md,scss,yml,html}'"
+  },
+  "keywords": [
+    "commitlint"
+  ],
+  "author": "Kjell Dießel <development@kettil.de>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/commitlint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/commitlint-config/issues/new"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "@kettil/eslint-config": "^1.3.11",
+    "@kettil/semantic-release-config": "^1.0.3",
+    "eslint": "^7.4.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  }
+}

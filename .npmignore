@@ -1,0 +1,20 @@
+# Node.js folders/files
+node_modules
+npm-debug.log
+
+# OS folders/files
+.DS_Store
+
+# Settings folders/files
+.github
+.dependabot
+.commitlintrc.json
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitignore
+.gitlab-ci.yml
+.huskyrc
+.prettierignore
+.prettierrc
+.releaserc.json
