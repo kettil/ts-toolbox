@@ -1,6 +1,6 @@
 {
   "name": "@kettil/semantic-release-config",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "The library contains the semantic-release configuration",
   "main": "index.js",
   "publishConfig": {
@@ -30,7 +30,7 @@
   "dependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^17.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
