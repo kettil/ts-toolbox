@@ -18,4 +18,4 @@ To use this configuration, create the file `.commitlintrc.json` with the followi
 }
 ```
 
-You can find a list of rules in the [Github project](https://github.com/conventional-changelog/commitlint/blob/master/docs/reference-rules.md).
+You can find the list of rules in the [commitlint project](https://github.com/conventional-changelog/commitlint/blob/master/docs/reference-rules.md).
