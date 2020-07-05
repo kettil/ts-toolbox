@@ -1,6 +1,6 @@
 {
   "name": "@kettil/semantic-release-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The library contains the semantic-release configuration",
   "main": "configuration.js",
   "publishConfig": {
