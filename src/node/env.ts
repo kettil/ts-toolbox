@@ -1,6 +1,7 @@
 /* eslint-disable unicorn/prevent-abbreviations */
 type EnvType = {
   (): NodeJS.ProcessEnv;
+  (key: string): string;
   (key: string, defaultValue: string | (() => string)): string;
   (key: string, defaultValue: number | (() => number)): number;
 };
@@ -11,9 +12,14 @@ const env: EnvType = (key?: string, defaultValue?: any): any => {
     return process.env;
   }
 
-  const value = process.env[key.toUpperCase()];
+  const upperKey = key.toUpperCase();
+  const value = process.env[upperKey];
 
-  if (value === undefined) {
+  if (typeof value === 'undefined') {
+    if (typeof defaultValue === 'undefined') {
+      throw new TypeError(`The ENV variable "${upperKey}" is not defined`);
+    }
+
     return typeof defaultValue === 'function' ? defaultValue() : defaultValue;
   }
 

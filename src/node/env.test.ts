@@ -49,4 +49,8 @@ describe('arrayUnique()', () => {
     expect(value).not.toBeNull();
     expect(Array.isArray(value)).toBe(false);
   });
+
+  test('it should throw an error without env', () => {
+    expect(() => env(envKey)).toThrow(TypeError);
+  });
 });
