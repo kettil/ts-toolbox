@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/kettil/tool-lib/compare/2.2.0...2.3.0) (2020-07-06)
+
+
+### Features
+
+* **node:** update the env function ([505dcd6](https://github.com/kettil/tool-lib/commit/505dcd600c961e66f0265205945493745fe2932b))
+
 # [2.2.0](https://github.com/kettil/tool-lib/compare/2.1.0...2.2.0) (2020-05-28)
 
 
