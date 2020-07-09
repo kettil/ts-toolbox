@@ -1,3 +1,10 @@
+## [1.3.13](https://github.com/kettil/eslint-config/compare/1.3.12...1.3.13) (2020-07-09)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 3.5.0 to 3.6.0 ([5edbaf9](https://github.com/kettil/eslint-config/commit/5edbaf98463ca5902515cdd0a139445398d79024))
+
 ## [1.3.12](https://github.com/kettil/eslint-config/compare/1.3.11...1.3.12) (2020-07-05)
 
 
