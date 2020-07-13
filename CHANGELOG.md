@@ -1,3 +1,10 @@
+## [1.3.20](https://github.com/kettil/eslint-config/compare/1.3.19...1.3.20) (2020-07-13)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 3.6.0 to 3.6.1 ([c1fb48a](https://github.com/kettil/eslint-config/commit/c1fb48a6d8e4be12692138901d20a767c8d741a6))
+
 ## [1.3.19](https://github.com/kettil/eslint-config/compare/1.3.18...1.3.19) (2020-07-13)
 
 
