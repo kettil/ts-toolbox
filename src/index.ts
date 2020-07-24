@@ -6,6 +6,7 @@ export { default as uniqueArray } from './array/uniqueArray';
 // is
 export { default as isArray } from './is/isArray';
 export { default as isObject } from './is/isObject';
+export { default as isWeekday } from './is/isWeekday';
 
 // node
 export { default as delay } from './node/delay';
