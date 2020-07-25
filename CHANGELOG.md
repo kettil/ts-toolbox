@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/kettil/tool-lib/compare/2.3.0...2.4.0) (2020-07-25)
+
+
+### Features
+
+* **is:** add isWeekday ([4b8aa1c](https://github.com/kettil/tool-lib/commit/4b8aa1c8aa2b0a8f6b4b92d440ebd04777657a9f))
+
 # [2.3.0](https://github.com/kettil/tool-lib/compare/2.2.0...2.3.0) (2020-07-06)
 
 
