@@ -10,6 +10,6 @@ const weekdays: Record<Weekday, number> = {
   saturday: 6,
 };
 
-const isWeekday = (day: Weekday, date = new Date()): boolean => date.getDay() === weekdays[day];
+const isWeekday = (day: Weekday, date: Date): boolean => date.getDay() === weekdays[day];
 
 export default isWeekday;

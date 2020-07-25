@@ -1,38 +1,31 @@
 /* eslint-disable unicorn/no-null, @typescript-eslint/no-empty-function */
 import isWeekday, { Weekday } from './isWeekday';
 
+const getDayMock = jest.fn();
+
+let date: Date;
+
+beforeEach(() => {
+  getDayMock.mockReturnValue(1);
+
+  date = new Date();
+
+  date.getDay = getDayMock;
+});
+
 describe('isWeekday()', () => {
-  test('it should work', () => {
-    const isDay = isWeekday('monday');
-
-    expect(typeof isDay).toBe('boolean');
-  });
-
-  test.each<[Weekday, Date]>([
-    ['monday', new Date('2020-07-06T00:00:00+02:00')],
-    ['tuesday', new Date('2020-07-07T00:00:00+02:00')],
-    ['wednesday', new Date('2020-07-08T00:00:00+02:00')],
-    ['thursday', new Date('2020-07-09T00:00:00+02:00')],
-    ['friday', new Date('2020-07-10T00:00:00+02:00')],
-    ['saturday', new Date('2020-07-11T00:00:00+02:00')],
-    ['sunday', new Date('2020-07-12T00:00:00+02:00')],
-  ])('it should work the correct %s', (weekday, date) => {
+  test.each<[Weekday, boolean]>([
+    ['monday', true],
+    ['tuesday', false],
+    ['wednesday', false],
+    ['thursday', false],
+    ['friday', false],
+    ['saturday', false],
+    ['sunday', false],
+  ])('it should work (%s)', (weekday, expected) => {
     const isDay = isWeekday(weekday, date);
 
-    expect(isDay).toBeTruthy();
-  });
-
-  test.each<[Weekday, Date]>([
-    ['monday', new Date('2020-07-07T00:00:00+02:00')],
-    ['tuesday', new Date('2020-07-08T00:00:00+02:00')],
-    ['wednesday', new Date('2020-07-09T00:00:00+02:00')],
-    ['thursday', new Date('2020-07-10T00:00:00+02:00')],
-    ['friday', new Date('2020-07-11T00:00:00+02:00')],
-    ['saturday', new Date('2020-07-12T00:00:00+02:00')],
-    ['sunday', new Date('2020-07-13T00:00:00+02:00')],
-  ])('it should work with the faulty %s', (weekday, date) => {
-    const isDay = isWeekday(weekday, date);
-
-    expect(isDay).toBeFalsy();
+    expect(isDay).toBe(expected);
+    expect(getDayMock).toHaveBeenCalled();
   });
 });
