@@ -1,3 +1,10 @@
+## [1.3.30](https://github.com/kettil/eslint-config/compare/1.3.29...1.3.30) (2020-07-26)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest from 23.18.0 to 23.18.2 ([9680170](https://github.com/kettil/eslint-config/commit/968017077f0b905ba1c027593424f5cd77a36c60))
+
 ## [1.3.29](https://github.com/kettil/eslint-config/compare/1.3.28...1.3.29) (2020-07-24)
 
 
