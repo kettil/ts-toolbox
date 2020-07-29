@@ -1,3 +1,12 @@
+## [1.3.32](https://github.com/kettil/eslint-config/compare/1.3.31...1.3.32) (2020-07-29)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 3.7.0 to 3.7.1 ([5ce3755](https://github.com/kettil/eslint-config/commit/5ce3755dd6a686b397a34bc0204386b609dd5225))
+* **deps:** bump eslint-plugin-jest from 23.18.2 to 23.19.0 ([5c0ec68](https://github.com/kettil/eslint-config/commit/5c0ec68c89af2e2eaff5fd6e11bdc645b2c40094))
+* **deps:** bump eslint-plugin-react from 7.20.4 to 7.20.5 ([f13539e](https://github.com/kettil/eslint-config/commit/f13539e7019a846ffe2c2dc15415a16d19c0cba8))
+
 ## [1.3.31](https://github.com/kettil/eslint-config/compare/1.3.30...1.3.31) (2020-07-27)
 
 
