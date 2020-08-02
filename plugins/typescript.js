@@ -33,25 +33,8 @@ const overrides = [
       camelcase: 'off',
       '@typescript-eslint/naming-convention': [
         'error',
-        { selector: 'default', format: ['camelCase'] },
-        { selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
-        { selector: 'parameter', format: ['camelCase'], leadingUnderscore: 'allow' },
-        { selector: 'typeLike', format: ['PascalCase'] },
-        { selector: 'memberLike', modifiers: ['private'], format: ['camelCase'] },
-
-        ...['variable', 'parameter', 'property'].map((selector) => ({
-          selector,
-          types: ['function'],
-          format: ['camelCase', 'PascalCase'],
-        })),
-
-        ...['variable', 'parameter', 'property'].map((selector) => ({
-          selector,
-          types: ['boolean'],
-          format: ['PascalCase'],
-          prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
-        })),
-
+        { selector: 'default', format: ['strictCamelCase', 'StrictPascalCase'] },
+        { selector: 'typeLike', format: ['StrictPascalCase'] },
         {
           selector: 'interface',
           format: ['PascalCase'],
@@ -59,6 +42,12 @@ const overrides = [
             regex: '^I[A-Z]',
             match: false,
           },
+        },
+        {
+          selector: 'variable',
+          types: ['boolean'],
+          format: ['PascalCase'],
+          prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
         },
       ],
       '@typescript-eslint/member-delimiter-style': ['error'],
