@@ -105,7 +105,7 @@ const overrides = [
       require: 'off',
     },
     rules: {
-      'node/no-missing-import': ['error', { tryExtensions: ['.ts', '.tsx'] }],
+      'node/no-missing-import': ['error', { tryExtensions: ['.js', '.jsx', '.json', '.ts', '.tsx'] }],
     },
   },
 ];
