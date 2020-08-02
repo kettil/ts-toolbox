@@ -1,3 +1,10 @@
+## [1.3.36](https://github.com/kettil/eslint-config/compare/1.3.35...1.3.36) (2020-08-02)
+
+
+### Bug Fixes
+
+* **typescript:** change the name convention handling ([23a0325](https://github.com/kettil/eslint-config/commit/23a0325eeb5585c299cc7b714244e05300536171))
+
 ## [1.3.35](https://github.com/kettil/eslint-config/compare/1.3.34...1.3.35) (2020-08-02)
 
 
