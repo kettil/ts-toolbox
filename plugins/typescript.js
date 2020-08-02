@@ -35,6 +35,7 @@ const overrides = [
         'error',
         { selector: 'default', format: ['camelCase'] },
         { selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
+        { selector: 'variable', types: ['function'], format: ['camelCase', 'PascalCase'] },
         { selector: 'parameter', format: ['camelCase'], leadingUnderscore: 'allow' },
         { selector: 'memberLike', modifiers: ['private'], format: ['camelCase'] },
         { selector: 'typeLike', format: ['PascalCase'] },
