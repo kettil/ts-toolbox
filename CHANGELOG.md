@@ -1,3 +1,11 @@
+## [1.3.37](https://github.com/kettil/eslint-config/compare/1.3.36...1.3.37) (2020-08-02)
+
+
+### Bug Fixes
+
+* **node:** update the rule no-missing-import ([da68f52](https://github.com/kettil/eslint-config/commit/da68f52ea2204e8c768ee55d85b33c14a30419a3))
+* **typescript:** change the name convention handling ([e3f7f06](https://github.com/kettil/eslint-config/commit/e3f7f063ec132e8c6cd0916128f1e03640d3c4b9))
+
 ## [1.3.36](https://github.com/kettil/eslint-config/compare/1.3.35...1.3.36) (2020-08-02)
 
 
