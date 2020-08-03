@@ -1,3 +1,10 @@
+## [1.3.38](https://github.com/kettil/eslint-config/compare/1.3.37...1.3.38) (2020-08-03)
+
+
+### Bug Fixes
+
+* **typescript:** update the rule naming-convention ([0c618a3](https://github.com/kettil/eslint-config/commit/0c618a33965e74518335a94ffdaaf1f4cbe2d3b8))
+
 ## [1.3.37](https://github.com/kettil/eslint-config/compare/1.3.36...1.3.37) (2020-08-02)
 
 
