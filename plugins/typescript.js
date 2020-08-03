@@ -34,6 +34,7 @@ const overrides = [
       '@typescript-eslint/naming-convention': [
         'error',
         { selector: 'default', format: ['strictCamelCase', 'StrictPascalCase'] },
+        { selector: 'parameter', format: ['strictCamelCase', 'StrictPascalCase'], leadingUnderscore: 'allow' },
         { selector: 'typeLike', format: ['StrictPascalCase'] },
         {
           selector: 'interface',
