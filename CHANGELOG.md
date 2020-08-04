@@ -1,3 +1,11 @@
+## [1.3.39](https://github.com/kettil/eslint-config/compare/1.3.38...1.3.39) (2020-08-04)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 3.7.1 to 3.8.0 ([94e18f7](https://github.com/kettil/eslint-config/commit/94e18f7c89d1db825e9735588d90d0eda65e3d90))
+* **deps:** bump eslint-plugin-jest-dom from 3.1.4 to 3.1.5 ([de83099](https://github.com/kettil/eslint-config/commit/de830990bb27a9572a457391b3342c76b2cf039f))
+
 ## [1.3.38](https://github.com/kettil/eslint-config/compare/1.3.37...1.3.38) (2020-08-03)
 
 
