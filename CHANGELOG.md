@@ -1,3 +1,13 @@
+## [1.4.2](https://github.com/kettil/eslint-config/compare/1.4.1...1.4.2) (2020-08-10)
+
+
+### Bug Fixes
+
+* **eslint:** update the rule no-warning-comments ([09df366](https://github.com/kettil/eslint-config/commit/09df366c14a35fe6f6adb1becd5ac18f1df6cb13))
+* **node:** switch from warn to error ([7c77c87](https://github.com/kettil/eslint-config/commit/7c77c873afdec76b323a7d1c3d3dd1c3e9b5dd49))
+* **node:** update the rule node/shebang ([daf37fe](https://github.com/kettil/eslint-config/commit/daf37fe05d67c9a2ac700600b156de063ee3aa42))
+* **unicorn:** update the rule prevent-abbreviations ([7e6adc2](https://github.com/kettil/eslint-config/commit/7e6adc2e828b72a3e7763748da96563103a71c6a))
+
 ## [1.4.1](https://github.com/kettil/eslint-config/compare/1.4.0...1.4.1) (2020-08-10)
 
 
