@@ -441,7 +441,7 @@ const rules = {
   'no-useless-return': ['error'],
   'no-var': ['error'],
   'no-void': ['error'],
-  'no-warning-comments': ['off', { terms: ['todo', 'fixme', 'xxx'], location: 'start' }],
+  'no-warning-comments': ['warn', { terms: ['todo', 'fixme'], location: 'anywhere' }],
   'no-whitespace-before-property': ['error'],
   'no-with': ['error'],
   'nonblock-statement-body-position': ['error', 'beside', { overrides: {} }],
