@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/kettil/eslint-config/compare/1.3.41...1.4.0) (2020-08-10)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 3.8.0 to 3.9.0 ([275a066](https://github.com/kettil/eslint-config/commit/275a066ee21382c2b3cd14e28e4b29a17eb6eea2))
+* **deps:** bump eslint-plugin-jest-dom from 3.1.6 to 3.1.7 ([68cead3](https://github.com/kettil/eslint-config/commit/68cead30a64b6a6fb3a47aedb71a2bfba0f1b345))
+* **deps:** bump eslint-plugin-testing-library from 3.4.1 to 3.6.0 ([17fd061](https://github.com/kettil/eslint-config/commit/17fd0611dca165875cc968a791f8091e9713b1a6))
+
+
+### Features
+
+* **import:** ignore rule no-unused-modules for "bin" files ([7364868](https://github.com/kettil/eslint-config/commit/73648681eaf7ccb0e4c9a7bbf0dec96ac7de9b38))
+
 ## [1.3.41](https://github.com/kettil/eslint-config/compare/1.3.40...1.3.41) (2020-08-06)
 
 
