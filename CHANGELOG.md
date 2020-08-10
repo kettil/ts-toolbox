@@ -1,3 +1,11 @@
+## [1.4.1](https://github.com/kettil/eslint-config/compare/1.4.0...1.4.1) (2020-08-10)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 3.8.0 to 3.9.0 ([3a6196a](https://github.com/kettil/eslint-config/commit/3a6196a0d08b62c28d06eeec96d2d1ec84defec5))
+* **deps:** bump eslint-plugin-formatjs from 2.5.7 to 2.6.0 ([75d5ee3](https://github.com/kettil/eslint-config/commit/75d5ee3562daacfda7e508decaa1207f47126949))
+
 # [1.4.0](https://github.com/kettil/eslint-config/compare/1.3.41...1.4.0) (2020-08-10)
 
 
