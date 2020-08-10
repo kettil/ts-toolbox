@@ -51,7 +51,18 @@ const rules = {
   'unicorn/prefer-type-error': ['error'],
   'unicorn/prevent-abbreviations': [
     'error',
-    { whitelist: { props: true, Props: true, ref: true, Ref: true, args: true } },
+    {
+      whitelist: {
+        Props: true,
+        props: true,
+        Ref: true,
+        ref: true,
+        args: true,
+        cmd: true,
+        env: true,
+        msg: true,
+      },
+    },
   ],
   'unicorn/string-content': ['off'],
   'unicorn/throw-new-error': ['error'],
