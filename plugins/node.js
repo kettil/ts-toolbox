@@ -89,7 +89,15 @@ const rules = {
   'node/prefer-promises/dns': ['error'],
   'node/prefer-promises/fs': ['error'],
   'node/process-exit-as-throw': ['error'],
-  'node/shebang': ['error'],
+  'node/shebang': [
+    'warn',
+    {
+      convertPath: [
+        { include: ['src/**/*.ts'], exclude: ['**/*.test.ts'], replace: ['^src/(.+)\\.ts$', 'build/$1.js'] },
+        { include: ['src/**/*.tsx'], exclude: ['**/*.test.tsx'], replace: ['^src/(.+)\\.tsx$', 'build/$1.js'] },
+      ],
+    },
+  ],
 };
 
 const overrides = [
