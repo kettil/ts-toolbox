@@ -64,7 +64,7 @@ const rules = {
 
 const overrides = [
   {
-    files: ['src/index.js', 'src/index.ts'],
+    files: ['src/index.js', 'src/index.ts', 'src/bin/**/*'],
     rules: { 'import/no-unused-modules': ['off'] },
   },
 ];
