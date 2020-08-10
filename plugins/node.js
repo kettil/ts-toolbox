@@ -90,7 +90,7 @@ const rules = {
   'node/prefer-promises/fs': ['error'],
   'node/process-exit-as-throw': ['error'],
   'node/shebang': [
-    'warn',
+    'error',
     {
       convertPath: [
         { include: ['src/**/*.ts'], exclude: ['**/*.test.ts'], replace: ['^src/(.+)\\.ts$', 'build/$1.js'] },
