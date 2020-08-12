@@ -1,3 +1,15 @@
+# [2.5.0](https://github.com/kettil/tool-lib/compare/2.4.0...2.5.0) (2020-08-12)
+
+
+### Bug Fixes
+
+* **array:** fix the return type of intersectArray ([c0cae57](https://github.com/kettil/tool-lib/commit/c0cae572dce103ac1a913b05ca4afed79b4379d9))
+
+
+### Features
+
+* **type:** add the type "EqualType" ([ec0d3c8](https://github.com/kettil/tool-lib/commit/ec0d3c85210c4c528ef52b4084f9e2d0962f9285))
+
 # [2.4.0](https://github.com/kettil/tool-lib/compare/2.3.0...2.4.0) (2020-07-25)
 
 
