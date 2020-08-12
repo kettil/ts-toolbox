@@ -6,6 +6,7 @@ describe('main index', () => {
       'createArray',
       'intersectArray',
       'uniqueArray',
+      'dummy',
       'isArray',
       'isObject',
       'isWeekday',

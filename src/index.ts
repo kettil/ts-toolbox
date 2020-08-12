@@ -5,6 +5,9 @@ export { default as createArray } from './array/createArray';
 export { default as intersectArray } from './array/intersectArray';
 export { default as uniqueArray } from './array/uniqueArray';
 
+// funcs
+export { default as dummy } from './funcs/dummy';
+
 // is
 export { default as isArray } from './is/isArray';
 export { default as isObject } from './is/isObject';
