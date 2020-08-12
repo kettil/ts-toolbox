@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/kettil/tool-lib/compare/2.5.0...2.6.0) (2020-08-12)
+
+
+### Features
+
+* **funcs:** add a dummy function ([3496feb](https://github.com/kettil/tool-lib/commit/3496feb739ab0a73d4b5f8b872a464bb4df84af7))
+
 # [2.5.0](https://github.com/kettil/tool-lib/compare/2.4.0...2.5.0) (2020-08-12)
 
 
