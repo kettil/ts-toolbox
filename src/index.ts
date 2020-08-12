@@ -1,3 +1,5 @@
+export * from './types';
+
 // array
 export { default as createArray } from './array/createArray';
 export { default as intersectArray } from './array/intersectArray';
