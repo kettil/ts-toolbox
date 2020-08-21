@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kettil/semantic-release-config/compare/1.0.3...1.0.4) (2020-08-21)
+
+
+### Bug Fixes
+
+* add the main branch ([0220050](https://github.com/kettil/semantic-release-config/commit/0220050b1f623901b7ac3c88593ae06f8b022fbf))
+
 ## [1.0.3](https://github.com/kettil/semantic-release-config/compare/1.0.2...1.0.3) (2020-07-05)
 
 
