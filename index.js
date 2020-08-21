@@ -1,6 +1,8 @@
 /* eslint-disable no-template-curly-in-string */
 
 const configuration = {
+  branches: ['master', 'main'],
+
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
