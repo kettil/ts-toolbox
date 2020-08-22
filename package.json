@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.2",
     "@kettil/eslint-config": "^1.4.6",
     "@kettil/semantic-release-config": "^1.0.4",
     "eslint": "^7.6.0",
