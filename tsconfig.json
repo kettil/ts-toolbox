@@ -1,20 +1,15 @@
 {
   "compilerOptions": {
-    /* Basic Options */
-    "target": "ES2018",
+    "target": "ES2019",
     "module": "CommonJS",
-    /* "target": "ES2020", */
-    /* "module": "ESNext", */
+    "lib": ["DOM", "ES2019", "ES2020"],
     "outDir": "build",
-    "lib": ["dom", "es2017"],
     "jsx": "react",
     "declaration": true,
     "sourceMap": false,
-    /* with Babel 7+ => true  */
     "isolatedModules": false,
     "noEmit": false,
 
-    /* Strict Type-Checking Options */
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -27,12 +22,10 @@
     "noFallthroughCasesInSwitch": true,
     "allowJs": false,
 
-    /* Module Resolution Options */
     "esModuleInterop": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
 
-    /* alias paths */
     "baseUrl": ".",
     "paths": {}
   },
