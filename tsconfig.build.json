@@ -1,5 +1,6 @@
 {
   "extends": "./tsconfig",
+
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "build", "**/*.test.*"]
+  "exclude": ["**/*.test.ts"]
 }
