@@ -1,3 +1,11 @@
+## [1.4.5](https://github.com/kettil/eslint-config/compare/1.4.4...1.4.5) (2020-08-22)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 3.9.0 to 3.9.1 ([7f8c54d](https://github.com/kettil/eslint-config/commit/7f8c54d04bfe3ee9940c004526efbbf650c51a9e))
+* **deps:** bump eslint-plugin-react-hooks from 4.0.8 to 4.1.0 ([ddb2cf3](https://github.com/kettil/eslint-config/commit/ddb2cf371f91a749388658281e8c9bda7a47d9c1))
+
 ## [1.4.4](https://github.com/kettil/eslint-config/compare/1.4.3...1.4.4) (2020-08-21)
 
 
