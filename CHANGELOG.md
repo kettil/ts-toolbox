@@ -1,3 +1,10 @@
+## [1.4.8](https://github.com/kettil/eslint-config/compare/1.4.7...1.4.8) (2020-08-25)
+
+
+### Bug Fixes
+
+* **import:** update the rule import/no-unused-modules ([1ff4111](https://github.com/kettil/eslint-config/commit/1ff41115c6c5e241222b8c788184280dec6fccd2))
+
 ## [1.4.7](https://github.com/kettil/eslint-config/compare/1.4.6...1.4.7) (2020-08-23)
 
 
