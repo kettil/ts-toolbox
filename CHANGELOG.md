@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/kettil/tool-lib/compare/2.6.0...2.7.0) (2020-08-25)
+
+
+### Features
+
+* **string:** add toCamelCase function ([73443e4](https://github.com/kettil/tool-lib/commit/73443e45acf5bc131dfae1ff0b6619926591bbd0))
+
 # [2.6.0](https://github.com/kettil/tool-lib/compare/2.5.0...2.6.0) (2020-08-12)
 
 
