@@ -26,3 +26,6 @@ export { default as compareAsc } from './sort/compareAsc';
 export { default as compareDesc } from './sort/compareDesc';
 export { default as compareTransformAsc } from './sort/compareTransformAsc';
 export { default as compareTransformDesc } from './sort/compareTransformDesc';
+
+// string
+export { default as toCamelCase } from './string/toCamelCase';
