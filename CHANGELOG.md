@@ -1,3 +1,11 @@
+## [1.4.12](https://github.com/kettil/eslint-config/compare/1.4.11...1.4.12) (2020-08-31)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.7.5 to 2.7.7 ([9de7d15](https://github.com/kettil/eslint-config/commit/9de7d15cb6c0e1c0fd40c0cf8b4847be438a8fea))
+* **deps:** bump eslint-plugin-jest-dom from 3.1.7 to 3.2.0 ([7484270](https://github.com/kettil/eslint-config/commit/74842708475bcd97b315171ab4039c9e84a5ca9e))
+
 ## [1.4.11](https://github.com/kettil/eslint-config/compare/1.4.10...1.4.11) (2020-08-27)
 
 
