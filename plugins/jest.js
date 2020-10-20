@@ -10,7 +10,6 @@ const rules = {
   'jest/no-conditional-expect': ['error'],
   'jest/no-deprecated-functions': ['error'],
   'jest/no-disabled-tests': ['warn'],
-  'jest/no-expect-resolves': ['off'],
   'jest/no-export': ['error'],
   'jest/no-focused-tests': ['error'],
   'jest/no-identical-title': ['error'],
