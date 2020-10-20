@@ -7,6 +7,7 @@ const rules = {
   'jest/lowercase-name': ['error'],
   'jest/no-alias-methods': ['error'],
   'jest/no-commented-out-tests': ['warn'],
+  'jest/no-deprecated-functions': ['error'],
   'jest/no-disabled-tests': ['warn'],
   'jest/no-expect-resolves': ['off'],
   'jest/no-export': ['error'],
