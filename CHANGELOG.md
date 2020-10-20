@@ -1,3 +1,19 @@
+# [1.5.0](https://github.com/kettil/eslint-config/compare/1.4.21...1.5.0) (2020-10-20)
+
+
+### Bug Fixes
+
+* **jest:** rename rule jest/no-test-callback to jest/no-done-callback ([5c15414](https://github.com/kettil/eslint-config/commit/5c1541494c6b63c0d48bcb860b6ac1807574ce06))
+* **jest:** update the rule jest/no-jasmine-globals ([bae5dee](https://github.com/kettil/eslint-config/commit/bae5deed782cdd847356594e681ee8b3c29b9872))
+
+
+### Features
+
+* **jest:** add rule jest/no-interpolation-in-snapshots ([eedccd6](https://github.com/kettil/eslint-config/commit/eedccd6ad20be14ac3750ca423f106722f123c0a))
+* **jest:** add the rule jest/no-conditional-expect ([53e1aca](https://github.com/kettil/eslint-config/commit/53e1aca80b4a09a1261fb4eb043eb905d465ddde))
+* **jest:** add the rule jest/no-deprecated-functions ([87298ea](https://github.com/kettil/eslint-config/commit/87298ea9706252472a96e44117a94fa84f3a25a9))
+* **jest:** remove the rule jest/no-expect-resolves ([d82354d](https://github.com/kettil/eslint-config/commit/d82354dca799a0f5f3f196b04bc6fcf04e2615a2))
+
 ## [1.4.21](https://github.com/kettil/eslint-config/compare/1.4.20...1.4.21) (2020-10-20)
 
 
