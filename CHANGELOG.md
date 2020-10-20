@@ -1,3 +1,11 @@
+## [1.4.18](https://github.com/kettil/eslint-config/compare/1.4.17...1.4.18) (2020-10-20)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-import from 2.22.0 to 2.22.1 ([25621f5](https://github.com/kettil/eslint-config/commit/25621f5548259189a967854030862f694db56899))
+* **deps:** bump eslint-plugin-unicorn from 21.0.0 to 23.0.0 ([2083755](https://github.com/kettil/eslint-config/commit/2083755c5952462afc03ad89f64580323aa10243))
+
 ## [1.4.17](https://github.com/kettil/eslint-config/compare/1.4.16...1.4.17) (2020-10-20)
 
 
