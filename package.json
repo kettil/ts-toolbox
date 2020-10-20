@@ -38,7 +38,7 @@
     "@kettil/commitlint-config": "^1.0.1",
     "@kettil/eslint-config": "^1.4.10",
     "eslint": "^7.11.0",
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "prettier": "^2.1.1"
   }
 }
