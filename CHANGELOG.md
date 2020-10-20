@@ -1,3 +1,10 @@
+## [1.4.21](https://github.com/kettil/eslint-config/compare/1.4.20...1.4.21) (2020-10-20)
+
+
+### Bug Fixes
+
+* **unicorn:** update the rule unicorn/prevent-abbreviations ([bc45bd1](https://github.com/kettil/eslint-config/commit/bc45bd14a9078a058304ca46fa1801347a0f3d12))
+
 ## [1.4.20](https://github.com/kettil/eslint-config/compare/1.4.19...1.4.20) (2020-10-20)
 
 
