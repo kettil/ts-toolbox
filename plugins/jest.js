@@ -16,7 +16,7 @@ const rules = {
   'jest/no-jest-import': ['error'],
   'jest/no-mocks-import': ['error'],
   'jest/no-standalone-expect': ['error'],
-  'jest/no-test-callback': ['error'],
+  'jest/no-done-callback': ['error'],
   'jest/no-test-prefixes': ['error'],
   'jest/no-try-expect': ['error'],
   'jest/prefer-hooks-on-top': ['error'],
