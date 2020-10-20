@@ -1,3 +1,10 @@
+## [1.4.19](https://github.com/kettil/eslint-config/compare/1.4.18...1.4.19) (2020-10-20)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-react from 7.20.6 to 7.21.5 ([52ec505](https://github.com/kettil/eslint-config/commit/52ec505a20e9a97729b06ea9de0a8832dba4c4bb))
+
 ## [1.4.18](https://github.com/kettil/eslint-config/compare/1.4.17...1.4.18) (2020-10-20)
 
 
