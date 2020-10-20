@@ -1,3 +1,12 @@
+## [1.4.14](https://github.com/kettil/eslint-config/compare/1.4.13...1.4.14) (2020-10-20)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 3.10.1 to 4.0.0 ([5dd5d24](https://github.com/kettil/eslint-config/commit/5dd5d24e7166361e894f3916c1e7b61746413b54))
+* **deps:** bump eslint-plugin-jest-dom from 3.2.0 to 3.2.3 ([70775a8](https://github.com/kettil/eslint-config/commit/70775a84dab9dea973b01f1185afa914ee987cd7))
+* **deps:** bump eslint-plugin-react-hooks from 4.1.0 to 4.1.2 ([bbd9f01](https://github.com/kettil/eslint-config/commit/bbd9f01cb5aa22dccb0b518fa084318c0f7ba86b))
+
 ## [1.4.13](https://github.com/kettil/eslint-config/compare/1.4.12...1.4.13) (2020-09-01)
 
 
