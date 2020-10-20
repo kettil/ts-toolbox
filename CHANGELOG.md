@@ -1,3 +1,10 @@
+## [1.4.17](https://github.com/kettil/eslint-config/compare/1.4.16...1.4.17) (2020-10-20)
+
+
+### Bug Fixes
+
+* **eslint:** update the rule curly ([e931841](https://github.com/kettil/eslint-config/commit/e93184170499fa7d2f4da7715191ff4c1d323110))
+
 ## [1.4.16](https://github.com/kettil/eslint-config/compare/1.4.15...1.4.16) (2020-10-20)
 
 
