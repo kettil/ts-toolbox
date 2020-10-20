@@ -72,7 +72,7 @@ const rules = {
   'consistent-return': ['error'],
   'consistent-this': ['off'],
   'constructor-super': ['error'],
-  curly: ['error', 'multi-line'],
+  curly: ['error'],
   'default-case': ['error', { commentPattern: '^no default$' }],
   'default-param-last': ['off'],
   'dot-location': ['error', 'property'],
