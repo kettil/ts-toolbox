@@ -12,7 +12,7 @@ const rules = {
   'jest/no-export': ['error'],
   'jest/no-focused-tests': ['error'],
   'jest/no-identical-title': ['error'],
-  'jest/no-jasmine-globals': ['warn'],
+  'jest/no-jasmine-globals': ['error'],
   'jest/no-jest-import': ['error'],
   'jest/no-mocks-import': ['error'],
   'jest/no-standalone-expect': ['error'],
