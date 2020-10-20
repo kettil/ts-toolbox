@@ -61,6 +61,8 @@ const rules = {
         cmd: true,
         env: true,
         msg: true,
+        i: true,
+        n: true,
       },
     },
   ],
