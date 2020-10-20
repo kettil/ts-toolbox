@@ -1,4 +1,5 @@
 /* eslint-disable unicorn/no-null, @typescript-eslint/no-empty-function, @typescript-eslint/naming-convention */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import isWeekday, { Weekday } from './isWeekday';
 
 const getDayMock = jest.fn();
