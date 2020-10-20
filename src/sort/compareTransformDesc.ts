@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import compareAsc from './compareAsc';
 import { SortTransform, SortCallback } from './types';
 
