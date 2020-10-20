@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/kettil/semantic-release-config/compare/1.0.4...1.0.5) (2020-10-20)
+
+
+### Bug Fixes
+
+* **deps:** bump semantic-release from 17.1.1 to 17.2.1 ([513e461](https://github.com/kettil/semantic-release-config/commit/513e46121322288debf3f264a66e631a0c53bce1))
+
 ## [1.0.4](https://github.com/kettil/semantic-release-config/compare/1.0.3...1.0.4) (2020-08-21)
 
 
