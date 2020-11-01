@@ -1,3 +1,10 @@
+## [1.5.6](https://github.com/kettil/eslint-config/compare/1.5.5...1.5.6) (2020-11-01)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-testing-library from 3.9.2 to 3.10.0 ([8ba236e](https://github.com/kettil/eslint-config/commit/8ba236e1edaf4ac596402761c18c8010a6942553))
+
 ## [1.5.5](https://github.com/kettil/eslint-config/compare/1.5.4...1.5.5) (2020-11-01)
 
 
