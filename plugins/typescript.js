@@ -82,6 +82,8 @@ const overrides = [
       '@typescript-eslint/quotes': ['error', 'single', { avoidEscape: true }],
       'require-await': ['off'],
       '@typescript-eslint/require-await': ['error'],
+      'no-return-await': ['off'],
+      '@typescript-eslint/return-await': ['error', 'in-try-catch'],
       '@typescript-eslint/triple-slash-reference': ['error'],
       '@typescript-eslint/type-annotation-spacing': ['error'],
       '@typescript-eslint/unbound-method': ['error'],
