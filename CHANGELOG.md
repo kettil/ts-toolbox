@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/kettil/eslint-config/compare/1.5.6...1.6.0) (2020-11-10)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.9.0 to 2.9.6 ([5f05593](https://github.com/kettil/eslint-config/commit/5f055930b4aa2c23560d5fbe6444583675e889f7))
+
+
+### Features
+
+* **typescript:** add rule @typescript-eslint/return-await ([fbc94c4](https://github.com/kettil/eslint-config/commit/fbc94c4b9cbfe6a922b5e68f293d050ae887786c))
+
 ## [1.5.6](https://github.com/kettil/eslint-config/compare/1.5.5...1.5.6) (2020-11-01)
 
 
