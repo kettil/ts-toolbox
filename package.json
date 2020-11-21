@@ -40,8 +40,8 @@
     "url": "https://github.com/kettil/eslint-config/issues/new"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
-    "@typescript-eslint/parser": "^3.10.1",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
     "eslint-plugin-formatjs": "^2.9.8",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.3",
