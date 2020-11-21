@@ -1,3 +1,10 @@
+## [1.6.5](https://github.com/kettil/eslint-config/compare/1.6.4...1.6.5) (2020-11-21)
+
+
+### Bug Fixes
+
+* **formatjs:** rules are only loaded when needed ([8c90f51](https://github.com/kettil/eslint-config/commit/8c90f51364e45d380096be54dfebaa52aff4cc9d))
+
 ## [1.6.4](https://github.com/kettil/eslint-config/compare/1.6.3...1.6.4) (2020-11-21)
 
 
