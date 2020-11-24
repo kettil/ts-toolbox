@@ -1,3 +1,10 @@
+## [1.6.7](https://github.com/kettil/eslint-config/compare/1.6.6...1.6.7) (2020-11-24)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 4.8.1 to 4.8.2 ([7e6f14c](https://github.com/kettil/eslint-config/commit/7e6f14c2c1fd9128e6d8a3696f1d81896755f1fd))
+
 ## [1.6.6](https://github.com/kettil/eslint-config/compare/1.6.5...1.6.6) (2020-11-24)
 
 

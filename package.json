@@ -1,6 +1,6 @@
 {
   "name": "@kettil/eslint-config",
-  "version": "1.6.6",
+  "version": "1.6.7",
   "description": "The library is a collection of very strict ESLint rules",
   "main": "node.js",
   "publishConfig": {
