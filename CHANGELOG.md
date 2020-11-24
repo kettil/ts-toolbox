@@ -1,3 +1,10 @@
+## [1.6.9](https://github.com/kettil/eslint-config/compare/1.6.8...1.6.9) (2020-11-24)
+
+
+### Bug Fixes
+
+* **typescript:** update rule @typescript-eslint/naming-convention ([44ad5e5](https://github.com/kettil/eslint-config/commit/44ad5e575da35887bcc42b32f185daf24a3a4eff))
+
 ## [1.6.8](https://github.com/kettil/eslint-config/compare/1.6.7...1.6.8) (2020-11-24)
 
 
