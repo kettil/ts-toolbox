@@ -33,7 +33,11 @@ const overrides = [
       camelcase: 'off',
       '@typescript-eslint/naming-convention': [
         'error',
-        { selector: 'default', format: ['strictCamelCase', 'StrictPascalCase'] },
+        {
+          selector: 'default',
+          format: ['strictCamelCase', 'StrictPascalCase'],
+          filter: { regex: '^(_id|toJSON)$', match: false },
+        },
         { selector: 'parameter', format: ['strictCamelCase', 'StrictPascalCase'], leadingUnderscore: 'allow' },
         { selector: 'typeLike', format: ['StrictPascalCase'] },
         {
