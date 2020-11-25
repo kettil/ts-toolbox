@@ -1,3 +1,11 @@
+## [1.6.10](https://github.com/kettil/eslint-config/compare/1.6.9...1.6.10) (2020-11-25)
+
+
+### Bug Fixes
+
+* **import:** update file filter list ([e23fabf](https://github.com/kettil/eslint-config/commit/e23fabf526cbb50b5be11b2f79c896fe7f45f2e4))
+* **unicorn:** update rule unicorn/prevent-abbreviations ([b81f908](https://github.com/kettil/eslint-config/commit/b81f908abb8f5d501271f5ba6d9ed35c23e7cad1))
+
 ## [1.6.9](https://github.com/kettil/eslint-config/compare/1.6.8...1.6.9) (2020-11-24)
 
 
