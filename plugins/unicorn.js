@@ -55,6 +55,8 @@ const rules = {
       whitelist: {
         Props: true,
         props: true,
+        Params: true,
+        params: true,
         Ref: true,
         ref: true,
         args: true,
