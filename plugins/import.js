@@ -64,7 +64,7 @@ const rules = {
 
 const overrides = [
   {
-    files: ['src/index.js', 'src/index.ts', 'src/bin/**/*'],
+    files: ['**/src/index.js', '**/src/index.ts', '**/src/bin/**/*'],
     rules: { 'import/no-unused-modules': ['off'] },
   },
   {
@@ -76,7 +76,7 @@ const overrides = [
 if (hasLibrary('typescript')) {
   overrides.push(
     {
-      files: ['src/**/types.ts'],
+      files: ['**/src/**/types.ts'],
       rules: {
         'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }],
       },
@@ -99,12 +99,12 @@ if (hasLibrary('redux')) {
   overrides.push(
     {
       files: [
-        'src/modules/**/actions/**/*.js',
-        'src/modules/**/actions/**/*.ts',
-        'src/modules/**/selectors/**/*.js',
-        'src/modules/**/selectors/**/*.ts',
-        'src/modules/**/schemas/**/*.js',
-        'src/modules/**/schemas/**/*.ts',
+        '**/src/modules/**/actions/**/*.js',
+        '**/src/modules/**/actions/**/*.ts',
+        '**/src/modules/**/selectors/**/*.js',
+        '**/src/modules/**/selectors/**/*.ts',
+        '**/src/modules/**/schemas/**/*.js',
+        '**/src/modules/**/schemas/**/*.ts',
       ],
       rules: {
         'import/default': ['off'],
@@ -115,10 +115,10 @@ if (hasLibrary('redux')) {
     },
     {
       files: [
-        'src/modules/**/actions/**/*.js',
-        'src/modules/**/actions/**/*.ts',
-        'src/modules/**/reducers/**/*.js',
-        'src/modules/**/reducers/**/*.ts',
+        '**/src/modules/**/actions/**/*.js',
+        '**/src/modules/**/actions/**/*.ts',
+        '**/src/modules/**/reducers/**/*.js',
+        '**/src/modules/**/reducers/**/*.ts',
       ],
       rules: { 'import/no-cycle': 'off' },
     },
@@ -127,7 +127,7 @@ if (hasLibrary('redux')) {
 
 if (hasLibrary('jest')) {
   overrides.push({
-    files: ['src/__jest__/*', '*.test.js', '*.test.ts', '*.test.jsx', '*.test.tsx'],
+    files: ['**/src/__jest__/*', '*.test.js', '*.test.ts', '*.test.jsx', '*.test.tsx'],
     rules: {
       'import/default': 'off',
       'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }],
