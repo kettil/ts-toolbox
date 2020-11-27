@@ -1,3 +1,10 @@
+## [1.6.12](https://github.com/kettil/eslint-config/compare/1.6.11...1.6.12) (2020-11-27)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.9.9 to 2.9.10 ([3a68a27](https://github.com/kettil/eslint-config/commit/3a68a27bb45567855cc8e6a49028f207cce34475))
+
 ## [1.6.11](https://github.com/kettil/eslint-config/compare/1.6.10...1.6.11) (2020-11-26)
 
 
