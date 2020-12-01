@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/kettil/eslint-config/compare/1.6.15...1.7.0) (2020-12-01)
+
+
+### Features
+
+* **typescript:** disables the rule @typescript-eslint/unbound-method for test files ([f35fe2a](https://github.com/kettil/eslint-config/commit/f35fe2a6cbb1c90f2bba6fb4af1f7fdfd0686dbf))
+
 ## [1.6.15](https://github.com/kettil/eslint-config/compare/1.6.14...1.6.15) (2020-12-01)
 
 
