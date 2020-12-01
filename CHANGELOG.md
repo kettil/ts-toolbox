@@ -1,3 +1,10 @@
+## [1.6.15](https://github.com/kettil/eslint-config/compare/1.6.14...1.6.15) (2020-12-01)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.8.2 to 4.9.0 ([c0c98a4](https://github.com/kettil/eslint-config/commit/c0c98a4957ff64f8e4163d3a0d12e1e5ba964f5e))
+
 ## [1.6.14](https://github.com/kettil/eslint-config/compare/1.6.13...1.6.14) (2020-12-01)
 
 
