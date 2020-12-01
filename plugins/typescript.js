@@ -123,7 +123,7 @@ const overrides = [
     parserOptions: { project: path.join('.', 'tsconfig.json') },
   },
   {
-    files: ['*.test.ts','*.test.tsx'],
+    files: ['*.test.ts', '*.test.tsx'],
     rules: {
       '@typescript-eslint/no-floating-promises': 'off',
       '@typescript-eslint/unbound-method': 'off',
