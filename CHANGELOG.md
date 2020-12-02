@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/kettil/eslint-config/compare/1.7.1...1.7.2) (2020-12-02)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest-dom from 3.4.2 to 3.5.0 ([5a84534](https://github.com/kettil/eslint-config/commit/5a84534f363d7afb511e3b4e0b0a73fcaf2eb95e))
+
 ## [1.7.1](https://github.com/kettil/eslint-config/compare/1.7.0...1.7.1) (2020-12-02)
 
 
