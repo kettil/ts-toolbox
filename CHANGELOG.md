@@ -1,3 +1,11 @@
+# [1.8.0](https://github.com/kettil/eslint-config/compare/1.7.2...1.8.0) (2020-12-02)
+
+
+### Features
+
+* **jest-dom:** add rule jest-dom/prefer-to-have-value ([11b507f](https://github.com/kettil/eslint-config/commit/11b507fb35fec4806bb4d9dd828b7380df70d493))
+* **jest-dom:** add rules jest-dom/prefer-in-document ([b2e3cd0](https://github.com/kettil/eslint-config/commit/b2e3cd0d7722572a338039e3cb304fd95e0f90f6))
+
 ## [1.7.2](https://github.com/kettil/eslint-config/compare/1.7.1...1.7.2) (2020-12-02)
 
 
