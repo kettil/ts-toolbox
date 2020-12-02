@@ -10,6 +10,7 @@ const rules = {
   'jest-dom/prefer-required': ['error'],
   'jest-dom/prefer-to-have-attribute': ['error'],
   'jest-dom/prefer-to-have-text-content': ['error'],
+  'jest-dom/prefer-to-have-value': ['error'],
 };
 
 if (hasLibrary('@testing-library/jest-dom')) {
