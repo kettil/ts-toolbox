@@ -33,7 +33,7 @@
     "@kettil/eslint-config": "^1.8.0",
     "@kettil/semantic-release-config": "^1.0.9",
     "eslint": "^7.14.0",
-    "husky": "^4.3.0",
+    "husky": "^4.3.5",
     "prettier": "^2.2.1"
   }
 }
