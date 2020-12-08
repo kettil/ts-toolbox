@@ -1,3 +1,17 @@
+# [1.9.0](https://github.com/kettil/eslint-config/compare/1.8.0...1.9.0) (2020-12-08)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 4.9.0 to 4.9.1 ([5131dc0](https://github.com/kettil/eslint-config/commit/5131dc02d01f6065320d1083357ad17f1df3e17b))
+* **deps:** bump eslint-plugin-jest-dom from 3.5.0 to 3.6.3 ([18c2218](https://github.com/kettil/eslint-config/commit/18c2218acac7e039d06c522fc3da59a4f088dd31))
+
+
+### Features
+
+* **import:** update import/no-unused-modules rule ([6fe600c](https://github.com/kettil/eslint-config/commit/6fe600c009b17d9c9856db38e288c7915ad8b03a))
+* **unicorn:** update unicorn/filename-case rule ([aadef72](https://github.com/kettil/eslint-config/commit/aadef727346dbd03e9f060be5d11324c7ec19a64))
+
 # [1.8.0](https://github.com/kettil/eslint-config/compare/1.7.2...1.8.0) (2020-12-02)
 
 
