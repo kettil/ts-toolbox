@@ -71,12 +71,12 @@ export const testSwaggerPropertyObject1: SwaggerPropertyObject = { type: 'object
 export const testSwaggerPropertyObject2: Required<SwaggerPropertyObject> = {
   type: 'object',
   properties: {
-    null: { type: 'null' },
-    boolean: { type: 'boolean' },
-    string: { type: 'string' },
-    number: { type: 'number' },
-    object: { type: 'object', properties: {} },
-    array: { type: 'array', items: { type: 'integer' } },
+    valueNull: { type: 'null' },
+    valueBoolean: { type: 'boolean' },
+    valueString: { type: 'string' },
+    valueNumber: { type: 'number' },
+    valueObject: { type: 'object', properties: {} },
+    valueArray: { type: 'array', items: { type: 'integer' } },
   },
   description: 'description',
   readOnly: true,
