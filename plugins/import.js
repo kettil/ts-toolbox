@@ -71,6 +71,10 @@ const overrides = [
     files: ['*.js'],
     rules: { 'import/no-unused-modules': ['off'] },
   },
+  {
+    files: ['*.test-d.ts', '*.test-d.tsx'],
+    rules: { 'import/no-unused-modules': ['off'] },
+  },
 ];
 
 if (hasLibrary('typescript')) {
