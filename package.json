@@ -9,6 +9,7 @@
   "scripts": {
     "lint": "eslint --config .eslintrc.json --ext 'js,ts,tsx' --fix .",
     "lint:ci": "eslint --config .eslintrc.json --ext 'js,ts,tsx' --format codeframe .",
+    "prelint": "npm run prettier",
     "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
     "prettier:ci": "prettier --config './.prettierrc' --list-different '.prettierrc' './**/*.{json,md,scss,yml,html}'"
   },
