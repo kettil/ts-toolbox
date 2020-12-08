@@ -1,5 +1,3 @@
-export * from './types';
-
 // array
 export { default as createArray } from './array/createArray';
 export { default as intersectArray } from './array/intersectArray';
@@ -29,3 +27,17 @@ export { default as compareTransformDesc } from './sort/compareTransformDesc';
 
 // string
 export { default as toCamelCase } from './string/toCamelCase';
+
+// types
+export * from './types/common';
+export * from './types/object';
+export type {
+  SwaggerExtractProperties,
+  SwaggerProperty,
+  SwaggerPropertyArray,
+  SwaggerPropertyBoolean,
+  SwaggerPropertyNull,
+  SwaggerPropertyNumber,
+  SwaggerPropertyObject,
+  SwaggerPropertyString,
+} from './types/swagger';
