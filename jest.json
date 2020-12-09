@@ -17,7 +17,7 @@
   "restoreMocks": true,
 
   "collectCoverageFrom": ["src/**/*.{ts,tsx,js,jsx}"],
-  "coveragePathIgnorePatterns": ["/__jest__/", "types.ts"],
+  "coveragePathIgnorePatterns": ["/__jest__/", "types.ts", "test-d.ts"],
   "coverageReporters": ["text-summary", "html"],
   "coverageDirectory": "coverage",
   "coverageThreshold": {
