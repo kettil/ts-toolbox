@@ -1,3 +1,13 @@
+# [2.8.0](https://github.com/kettil/tool-lib/compare/2.7.0...2.8.0) (2020-12-09)
+
+
+### Features
+
+* update the index export ([88b89e5](https://github.com/kettil/tool-lib/commit/88b89e5c6c35a4ec29374d44c45b2f3881b7ff0c))
+* **types:** add Expect, TupleOf and Range generic types ([0a2ddf1](https://github.com/kettil/tool-lib/commit/0a2ddf1d19221afc940b7cbced0c49810d33808c))
+* **types:** add many swagger generic types ([fe5f2d0](https://github.com/kettil/tool-lib/commit/fe5f2d06bf3f53cb09e55f38c8811ac57d2a6bd0))
+* **types:** add ObjectType, ObjectClean and ObjectNormalize generic types ([e426b8f](https://github.com/kettil/tool-lib/commit/e426b8f9abe566e29c9ccf6df7c476efc35be522))
+
 # [2.7.0](https://github.com/kettil/tool-lib/compare/2.6.0...2.7.0) (2020-08-25)
 
 

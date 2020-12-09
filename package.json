@@ -1,6 +1,6 @@
 {
   "name": "@kettil/tool-lib",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "A collection from differents helper functions and types",
   "main": "build/index.js",
   "types": "build/index.d.ts",
