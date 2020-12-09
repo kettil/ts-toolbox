@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/kettil/eslint-config/compare/1.9.1...1.9.2) (2020-12-09)
+
+
+### Bug Fixes
+
+* **unicorn:** fix the wrong file filter (unicorn/filename-case) ([f5d62ee](https://github.com/kettil/eslint-config/commit/f5d62ee501237e6d9bc5dce316cd8490e64db35c))
+
 ## [1.9.1](https://github.com/kettil/eslint-config/compare/1.9.0...1.9.1) (2020-12-08)
 
 
