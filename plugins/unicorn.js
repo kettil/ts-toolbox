@@ -85,7 +85,7 @@ const overrides = [
     rules: { 'unicorn/no-null': 'off' },
   },
   {
-    files: ['*.test-d.js', '*.test-d.js'],
+    files: ['*.test-d.ts', '*.test-d.tsx'],
     rules: { 'unicorn/filename-case': ['error', { case: 'camelCase', ignore: ['^([a-z][a-zA-Z0-9]*.)+test-d.ts$'] }] },
   },
 ];
