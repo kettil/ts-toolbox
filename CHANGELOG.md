@@ -1,3 +1,11 @@
+## [1.9.8](https://github.com/kettil/eslint-config/compare/1.9.7...1.9.8) (2021-01-04)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.10.0 to 4.11.1 ([6f5fe87](https://github.com/kettil/eslint-config/commit/6f5fe87d49cfa503b0c80f1376501ef35d509f6d))
+* **deps:** bump eslint-plugin-react from 7.21.5 to 7.22.0 ([0cf027a](https://github.com/kettil/eslint-config/commit/0cf027a19e43d24412b093d46866494e577f06ae))
+
 ## [1.9.7](https://github.com/kettil/eslint-config/compare/1.9.6...1.9.7) (2021-01-04)
 
 
