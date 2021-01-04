@@ -1,3 +1,10 @@
+## [1.9.9](https://github.com/kettil/eslint-config/compare/1.9.8...1.9.9) (2021-01-04)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 4.10.0 to 4.11.1 ([ca0a1d1](https://github.com/kettil/eslint-config/commit/ca0a1d100369e36eb1f697f876f8b2cec3fe7f23))
+
 ## [1.9.8](https://github.com/kettil/eslint-config/compare/1.9.7...1.9.8) (2021-01-04)
 
 
