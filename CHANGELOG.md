@@ -1,3 +1,10 @@
+## [1.9.6](https://github.com/kettil/eslint-config/compare/1.9.5...1.9.6) (2021-01-04)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-unicorn from 23.0.0 to 25.0.1 ([fa79ae4](https://github.com/kettil/eslint-config/commit/fa79ae4e63ef144e9ffb381f91d849ac9e6add3c))
+
 ## [1.9.5](https://github.com/kettil/eslint-config/compare/1.9.4...1.9.5) (2020-12-15)
 
 
