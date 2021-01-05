@@ -1,4 +1,4 @@
-export type ObjectType<Props = unknown> = Record<string | number, Props>;
+export type ObjectType<Props = unknown> = Record<number | string, Props>;
 
 export type ObjectClean<T> = Omit<
   T,

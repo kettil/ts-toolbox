@@ -23,11 +23,11 @@ export type SwaggerPropertyString = SwaggerPropertyCommon & {
   nullable?: boolean;
   enum?: readonly string[];
   pattern?: string;
-  format?: 'date' | 'date-time' | 'uuid' | 'email' | 'uri' | 'hostname' | 'ipv4' | 'ipv6';
+  format?: 'date-time' | 'date' | 'email' | 'hostname' | 'ipv4' | 'ipv6' | 'uri' | 'uuid';
 };
 
 export type SwaggerPropertyNumber = SwaggerPropertyCommon & {
-  type: 'number' | 'integer';
+  type: 'integer' | 'number';
 
   // Additional possible parameters
   default?: number;
@@ -65,20 +65,20 @@ export type SwaggerPropertyTuple = SwaggerPropertyCommon & {
 };
 
 export type SwaggerPropertySimple =
-  | SwaggerPropertyNull
   | SwaggerPropertyBoolean
-  | SwaggerPropertyString
-  | SwaggerPropertyNumber;
+  | SwaggerPropertyNull
+  | SwaggerPropertyNumber
+  | SwaggerPropertyString;
 
 export type SwaggerProperty =
-  | SwaggerPropertySimple
-  | SwaggerPropertyObject
   | SwaggerPropertyArray
+  | SwaggerPropertyObject
+  | SwaggerPropertySimple
   | SwaggerPropertyTuple;
 
 export type SwaggerRequiredValidation<
   Props extends SwaggerPropertyObject,
-  K extends string | number | symbol
+  K extends number | string | symbol
 > = Props['required'] extends readonly unknown[] ? (K extends Props['required'][number] ? true : false) : false;
 
 export type SwaggerExtractTuple<Items extends SwaggerPropertyTuple['items'], A extends readonly string[]> = {
