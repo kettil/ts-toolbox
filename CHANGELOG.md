@@ -1,3 +1,12 @@
+## [1.9.10](https://github.com/kettil/eslint-config/compare/1.9.9...1.9.10) (2021-01-05)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.11.1 to 4.12.0 ([cb24624](https://github.com/kettil/eslint-config/commit/cb2462495a10082ad7e63e5fcd572db790435f57))
+* **deps:** bump @typescript-eslint/parser from 4.11.1 to 4.12.0 ([dfd6162](https://github.com/kettil/eslint-config/commit/dfd61628ed3092181c3c47861c09b5ffe5a7d2a6))
+* **deps:** bump eslint-plugin-formatjs from 2.10.1 to 2.10.2 ([8594686](https://github.com/kettil/eslint-config/commit/8594686c7a03106c07592dc6eb16448882cdcdee))
+
 ## [1.9.9](https://github.com/kettil/eslint-config/compare/1.9.8...1.9.9) (2021-01-04)
 
 
