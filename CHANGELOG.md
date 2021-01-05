@@ -1,3 +1,16 @@
+# [1.10.0](https://github.com/kettil/eslint-config/compare/1.9.10...1.10.0) (2021-01-05)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.10.2 to 2.10.3 ([c26ecb3](https://github.com/kettil/eslint-config/commit/c26ecb3249bb0f2bd6696100c25bcd1576a2fbbb))
+* **eslint:** update operator-linebreak rule ([80f1742](https://github.com/kettil/eslint-config/commit/80f1742c5f90cc6c4e0135db8ebe1a21bb4401af))
+
+
+### Features
+
+* **typescript:** add @typescript-eslint/sort-type-union-intersection-members rule ([628f5aa](https://github.com/kettil/eslint-config/commit/628f5aa43b03c9dc57222920ff7350bd95895425))
+
 ## [1.9.10](https://github.com/kettil/eslint-config/compare/1.9.9...1.9.10) (2021-01-05)
 
 
