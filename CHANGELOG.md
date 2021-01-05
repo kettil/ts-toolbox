@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/kettil/eslint-config/compare/1.10.0...1.11.0) (2021-01-05)
+
+
+### Features
+
+* **eslint:** update operator-linebreak rule ([87aa911](https://github.com/kettil/eslint-config/commit/87aa91104b47f208593b3a82a96c6d08028b7f1f))
+
 # [1.10.0](https://github.com/kettil/eslint-config/compare/1.9.10...1.10.0) (2021-01-05)
 
 
