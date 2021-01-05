@@ -88,6 +88,7 @@ const overrides = [
       '@typescript-eslint/require-await': ['error'],
       'no-return-await': ['off'],
       '@typescript-eslint/return-await': ['error', 'in-try-catch'],
+      '@typescript-eslint/sort-type-union-intersection-members': ['error'],
       '@typescript-eslint/triple-slash-reference': ['error'],
       '@typescript-eslint/type-annotation-spacing': ['error'],
       '@typescript-eslint/unbound-method': ['error'],
