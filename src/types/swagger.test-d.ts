@@ -120,7 +120,7 @@ export const testSwaggerPropertyTuple2: Required<SwaggerPropertyTuple> = {
 
 export type SwaggerPropertySimple1Test = Expect<
   SwaggerPropertySimple,
-  SwaggerPropertyNull | SwaggerPropertyBoolean | SwaggerPropertyString | SwaggerPropertyNumber,
+  SwaggerPropertyBoolean | SwaggerPropertyNull | SwaggerPropertyNumber | SwaggerPropertyString,
   true
 >;
 
@@ -128,7 +128,7 @@ export type SwaggerPropertySimple1Test = Expect<
 
 export type SwaggerProperty1Test = Expect<
   SwaggerProperty,
-  SwaggerPropertySimple | SwaggerPropertyObject | SwaggerPropertyArray | SwaggerPropertyTuple,
+  SwaggerPropertyArray | SwaggerPropertyObject | SwaggerPropertySimple | SwaggerPropertyTuple,
   true
 >;
 
@@ -219,7 +219,7 @@ export type SwaggerExtractPropertyNumber4Test = Expect<SwaggerExtractPropertyNum
 type SwaggerExtractPropertyArray1Value = SwaggerExtractProperty<{ type: 'array'; items: { type: 'number' } }, false>;
 export type SwaggerExtractPropertyArray1Test = Expect<
   SwaggerExtractPropertyArray1Value,
-  readonly number[] | undefined,
+  undefined | readonly number[],
   true
 >;
 type SwaggerExtractPropertyArray2Value = SwaggerExtractProperty<{ type: 'array'; items: { type: 'number' } }, true>;
@@ -233,7 +233,7 @@ type SwaggerExtractPropertyTuple1Value = SwaggerExtractProperty<
 >;
 export type SwaggerExtractPropertyTuple1Test = Expect<
   SwaggerExtractPropertyTuple1Value,
-  [string, string | undefined] | undefined,
+  undefined | [string, string | undefined],
   true
 >;
 type SwaggerExtractPropertyTuple2Value = SwaggerExtractProperty<
@@ -250,7 +250,7 @@ type SwaggerExtractPropertyObject1Value = SwaggerExtractProperty<
 >;
 export type SwaggerExtractPropertyObject1Test = Expect<
   SwaggerExtractPropertyObject1Value,
-  { readonly foo?: string | undefined } | undefined,
+  undefined | { readonly foo?: string | undefined },
   true
 >;
 type SwaggerExtractPropertyObject2Value = SwaggerExtractProperty<
@@ -375,7 +375,7 @@ export type SchemaTest = Expect<
       readonly text: string;
       readonly author: string;
       readonly readTime?: number;
-      readonly status?: readonly [number, string] | undefined;
+      readonly status?: undefined | readonly [number, string];
       readonly publish?: boolean;
     }>;
   },

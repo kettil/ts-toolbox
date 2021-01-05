@@ -4,7 +4,7 @@ import { ObjectClean, ObjectNormalize, ObjectType } from './object';
 // ObjectType
 
 type ObjectType1Value = ObjectType;
-export type ObjectType1Test = Expect<ObjectType1Value, Record<string | number, unknown>, true>;
+export type ObjectType1Test = Expect<ObjectType1Value, Record<number | string, unknown>, true>;
 
 // ObjectClean
 
@@ -15,7 +15,7 @@ export type ObjectClean1Test = Expect<ObjectClean1Value, { c: string; d: number 
 
 type ObjectNormalize1Value = ObjectNormalize<{
   a: string;
-  b: { c: string | undefined; d?: number } | undefined;
+  b: undefined | { c: string | undefined; d?: number };
   e: [number, number, string];
   f: boolean[] | undefined;
 }>;
