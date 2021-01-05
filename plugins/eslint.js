@@ -452,7 +452,7 @@ const rules = {
   'one-var': ['error', 'never'],
   'one-var-declaration-per-line': ['error', 'always'],
   'operator-assignment': ['error', 'always'],
-  'operator-linebreak': ['error', 'after', { overrides: { '?': 'before', ':': 'before' } }],
+  'operator-linebreak': ['error', 'after', { overrides: { '|': 'before', '?': 'before', ':': 'before' } }],
   'padded-blocks': ['error', { blocks: 'never', classes: 'never', switches: 'never' }, { allowSingleLineBlocks: true }],
   'padding-line-between-statements': [
     'error',
