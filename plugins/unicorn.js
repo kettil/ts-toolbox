@@ -43,6 +43,7 @@ const rules = {
   'unicorn/prefer-number-properties': ['error'],
   'unicorn/prefer-query-selector': ['error'],
   'unicorn/prefer-reflect-apply': ['error'],
+  'unicorn/prefer-regexp-test': ['error'],
   'unicorn/prefer-replace-all': ['off'],
   'unicorn/prefer-set-has': ['error'],
   'unicorn/prefer-spread': ['error'],
