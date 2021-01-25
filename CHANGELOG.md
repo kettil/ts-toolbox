@@ -1,3 +1,18 @@
+# [1.12.0](https://github.com/kettil/eslint-config/compare/1.11.0...1.12.0) (2021-01-25)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.12.0 to 4.14.0 ([7eb18b4](https://github.com/kettil/eslint-config/commit/7eb18b4a6353495a347694d1ed221520160e0530))
+* **deps:** bump @typescript-eslint/parser from 4.12.0 to 4.14.0 ([873967f](https://github.com/kettil/eslint-config/commit/873967fc0b3064e7b6c3365cd1a91f77d4f5ba02))
+* **deps:** bump eslint-plugin-formatjs from 2.10.3 to 2.10.4 ([719b27b](https://github.com/kettil/eslint-config/commit/719b27b44a64f917a3cbcf558845b256c3980efc))
+* **deps:** bump eslint-plugin-unicorn from 25.0.1 to 27.0.0 ([8bc90b9](https://github.com/kettil/eslint-config/commit/8bc90b933275f169e2f0e200d39d476019042322))
+
+
+### Features
+
+* **typescript:** add the rule @typescript-eslint/object-curly-spacing ([d5b7f87](https://github.com/kettil/eslint-config/commit/d5b7f87e63f707b2b310c5d63fb2aadd0d6c2310))
+
 # [1.11.0](https://github.com/kettil/eslint-config/compare/1.10.0...1.11.0) (2021-01-05)
 
 
