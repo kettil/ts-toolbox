@@ -21,6 +21,7 @@ const rules = {
   'unicorn/no-hex-escape': ['error'],
   'unicorn/no-keyword-prefix': ['off'],
   'unicorn/no-nested-ternary': ['error'],
+  'unicorn/no-new-array': ['error'],
   'unicorn/no-new-buffer': ['error'],
   'unicorn/no-null': ['error'],
   'unicorn/no-process-exit': ['error'],
