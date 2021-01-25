@@ -77,6 +77,8 @@ const overrides = [
       'no-use-before-define': 'off',
       '@typescript-eslint/no-use-before-define': ['error'],
       '@typescript-eslint/no-var-requires': ['error'],
+      'object-curly-spacing': 'off',
+      '@typescript-eslint/object-curly-spacing': ['error', 'always'],
       '@typescript-eslint/prefer-includes': ['error'],
       '@typescript-eslint/prefer-namespace-keyword': ['error'],
       '@typescript-eslint/prefer-nullish-coalescing': ['error'],
