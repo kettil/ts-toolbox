@@ -15,7 +15,7 @@ export type ObjectClean1Test = Expect<ObjectClean1Value, { c: string; d: number 
 
 type ObjectNormalize1Value = ObjectNormalize<{
   a: string;
-  b: undefined | { c: string | undefined; d?: number };
+  b: { c: string | undefined; d?: number } | undefined;
   e: [number, number, string];
   f: boolean[] | undefined;
 }>;

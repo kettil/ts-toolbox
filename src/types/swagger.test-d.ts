@@ -219,7 +219,7 @@ export type SwaggerExtractPropertyNumber4Test = Expect<SwaggerExtractPropertyNum
 type SwaggerExtractPropertyArray1Value = SwaggerExtractProperty<{ type: 'array'; items: { type: 'number' } }, false>;
 export type SwaggerExtractPropertyArray1Test = Expect<
   SwaggerExtractPropertyArray1Value,
-  undefined | readonly number[],
+  readonly number[] | undefined,
   true
 >;
 type SwaggerExtractPropertyArray2Value = SwaggerExtractProperty<{ type: 'array'; items: { type: 'number' } }, true>;
@@ -233,7 +233,7 @@ type SwaggerExtractPropertyTuple1Value = SwaggerExtractProperty<
 >;
 export type SwaggerExtractPropertyTuple1Test = Expect<
   SwaggerExtractPropertyTuple1Value,
-  undefined | [string, string | undefined],
+  [string, string | undefined] | undefined,
   true
 >;
 type SwaggerExtractPropertyTuple2Value = SwaggerExtractProperty<
@@ -250,7 +250,7 @@ type SwaggerExtractPropertyObject1Value = SwaggerExtractProperty<
 >;
 export type SwaggerExtractPropertyObject1Test = Expect<
   SwaggerExtractPropertyObject1Value,
-  undefined | { readonly foo?: string | undefined },
+  { readonly foo?: string | undefined } | undefined,
   true
 >;
 type SwaggerExtractPropertyObject2Value = SwaggerExtractProperty<
@@ -375,7 +375,7 @@ export type SchemaTest = Expect<
       readonly text: string;
       readonly author: string;
       readonly readTime?: number;
-      readonly status?: undefined | readonly [number, string];
+      readonly status?: readonly [number, string] | undefined;
       readonly publish?: boolean;
     }>;
   },
