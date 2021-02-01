@@ -1,3 +1,23 @@
+# [1.13.0](https://github.com/kettil/eslint-config/compare/1.12.0...1.13.0) (2021-02-01)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.14.0 to 4.14.1 ([aa9db8a](https://github.com/kettil/eslint-config/commit/aa9db8a603650dc158731e34ad1cf6f6aa21d915))
+* **deps:** bump @typescript-eslint/parser from 4.14.0 to 4.14.1 ([529b850](https://github.com/kettil/eslint-config/commit/529b850aec615c8bbfde429d48f1fbf16ba5936b))
+* **deps:** bump eslint-plugin-formatjs from 2.10.4 to 2.10.5 ([4d8094a](https://github.com/kettil/eslint-config/commit/4d8094a8bc94ff5287d3a5a94f9d6c8f8b87618b))
+* **deps:** bump eslint-plugin-formatjs from 2.10.5 to 2.10.7 ([76e3387](https://github.com/kettil/eslint-config/commit/76e33870828d6b6005a344e45f6ee01175723ebc))
+* **deps:** bump eslint-plugin-formatjs from 2.10.7 to 2.11.0 ([24b989f](https://github.com/kettil/eslint-config/commit/24b989fbf4b12838adf66f56c841e13ab678d345))
+* **unicorn:** rename rule prefer-replace-all to prefer-string-replace-all ([8c6bac4](https://github.com/kettil/eslint-config/commit/8c6bac48d3d055dd24c5f9c0f8f5d2553af067dd))
+
+
+### Features
+
+* **unicorn:** add the rule unicorn/consistent-destructuring ([f43e0ca](https://github.com/kettil/eslint-config/commit/f43e0ca34cd8e3ab9151962fee24eac7877a6ffa))
+* **unicorn:** add the rule unicorn/no-new-array ([5946b51](https://github.com/kettil/eslint-config/commit/5946b51d7e884bb9c02adc021e4e6e7e0f06f75a))
+* **unicorn:** add the rule unicorn/prefer-array-index-of ([5e5ce49](https://github.com/kettil/eslint-config/commit/5e5ce49d138781f24323ba89e8c76f4c8a24056d))
+* **unicorn:** add the rule unicorn/prefer-regexp-test ([d5afe1a](https://github.com/kettil/eslint-config/commit/d5afe1ab6dbb40ede259a2ae47a0ef6e0f4e5d04))
+
 # [1.12.0](https://github.com/kettil/eslint-config/compare/1.11.0...1.12.0) (2021-01-25)
 
 
