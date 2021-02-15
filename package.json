@@ -41,7 +41,7 @@
     "url": "https://github.com/kettil/eslint-config/issues/new"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
     "eslint-plugin-formatjs": "^2.12.1",
     "eslint-plugin-import": "^2.22.1",
