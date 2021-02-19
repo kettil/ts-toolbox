@@ -24,7 +24,7 @@ describe('main index', () => {
     expect(Object.keys(tools)).toEqual(expected);
   });
 
-  test.each(Object.keys(tools).map((k) => [k]))('It should be that %p is a function', (name) => {
+  test.each(Object.keys(tools).map((k) => [k]))('it should be that %p is a function', (name) => {
     expect(typeof (tools as Record<string, unknown>)[name]).toBe('function');
   });
 });
