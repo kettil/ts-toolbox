@@ -1,5 +1,8 @@
 /* eslint-disable no-template-curly-in-string */
 
+const changelogFile = 'CHANGELOG.md';
+const changelogTitle = 'Changelog';
+
 const configuration = {
   branches: [
     '+([0-9])?(.{+([0-9]),x}).x',
@@ -12,9 +15,9 @@ const configuration = {
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
-    '@semantic-release/changelog',
+    ['@semantic-release/changelog', { changelogFile, changelogTitle }],
     '@semantic-release/npm',
-    '@semantic-release/git',
+    ['@semantic-release/git', { assets: [changelogFile] }],
   ],
 
   tagFormat: '${version}',
