@@ -1,3 +1,10 @@
+# [1.1.0-alpha.1](https://github.com/kettil/semantic-release-config/compare/1.0.12...1.1.0-alpha.1) (2021-02-21)
+
+
+### Features
+
+* add pre-release config ([23685bb](https://github.com/kettil/semantic-release-config/commit/23685bb9f18a1e28de16ba4a0515bc3a54e01953))
+
 ## [1.0.12](https://github.com/kettil/semantic-release-config/compare/1.0.11...1.0.12) (2021-02-15)
 
 
