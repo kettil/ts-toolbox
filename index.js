@@ -1,7 +1,7 @@
 /* eslint-disable no-template-curly-in-string */
 
 const changelogFile = 'CHANGELOG.md';
-const changelogTitle = 'Changelog';
+const changelogTitle = '# Changelog';
 
 const configuration = {
   branches: [
