@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '42 7 * * 1'
-  push:
+  pull_request:
     branches:
       - alpha
       - beta
