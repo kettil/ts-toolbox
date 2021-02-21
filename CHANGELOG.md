@@ -1,3 +1,12 @@
+Changelog
+
+# [1.2.0](https://github.com/kettil/semantic-release-config/compare/1.1.0...1.2.0) (2021-02-21)
+
+
+### Features
+
+* add changelog title ([ad95cf8](https://github.com/kettil/semantic-release-config/commit/ad95cf80eca94ce14e93a8bcb0fd2292fbb906b8))
+
 # [1.1.0](https://github.com/kettil/semantic-release-config/compare/1.0.12...1.1.0) (2021-02-21)
 
 
