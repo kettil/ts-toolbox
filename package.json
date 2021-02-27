@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
-    "@commitlint/config-conventional": "^12.0.0",
+    "@commitlint/config-conventional": "^12.0.1",
     "@kettil/commitlint-config": "^1.0.1",
     "@kettil/semantic-release-config": "^1.2.1",
     "eslint": "^7.20.0",
