@@ -17,6 +17,7 @@ export { default as env } from './node/env';
 
 // object
 export { default as objectEntries } from './object/objectEntries';
+export { default as objectFromEntries } from './object/objectFromEntries';
 export { default as objectKeys } from './object/objectKeys';
 
 // sort
