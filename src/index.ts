@@ -42,3 +42,4 @@ export type {
   SwaggerPropertyObject,
   SwaggerPropertyString,
 } from './types/swagger';
+export { UnionToTuple } from './types/union';
