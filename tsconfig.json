@@ -24,10 +24,10 @@
 
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
 
-    "baseUrl": ".",
-    "paths": {}
+    //"baseUrl": ".",
+    //"paths": {}
   },
   "include": ["src/**/*", "tests/**/*"],
   "exclude": ["node_modules", "build"]
