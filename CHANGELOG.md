@@ -1,3 +1,26 @@
+# Changelog
+
+# [2.9.0](https://github.com/kettil/tool-lib/compare/2.8.0...2.9.0) (2021-03-07)
+
+
+### Bug Fixes
+
+* **object:** fix return type of objectFromEntries ([dbe062d](https://github.com/kettil/tool-lib/commit/dbe062d0d8a89434c8b85568d58a386b97162050))
+* **object:** fix the typing of objectEntries ([ae8c570](https://github.com/kettil/tool-lib/commit/ae8c5707580c5144938b64a0bc01215439e59216))
+* **types:** fix the type equality test ([de47998](https://github.com/kettil/tool-lib/commit/de479987b8e787f6d09ea368c735a4a5970e996d))
+
+
+### Features
+
+* **object:** add objectFromEntries function ([c62ac9b](https://github.com/kettil/tool-lib/commit/c62ac9b32c8e308edf2acbf1e06daddfaf70160e))
+* **object:** add objectMap function ([251d86b](https://github.com/kettil/tool-lib/commit/251d86bdb9801261a03de52cce5cad9e5d418e43))
+* **types:** add Addition and Subtract types ([e258358](https://github.com/kettil/tool-lib/commit/e258358a9ea3cf3df697227fa49a83e30e822b33))
+* **types:** add ExtractTypeFromTupleArray tpye ([5cf9856](https://github.com/kettil/tool-lib/commit/5cf98564668ab85acff93a0c89f7c84677418c0a))
+* **types:** add TupelLength type ([6777157](https://github.com/kettil/tool-lib/commit/6777157704fe6bf1a18eca0ae4433e4a350c218a))
+* **types:** add UnionToTuple type ([664c563](https://github.com/kettil/tool-lib/commit/664c563b38f793cb6bbb407578edb5522b7e4625))
+* **types:** add Unpacked type ([90945d9](https://github.com/kettil/tool-lib/commit/90945d9adb39334208576d4909cc0d820722e95a))
+* **types:** export UnionToIntersection type ([d33a880](https://github.com/kettil/tool-lib/commit/d33a880c5ad300a482a8bf0d19074eb8eeec8983))
+
 # [2.8.0](https://github.com/kettil/tool-lib/compare/2.7.0...2.8.0) (2020-12-09)
 
 
