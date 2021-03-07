@@ -17,7 +17,9 @@ export { default as env } from './node/env';
 
 // object
 export { default as objectEntries } from './object/objectEntries';
+export { default as objectFromEntries } from './object/objectFromEntries';
 export { default as objectKeys } from './object/objectKeys';
+export { default as objectMap } from './object/objectMap';
 
 // sort
 export { default as compareAsc } from './sort/compareAsc';
@@ -29,8 +31,11 @@ export { default as compareTransformDesc } from './sort/compareTransformDesc';
 export { default as toCamelCase } from './string/toCamelCase';
 
 // types
-export * from './types/common';
-export * from './types/object';
+export { Unpacked } from './types/array';
+export { EqualType, Expect } from './types/common';
+export { ExtractTypeFromTupleArray } from './types/extract';
+export { Addition, Subtract } from './types/math';
+export { ObjectClean, ObjectNormalize, ObjectType } from './types/object';
 export type {
   SwaggerExtractProperties,
   SwaggerProperty,
@@ -41,3 +46,5 @@ export type {
   SwaggerPropertyObject,
   SwaggerPropertyString,
 } from './types/swagger';
+export { Range, TupelLength, TupleOf } from './types/tuple';
+export { UnionToTuple, UnionToIntersection } from './types/union';
