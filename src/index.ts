@@ -33,6 +33,7 @@ export { default as toCamelCase } from './string/toCamelCase';
 export { Unpacked } from './types/array';
 export { EqualType, Expect } from './types/common';
 export { ExtractTypeFromTupleArray } from './types/extract';
+export { Addition, Subtract } from './types/math';
 export { ObjectClean, ObjectNormalize, ObjectType } from './types/object';
 export type {
   SwaggerExtractProperties,
