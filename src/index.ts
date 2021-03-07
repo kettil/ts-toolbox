@@ -43,4 +43,5 @@ export type {
   SwaggerPropertyObject,
   SwaggerPropertyString,
 } from './types/swagger';
+export { Range, TupelLength, TupleOf } from './types/tuple';
 export { UnionToTuple, UnionToIntersection } from './types/union';

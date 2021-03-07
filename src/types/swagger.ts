@@ -1,5 +1,5 @@
-import { Range } from './common';
 import { ObjectNormalize } from './object';
+import { Range } from './tuple';
 
 type SwaggerPropertyCommon = {
   description?: string;
