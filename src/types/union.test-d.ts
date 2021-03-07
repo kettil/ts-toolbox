@@ -10,6 +10,9 @@ export type UnionToIntersection1Test = Expect<
   true
 >;
 
+type UnionToIntersection2Value = UnionToIntersection<{ a: 42 } | { b: 13 }>;
+export type UnionToIntersection2Test = Expect<UnionToIntersection2Value, { a: 42 } & { b: 13 }, true>;
+
 // UnionToFunction
 
 type UnionToFunction1Value = UnionToFunction<13 | 42>;
