@@ -32,6 +32,7 @@ export { default as toCamelCase } from './string/toCamelCase';
 // types
 export { Unpacked } from './types/array';
 export * from './types/common';
+export { ExtractTypeFromTupleArray } from './types/extract';
 export * from './types/object';
 export type {
   SwaggerExtractProperties,
