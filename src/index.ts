@@ -19,6 +19,7 @@ export { default as env } from './node/env';
 export { default as objectEntries } from './object/objectEntries';
 export { default as objectFromEntries } from './object/objectFromEntries';
 export { default as objectKeys } from './object/objectKeys';
+export { default as objectMap } from './object/objectMap';
 
 // sort
 export { default as compareAsc } from './sort/compareAsc';

@@ -15,6 +15,7 @@ describe('main index', () => {
       'objectEntries',
       'objectFromEntries',
       'objectKeys',
+      'objectMap',
       'compareAsc',
       'compareDesc',
       'compareTransformAsc',
