@@ -6,14 +6,14 @@ import { ObjectFromEntries } from './objectFromEntries';
 type ObjectFromEntries1Value = ObjectFromEntries<Array<[number | string, unknown]>>;
 export type ObjectFromEntries1Test = Expect<
   ObjectFromEntries1Value,
-  { [K in number]: unknown } | { [K in string]: unknown },
+  { [K in number]: unknown } & { [K in string]: unknown },
   true
 >;
 
 type ObjectFromEntries2Value = ObjectFromEntries<Array<[number | string, number]>>;
 export type ObjectFromEntries2Test = Expect<
   ObjectFromEntries2Value,
-  { [K in number]: number } | { [K in string]: number },
+  { [K in number]: number } & { [K in string]: number },
   true
 >;
 
@@ -30,11 +30,11 @@ type ObjectFromEntries6Value = ObjectFromEntries<Array<[number, Record<string, n
 export type ObjectFromEntries6Test = Expect<ObjectFromEntries6Value, Record<number, Record<string, number>>, true>;
 
 type ObjectFromEntries7Value = ObjectFromEntries<[['a', 42], ['b', 13], ['c', 'foo']]>;
-export type ObjectFromEntries7Test = Expect<ObjectFromEntries7Value, { a: 42 } | { b: 13 } | { c: 'foo' }, true>;
+export type ObjectFromEntries7Test = Expect<ObjectFromEntries7Value, { a: 42 } & { b: 13 } & { c: 'foo' }, true>;
 
 type ObjectFromEntries8Value = ObjectFromEntries<[['a', number], ['b', string], ['c', string]]>;
 export type ObjectFromEntries8Test = Expect<
   ObjectFromEntries8Value,
-  { a: number } | { b: string } | { c: string },
+  { a: number } & { b: string } & { c: string },
   true
 >;
