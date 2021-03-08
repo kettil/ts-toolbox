@@ -41,7 +41,7 @@
   "dependencies": {},
   "devDependencies": {
     "@kettil/eslint-config": "^1.13.3",
-    "@kettil/semantic-release-config": "^1.2.2",
+    "@kettil/semantic-release-config": "^1.2.3",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.32",
     "eslint": "^7.21.0",
