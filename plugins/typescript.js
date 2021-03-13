@@ -71,6 +71,7 @@ const overrides = [
       '@typescript-eslint/no-non-null-asserted-optional-chain': ['error'],
       '@typescript-eslint/no-non-null-assertion': ['warn'],
       '@typescript-eslint/no-this-alias': ['error'],
+      '@typescript-eslint/no-unnecessary-condition': ['error'],
       '@typescript-eslint/no-unnecessary-type-assertion': ['error'],
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': ['error'],
