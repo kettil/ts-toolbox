@@ -91,6 +91,18 @@ const overrides = [
       'no-return-await': ['off'],
       '@typescript-eslint/return-await': ['error', 'in-try-catch'],
       '@typescript-eslint/sort-type-union-intersection-members': ['error'],
+      '@typescript-eslint/strict-boolean-expressions': [
+        'error',
+        {
+          allowString: false,
+          allowNumber: false,
+          allowNullableObject: true,
+          allowNullableBoolean: true,
+          allowNullableString: false,
+          allowNullableNumber: false,
+          allowAny: false,
+        },
+      ],
       '@typescript-eslint/triple-slash-reference': ['error'],
       '@typescript-eslint/type-annotation-spacing': ['error'],
       '@typescript-eslint/unbound-method': ['error'],
