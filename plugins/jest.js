@@ -33,7 +33,19 @@ const rules = {
 };
 
 if (hasLibrary('jest')) {
-  module.exports = { ...defaultObject, env: { 'jest/globals': true, jest: true }, plugins: ['jest'], rules };
+  const overrides = [];
+
+  if (hasLibrary('typescript')) {
+    overrides.push({
+      files: ['test/**/*.ts', 'test/**/*.tsx', '**/*.test.ts', '**/*.test.tsx'],
+      rules: {
+        '@typescript-eslint/unbound-method': 'off',
+        'jest/unbound-method': 'error',
+      },
+    });
+  }
+
+  module.exports = { ...defaultObject, env: { 'jest/globals': true, jest: true }, plugins: ['jest'], rules, overrides };
 } else {
   module.exports = defaultObject;
 }
