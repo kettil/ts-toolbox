@@ -142,7 +142,6 @@ const overrides = [
     files: ['*.test.ts', '*.test.tsx'],
     rules: {
       '@typescript-eslint/no-floating-promises': 'off',
-      '@typescript-eslint/unbound-method': 'off',
     },
   },
 ];
