@@ -1,5 +1,24 @@
 # Changelog
 
+# [1.14.0](https://github.com/kettil/eslint-config/compare/1.13.4...1.14.0) (2021-03-15)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.16.1 to 4.17.0 ([10dd5e1](https://github.com/kettil/eslint-config/commit/10dd5e1645685e2a863d6c1b8ab43bfff337d04c))
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.16.1 to 4.17.0 ([c9630d4](https://github.com/kettil/eslint-config/commit/c9630d4e7ae4a12caa424214f3995f793dca1f0a))
+* **deps:** bump @typescript-eslint/parser from 4.16.1 to 4.17.0 ([b87b8d1](https://github.com/kettil/eslint-config/commit/b87b8d1ef0b80fa2ca01061dcf96a38426b99a0c))
+* **deps:** bump eslint-plugin-jest from 24.1.8 to 24.1.9 ([246c5a1](https://github.com/kettil/eslint-config/commit/246c5a1ac1c8b439bc1198f5b700086c0c4dd417))
+* **deps:** bump eslint-plugin-jest from 24.1.9 to 24.2.1 ([b408595](https://github.com/kettil/eslint-config/commit/b408595db0fb2ab8eeca599d3e47a5dc0df4b424))
+* **deps:** bump eslint-plugin-jest from 24.2.1 to 24.3.1 ([c517ebc](https://github.com/kettil/eslint-config/commit/c517ebc537fc23f94529aa1547967efa3c8e7edb))
+
+
+### Features
+
+* **jest:** add the rule jest/unbound-method ([4827d4d](https://github.com/kettil/eslint-config/commit/4827d4dfc844373f0e97bbc5e6b74ffe4a4ebdfc))
+* **typescript:** add the rule @typescript-eslint/no-unnecessary-condition ([c508000](https://github.com/kettil/eslint-config/commit/c5080004f3a2f44f313db67b198cb8192d143882))
+* **typescript:** add the rule @typescript-eslint/strict-boolean-expressions ([95739bd](https://github.com/kettil/eslint-config/commit/95739bd3027c7b0bdbfc3327c62e62b710602690))
+
 ## [1.13.4](https://github.com/kettil/eslint-config/compare/1.13.3...1.13.4) (2021-03-08)
 
 
