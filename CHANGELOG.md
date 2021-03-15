@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/kettil/semantic-release-config/compare/1.2.3...1.2.4) (2021-03-15)
+
+
+### Bug Fixes
+
+* **deps:** bump semantic-release from 17.4.1 to 17.4.2 ([3cdb0e4](https://github.com/kettil/semantic-release-config/commit/3cdb0e4419602a44c5b6df1d8c8a48135060c5b3))
+
 ## [1.2.3](https://github.com/kettil/semantic-release-config/compare/1.2.2...1.2.3) (2021-03-08)
 
 
