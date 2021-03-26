@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.14.2](https://github.com/kettil/eslint-config/compare/1.14.1...1.14.2) (2021-03-26)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.18.0 to 4.19.0 ([700d6a8](https://github.com/kettil/eslint-config/commit/700d6a8ccf67e2b7edbc03f46a9a70b856885155))
+* **deps:** bump @typescript-eslint/parser from 4.18.0 to 4.19.0 ([7583ee1](https://github.com/kettil/eslint-config/commit/7583ee1100a02df8f8cfa7c705af3ee4f6cd447e))
+* **deps:** bump eslint-plugin-formatjs from 2.12.8 to 2.12.9 ([611db0f](https://github.com/kettil/eslint-config/commit/611db0f493ac798f5feeb089fe8264f2c7a99f9c))
+* **deps:** bump eslint-plugin-react from 7.22.0 to 7.23.0 ([db94f04](https://github.com/kettil/eslint-config/commit/db94f04e57720b242b86fe6b41d8f344ef465d0a))
+* **deps:** bump eslint-plugin-react from 7.23.0 to 7.23.1 ([e7860f1](https://github.com/kettil/eslint-config/commit/e7860f1fb6144ad741a786d7cdb400161eb48ab5))
+* **deps:** bump eslint-plugin-unicorn from 28.0.2 to 29.0.0 ([dde8749](https://github.com/kettil/eslint-config/commit/dde874932c236c47141e8b9c20b96b8211763e43))
+* **unicorn:** disable rule unicorn/prefer-string-replace-all ([9c00da3](https://github.com/kettil/eslint-config/commit/9c00da3c9a72448f8d4bbce390b056b092e8d98e))
+
 ## [1.14.1](https://github.com/kettil/eslint-config/compare/1.14.0...1.14.1) (2021-03-22)
 
 
