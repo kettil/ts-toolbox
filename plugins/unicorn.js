@@ -48,7 +48,7 @@ const rules = {
   'unicorn/prefer-set-has': ['error'],
   'unicorn/prefer-spread': ['error'],
   'unicorn/prefer-starts-ends-with': ['error'],
-  'unicorn/prefer-string-replace-all': ['error'],
+  // 'unicorn/prefer-string-replace-all': ['error'],
   'unicorn/prefer-string-slice': ['error'],
   'unicorn/prefer-text-content': ['error'],
   'unicorn/prefer-trim-start-end': ['error'],
