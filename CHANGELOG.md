@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.3](https://github.com/kettil/eslint-config/compare/1.14.2...1.14.3) (2021-03-29)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.12.9 to 2.13.0 ([672d02d](https://github.com/kettil/eslint-config/commit/672d02daa6b90741a54babfe2ddb5e26b8498ce8))
+
 ## [1.14.2](https://github.com/kettil/eslint-config/compare/1.14.1...1.14.2) (2021-03-26)
 
 
