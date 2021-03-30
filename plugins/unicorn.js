@@ -16,6 +16,7 @@ const rules = {
   'unicorn/new-for-builtins': ['error'],
   'unicorn/no-abusive-eslint-disable': ['error'],
   'unicorn/no-array-instanceof': ['error'],
+  'unicorn/no-array-push-push': ['error'],
   'unicorn/no-console-spaces': ['error'],
   'unicorn/no-fn-reference-in-iterator': ['error'],
   'unicorn/no-for-loop': ['error'],
