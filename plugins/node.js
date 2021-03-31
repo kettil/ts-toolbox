@@ -86,6 +86,8 @@ const rules = {
   'node/no-unsupported-features/es-syntax': ['error', { ignores: ['modules'] }],
   'node/no-unsupported-features/node-builtins': ['error'],
   'node/prefer-global/buffer': ['error', 'always'],
+  'node/prefer-global/console': ['error'],
+  'node/prefer-global/process': ['error'],
   'node/prefer-promises/dns': ['error'],
   'node/prefer-promises/fs': ['error'],
   'node/process-exit-as-throw': ['error'],

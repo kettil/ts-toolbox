@@ -39,6 +39,7 @@ const rules = {
   'react/jsx-key': ['error'],
   'react/jsx-max-depth': ['off'],
   'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'multiline' }],
+  'react/jsx-new-line': ['error', { prevent: false }],
   'react/jsx-no-bind': [
     'error',
     {
@@ -113,7 +114,8 @@ const rules = {
   'react/no-typos': ['error'],
   'react/no-unescaped-entities': ['error'],
   'react/no-unknown-property': ['error'],
-  'react/no-unsafe': [0],
+  'react/no-unsafe': ['error', { checkAliases: true }],
+  'react/no-unstable-nested-components': ['error', { allowAsProps: false }],
   'react/no-unused-prop-types': ['error', { customValidators: [], skipShapeProps: true }],
   'react/no-unused-state': ['error'],
   'react/no-will-update-set-state': ['error'],
