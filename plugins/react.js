@@ -114,7 +114,7 @@ const rules = {
   'react/no-typos': ['error'],
   'react/no-unescaped-entities': ['error'],
   'react/no-unknown-property': ['error'],
-  'react/no-unsafe': [0],
+  'react/no-unsafe': ['error', { checkAliases: true }],
   'react/no-unstable-nested-components': ['error', { allowAsProps: false }],
   'react/no-unused-prop-types': ['error', { customValidators: [], skipShapeProps: true }],
   'react/no-unused-state': ['error'],
