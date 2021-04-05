@@ -1,5 +1,28 @@
 # Changelog
 
+# [1.15.0](https://github.com/kettil/eslint-config/compare/1.14.3...1.15.0) (2021-04-05)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.19.0 to 4.20.0 ([a907763](https://github.com/kettil/eslint-config/commit/a907763144c1ee7a16dc08724f6b765b47466053))
+* **deps:** bump @typescript-eslint/parser from 4.19.0 to 4.20.0 ([fd7edd2](https://github.com/kettil/eslint-config/commit/fd7edd2b0d1916078e067b3e42461692d0142137))
+* **deps:** bump eslint-plugin-formatjs from 2.13.0 to 2.14.3 ([bbdecaa](https://github.com/kettil/eslint-config/commit/bbdecaae6f338b93896d9eaa21cead5b1525b6b0))
+* **deps:** bump eslint-plugin-jest-dom from 3.6.5 to 3.7.0 ([3a6c122](https://github.com/kettil/eslint-config/commit/3a6c122b4c426a23f1853f82a8295074c2c69529))
+* **react:** update rule react/no-unsafe (enabling) ([9288939](https://github.com/kettil/eslint-config/commit/9288939fa70a6be687ddc5b389f85acca84c0ab3))
+
+
+### Features
+
+* **formatjs:** add rule formatjs/no-complex-selectors ([388443f](https://github.com/kettil/eslint-config/commit/388443f7dd8d3b7ee959240c56a1c090a5789fc8))
+* **node:** add rule node/prefer-global/console ([1ef69a8](https://github.com/kettil/eslint-config/commit/1ef69a87cfce117bca2c3de1b58bd123c52a37ac))
+* **node:** add rule node/prefer-global/process ([053219e](https://github.com/kettil/eslint-config/commit/053219e27bacd774e1d3d199171642fd60a624a4))
+* **react:** add rule react/jsx-new-line ([242972f](https://github.com/kettil/eslint-config/commit/242972ff677a00a190cededeba9374610664fb24))
+* **react:** add rule react/no-unstable-nested-components ([e279709](https://github.com/kettil/eslint-config/commit/e279709a2e79a3d7fadc1698dc139ce7450133fb))
+* **unicorn:** add rule unicorn/no-array-push-push ([4f77547](https://github.com/kettil/eslint-config/commit/4f77547fd8a2b2f0b875099061c5c2e874427b6a))
+* **unicorn:** add rule unicorn/no-static-only-class ([a6ccf20](https://github.com/kettil/eslint-config/commit/a6ccf20d75003c8d8491ee6b27f4445c6bf8aa59))
+* **unicorn:** add rule unicorn/prefer-array-flat ([c866b9f](https://github.com/kettil/eslint-config/commit/c866b9f96a73e99ef7ec28aaf77ec4de7c3d3094))
+
 ## [1.14.3](https://github.com/kettil/eslint-config/compare/1.14.2...1.14.3) (2021-03-29)
 
 
