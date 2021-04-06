@@ -61,7 +61,7 @@ const overrides = [
       'no-empty-function': 'off',
       '@typescript-eslint/no-empty-function': ['error'],
       '@typescript-eslint/no-empty-interface': ['error'],
-      '@typescript-eslint/no-explicit-any': ['warn'],
+      '@typescript-eslint/no-explicit-any': ['error'],
       '@typescript-eslint/no-floating-promises': ['error'],
       '@typescript-eslint/no-for-in-array': ['error'],
       '@typescript-eslint/no-inferrable-types': ['error'],
