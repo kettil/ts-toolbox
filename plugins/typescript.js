@@ -73,6 +73,7 @@ const overrides = [
       '@typescript-eslint/no-this-alias': ['error'],
       '@typescript-eslint/no-unnecessary-condition': ['error'],
       '@typescript-eslint/no-unnecessary-type-assertion': ['error'],
+      '@typescript-eslint/no-unsafe-argument': ['error'],
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': ['error'],
       'no-use-before-define': 'off',
