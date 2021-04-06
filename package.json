@@ -30,7 +30,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
-    "@kettil/eslint-config": "^1.15.0",
+    "@kettil/eslint-config": "^1.16.0",
     "@kettil/semantic-release-config": "^1.2.4",
     "eslint": "^7.23.0",
     "husky": "^6.0.0",
