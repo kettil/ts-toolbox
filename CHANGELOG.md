@@ -1,5 +1,21 @@
 # Changelog
 
+# [1.16.0](https://github.com/kettil/eslint-config/compare/1.15.0...1.16.0) (2021-04-06)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.20.0 to 4.21.0 ([ff6bfc1](https://github.com/kettil/eslint-config/commit/ff6bfc1bbffd7cf5bdce20391306baa995308e90))
+* **deps:** bump @typescript-eslint/parser from 4.20.0 to 4.21.0 ([9cd9607](https://github.com/kettil/eslint-config/commit/9cd96076bca5b87cfa5e15d17fc814b694d20e94))
+* **deps:** bump eslint-plugin-formatjs from 2.14.3 to 2.14.5 ([ad500a9](https://github.com/kettil/eslint-config/commit/ad500a9a968ad038a17cace239ecc632b8a2f7de))
+* **deps:** bump eslint-plugin-jest from 24.3.2 to 24.3.4 ([5ea9f40](https://github.com/kettil/eslint-config/commit/5ea9f40db55a13e3c982f116095291eab4e8aad6))
+* **typescript:** update rule @typescript-eslint/no-explicit-any ([9734b05](https://github.com/kettil/eslint-config/commit/9734b05c46e50c8b1fd7b323c2287399dfe2eb92))
+
+
+### Features
+
+* **typescript:** add rule @typescript-eslint/no-unsafe-argument ([b77a56e](https://github.com/kettil/eslint-config/commit/b77a56ef2dc63fb5613a78f374031422d3d0c9a2))
+
 # [1.15.0](https://github.com/kettil/eslint-config/compare/1.14.3...1.15.0) (2021-04-05)
 
 
