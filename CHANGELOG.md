@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.16.1](https://github.com/kettil/eslint-config/compare/1.16.0...1.16.1) (2021-04-10)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest-dom from 3.7.0 to 3.8.0 ([c86013a](https://github.com/kettil/eslint-config/commit/c86013a3c77b68e26a21fd92cb41cbcd95c452a1))
+* **deps:** bump eslint-plugin-react from 7.23.1 to 7.23.2 ([84dbd31](https://github.com/kettil/eslint-config/commit/84dbd31cdd7aff45dc26bbffdcd3f4639a2a2365))
+
 # [1.16.0](https://github.com/kettil/eslint-config/compare/1.15.0...1.16.0) (2021-04-06)
 
 
