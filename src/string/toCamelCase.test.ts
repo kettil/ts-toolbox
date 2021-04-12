@@ -16,4 +16,16 @@ describe('toCamelCase()', () => {
       expect(result).toBe('loremIpsum');
     },
   );
+
+  test('it should work with empty string', () => {
+    const result = toCamelCase('');
+
+    expect(result).toBe('');
+  });
+
+  test('it should work with one char', () => {
+    const result = toCamelCase('a');
+
+    expect(result).toBe('a');
+  });
 });
