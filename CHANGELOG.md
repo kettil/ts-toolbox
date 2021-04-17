@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.9.1](https://github.com/kettil/tool-lib/compare/2.9.0...2.9.1) (2021-04-17)
+
+
+### Bug Fixes
+
+* **array:** specifies the type handling at isArray ([fed1cad](https://github.com/kettil/tool-lib/commit/fed1cad37eb435cb7e5d6d9b2c1dc48de6abb846))
+* an empty string has thrown an error ([a17ea9f](https://github.com/kettil/tool-lib/commit/a17ea9fd8a13f3dd24904b96febdcbf60b6c7c60))
+
 # [2.9.0](https://github.com/kettil/tool-lib/compare/2.8.0...2.9.0) (2021-03-07)
 
 
