@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.9.2](https://github.com/kettil/tool-lib/compare/2.9.1...2.9.2) (2021-04-18)
+
+
+### Bug Fixes
+
+* **array:** fix the type handling at isArray ([c6873bf](https://github.com/kettil/tool-lib/commit/c6873bf9a491f1401f3d271fce27e0627a7f5555))
+
 ## [2.9.1](https://github.com/kettil/tool-lib/compare/2.9.0...2.9.1) (2021-04-17)
 
 
