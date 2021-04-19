@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.5](https://github.com/kettil/semantic-release-config/compare/1.2.4...1.2.5) (2021-04-19)
+
+
+### Bug Fixes
+
+* versioning was not committed ([b96c0d4](https://github.com/kettil/semantic-release-config/commit/b96c0d4c6497e2d13d8a84ec4468b02d1aafc5be))
+
 ## [1.2.4](https://github.com/kettil/semantic-release-config/compare/1.2.3...1.2.4) (2021-03-15)
 
 
