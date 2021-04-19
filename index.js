@@ -17,7 +17,7 @@ const configuration = {
     '@semantic-release/release-notes-generator',
     ['@semantic-release/changelog', { changelogFile, changelogTitle }],
     '@semantic-release/npm',
-    ['@semantic-release/git', { assets: [changelogFile] }],
+    ['@semantic-release/git', { assets: [changelogFile, 'package.json', 'package-lock.json'] }],
   ],
 
   tagFormat: '${version}',
