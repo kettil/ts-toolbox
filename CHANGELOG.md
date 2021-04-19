@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.3.0](https://github.com/kettil/semantic-release-config/compare/1.2.5...1.3.0) (2021-04-19)
+
+
+### Features
+
+* add @semantic-release/github plugin ([527e824](https://github.com/kettil/semantic-release-config/commit/527e824d8bd7b501716d20e37e656ba499d2bcc0))
+
 ## [1.2.5](https://github.com/kettil/semantic-release-config/compare/1.2.4...1.2.5) (2021-04-19)
 
 
