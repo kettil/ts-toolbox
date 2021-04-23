@@ -71,10 +71,6 @@ const overrides = [
     files: ['*.js'],
     rules: { 'import/no-unused-modules': ['off'] },
   },
-  {
-    files: ['tests/type/**/*.test.ts', 'tests/type/**/*.test.tsx'],
-    rules: { 'import/no-unused-modules': ['off'] },
-  },
 ];
 
 if (hasLibrary('typescript')) {
@@ -130,13 +126,19 @@ if (hasLibrary('redux')) {
 }
 
 if (hasLibrary('jest')) {
-  overrides.push({
-    files: ['**/src/__jest__/*', '*.test.js', '*.test.ts', '*.test.jsx', '*.test.tsx'],
-    rules: {
-      'import/default': 'off',
-      'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }],
+  overrides.push(
+    {
+      files: ['**/src/__jest__/*', '*.test.js', '*.test.ts', '*.test.jsx', '*.test.tsx'],
+      rules: {
+        'import/default': 'off',
+        'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }],
+      },
     },
-  });
+    {
+      files: ['tests/type/**/*.test.ts', 'tests/type/**/*.test.tsx'],
+      rules: { 'import/no-unused-modules': ['off'] },
+    },
+  );
 }
 
 module.exports = {
