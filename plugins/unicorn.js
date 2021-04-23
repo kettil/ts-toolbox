@@ -15,6 +15,7 @@ const rules = {
   'unicorn/import-index': ['error'],
   'unicorn/new-for-builtins': ['error'],
   'unicorn/no-abusive-eslint-disable': ['error'],
+  'unicorn/no-array-for-each': ['error'],
   'unicorn/no-array-instanceof': ['error'],
   'unicorn/no-array-push-push': ['error'],
   'unicorn/no-console-spaces': ['error'],
