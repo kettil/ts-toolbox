@@ -36,7 +36,7 @@
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
     "@kettil/commitlint-config": "^1.0.1",
-    "@kettil/eslint-config": "^1.16.3",
+    "@kettil/eslint-config": "^1.17.2",
     "eslint": "^7.24.0",
     "husky": "^6.0.0",
     "prettier": "^2.2.1"
