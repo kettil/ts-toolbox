@@ -4,6 +4,7 @@ const hasLibrary = require('../lib/hasLibrary');
 const rules = {
   'testing-library/await-async-query': ['error'],
   'testing-library/await-async-utils': ['error'],
+  'testing-library/consistent-data-testid': ['error'],
   'testing-library/no-await-sync-query': ['error'],
 };
 
