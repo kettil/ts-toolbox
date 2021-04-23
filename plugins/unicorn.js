@@ -94,10 +94,6 @@ const overrides = [
     excludedFiles: ['_app.tsx', '_document.tsx'],
     rules: { 'unicorn/no-null': 'off' },
   },
-  {
-    files: ['*.test-d.ts', '*.test-d.tsx'],
-    rules: { 'unicorn/filename-case': ['error', { case: 'camelCase', ignore: ['^([a-z][a-zA-Z0-9]*.)+test-d.ts$'] }] },
-  },
 ];
 
 if (hasLibrary('next')) {
