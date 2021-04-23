@@ -9,6 +9,7 @@ const rules = {
   'testing-library/no-container': ['error'],
   'testing-library/no-manual-cleanup': ['error'],
   'testing-library/no-node-access': ['error'],
+  'testing-library/no-render-in-setup': ['error'],
 };
 
 if (hasLibrary('react')) {
