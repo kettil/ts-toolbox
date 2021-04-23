@@ -37,6 +37,7 @@ const rules = {
   'unicorn/prefer-add-event-listener': ['error'],
   'unicorn/prefer-array-index-of': ['error'],
   'unicorn/prefer-array-flat': ['error'],
+  'unicorn/prefer-array-flat-map': ['error'],
   'unicorn/prefer-dataset': ['error'],
   'unicorn/prefer-event-key': ['error'],
   'unicorn/prefer-flat-map': ['error'],
