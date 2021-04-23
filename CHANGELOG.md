@@ -1,5 +1,37 @@
 # Changelog
 
+# [1.17.0](https://github.com/kettil/eslint-config/compare/1.16.3...1.17.0) (2021-04-23)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.14.6 to 2.14.7 ([1959d7d](https://github.com/kettil/eslint-config/commit/1959d7dd6612bbcf4be75ebee129a80877575b6a))
+* **deps:** bump eslint-plugin-testing-library from 3.10.2 to 4.1.0 ([14a0cc5](https://github.com/kettil/eslint-config/commit/14a0cc5dd0cefa99265108957743870dbb5f6d51))
+* **deps:** bump eslint-plugin-testing-library from 3.10.2 to 4.1.1 ([564e77c](https://github.com/kettil/eslint-config/commit/564e77c64988bf7c94e0e2a218483117c9f07b06))
+* **deps:** bump eslint-plugin-unicorn from 29.0.0 to 30.0.0 ([2d00e35](https://github.com/kettil/eslint-config/commit/2d00e3530a2c75944af76305199b7805807b48af))
+* **unicorn:** add rule no-array-for-each ([c0e9bcb](https://github.com/kettil/eslint-config/commit/c0e9bcbed897bc37c32ba1a239caa00df7209304))
+* **unicorn:** add rule unicorn/prefer-array-flat-map ([3088d86](https://github.com/kettil/eslint-config/commit/3088d869efa23fb3f68d9f2a77623d4b988d226b))
+* **unicorn:** add rule unicorn/prefer-switch ([7058d31](https://github.com/kettil/eslint-config/commit/7058d31aa66718111d8bc10a82c2274d67f177dd))
+* **unicorn:** update rule unicorn/prevent-abbreviations ([3dbbd24](https://github.com/kettil/eslint-config/commit/3dbbd2405239b71c41ab5f0abdc4821c40ce7bfd))
+
+
+### Features
+
+* remove test-d.ts file override rules ([78745ff](https://github.com/kettil/eslint-config/commit/78745ffc6ce9c82d490746d1554d61008a2741ee))
+* **testingLibrary:** add rule testing-library/consistent-data-testid ([48cf28f](https://github.com/kettil/eslint-config/commit/48cf28ffa10a4bb531a9327c553f89860deb42c1))
+* **testingLibrary:** add rule testing-library/no-container ([5c09f09](https://github.com/kettil/eslint-config/commit/5c09f09dab9668c391b7affcf61ac64ba8cf815d))
+* **testingLibrary:** add rule testing-library/no-manual-cleanup ([633b7f4](https://github.com/kettil/eslint-config/commit/633b7f42a7ee0e583917a594e402fd5973d76c68))
+* **testingLibrary:** add rule testing-library/no-node-access ([2857ca3](https://github.com/kettil/eslint-config/commit/2857ca3af9a8dce53ea0eeeb9d70e412ba1e2cae))
+* **testingLibrary:** add rule testing-library/no-render-in-setup ([f9963c0](https://github.com/kettil/eslint-config/commit/f9963c040c014e49375bb8a32bfa1c11d747e68e))
+* **testingLibrary:** add rule testing-library/no-wait-for-empty-callback ([0d835ab](https://github.com/kettil/eslint-config/commit/0d835ab3c944e5c0e5d3af7e9a34e7301561fd54))
+* **testingLibrary:** add rule testing-library/no-wait-for-multiple-assertions ([5fa1af8](https://github.com/kettil/eslint-config/commit/5fa1af81f874b9a697e34330565d27c87ce34ca3))
+* **testingLibrary:** add rule testing-library/no-wait-for-side-effects ([6424760](https://github.com/kettil/eslint-config/commit/6424760187f86007e895235118619cea775c637b))
+* **testingLibrary:** add rule testing-library/no-wait-for-snapshot ([8e09b69](https://github.com/kettil/eslint-config/commit/8e09b699eb955129b555b261e36fadf97d95f04a))
+* **testingLibrary:** add rule testing-library/prefer-screen-queries ([fd634a1](https://github.com/kettil/eslint-config/commit/fd634a10ea635ce5ebb0133485a36f04904f4c5f))
+* **testingLibrary:** add rule testing-library/render-result-naming-convention ([f78299e](https://github.com/kettil/eslint-config/commit/f78299e76de6bfac7251ec97c7472a98c63b8aa8))
+* **testingLibrary:** add rule testing-library/testing-library/prefer-wait-for ([6aa4a0a](https://github.com/kettil/eslint-config/commit/6aa4a0a7f69a5820b8fb1f0bb6a2673ad615eb5f))
+* **testingLibrary:** update rule testing-library/prefer-wait-for ([32e31b5](https://github.com/kettil/eslint-config/commit/32e31b59e5fde2ccd731fc6918e5af7154290c2b))
+
 ## [1.16.3](https://github.com/kettil/eslint-config/compare/1.16.2...1.16.3) (2021-04-19)
 
 
