@@ -15,6 +15,7 @@ const rules = {
   'testing-library/no-wait-for-side-effects': ['error'],
   'testing-library/no-wait-for-snapshot': ['error'],
   'testing-library/prefer-screen-queries': ['error'],
+  'testing-library/testing-library/prefer-wait-for': ['error'],
 };
 
 if (hasLibrary('react')) {
