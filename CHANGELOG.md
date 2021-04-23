@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.2](https://github.com/kettil/eslint-config/compare/1.17.1...1.17.2) (2021-04-23)
+
+
+### Bug Fixes
+
+* **import:** rule was overwritten by another ([35692a4](https://github.com/kettil/eslint-config/commit/35692a4ae8c47efbf60a6136a40881fa0dd609c0))
+
 ## [1.17.1](https://github.com/kettil/eslint-config/compare/1.17.0...1.17.1) (2021-04-23)
 
 
