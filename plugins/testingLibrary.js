@@ -11,6 +11,7 @@ const rules = {
   'testing-library/no-node-access': ['error'],
   'testing-library/no-render-in-setup': ['error'],
   'testing-library/no-wait-for-empty-callback': ['error'],
+  'testing-library/no-wait-for-multiple-assertions': ['error'],
 };
 
 if (hasLibrary('react')) {
