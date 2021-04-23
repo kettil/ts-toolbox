@@ -391,6 +391,10 @@ const rules = {
       selector: 'WithStatement',
       message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
     },
+    {
+      selector: "BinaryExpression[operator='in']",
+      message: "Please use the following notation: 'foo in bar;' => 'foo instanceof bar;'",
+    },
   ],
   'no-return-assign': ['error', 'always'],
   'no-return-await': ['error'],
