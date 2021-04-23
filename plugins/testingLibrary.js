@@ -12,6 +12,7 @@ const rules = {
   'testing-library/no-render-in-setup': ['error'],
   'testing-library/no-wait-for-empty-callback': ['error'],
   'testing-library/no-wait-for-multiple-assertions': ['error'],
+  'testing-library/no-wait-for-side-effects': ['error'],
 };
 
 if (hasLibrary('react')) {
