@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.1](https://github.com/kettil/eslint-config/compare/1.17.0...1.17.1) (2021-04-23)
+
+
+### Bug Fixes
+
+* conflicting rules when using loops ([1430589](https://github.com/kettil/eslint-config/commit/1430589a418e47d039d8c7bbe09c05419f8a6942))
+
 # [1.17.0](https://github.com/kettil/eslint-config/compare/1.16.3...1.17.0) (2021-04-23)
 
 
