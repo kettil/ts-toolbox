@@ -6,6 +6,7 @@ const rules = {
   'testing-library/await-async-utils': ['error'],
   'testing-library/consistent-data-testid': ['error'],
   'testing-library/no-await-sync-query': ['error'],
+  'testing-library/no-container': ['error'],
 };
 
 if (hasLibrary('react')) {
