@@ -10,6 +10,7 @@ const rules = {
   'testing-library/no-manual-cleanup': ['error'],
   'testing-library/no-node-access': ['error'],
   'testing-library/no-render-in-setup': ['error'],
+  'testing-library/no-wait-for-empty-callback': ['error'],
 };
 
 if (hasLibrary('react')) {
