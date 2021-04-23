@@ -14,6 +14,7 @@ const rules = {
   'testing-library/no-wait-for-multiple-assertions': ['error'],
   'testing-library/no-wait-for-side-effects': ['error'],
   'testing-library/no-wait-for-snapshot': ['error'],
+  'testing-library/prefer-screen-queries': ['error'],
 };
 
 if (hasLibrary('react')) {
