@@ -55,6 +55,7 @@ const rules = {
   'unicorn/prefer-starts-ends-with': ['error'],
   // 'unicorn/prefer-string-replace-all': ['error'],
   'unicorn/prefer-string-slice': ['error'],
+  'unicorn/prefer-switch': ['error'],
   'unicorn/prefer-text-content': ['error'],
   'unicorn/prefer-trim-start-end': ['error'],
   'unicorn/prefer-type-error': ['error'],
