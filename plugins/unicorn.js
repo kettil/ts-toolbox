@@ -15,6 +15,7 @@ const rules = {
   'unicorn/import-index': ['error'],
   'unicorn/new-for-builtins': ['error'],
   'unicorn/no-abusive-eslint-disable': ['error'],
+  'unicorn/no-array-for-each': ['error'],
   'unicorn/no-array-instanceof': ['error'],
   'unicorn/no-array-push-push': ['error'],
   'unicorn/no-console-spaces': ['error'],
@@ -36,6 +37,7 @@ const rules = {
   'unicorn/prefer-add-event-listener': ['error'],
   'unicorn/prefer-array-index-of': ['error'],
   'unicorn/prefer-array-flat': ['error'],
+  'unicorn/prefer-array-flat-map': ['error'],
   'unicorn/prefer-dataset': ['error'],
   'unicorn/prefer-event-key': ['error'],
   'unicorn/prefer-flat-map': ['error'],
@@ -53,13 +55,14 @@ const rules = {
   'unicorn/prefer-starts-ends-with': ['error'],
   // 'unicorn/prefer-string-replace-all': ['error'],
   'unicorn/prefer-string-slice': ['error'],
+  'unicorn/prefer-switch': ['error'],
   'unicorn/prefer-text-content': ['error'],
   'unicorn/prefer-trim-start-end': ['error'],
   'unicorn/prefer-type-error': ['error'],
   'unicorn/prevent-abbreviations': [
     'error',
     {
-      whitelist: {
+      allowList: {
         Props: true,
         props: true,
         Params: true,
