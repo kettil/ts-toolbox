@@ -16,6 +16,7 @@ const rules = {
   'testing-library/no-wait-for-snapshot': ['error'],
   'testing-library/prefer-screen-queries': ['error'],
   'testing-library/testing-library/prefer-wait-for': ['error'],
+  'testing-library/render-result-naming-convention': ['error'],
 };
 
 if (hasLibrary('react')) {
