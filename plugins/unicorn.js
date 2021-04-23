@@ -59,7 +59,7 @@ const rules = {
   'unicorn/prevent-abbreviations': [
     'error',
     {
-      whitelist: {
+      allowList: {
         Props: true,
         props: true,
         Params: true,
