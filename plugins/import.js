@@ -72,7 +72,7 @@ const overrides = [
     rules: { 'import/no-unused-modules': ['off'] },
   },
   {
-    files: ['*.test-d.ts', '*.test-d.tsx'],
+    files: ['tests/type/**/*.test.ts', 'tests/type/**/*.test.tsx'],
     rules: { 'import/no-unused-modules': ['off'] },
   },
 ];
