@@ -8,20 +8,16 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc --project ./tsconfig.build.json",
+    "test": "npx carna test",
+    "prepare": "[ \"$CI\" != \"\" ] || husky install ./node_modules/carna/configs/husky",
+    "analyse": "npx carna analyse",
+    "deps": "npx carna deps",
+    "license": "npx carna license",
+    "build": "npx carna build",
     "prebuild": "rm -rf ./build",
-    "test": "jest --config=jest.json --coverage",
-    "test:watch": "npm run test -- --watch 'src'",
-    "test:coverage": "jest-cpf --config=jest.json",
-    "test:ci": "jest --config=jest.ci.js --coverage --ci",
-    "lint": "eslint --config .eslintrc.json --ext 'js,ts,tsx' --fix .",
-    "lint:ci": "eslint --config .eslintrc.json --ext 'js,ts,tsx' --format codeframe .",
-    "prelint": "npm run prettier",
-    "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
-    "prettier:ci": "prettier --config './.prettierrc' --list-different '.prettierrc' './**/*.{json,md,scss,yml,html}'",
-    "git:change": "echo npm install",
-    "git:commit": "npm run prettier:ci && npm run lint:ci",
-    "git:push": "npm run git:commit && npm run test"
+    "test:unit": "npx carna test -p unit -w",
+    "test:integration": "npx carna test -p integration -w",
+    "test:e2e": "npx carna test -p e2e -w"
   },
   "keywords": [
     "tools"
@@ -29,7 +25,7 @@
   "author": "Kjell Dießel <development@kettil.de>",
   "license": "MIT",
   "engines": {
-    "node": ">= 12"
+    "node": ">= 14"
   },
   "repository": {
     "type": "git",
@@ -40,17 +36,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@kettil/eslint-config": "^1.16.2",
-    "@kettil/semantic-release-config": "^1.2.4",
-    "@types/jest": "^26.0.22",
-    "@types/node": "^14.14.39",
-    "eslint": "^7.24.0",
-    "eslint-plugin-jest": "^24.3.5",
-    "husky": "^6.0.0",
-    "jest": "^26.6.3",
-    "jest-cpf": "^1.0.0",
-    "prettier": "^2.2.1",
-    "ts-jest": "^26.5.4",
-    "typescript": "^4.2.4"
+    "@types/node": "14.14.39",
+    "carna": "4.1.1",
+    "typescript": "4.2.4"
   }
 }
