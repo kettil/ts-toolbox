@@ -1,5 +1,17 @@
 # Changelog
 
+# [3.0.0](https://github.com/kettil/tool-lib/compare/2.9.2...3.0.0) (2021-04-24)
+
+
+### Features
+
+* switching the environment to carna ([8846a6c](https://github.com/kettil/tool-lib/commit/8846a6ccb3851b788d966c7ce1ba8d9a6b07f05c))
+
+
+### BREAKING CHANGES
+
+*
+
 ## [2.9.2](https://github.com/kettil/tool-lib/compare/2.9.1...2.9.2) (2021-04-18)
 
 
