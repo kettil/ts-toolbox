@@ -31,11 +31,11 @@ export { default as compareTransformDesc } from './sort/compareTransformDesc';
 export { default as toCamelCase } from './string/toCamelCase';
 
 // types
-export { Unpacked } from './types/array';
-export { EqualType, Expect } from './types/common';
-export { ExtractTypeFromTupleArray } from './types/extract';
-export { Addition, Subtract } from './types/math';
-export { ObjectClean, ObjectNormalize, ObjectType } from './types/object';
+export type { Unpacked } from './types/array';
+export type { EqualType, Expect } from './types/common';
+export type { ExtractTypeFromTupleArray } from './types/extract';
+export type { Addition, Subtract } from './types/math';
+export type { ObjectClean, ObjectNormalize, ObjectType } from './types/object';
 export type {
   SwaggerExtractProperties,
   SwaggerProperty,
@@ -46,5 +46,5 @@ export type {
   SwaggerPropertyObject,
   SwaggerPropertyString,
 } from './types/swagger';
-export { Range, TupelLength, TupleOf } from './types/tuple';
-export { UnionToTuple, UnionToIntersection } from './types/union';
+export type { Range, TupelLength, TupleOf } from './types/tuple';
+export type { UnionToTuple, UnionToIntersection } from './types/union';

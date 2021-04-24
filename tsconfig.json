@@ -1,34 +1,7 @@
 {
-  "compilerOptions": {
-    "target": "ES2019",
-    "module": "CommonJS",
-    "lib": ["DOM", "ES2019", "ES2020"],
-    "outDir": "build",
-    "jsx": "react",
-    "declaration": true,
-    "sourceMap": false,
-    "isolatedModules": false,
-    "noEmit": false,
+  "extends": "./node_modules/carna/configs/typescriptrc.json",
+  "include": ["./src/**/*", "./tests/**/*"],
+  "exclude": ["node_modules", "build"],
 
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "allowJs": false,
-
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true
-
-    //"baseUrl": ".",
-    //"paths": {}
-  },
-  "include": ["src/**/*", "tests/**/*"],
-  "exclude": ["node_modules", "build"]
+  "compilerOptions": {}
 }
