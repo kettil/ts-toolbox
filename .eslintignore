@@ -1,5 +1,9 @@
-# Node.js folders/files
+# Node.js folders / files
+/build
 node_modules
+package.json
+package-lock.json
 
 # Project folders/files
-CHANGELOG.md
+/coverage
+/CHANGELOG.md

@@ -2,15 +2,19 @@
   "name": "@kettil/commitlint-config",
   "version": "1.0.1",
   "description": "The library contains the commitlint configuration",
-  "main": "index.js",
+  "main": "src/index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint --config .eslintrc.json --fix .",
-    "lint:ci": "eslint --config .eslintrc.json --format codeframe .",
-    "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
-    "prettier:ci": "prettier --config './.prettierrc' --list-different '.prettierrc' './**/*.{json,md,scss,yml,html}'"
+    "test": "npx carna test",
+    "prepare": "[ \"$CI\" != \"\" ] || husky install ./node_modules/carna/configs/husky",
+    "analyse": "npx carna analyse",
+    "deps": "npx carna deps",
+    "license": "npx carna license",
+    "build": "npx carna build",
+    "prebuild": "rm -rf ./build",
+    "test:unit": "npx carna test -p unit -w"
   },
   "keywords": [
     "commitlint"
@@ -18,7 +22,8 @@
   "author": "Kjell Dießel <development@kettil.de>",
   "license": "MIT",
   "engines": {
-    "node": ">= 10"
+    "node": ">= 14",
+    "npm": ">=6"
   },
   "repository": {
     "type": "git",
@@ -30,10 +35,6 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
-    "@kettil/eslint-config": "^1.17.2",
-    "@kettil/semantic-release-config": "^1.3.0",
-    "eslint": "^7.25.0",
-    "husky": "^6.0.0",
-    "prettier": "^2.2.1"
+    "carna": "4.1.2"
   }
 }

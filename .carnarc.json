@@ -1,0 +1,7 @@
+{
+  "deps": {
+    "ignore": {
+      "packages": ["@commitlint/cli", "@commitlint/config-conventional"]
+    }
+  }
+}

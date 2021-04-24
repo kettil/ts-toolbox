@@ -1,20 +1,43 @@
-# Node.js folders/files
+# os folders/files
+.DS_Store
+._*
+
+# node.js folders/files
 node_modules
 npm-debug.log
 
-# OS folders/files
-.DS_Store
+# editors
+/.vscode
+/.idea
 
-# Settings folders/files
-.github
-.dependabot
-.commitlintrc.json
-.editorconfig
-.eslintignore
-.eslintrc.json
-.gitignore
-.gitlab-ci.yml
-.huskyrc
-.prettierignore
-.prettierrc
-.releaserc.json
+# config folders/files
+/.github
+/.carnarc.json
+/.editorconfig
+/.eslint*
+/.git*
+/.husky
+/.prettier*
+/.releaserc.json
+/babel*
+/jest*
+/tsconfig*
+/webpack*
+
+# test files
+**/*.test.js
+**/*.test.ts
+**/*.test.tsx
+**/*.test-d.js
+**/*.test-d.ts
+**/*.test-d.tsx
+
+# project folders/files
+/coverage
+/example
+/examples
+/docs
+/src
+/tests
+docker-compose.yml
+Dockerfile
