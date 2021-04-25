@@ -1,27 +1,27 @@
 /* eslint-disable node/global-require, import/order */
 
-const deepMerge = require('./lib/deepEqual');
-const defaultObject = require('./lib/defaultObject');
+const deepMerge = require('./src/lib/deepEqual');
+const defaultObject = require('./src/lib/defaultObject');
 
 const plugins = [
-  require('./plugins/eslint'),
-  require('./plugins/node'),
-  require('./plugins/typescript'),
+  require('./src/plugins/eslint'),
+  require('./src/plugins/node'),
+  require('./src/plugins/typescript'),
 
   // common
-  require('./plugins/formatjs'),
-  require('./plugins/import'),
-  require('./plugins/unicorn'),
+  require('./src/plugins/formatjs'),
+  require('./src/plugins/import'),
+  require('./src/plugins/unicorn'),
 
   // react
-  require('./plugins/react'),
-  require('./plugins/reactHooks'),
-  require('./plugins/jsxA11y'),
+  require('./src/plugins/react'),
+  require('./src/plugins/reactHooks'),
+  require('./src/plugins/jsxA11y'),
 
   // testing
-  require('./plugins/jest'),
-  require('./plugins/testingLibrary'),
-  require('./plugins/testingLibraryJestDom'),
+  require('./src/plugins/jest'),
+  require('./src/plugins/testingLibrary'),
+  require('./src/plugins/testingLibraryJestDom'),
 ];
 
 module.exports = plugins.reduce(
