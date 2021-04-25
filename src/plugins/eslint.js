@@ -1,5 +1,4 @@
 /* eslint-disable id-blacklist */
-
 const defaultObject = require('../lib/defaultObject');
 
 const rules = {
