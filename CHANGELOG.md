@@ -1,5 +1,12 @@
 # Changelog
 
+# [2.1.0](https://github.com/kettil/eslint-config/compare/2.0.0...2.1.0) (2021-04-25)
+
+
+### Features
+
+* adding an exception for the globalSetup and globalTeardown files ([2d182c1](https://github.com/kettil/eslint-config/commit/2d182c1dca03061a8ba4a59c135a166274a205c3))
+
 # [2.0.0](https://github.com/kettil/eslint-config/compare/1.17.2...2.0.0) (2021-04-25)
 
 
