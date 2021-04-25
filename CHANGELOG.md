@@ -1,5 +1,23 @@
 # Changelog
 
+# [2.0.0](https://github.com/kettil/eslint-config/compare/1.17.2...2.0.0) (2021-04-25)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest-dom from 3.8.0 to 3.8.1 ([5ca91ff](https://github.com/kettil/eslint-config/commit/5ca91fff5d7733d3db8b2dcd189dea01420a9d86))
+* **deps:** bump eslint-plugin-unicorn from 30.0.0 to 31.0.0 ([00e8d99](https://github.com/kettil/eslint-config/commit/00e8d998dc3477f773c12122f7c9a89293906c3f))
+
+
+### Features
+
+* switching the environment to carna ([ebb342b](https://github.com/kettil/eslint-config/commit/ebb342b869c65bbec3c349a0238c145e8080eaba))
+
+
+### BREAKING CHANGES
+
+* Switching the environment to carna.
+
 ## [1.17.2](https://github.com/kettil/eslint-config/compare/1.17.1...1.17.2) (2021-04-23)
 
 
