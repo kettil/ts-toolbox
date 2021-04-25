@@ -1,6 +1,6 @@
 {
   "name": "@kettil/commitlint-config",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "The library contains the commitlint configuration",
   "main": "src/index.js",
   "publishConfig": {
