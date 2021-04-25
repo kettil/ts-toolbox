@@ -1,5 +1,17 @@
 # Changelog
 
+# [2.0.0](https://github.com/kettil/semantic-release-config/compare/1.3.0...2.0.0) (2021-04-25)
+
+
+### Features
+
+* switching the environment to carna ([932f0f3](https://github.com/kettil/semantic-release-config/commit/932f0f32216d6418b4872f312c1e1e9b30f4b99e))
+
+
+### BREAKING CHANGES
+
+* Switching the environment to carna.
+
 # [1.3.0](https://github.com/kettil/semantic-release-config/compare/1.2.5...1.3.0) (2021-04-19)
 
 
