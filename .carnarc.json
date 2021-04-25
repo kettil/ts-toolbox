@@ -1,0 +1,7 @@
+{
+  "deps": {
+    "ignore": {
+      "packages": ["@semantic-release/changelog", "@semantic-release/git"]
+    }
+  }
+}

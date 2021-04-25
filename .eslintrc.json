@@ -1,7 +1,0 @@
-{
-  "extends": "@kettil",
-
-  "rules": {
-    "import/no-unused-modules": "off"
-  }
-}
