@@ -62,6 +62,19 @@ Object {
   "overrides": Array [
     Object {
       "files": Array [
+        "tests/*/setup.ts",
+        "tests/*/teardown.ts",
+        "tests/*/setup.js",
+        "tests/*/teardown.js",
+      ],
+      "rules": Object {
+        "no-console": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
         "*.js",
       ],
       "rules": Object {
@@ -448,6 +461,19 @@ Object {
       "files": Array [
         "tests/type/**/*.test.ts",
         "tests/type/**/*.test.tsx",
+      ],
+      "rules": Object {
+        "import/no-unused-modules": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
+        "tests/*/setup.ts",
+        "tests/*/teardown.ts",
+        "tests/*/setup.js",
+        "tests/*/teardown.js",
       ],
       "rules": Object {
         "import/no-unused-modules": Array [

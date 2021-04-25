@@ -138,6 +138,10 @@ if (hasLibrary('jest')) {
       files: ['tests/type/**/*.test.ts', 'tests/type/**/*.test.tsx'],
       rules: { 'import/no-unused-modules': ['off'] },
     },
+    {
+      files: ['tests/*/setup.ts', 'tests/*/teardown.ts', 'tests/*/setup.js', 'tests/*/teardown.js'],
+      rules: { 'import/no-unused-modules': ['off'] },
+    },
   );
 }
 
