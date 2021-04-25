@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`...() it should work 1`] = `
+Object {
+  "branches": Array [
+    "+([0-9])?(.{+([0-9]),x}).x",
+    "master",
+    "main",
+    Object {
+      "name": "beta",
+      "prerelease": true,
+    },
+    Object {
+      "name": "alpha",
+      "prerelease": true,
+    },
+  ],
+  "plugins": Array [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    Array [
+      "@semantic-release/changelog",
+      Object {
+        "changelogFile": "CHANGELOG.md",
+        "changelogTitle": "# Changelog",
+      },
+    ],
+    "@semantic-release/npm",
+    Array [
+      "@semantic-release/git",
+      Object {
+        "assets": Array [
+          "CHANGELOG.md",
+          "package.json",
+          "package-lock.json",
+        ],
+      },
+    ],
+    "@semantic-release/github",
+  ],
+  "tagFormat": "\${version}",
+}
+`;

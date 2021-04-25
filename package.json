@@ -2,15 +2,17 @@
   "name": "@kettil/semantic-release-config",
   "version": "1.3.0",
   "description": "The library contains the semantic-release configuration",
-  "main": "index.js",
+  "main": "src/index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint --config .eslintrc.json --fix .",
-    "lint:ci": "eslint --config .eslintrc.json --format codeframe .",
-    "prettier": "prettier --config './.prettierrc' --write '.prettierrc' './**/*.{ts,tsx,js,jsx,json,md,scss,yml,html}'",
-    "prettier:ci": "prettier --config './.prettierrc' --list-different '.prettierrc' './**/*.{json,md,scss,yml,html}'"
+    "test": "npx carna test",
+    "prepare": "[ \"$CI\" != \"\" ] || husky install ./node_modules/carna/configs/husky",
+    "analyse": "npx carna analyse",
+    "build": "npx carna build",
+    "prebuild": "rm -rf ./build",
+    "test:unit": "npx carna test -p unit -w"
   },
   "keywords": [
     "semantic-release"
@@ -18,7 +20,8 @@
   "author": "Kjell Dießel <development@kettil.de>",
   "license": "MIT",
   "engines": {
-    "node": ">= 10"
+    "node": ">=14",
+    "npm": ">=6"
   },
   "repository": {
     "type": "git",
@@ -28,17 +31,10 @@
     "url": "https://github.com/kettil/semantic-release-config/issues/new"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "semantic-release": "^17.4.2"
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
-    "@kettil/commitlint-config": "^1.0.1",
-    "@kettil/eslint-config": "^1.17.2",
-    "eslint": "^7.25.0",
-    "husky": "^6.0.0",
-    "prettier": "^2.2.1"
+    "carna": "4.1.2"
   }
 }
