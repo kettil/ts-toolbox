@@ -22,7 +22,7 @@
   "author": "Kjell Dießel <development@kettil.de>",
   "license": "MIT",
   "engines": {
-    "node": ">= 14",
+    "node": ">=14",
     "npm": ">=6"
   },
   "repository": {

@@ -9,16 +9,4 @@ module.exports = Object.assign(config, {
   ],
 
   // extend options for this project
-
-  // ####################
-  // Temporary entry for the project start
-  coverageThreshold: {
-    global: {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
-    },
-  },
-  // ####################
 });
