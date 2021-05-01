@@ -1,5 +1,13 @@
 # Changelog
 
+# [3.1.0](https://github.com/kettil/tool-lib/compare/3.0.0...3.1.0) (2021-05-01)
+
+
+### Features
+
+* **promise:** add allSettledSequence function ([8c14c18](https://github.com/kettil/tool-lib/commit/8c14c1810bcc9596f8dcce0324eaed448432c30a))
+* **string:** add indent function ([77b0730](https://github.com/kettil/tool-lib/commit/77b07300305521faca8049f1b41f9b29b5eb37f2))
+
 # [3.0.0](https://github.com/kettil/tool-lib/compare/2.9.2...3.0.0) (2021-04-24)
 
 
