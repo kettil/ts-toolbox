@@ -21,6 +21,9 @@ export { default as objectFromEntries } from './object/objectFromEntries';
 export { default as objectKeys } from './object/objectKeys';
 export { default as objectMap } from './object/objectMap';
 
+// promise
+export { default as allSettledSequence } from './promise/allSettledSequence';
+
 // sort
 export { default as compareAsc } from './sort/compareAsc';
 export { default as compareDesc } from './sort/compareDesc';
