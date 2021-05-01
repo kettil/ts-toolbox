@@ -21,6 +21,9 @@ export { default as objectFromEntries } from './object/objectFromEntries';
 export { default as objectKeys } from './object/objectKeys';
 export { default as objectMap } from './object/objectMap';
 
+// promise
+export { default as allSettledSequence } from './promise/allSettledSequence';
+
 // sort
 export { default as compareAsc } from './sort/compareAsc';
 export { default as compareDesc } from './sort/compareDesc';
@@ -28,6 +31,7 @@ export { default as compareTransformAsc } from './sort/compareTransformAsc';
 export { default as compareTransformDesc } from './sort/compareTransformDesc';
 
 // string
+export { default as indent } from './string/indent';
 export { default as toCamelCase } from './string/toCamelCase';
 
 // types
