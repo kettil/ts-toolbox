@@ -28,6 +28,7 @@ export { default as compareTransformAsc } from './sort/compareTransformAsc';
 export { default as compareTransformDesc } from './sort/compareTransformDesc';
 
 // string
+export { default as indent } from './string/indent';
 export { default as toCamelCase } from './string/toCamelCase';
 
 // types

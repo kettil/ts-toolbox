@@ -20,6 +20,7 @@ describe('main index', () => {
       'compareDesc',
       'compareTransformAsc',
       'compareTransformDesc',
+      'indent',
       'toCamelCase',
     ];
 
