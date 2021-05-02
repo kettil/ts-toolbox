@@ -139,7 +139,7 @@ if (hasLibrary('jest')) {
       rules: { 'import/no-unused-modules': ['off'] },
     },
     {
-      files: ['tests/*/setup.ts', 'tests/*/teardown.ts', 'tests/*/setup.js', 'tests/*/teardown.js'],
+      files: ['tests/*/pre.ts', 'tests/*/post.ts', 'tests/*/pre.js', 'tests/*/post.js'],
       rules: { 'import/no-unused-modules': ['off'] },
     },
   );

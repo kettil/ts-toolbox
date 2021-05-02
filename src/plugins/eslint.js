@@ -556,7 +556,7 @@ const overrides = [];
 
 if (hasLibrary('jest')) {
   overrides.push({
-    files: ['tests/*/setup.ts', 'tests/*/teardown.ts', 'tests/*/setup.js', 'tests/*/teardown.js'],
+    files: ['tests/*/pre.ts', 'tests/*/post.ts', 'tests/*/pre.js', 'tests/*/post.js'],
     rules: { 'no-console': ['off'] },
   });
 }

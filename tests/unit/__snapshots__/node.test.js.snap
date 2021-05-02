@@ -62,10 +62,10 @@ Object {
   "overrides": Array [
     Object {
       "files": Array [
-        "tests/*/setup.ts",
-        "tests/*/teardown.ts",
-        "tests/*/setup.js",
-        "tests/*/teardown.js",
+        "tests/*/pre.ts",
+        "tests/*/post.ts",
+        "tests/*/pre.js",
+        "tests/*/post.js",
       ],
       "rules": Object {
         "no-console": Array [
@@ -470,10 +470,10 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/*/setup.ts",
-        "tests/*/teardown.ts",
-        "tests/*/setup.js",
-        "tests/*/teardown.js",
+        "tests/*/pre.ts",
+        "tests/*/post.ts",
+        "tests/*/pre.js",
+        "tests/*/post.js",
       ],
       "rules": Object {
         "import/no-unused-modules": Array [
