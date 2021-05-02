@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.2](https://github.com/kettil/eslint-config/compare/2.1.1...2.1.2) (2021-05-02)
+
+
+### Bug Fixes
+
+* adjustment for the test hook files ([13b5191](https://github.com/kettil/eslint-config/commit/13b51917203b8d51325985e7a066e8f64efc9ece))
+* **deps:** bump eslint-plugin-formatjs from 2.14.8 to 2.14.9 ([8f55309](https://github.com/kettil/eslint-config/commit/8f5530976373859ac7f5cbc6275ffe73b8a1f770))
+
 ## [2.1.1](https://github.com/kettil/eslint-config/compare/2.1.0...2.1.1) (2021-04-27)
 
 
