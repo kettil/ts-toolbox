@@ -1,5 +1,12 @@
 # Changelog
 
+# [3.2.0](https://github.com/kettil/tool-lib/compare/3.1.0...3.2.0) (2021-05-03)
+
+
+### Features
+
+* **object:** add objectPick function ([e9c5d33](https://github.com/kettil/tool-lib/commit/e9c5d335543a71a7b86cc3844ea06ad06a756fd0))
+
 # [3.1.0](https://github.com/kettil/tool-lib/compare/3.0.0...3.1.0) (2021-05-01)
 
 
