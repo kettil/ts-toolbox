@@ -2433,6 +2433,9 @@ Object {
     "unicorn/no-console-spaces": Array [
       "error",
     ],
+    "unicorn/no-document-cookie": Array [
+      "error",
+    ],
     "unicorn/no-fn-reference-in-iterator": Array [
       "error",
     ],

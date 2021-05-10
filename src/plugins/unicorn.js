@@ -20,6 +20,7 @@ const rules = {
   'unicorn/no-array-instanceof': ['error'],
   'unicorn/no-array-push-push': ['error'],
   'unicorn/no-console-spaces': ['error'],
+  'unicorn/no-document-cookie': ['error'],
   'unicorn/no-fn-reference-in-iterator': ['error'],
   'unicorn/no-for-loop': ['error'],
   'unicorn/no-hex-escape': ['error'],
