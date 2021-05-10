@@ -20,6 +20,7 @@ const rules = {
   'unicorn/no-array-instanceof': ['error'],
   'unicorn/no-array-push-push': ['error'],
   'unicorn/no-console-spaces': ['error'],
+  'unicorn/no-document-cookie': ['error'],
   'unicorn/no-fn-reference-in-iterator': ['error'],
   'unicorn/no-for-loop': ['error'],
   'unicorn/no-hex-escape': ['error'],
@@ -35,6 +36,17 @@ const rules = {
   'unicorn/no-unused-properties': ['off'],
   'unicorn/no-zero-fractions': ['error'],
   'unicorn/number-literal-case': ['error'],
+  'unicorn/numeric-separators-style': [
+    'error',
+    {
+      onlyIfContainsSeparator: false,
+      hexadecimal: { minimumDigits: 0, groupLength: 2 },
+      binary: { minimumDigits: 0, groupLength: 4 },
+      octal: { minimumDigits: 0, groupLength: 4 },
+      // eslint-disable-next-line id-blacklist
+      number: { minimumDigits: 5, groupLength: 3 },
+    },
+  ],
   'unicorn/prefer-add-event-listener': ['error'],
   'unicorn/prefer-array-index-of': ['error'],
   'unicorn/prefer-array-flat': ['error'],

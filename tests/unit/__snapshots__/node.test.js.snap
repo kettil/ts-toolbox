@@ -2433,6 +2433,9 @@ Object {
     "unicorn/no-console-spaces": Array [
       "error",
     ],
+    "unicorn/no-document-cookie": Array [
+      "error",
+    ],
     "unicorn/no-fn-reference-in-iterator": Array [
       "error",
     ],
@@ -2477,6 +2480,28 @@ Object {
     ],
     "unicorn/number-literal-case": Array [
       "error",
+    ],
+    "unicorn/numeric-separators-style": Array [
+      "error",
+      Object {
+        "binary": Object {
+          "groupLength": 4,
+          "minimumDigits": 0,
+        },
+        "hexadecimal": Object {
+          "groupLength": 2,
+          "minimumDigits": 0,
+        },
+        "number": Object {
+          "groupLength": 3,
+          "minimumDigits": 5,
+        },
+        "octal": Object {
+          "groupLength": 4,
+          "minimumDigits": 0,
+        },
+        "onlyIfContainsSeparator": false,
+      },
     ],
     "unicorn/prefer-add-event-listener": Array [
       "error",
