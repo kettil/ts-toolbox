@@ -1,5 +1,24 @@
 # Changelog
 
+# [2.2.0](https://github.com/kettil/eslint-config/compare/2.1.2...2.2.0) (2021-05-11)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.22.0 to 4.22.1 ([4ca4e68](https://github.com/kettil/eslint-config/commit/4ca4e681a22a275e98755b65a1629fecd5a96ee5))
+* **deps:** bump @typescript-eslint/parser from 4.22.0 to 4.22.1 ([eb517f0](https://github.com/kettil/eslint-config/commit/eb517f0ec44c99f9b111aac9106b1929e14f50c4))
+* **deps:** bump eslint-plugin-formatjs from 2.14.10 to 2.15.0 ([fe7f917](https://github.com/kettil/eslint-config/commit/fe7f917806b22ce9541ac478c45b2de8863ea5ba))
+* **deps:** bump eslint-plugin-formatjs from 2.14.9 to 2.14.10 ([144dc68](https://github.com/kettil/eslint-config/commit/144dc6865650a792ef054c50ccbed11464cf6fdf))
+* **deps:** bump eslint-plugin-testing-library from 4.1.2 to 4.2.0 ([53166be](https://github.com/kettil/eslint-config/commit/53166be4bd44604b3cae2236d5b6bcbced7042ce))
+* **deps:** bump eslint-plugin-testing-library from 4.2.0 to 4.2.1 ([43be29e](https://github.com/kettil/eslint-config/commit/43be29efde55830e9f0b3622d5c42cc689b2b2d7))
+* **deps:** bump eslint-plugin-unicorn from 31.0.0 to 32.0.1 ([c1c4524](https://github.com/kettil/eslint-config/commit/c1c4524e13d71e0a5b92f78e583f7aa253a8601d))
+
+
+### Features
+
+* **unicorn:** add rule unicorn/no-document-cookie ([118260a](https://github.com/kettil/eslint-config/commit/118260a6c4bf321d866cf762f0591d546f5001cb))
+* **unicorn:** add rule unicorn/numeric-separators-style ([b28f8ab](https://github.com/kettil/eslint-config/commit/b28f8ab738d6e075522eb0f9b9ac1c9d8f34dc0f))
+
 ## [2.1.2](https://github.com/kettil/eslint-config/compare/2.1.1...2.1.2) (2021-05-02)
 
 
