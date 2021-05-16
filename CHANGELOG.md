@@ -1,5 +1,22 @@
 # Changelog
 
+## [2.2.1](https://github.com/kettil/eslint-config/compare/2.2.0...2.2.1) (2021-05-16)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.22.1 to 4.23.0 ([9c44849](https://github.com/kettil/eslint-config/commit/9c44849c81e79a3fbb4b6b6ad47c239b2ef2745e))
+* **deps:** bump @typescript-eslint/parser from 4.22.1 to 4.23.0 ([3dfb0de](https://github.com/kettil/eslint-config/commit/3dfb0de2ecdbc93bd57030dc71e18ab461aaa485))
+* **deps:** bump eslint-plugin-import from 2.22.1 to 2.23.0 ([db0c39e](https://github.com/kettil/eslint-config/commit/db0c39e4b9d2620ca4cd1372651b20b703d74ad3))
+* **deps:** bump eslint-plugin-jest-dom from 3.8.1 to 3.9.0 ([f93eb81](https://github.com/kettil/eslint-config/commit/f93eb81c97fea61df52aa6d76803646a6892042b))
+* **deps:** bump eslint-plugin-testing-library from 4.2.1 to 4.3.0 ([27f94ad](https://github.com/kettil/eslint-config/commit/27f94adca6f0da3a31364c866b4800805aa65764))
+* **deps:** bump eslint-plugin-testing-library from 4.3.0 to 4.4.0 ([2fd4332](https://github.com/kettil/eslint-config/commit/2fd4332e2b89688feb970ea01611c01b1a9395bd))
+* **deps:** bump hosted-git-info from 2.8.8 to 2.8.9 ([3b7ae1d](https://github.com/kettil/eslint-config/commit/3b7ae1d0da38f0b106b4a8d5d28f0f2f68f3dee2))
+* **deps:** bump lodash from 4.17.19 to 4.17.21 ([89a64b5](https://github.com/kettil/eslint-config/commit/89a64b59224d86f8f67850a4d19311bc15ca9be0))
+* **import:** add rule import/no-import-module-exports ([2a9622a](https://github.com/kettil/eslint-config/commit/2a9622ac5aefeda63a41d3676852265cf241cc91))
+* **import:** add rule import/no-relative-packages ([3a88276](https://github.com/kettil/eslint-config/commit/3a8827674bb725988bba9d066771af78ced0692f))
+* **import:** update rule import/extensions ([490ab13](https://github.com/kettil/eslint-config/commit/490ab133ec7d5fefea49dd24cd8df4baff613722))
+
 # [2.2.0](https://github.com/kettil/eslint-config/compare/2.1.2...2.2.0) (2021-05-11)
 
 
