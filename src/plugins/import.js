@@ -38,6 +38,7 @@ const rules = {
   'import/no-duplicates': ['warn'],
   'import/no-dynamic-require': ['error'],
   'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.ts', '**/*.test.tsx'] }],
+  'import/no-import-module-exports': ['error'],
   'import/no-internal-modules': ['off', { allow: [] }],
   'import/no-mutable-exports': ['error'],
   'import/no-named-as-default': ['warn'],

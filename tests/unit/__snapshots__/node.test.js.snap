@@ -898,6 +898,9 @@ Object {
         ],
       },
     ],
+    "import/no-import-module-exports": Array [
+      "error",
+    ],
     "import/no-internal-modules": Array [
       "off",
       Object {
