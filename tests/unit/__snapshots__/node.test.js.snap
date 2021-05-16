@@ -395,6 +395,17 @@ Object {
     },
     Object {
       "files": Array [
+        "babel.config.js",
+        "jest.config.js",
+      ],
+      "rules": Object {
+        "import/extensions": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
         "**/src/index.js",
         "**/src/index.ts",
         "**/src/bin/**/*",
@@ -813,6 +824,7 @@ Object {
       Object {
         "ignorePackages": true,
         "pattern": Object {
+          "js": "never",
           "ts": "never",
           "tsx": "never",
         },

@@ -6,7 +6,11 @@ const rules = {
   'import/dynamic-import-chunkname': ['off', { importFunctions: [], webpackChunknameFormat: '[0-9a-zA-Z-_/.]+' }],
   'import/export': ['error'],
   'import/exports-last': ['off'],
-  'import/extensions': ['error', 'always', { ignorePackages: true, pattern: { ts: 'never', tsx: 'never' } }],
+  'import/extensions': [
+    'error',
+    'always',
+    { ignorePackages: true, pattern: { js: 'never', ts: 'never', tsx: 'never' } },
+  ],
   'import/first': ['error'],
   'import/group-exports': ['off'],
   'import/imports-first': ['off'],
@@ -63,6 +67,10 @@ const rules = {
 };
 
 const overrides = [
+  {
+    files: ['babel.config.js', 'jest.config.js'],
+    rules: { 'import/extensions': ['off'] },
+  },
   {
     files: ['**/src/index.js', '**/src/index.ts', '**/src/bin/**/*'],
     rules: { 'import/no-unused-modules': ['off'] },
