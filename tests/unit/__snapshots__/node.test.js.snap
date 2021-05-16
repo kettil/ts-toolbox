@@ -925,6 +925,9 @@ Object {
     "import/no-nodejs-modules": Array [
       "off",
     ],
+    "import/no-relative-packages": Array [
+      "error",
+    ],
     "import/no-relative-parent-imports": Array [
       "off",
     ],

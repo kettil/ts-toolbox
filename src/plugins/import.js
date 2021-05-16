@@ -46,6 +46,7 @@ const rules = {
   'import/no-named-export': ['off'],
   'import/no-namespace': ['off'],
   'import/no-nodejs-modules': ['off'],
+  'import/no-relative-packages': ['error'],
   'import/no-relative-parent-imports': ['off'],
   'import/no-restricted-paths': ['off'],
   'import/no-self-import': ['error'],
