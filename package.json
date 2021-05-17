@@ -59,7 +59,7 @@
     "eslint-plugin-unicorn": "32.0.1"
   },
   "devDependencies": {
-    "carna": "4.6.0",
+    "carna": "4.6.1",
     "typescript": "4.2.4"
   }
 }
