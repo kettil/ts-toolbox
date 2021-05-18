@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/kettil/semantic-release-config/compare/2.0.0...2.0.1) (2021-05-18)
+
+
+### Bug Fixes
+
+* **deps:** bump lodash from 4.17.19 to 4.17.21 ([fd2b4ba](https://github.com/kettil/semantic-release-config/commit/fd2b4ba5537c23d8b7fc1490c145a3c11f7d237d))
+
 # [2.0.0](https://github.com/kettil/semantic-release-config/compare/1.3.0...2.0.0) (2021-04-25)
 
 
