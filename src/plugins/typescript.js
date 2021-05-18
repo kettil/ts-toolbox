@@ -15,6 +15,8 @@ const overrides = [
       '@typescript-eslint/ban-types': ['error', { types: { Object: 'Use {} instead' } }],
       '@typescript-eslint/consistent-type-assertions': ['error'],
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+      'dot-notation': ['off'],
+      '@typescript-eslint/dot-notation': ['error', { allowKeywords: true, allowPattern: '' }],
       '@typescript-eslint/explicit-function-return-type': ['off'],
       '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }],
       '@typescript-eslint/explicit-module-boundary-types': ['error'],

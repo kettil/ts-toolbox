@@ -149,6 +149,13 @@ Object {
           "error",
           "type",
         ],
+        "@typescript-eslint/dot-notation": Array [
+          "error",
+          Object {
+            "allowKeywords": true,
+            "allowPattern": "",
+          },
+        ],
         "@typescript-eslint/explicit-function-return-type": Array [
           "off",
         ],
@@ -350,6 +357,9 @@ Object {
           "error",
         ],
         "camelcase": "off",
+        "dot-notation": Array [
+          "off",
+        ],
         "getter-return": "off",
         "indent": Array [
           "off",
