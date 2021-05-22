@@ -141,12 +141,6 @@ const overrides = [
     parser: '@typescript-eslint/parser',
     parserOptions: { project: path.join('.', 'tsconfig.json') },
   },
-  {
-    files: ['*.test.ts', '*.test.tsx'],
-    rules: {
-      '@typescript-eslint/no-floating-promises': 'off',
-    },
-  },
 ];
 
 if (hasLibrary('typescript')) {
