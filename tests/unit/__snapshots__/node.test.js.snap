@@ -396,15 +396,6 @@ Object {
     },
     Object {
       "files": Array [
-        "*.test.ts",
-        "*.test.tsx",
-      ],
-      "rules": Object {
-        "@typescript-eslint/no-floating-promises": "off",
-      },
-    },
-    Object {
-      "files": Array [
         "babel.config.js",
         "jest.config.js",
       ],
@@ -539,14 +530,71 @@ Object {
     },
     Object {
       "files": Array [
-        "test/**/*.ts",
-        "test/**/*.tsx",
+        "tests/**/*.ts",
+        "tests/**/*.tsx",
         "**/*.test.ts",
         "**/*.test.tsx",
       ],
       "rules": Object {
-        "@typescript-eslint/unbound-method": "off",
-        "jest/unbound-method": "error",
+        "@typescript-eslint/unbound-method": Array [
+          "off",
+        ],
+        "jest/unbound-method": Array [
+          "error",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
+        "*.test.ts",
+        "*.test.tsx",
+      ],
+      "rules": Object {
+        "@typescript-eslint/no-explicit-any": Array [
+          "off",
+        ],
+        "@typescript-eslint/no-floating-promises": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
+        "tests/**/*.test.ts",
+        "tests/**/*.test.tsx",
+      ],
+      "rules": Object {
+        "node/global-require": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
+        "tests/shared/__mock__/*.ts",
+      ],
+      "rules": Object {
+        "@typescript-eslint/no-explicit-any": Array [
+          "off",
+        ],
+        "@typescript-eslint/require-await": Array [
+          "off",
+        ],
+        "import/no-anonymous-default-export": Array [
+          "off",
+        ],
+        "import/no-import-module-exports": Array [
+          "off",
+        ],
+        "import/no-unused-modules": Array [
+          "off",
+        ],
+        "import/prefer-default-export": Array [
+          "off",
+        ],
+        "jest/no-standalone-expect": Array [
+          "off",
+        ],
       },
     },
   ],
