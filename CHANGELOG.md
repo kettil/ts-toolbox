@@ -1,5 +1,21 @@
 # Changelog
 
+# [2.3.0](https://github.com/kettil/eslint-config/compare/2.2.2...2.3.0) (2021-05-22)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.23.0 to 4.24.0 ([df0330a](https://github.com/kettil/eslint-config/commit/df0330a3c18af8c39c965c47dd219d5a8a5bcd80))
+* **deps:** bump @typescript-eslint/parser from 4.23.0 to 4.24.0 ([930b1b2](https://github.com/kettil/eslint-config/commit/930b1b227f0fb0a9feca85c3245c72d41a3ee65f))
+* **deps:** bump eslint-plugin-formatjs from 2.15.1 to 2.15.2 ([f7907f7](https://github.com/kettil/eslint-config/commit/f7907f7762632821480d3f2f8b327593b1c4d6d2))
+* **deps:** bump eslint-plugin-testing-library from 4.4.0 to 4.5.0 ([c737e7b](https://github.com/kettil/eslint-config/commit/c737e7bce70a8af262343502138755896316d167))
+* **jest:** exception rules for the test files ([6835eb8](https://github.com/kettil/eslint-config/commit/6835eb8d7e2e6437d66e0d7b4cce25c7f651e740))
+
+
+### Features
+
+* **typescript:** add rule @typescript-eslint/dot-notation ([d646954](https://github.com/kettil/eslint-config/commit/d646954324934a32420f5d3a6dd2807987e4ae4b))
+
 ## [2.2.2](https://github.com/kettil/eslint-config/compare/2.2.1...2.2.2) (2021-05-18)
 
 
