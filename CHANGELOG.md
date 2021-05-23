@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.1](https://github.com/kettil/eslint-config/compare/2.3.0...2.3.1) (2021-05-23)
+
+
+### Bug Fixes
+
+* **jest:** exception rules for the test files ([07127fa](https://github.com/kettil/eslint-config/commit/07127fa2ed6681709b981b3fbaf56da6e5931bc9))
+
 # [2.3.0](https://github.com/kettil/eslint-config/compare/2.2.2...2.3.0) (2021-05-22)
 
 
