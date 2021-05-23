@@ -52,8 +52,18 @@ if (hasLibrary('jest')) {
         },
       },
       {
-        files: ['tests/**/*.test.ts', 'tests/**/*.test.tsx'],
-        rules: { 'node/global-require': ['off'] },
+        files: [
+          'tests/**/*.test.js',
+          'tests/**/*.test.ts',
+          'tests/**/*.test.tsx',
+          'tests/*/setupTests.ts',
+          'tests/*/setupTests.js',
+        ],
+        rules: {
+          '@typescript-eslint/no-explicit-any': ['off'],
+          'import/no-unused-modules': ['off'],
+          'node/global-require': ['off'],
+        },
       },
       {
         files: ['tests/shared/__mock__/*.ts'],
