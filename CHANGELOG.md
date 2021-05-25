@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.3.2](https://github.com/kettil/eslint-config/compare/2.3.1...2.3.2) (2021-05-25)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.15.2 to 2.15.3 ([27bcadf](https://github.com/kettil/eslint-config/commit/27bcadf00b4891a46d80fe66892097756333e68f))
+* **deps:** bump eslint-plugin-import from 2.23.2 to 2.23.3 ([efeb595](https://github.com/kettil/eslint-config/commit/efeb5954badce13e8949becacfa2d8a30eebe578))
+* **deps:** bump eslint-plugin-testing-library from 4.5.0 to 4.6.0 ([a7b32dc](https://github.com/kettil/eslint-config/commit/a7b32dcdfea8695f89692f04a568ded0c997f15b))
+
 ## [2.3.1](https://github.com/kettil/eslint-config/compare/2.3.0...2.3.1) (2021-05-23)
 
 
