@@ -429,20 +429,6 @@ Object {
     },
     Object {
       "files": Array [
-        "**/src/**/types.ts",
-      ],
-      "rules": Object {
-        "import/no-unused-modules": Array [
-          "error",
-          Object {
-            "missingExports": false,
-            "unusedExports": true,
-          },
-        ],
-      },
-    },
-    Object {
-      "files": Array [
         "*.ts",
         "*.tsx",
       ],
@@ -452,10 +438,8 @@ Object {
     },
     Object {
       "files": Array [
-        "**/src/__jest__/*",
         "*.test.js",
         "*.test.ts",
-        "*.test.jsx",
         "*.test.tsx",
       ],
       "rules": Object {
@@ -476,7 +460,11 @@ Object {
       ],
       "rules": Object {
         "import/no-unused-modules": Array [
-          "off",
+          "error",
+          Object {
+            "missingExports": false,
+            "unusedExports": true,
+          },
         ],
       },
     },
@@ -489,21 +477,22 @@ Object {
       ],
       "rules": Object {
         "import/no-unused-modules": Array [
-          "off",
+          "error",
+          Object {
+            "missingExports": false,
+            "unusedExports": true,
+          },
         ],
       },
     },
     Object {
       "excludedFiles": Array [
         "index.tsx",
-        "index.jsx",
         "index.test.tsx",
-        "index.test.jsx",
         "_app.tsx",
         "_document.tsx",
       ],
       "files": Array [
-        "*.jsx",
         "*.tsx",
       ],
       "rules": Object {
@@ -521,7 +510,6 @@ Object {
         "_document.tsx",
       ],
       "files": Array [
-        "*.jsx",
         "*.tsx",
       ],
       "rules": Object {
@@ -901,15 +889,15 @@ Object {
       "error",
     ],
     "import/group-exports": Array [
-      "off",
+      "error",
     ],
     "import/imports-first": Array [
       "off",
     ],
     "import/max-dependencies": Array [
-      "off",
+      "error",
       Object {
-        "max": 10,
+        "max": 15,
       },
     ],
     "import/named": Array [
@@ -945,7 +933,7 @@ Object {
       "error",
     ],
     "import/no-default-export": Array [
-      "off",
+      "error",
     ],
     "import/no-deprecated": Array [
       "off",
@@ -960,6 +948,7 @@ Object {
       "error",
       Object {
         "devDependencies": Array [
+          "**/*.test.js",
           "**/*.test.ts",
           "**/*.test.tsx",
         ],
@@ -1058,7 +1047,7 @@ Object {
       },
     ],
     "import/prefer-default-export": Array [
-      "error",
+      "off",
     ],
     "import/unambiguous": Array [
       "off",
