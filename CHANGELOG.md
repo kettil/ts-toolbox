@@ -1,5 +1,18 @@
 # Changelog
 
+# [2.4.0](https://github.com/kettil/eslint-config/compare/2.3.2...2.4.0) (2021-05-26)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.24.0 to 4.25.0 ([3ab0553](https://github.com/kettil/eslint-config/commit/3ab05530381323e1266f393a1710edd64f60dd6a))
+* **deps:** bump @typescript-eslint/parser from 4.24.0 to 4.25.0 ([1dce72c](https://github.com/kettil/eslint-config/commit/1dce72c8d414266970c1f7aba3d588e7721942f7))
+
+
+### Features
+
+* remove jsx extension and the group export is preferred ([6ce5aa1](https://github.com/kettil/eslint-config/commit/6ce5aa197032ff7e4484d09a8fba601a065603a8))
+
 ## [2.3.2](https://github.com/kettil/eslint-config/compare/2.3.1...2.3.2) (2021-05-25)
 
 
