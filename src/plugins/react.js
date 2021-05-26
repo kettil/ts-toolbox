@@ -1,6 +1,8 @@
 const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
+const config = { ...defaultObject };
+
 const rules = {
   'react/boolean-prop-naming': [
     'off',
@@ -187,18 +189,16 @@ const rules = {
 };
 
 if (hasLibrary('react')) {
-  module.exports = {
-    ...defaultObject,
+  config.parserOptions = { ecmaFeatures: { jsx: true } };
 
-    parserOptions: { ecmaFeatures: { jsx: true } },
-    settings: {
-      react: { version: 'detect' },
-      'import/extensions': ['.jsx'],
-      'import/resolver': { node: { extensions: ['.jsx'] } },
-    },
-    plugins: ['react'],
-    rules,
+  config.settings = {
+    react: { version: 'detect' },
+    'import/extensions': ['.jsx'],
+    'import/resolver': { node: { extensions: ['.jsx'] } },
   };
-} else {
-  module.exports = defaultObject;
+
+  config.plugins = ['react'];
+  config.rules = rules;
 }
+
+module.exports = config;

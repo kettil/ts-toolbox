@@ -97,13 +97,13 @@ const rules = {
 
 const overrides = [
   {
-    files: ['*.jsx', '*.tsx'],
-    excludedFiles: ['index.tsx', 'index.jsx', 'index.test.tsx', 'index.test.jsx', '_app.tsx', '_document.tsx'],
+    files: ['*.tsx'],
+    excludedFiles: ['index.tsx', 'index.test.tsx', '_app.tsx', '_document.tsx'],
     rules: { 'unicorn/filename-case': ['error', { case: 'pascalCase' }] },
     // "unicorn/filename-case": ["error", { "case": "pascalCase", "ignore": ["^[A-Z][a-zA-Z0-9]*\\.test\\.tsx$"] }]
   },
   {
-    files: ['*.jsx', '*.tsx'],
+    files: ['*.tsx'],
     excludedFiles: ['_app.tsx', '_document.tsx'],
     rules: { 'unicorn/no-null': 'off' },
   },
@@ -111,7 +111,7 @@ const overrides = [
 
 if (hasLibrary('next')) {
   overrides.push({
-    files: ['pages/**/*.jsx', 'pages/**/*.tsx'],
+    files: ['pages/**/*.tsx'],
     rules: { 'unicorn/filename-case': 'off' },
   });
 }

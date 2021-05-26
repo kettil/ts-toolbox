@@ -2,6 +2,7 @@ const path = require('path');
 const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
+const config = { ...defaultObject };
 const rules = {};
 
 const overrides = [
@@ -144,19 +145,17 @@ const overrides = [
 ];
 
 if (hasLibrary('typescript')) {
-  module.exports = {
-    ...defaultObject,
-    settings: {
-      'import/extensions': ['.ts', '.tsx', '.d.ts'],
-      'import/external-module-folders': ['node_modules', 'node_modules/@types'],
-      'import/parsers': { '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'] },
-      'import/resolver': { node: { extensions: ['.ts', '.tsx', '.d.ts'] } },
-    },
-    parserOptions: { ecmaVersion: 2020, sourceType: 'module' },
-    plugins: ['@typescript-eslint'],
-    rules,
-    overrides,
+  config.settings = {
+    'import/extensions': ['.ts', '.tsx', '.d.ts'],
+    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
+    'import/parsers': { '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'] },
+    'import/resolver': { node: { extensions: ['.ts', '.tsx', '.d.ts'] } },
   };
-} else {
-  module.exports = defaultObject;
+
+  config.parserOptions = { ecmaVersion: 2020, sourceType: 'module' };
+  config.plugins = ['@typescript-eslint'];
+  config.rules = rules;
+  config.overrides = overrides;
 }
+
+module.exports = config;

@@ -1,6 +1,9 @@
 const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
+const config = { ...defaultObject };
+const overrides = [];
+
 const rules = {
   'jest/consistent-test-it': ['error', { fn: 'test', withinDescribe: 'test' }],
   'jest/expect-expect': ['warn'],
@@ -32,55 +35,56 @@ const rules = {
   'jest/valid-title': ['error'],
 };
 
-if (hasLibrary('jest')) {
-  const overrides = [];
-
-  if (hasLibrary('typescript')) {
-    overrides.push(
-      {
-        files: ['tests/**/*.ts', 'tests/**/*.tsx', '**/*.test.ts', '**/*.test.tsx'],
-        rules: {
-          '@typescript-eslint/unbound-method': ['off'],
-          'jest/unbound-method': ['error'],
-        },
+if (hasLibrary('typescript')) {
+  overrides.push(
+    {
+      files: ['tests/**/*.ts', 'tests/**/*.tsx', '**/*.test.ts', '**/*.test.tsx'],
+      rules: {
+        '@typescript-eslint/unbound-method': ['off'],
+        'jest/unbound-method': ['error'],
       },
-      {
-        files: ['*.test.ts', '*.test.tsx'],
-        rules: {
-          '@typescript-eslint/no-explicit-any': ['off'],
-          '@typescript-eslint/no-floating-promises': ['off'],
-        },
+    },
+    {
+      files: ['*.test.ts', '*.test.tsx'],
+      rules: {
+        '@typescript-eslint/no-explicit-any': ['off'],
+        '@typescript-eslint/no-floating-promises': ['off'],
       },
-      {
-        files: [
-          'tests/**/*.test.js',
-          'tests/**/*.test.ts',
-          'tests/**/*.test.tsx',
-          'tests/*/setupTests.ts',
-          'tests/*/setupTests.js',
-        ],
-        rules: {
-          '@typescript-eslint/no-explicit-any': ['off'],
-          'import/no-unused-modules': ['off'],
-          'node/global-require': ['off'],
-        },
+    },
+    {
+      files: [
+        'tests/**/*.test.js',
+        'tests/**/*.test.ts',
+        'tests/**/*.test.tsx',
+        'tests/*/setupTests.ts',
+        'tests/*/setupTests.js',
+      ],
+      rules: {
+        '@typescript-eslint/no-explicit-any': ['off'],
+        'import/no-unused-modules': ['off'],
+        'node/global-require': ['off'],
       },
-      {
-        files: ['tests/shared/__mock__/*.ts'],
-        rules: {
-          '@typescript-eslint/no-explicit-any': ['off'],
-          '@typescript-eslint/require-await': ['off'],
-          'import/no-anonymous-default-export': ['off'],
-          'import/no-import-module-exports': ['off'],
-          'import/no-unused-modules': ['off'],
-          'import/prefer-default-export': ['off'],
-          'jest/no-standalone-expect': ['off'],
-        },
+    },
+    {
+      files: ['tests/shared/__mock__/*.ts'],
+      rules: {
+        '@typescript-eslint/no-explicit-any': ['off'],
+        '@typescript-eslint/require-await': ['off'],
+        'import/no-anonymous-default-export': ['off'],
+        'import/no-import-module-exports': ['off'],
+        'import/no-unused-modules': ['off'],
+        'import/prefer-default-export': ['off'],
+        'jest/no-standalone-expect': ['off'],
       },
-    );
-  }
-
-  module.exports = { ...defaultObject, env: { 'jest/globals': true, jest: true }, plugins: ['jest'], rules, overrides };
-} else {
-  module.exports = defaultObject;
+    },
+  );
 }
+
+if (hasLibrary('jest')) {
+  config.env = { 'jest/globals': true, jest: true };
+  config.plugins = ['jest'];
+  config.rules = rules;
+  config.overrides = overrides;
+}
+
+module.exports = config;

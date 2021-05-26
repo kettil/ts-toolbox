@@ -12,9 +12,9 @@ const rules = {
     { ignorePackages: true, pattern: { js: 'never', ts: 'never', tsx: 'never' } },
   ],
   'import/first': ['error'],
-  'import/group-exports': ['off'],
+  'import/group-exports': ['error'],
   'import/imports-first': ['off'],
-  'import/max-dependencies': ['off', { max: 10 }],
+  'import/max-dependencies': ['error', { max: 15 }],
   'import/named': ['error'],
   'import/namespace': ['error'],
   'import/newline-after-import': ['error'],
@@ -33,11 +33,14 @@ const rules = {
   ],
   'import/no-commonjs': ['off'],
   'import/no-cycle': ['error'],
-  'import/no-default-export': ['off'],
+  'import/no-default-export': ['error'],
   'import/no-deprecated': ['off'],
   'import/no-duplicates': ['warn'],
   'import/no-dynamic-require': ['error'],
-  'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.test.ts', '**/*.test.tsx'] }],
+  'import/no-extraneous-dependencies': [
+    'error',
+    { devDependencies: ['**/*.test.js', '**/*.test.ts', '**/*.test.tsx'] },
+  ],
   'import/no-import-module-exports': ['error'],
   'import/no-internal-modules': ['off', { allow: [] }],
   'import/no-mutable-exports': ['error'],
@@ -64,7 +67,7 @@ const rules = {
       pathGroups: [{ pattern: '#*/**', group: 'internal' }],
     },
   ],
-  'import/prefer-default-export': ['error'],
+  'import/prefer-default-export': ['off'],
   'import/unambiguous': ['off'],
 };
 
@@ -84,61 +87,39 @@ const overrides = [
 ];
 
 if (hasLibrary('typescript')) {
-  overrides.push(
-    {
-      files: ['**/src/**/types.ts'],
-      rules: {
-        'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }],
-      },
-    },
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: { 'import/named': 'off' },
-    },
-  );
+  overrides.push({
+    files: ['*.ts', '*.tsx'],
+    rules: { 'import/named': 'off' },
+  });
 }
 
 if (hasLibrary('next')) {
   overrides.push({
-    files: ['pages/**/*.jsx', 'pages/**/*.tsx'],
-    rules: { 'import/no-unused-modules': ['off'] },
+    files: ['pages/**/*.tsx'],
+    rules: {
+      'import/no-unused-modules': ['error', { unusedExports: false, missingExports: true }],
+      'import/prefer-default-export': ['error'],
+      'import/no-default-export': ['off'],
+    },
   });
 }
 
 if (hasLibrary('redux')) {
-  overrides.push(
-    {
-      files: [
-        '**/src/modules/**/actions/**/*.js',
-        '**/src/modules/**/actions/**/*.ts',
-        '**/src/modules/**/selectors/**/*.js',
-        '**/src/modules/**/selectors/**/*.ts',
-        '**/src/modules/**/schemas/**/*.js',
-        '**/src/modules/**/schemas/**/*.ts',
-      ],
-      rules: {
-        'import/default': ['off'],
-        'import/no-default-export': ['error'],
-        'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }],
-        'import/prefer-default-export': ['off'],
-      },
-    },
-    {
-      files: [
-        '**/src/modules/**/actions/**/*.js',
-        '**/src/modules/**/actions/**/*.ts',
-        '**/src/modules/**/reducers/**/*.js',
-        '**/src/modules/**/reducers/**/*.ts',
-      ],
-      rules: { 'import/no-cycle': 'off' },
-    },
-  );
+  overrides.push({
+    files: [
+      '**/src/modules/**/actions/**/*.js',
+      '**/src/modules/**/actions/**/*.ts',
+      '**/src/modules/**/reducers/**/*.js',
+      '**/src/modules/**/reducers/**/*.ts',
+    ],
+    rules: { 'import/no-cycle': 'off' },
+  });
 }
 
 if (hasLibrary('jest')) {
   overrides.push(
     {
-      files: ['**/src/__jest__/*', '*.test.js', '*.test.ts', '*.test.jsx', '*.test.tsx'],
+      files: ['*.test.js', '*.test.ts', '*.test.tsx'],
       rules: {
         'import/default': 'off',
         'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }],
@@ -146,11 +127,11 @@ if (hasLibrary('jest')) {
     },
     {
       files: ['tests/type/**/*.test.ts', 'tests/type/**/*.test.tsx'],
-      rules: { 'import/no-unused-modules': ['off'] },
+      rules: { 'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }] },
     },
     {
       files: ['tests/*/pre.ts', 'tests/*/post.ts', 'tests/*/pre.js', 'tests/*/post.js'],
-      rules: { 'import/no-unused-modules': ['off'] },
+      rules: { 'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }] },
     },
   );
 }
