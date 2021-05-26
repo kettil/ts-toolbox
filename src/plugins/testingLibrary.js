@@ -1,6 +1,8 @@
 const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
+const config = { ...defaultObject };
+
 const rules = {
   'testing-library/await-async-query': ['error'],
   'testing-library/await-async-utils': ['error'],
@@ -27,7 +29,8 @@ if (hasLibrary('react')) {
 }
 
 if (hasLibrary('@testing-library/react') || hasLibrary('@testing-library/react-hooks')) {
-  module.exports = { ...defaultObject, plugins: ['testing-library'], rules };
-} else {
-  module.exports = defaultObject;
+  config.plugins = ['testing-library'];
+  config.rules = rules;
 }
+
+module.exports = config;

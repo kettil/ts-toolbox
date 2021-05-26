@@ -1,6 +1,8 @@
 const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
+const config = { ...defaultObject };
+
 const rules = {
   'jest-dom/prefer-checked': ['error'],
   'jest-dom/prefer-empty': ['error'],
@@ -14,7 +16,8 @@ const rules = {
 };
 
 if (hasLibrary('@testing-library/jest-dom')) {
-  module.exports = { ...defaultObject, plugins: ['jest-dom'], rules };
-} else {
-  module.exports = defaultObject;
+  config.plugins = ['jest-dom'];
+  config.rules = rules;
 }
+
+module.exports = config;

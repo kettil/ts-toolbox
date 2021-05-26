@@ -1,6 +1,8 @@
 const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
+const config = { ...defaultObject };
+
 const rules = {
   'jsx-a11y/accessible-emoji': ['error'],
   'jsx-a11y/alt-text': [
@@ -101,7 +103,9 @@ const rules = {
 };
 
 if (hasLibrary('react')) {
-  module.exports = { ...defaultObject, parserOptions: { ecmaFeatures: { jsx: true } }, plugins: ['jsx-a11y'], rules };
-} else {
-  module.exports = defaultObject;
+  config.parserOptions = { ecmaFeatures: { jsx: true } };
+  config.plugins = ['jsx-a11y'];
+  config.rules = rules;
 }
+
+module.exports = config;
