@@ -1,5 +1,12 @@
 # Changelog
 
+# [2.5.0](https://github.com/kettil/eslint-config/compare/2.4.0...2.5.0) (2021-05-29)
+
+
+### Features
+
+* **import:** export rule exceptions for mock files ([365daee](https://github.com/kettil/eslint-config/commit/365daeedae7539eacb4e86e359a85b5a27c60a3b))
+
 # [2.4.0](https://github.com/kettil/eslint-config/compare/2.3.2...2.4.0) (2021-05-26)
 
 
