@@ -24,9 +24,9 @@ describe('allSettledSequenceReduce()', () => {
     const error1 = new Error('error1');
     const error2 = new Error('error2');
 
-    await expect(
-      allSettledSequenceReduce(Promise.resolve([error1, error2]), () => Promise.resolve()),
-    ).resolves.toEqual([error1, error2]);
+    await expect(allSettledSequenceReduce(Promise.resolve([error1, error2]), () => Promise.resolve())).resolves.toEqual(
+      [error1, error2],
+    );
   });
 
   test('it should throw a error with existing errors', async () => {

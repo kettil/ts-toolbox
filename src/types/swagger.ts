@@ -76,10 +76,8 @@ export type SwaggerProperty =
   | SwaggerPropertySimple
   | SwaggerPropertyTuple;
 
-export type SwaggerRequiredValidation<
-  Props extends SwaggerPropertyObject,
-  K extends number | string | symbol
-> = Props['required'] extends readonly unknown[] ? (K extends Props['required'][number] ? true : false) : false;
+export type SwaggerRequiredValidation<Props extends SwaggerPropertyObject, K extends number | string | symbol> =
+  Props['required'] extends readonly unknown[] ? (K extends Props['required'][number] ? true : false) : false;
 
 export type SwaggerExtractTuple<Items extends SwaggerPropertyTuple['items'], A extends readonly string[]> = {
   [K in keyof Items]: Items[K] extends SwaggerPropertySimple
@@ -89,28 +87,25 @@ export type SwaggerExtractTuple<Items extends SwaggerPropertyTuple['items'], A e
 
 export type SwaggerExtractPropertyType<Type, Optional> = Optional extends true ? Type : Type | undefined;
 
-export type SwaggerExtractItems<
-  Props extends SwaggerPropertyArray | SwaggerPropertyTuple
-> = Props extends SwaggerPropertyArray
-  ? ReadonlyArray<SwaggerExtractProperty<Props['items'], true>>
-  : Props extends SwaggerPropertyTuple
-    ? SwaggerExtractTuple<Props['items'], Range<Props['minItems']>>
-    : never;
+export type SwaggerExtractItems<Props extends SwaggerPropertyArray | SwaggerPropertyTuple> =
+  Props extends SwaggerPropertyArray
+    ? ReadonlyArray<SwaggerExtractProperty<Props['items'], true>>
+    : Props extends SwaggerPropertyTuple
+      ? SwaggerExtractTuple<Props['items'], Range<Props['minItems']>>
+      : never;
 
-export type SwaggerExtractProperty<
-  Props extends SwaggerProperty,
-  Required extends boolean = false
-> = Props['type'] extends 'boolean'
-  ? SwaggerExtractPropertyType<boolean, Required>
-  : Props extends SwaggerPropertyString
-    ? SwaggerExtractPropertyType<string, Props['default'] extends string ? true : Required>
-    : Props extends SwaggerPropertyNumber
-      ? SwaggerExtractPropertyType<number, Props['default'] extends number ? true : Required>
-      : Props extends SwaggerPropertyArray | SwaggerPropertyTuple
-        ? SwaggerExtractPropertyType<SwaggerExtractItems<Props>, Required>
-        : Props extends SwaggerPropertyObject
-          ? SwaggerExtractPropertyType<SwaggerExtractProperties<Props>, Required>
-          : never;
+export type SwaggerExtractProperty<Props extends SwaggerProperty, Required extends boolean = false> =
+  Props['type'] extends 'boolean'
+    ? SwaggerExtractPropertyType<boolean, Required>
+    : Props extends SwaggerPropertyString
+      ? SwaggerExtractPropertyType<string, Props['default'] extends string ? true : Required>
+      : Props extends SwaggerPropertyNumber
+        ? SwaggerExtractPropertyType<number, Props['default'] extends number ? true : Required>
+        : Props extends SwaggerPropertyArray | SwaggerPropertyTuple
+          ? SwaggerExtractPropertyType<SwaggerExtractItems<Props>, Required>
+          : Props extends SwaggerPropertyObject
+            ? SwaggerExtractPropertyType<SwaggerExtractProperties<Props>, Required>
+            : never;
 
 export type SwaggerExtractProperties<Props extends SwaggerPropertyObject> = ObjectNormalize<
   {
