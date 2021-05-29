@@ -11,6 +11,6 @@ export type ObjectEntries<T> = EqualType<keyof T, number, false> extends true
       : UnionToTuple<{ [K in keyof T]: readonly [K, T[K]] }[keyof T]>;
 
 const objectEntries = <T extends ObjectType>(object: T): ObjectEntries<T> =>
-  (Object.entries(object) as unknown) as ObjectEntries<T>;
+  Object.entries(object) as unknown as ObjectEntries<T>;
 
 export default objectEntries;
