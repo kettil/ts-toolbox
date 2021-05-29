@@ -133,6 +133,13 @@ if (hasLibrary('jest')) {
       files: ['tests/*/pre.ts', 'tests/*/post.ts', 'tests/*/pre.js', 'tests/*/post.js'],
       rules: { 'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }] },
     },
+    {
+      files: ['tests/shared/__mock__/*'],
+      rules: {
+        'import/group-exports': ['off'],
+        'import/no-default-export': ['off'],
+      },
+    },
   );
 }
 
