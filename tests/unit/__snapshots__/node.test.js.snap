@@ -486,6 +486,19 @@ Object {
       },
     },
     Object {
+      "files": Array [
+        "tests/shared/__mock__/*",
+      ],
+      "rules": Object {
+        "import/group-exports": Array [
+          "off",
+        ],
+        "import/no-default-export": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
       "excludedFiles": Array [
         "index.tsx",
         "index.test.tsx",
