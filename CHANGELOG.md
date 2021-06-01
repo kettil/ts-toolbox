@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.5.1](https://github.com/kettil/eslint-config/compare/2.5.0...2.5.1) (2021-06-01)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-import from 2.23.3 to 2.23.4 ([54bba63](https://github.com/kettil/eslint-config/commit/54bba63afbf21512802146f07094119c9922dfdf))
+* **deps:** bump eslint-plugin-react from 7.23.2 to 7.24.0 ([b8a4a7a](https://github.com/kettil/eslint-config/commit/b8a4a7a1cfd20da1f70991fb5b2dcf4a37634fc5))
+
 # [2.5.0](https://github.com/kettil/eslint-config/compare/2.4.0...2.5.0) (2021-05-29)
 
 
