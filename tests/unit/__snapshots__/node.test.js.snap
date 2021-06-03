@@ -2696,6 +2696,9 @@ Object {
         },
       },
     ],
+    "unicorn/require-number-to-fixed-digits-argument": Array [
+      "error",
+    ],
     "unicorn/string-content": Array [
       "off",
     ],

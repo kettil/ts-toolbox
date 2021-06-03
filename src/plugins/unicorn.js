@@ -93,6 +93,7 @@ const rules = {
       },
     },
   ],
+  'unicorn/require-number-to-fixed-digits-argument': ['error'],
   'unicorn/string-content': ['off'],
   'unicorn/throw-new-error': ['error'],
 };
