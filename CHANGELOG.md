@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.5.2](https://github.com/kettil/eslint-config/compare/2.5.1...2.5.2) (2021-06-03)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.25.0 to 4.26.0 ([4f405c4](https://github.com/kettil/eslint-config/commit/4f405c470d4c5dceff1e4a86b5d52aab1a064059))
+* **deps:** bump @typescript-eslint/parser from 4.25.0 to 4.26.0 ([13b20f8](https://github.com/kettil/eslint-config/commit/13b20f81f6c5d427dc0bfb9bd70a115bbcdbe729))
+* **deps:** bump eslint-plugin-formatjs from 2.15.3 to 2.15.4 ([4168e6d](https://github.com/kettil/eslint-config/commit/4168e6dbf0c6078a1951e65e2e54a613e2050e76))
+* **import:** disables the export grouping rule for type test files ([feb6c27](https://github.com/kettil/eslint-config/commit/feb6c2735a3f9d150e47a398e2c0922bf3a15501))
+* **import:** remove default rule for test files ([65c88ce](https://github.com/kettil/eslint-config/commit/65c88ce3fedbaec450d274d21ae9c7fcf896f894))
+
 ## [2.5.1](https://github.com/kettil/eslint-config/compare/2.5.0...2.5.1) (2021-06-01)
 
 
