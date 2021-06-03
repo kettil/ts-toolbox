@@ -443,7 +443,6 @@ Object {
         "*.test.tsx",
       ],
       "rules": Object {
-        "import/default": "off",
         "import/no-unused-modules": Array [
           "error",
           Object {
