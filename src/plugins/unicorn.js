@@ -60,6 +60,7 @@ const rules = {
   'unicorn/prefer-node-append': ['error'],
   'unicorn/prefer-node-remove': ['error'],
   'unicorn/prefer-number-properties': ['error'],
+  'unicorn/prefer-object-has-own': ['error'],
   'unicorn/prefer-query-selector': ['error'],
   'unicorn/prefer-reflect-apply': ['error'],
   'unicorn/prefer-regexp-test': ['error'],

@@ -2638,6 +2638,9 @@ Object {
     "unicorn/prefer-number-properties": Array [
       "error",
     ],
+    "unicorn/prefer-object-has-own": Array [
+      "error",
+    ],
     "unicorn/prefer-query-selector": Array [
       "error",
     ],
