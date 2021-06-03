@@ -2696,6 +2696,9 @@ Object {
         },
       },
     ],
+    "unicorn/require-array-join-separator": Array [
+      "error",
+    ],
     "unicorn/require-number-to-fixed-digits-argument": Array [
       "error",
     ],
