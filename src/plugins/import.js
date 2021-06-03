@@ -121,7 +121,6 @@ if (hasLibrary('jest')) {
     {
       files: ['*.test.js', '*.test.ts', '*.test.tsx'],
       rules: {
-        'import/default': 'off',
         'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }],
       },
     },
@@ -139,6 +138,10 @@ if (hasLibrary('jest')) {
         'import/group-exports': ['off'],
         'import/no-default-export': ['off'],
       },
+    },
+    {
+      files: ['tests/types/**/*.test.ts'],
+      rules: { 'import/group-exports': ['off'] },
     },
   );
 }

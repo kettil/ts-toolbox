@@ -443,7 +443,6 @@ Object {
         "*.test.tsx",
       ],
       "rules": Object {
-        "import/default": "off",
         "import/no-unused-modules": Array [
           "error",
           Object {
@@ -494,6 +493,16 @@ Object {
           "off",
         ],
         "import/no-default-export": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
+        "tests/types/**/*.test.ts",
+      ],
+      "rules": Object {
+        "import/group-exports": Array [
           "off",
         ],
       },
