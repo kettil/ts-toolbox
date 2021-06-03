@@ -2638,6 +2638,12 @@ Object {
     "unicorn/prefer-number-properties": Array [
       "error",
     ],
+    "unicorn/prefer-object-has-own": Array [
+      "error",
+    ],
+    "unicorn/prefer-prototype-methods": Array [
+      "error",
+    ],
     "unicorn/prefer-query-selector": Array [
       "error",
     ],
@@ -2689,6 +2695,12 @@ Object {
           "ref": true,
         },
       },
+    ],
+    "unicorn/require-array-join-separator": Array [
+      "error",
+    ],
+    "unicorn/require-number-to-fixed-digits-argument": Array [
+      "error",
     ],
     "unicorn/string-content": Array [
       "off",
