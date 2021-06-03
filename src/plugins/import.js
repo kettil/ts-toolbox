@@ -140,6 +140,10 @@ if (hasLibrary('jest')) {
         'import/no-default-export': ['off'],
       },
     },
+    {
+      files: ['tests/types/**/*.test.ts'],
+      rules: { 'import/group-exports': ['off'] },
+    },
   );
 }
 

@@ -499,6 +499,16 @@ Object {
       },
     },
     Object {
+      "files": Array [
+        "tests/types/**/*.test.ts",
+      ],
+      "rules": Object {
+        "import/group-exports": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
       "excludedFiles": Array [
         "index.tsx",
         "index.test.tsx",
