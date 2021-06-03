@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.3](https://github.com/kettil/eslint-config/compare/2.5.2...2.5.3) (2021-06-03)
+
+
+### Bug Fixes
+
+* **import:** fix typo in file path in the overrides section ([1e8bfb2](https://github.com/kettil/eslint-config/commit/1e8bfb2e4fae3645335751f6f79ea5ec6106a0b7))
+
 ## [2.5.2](https://github.com/kettil/eslint-config/compare/2.5.1...2.5.2) (2021-06-03)
 
 
