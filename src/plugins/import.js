@@ -140,7 +140,7 @@ if (hasLibrary('jest')) {
       },
     },
     {
-      files: ['tests/types/**/*.test.ts'],
+      files: ['tests/type/**/*.test.ts'],
       rules: { 'import/group-exports': ['off'] },
     },
   );

@@ -499,7 +499,7 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/types/**/*.test.ts",
+        "tests/type/**/*.test.ts",
       ],
       "rules": Object {
         "import/group-exports": Array [
