@@ -1,4 +1,4 @@
-import delay from '../../../src/node/delay';
+import { delay } from '../../../src/node/delay';
 
 describe('delay()', () => {
   test('it should work', async () => {

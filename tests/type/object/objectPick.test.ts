@@ -1,5 +1,5 @@
-import objectPick from '../../../src/object/objectPick';
-import { Expect } from '../../../src/types/common';
+import { objectPick } from '../../../src/object/objectPick';
+import { Expect } from '../../../src/types/expect';
 
 // objectPick
 

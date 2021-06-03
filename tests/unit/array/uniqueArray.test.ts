@@ -1,4 +1,4 @@
-import uniqueArray from '../../../src/array/uniqueArray';
+import { uniqueArray } from '../../../src/array/uniqueArray';
 
 describe('uniqueArray()', () => {
   test('it should work', () => {

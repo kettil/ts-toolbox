@@ -1,5 +1,5 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import compareAsc from './compareAsc';
+/* e1slint-disable @typescript-eslint/no-unused-vars */
+import { compareAsc } from './compareAsc';
 import { SortTransform, SortCallback } from './types';
 
 const compareTransformDesc =
@@ -7,4 +7,4 @@ const compareTransformDesc =
     (a: T, b: T) =>
       compareAsc(callback(b), callback(a));
 
-export default compareTransformDesc;
+export { compareTransformDesc };

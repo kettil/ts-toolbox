@@ -1,4 +1,4 @@
-import objectEntries from '../../../src/object/objectEntries';
+import { objectEntries } from '../../../src/object/objectEntries';
 
 describe('objectEntries()', () => {
   test('it should work', () => {

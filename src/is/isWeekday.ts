@@ -1,4 +1,4 @@
-export type Weekday = 'friday' | 'monday' | 'saturday' | 'sunday' | 'thursday' | 'tuesday' | 'wednesday';
+type Weekday = 'friday' | 'monday' | 'saturday' | 'sunday' | 'thursday' | 'tuesday' | 'wednesday';
 
 const weekdays: Record<Weekday, number> = {
   sunday: 0,
@@ -12,4 +12,5 @@ const weekdays: Record<Weekday, number> = {
 
 const isWeekday = (day: Weekday, date: Date): boolean => date.getDay() === weekdays[day];
 
-export default isWeekday;
+export type { Weekday };
+export { isWeekday };

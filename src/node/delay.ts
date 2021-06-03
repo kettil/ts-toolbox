@@ -6,4 +6,4 @@ const delay = (ms: number): Promise<void> => {
   return Promise.resolve();
 };
 
-export default delay;
+export { delay };

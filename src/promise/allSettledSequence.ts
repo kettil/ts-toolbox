@@ -1,6 +1,6 @@
-import indent from '../string/indent';
+import { indent } from '../string/indent';
 
-export const allSettledSequenceReduce = (promise: Promise<Error[]>, task: () => Promise<void>): Promise<Error[]> =>
+const allSettledSequenceReduce = (promise: Promise<Error[]>, task: () => Promise<void>): Promise<Error[]> =>
   promise.then(async (errors) => {
     try {
       await task();
@@ -27,4 +27,4 @@ const allSettledSequence = async (tasks: Array<() => Promise<void>>): Promise<vo
   }
 };
 
-export default allSettledSequence;
+export { allSettledSequence, allSettledSequenceReduce };

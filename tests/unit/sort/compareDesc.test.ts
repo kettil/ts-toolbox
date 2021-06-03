@@ -1,4 +1,4 @@
-import compareDesc from '../../../src/sort/compareDesc';
+import { compareDesc } from '../../../src/sort/compareDesc';
 
 describe('compareDesc()', () => {
   test.each([

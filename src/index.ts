@@ -1,55 +1,32 @@
-// array
-export { default as createArray } from './array/createArray';
-export { default as intersectArray } from './array/intersectArray';
-export { default as uniqueArray } from './array/uniqueArray';
+/* eslint-disable import/max-dependencies */
+export * from './array';
+export * from './funcs';
+export * from './is';
+export * from './node';
+export * from './object';
+export * from './promise';
+export * from './sort';
+export * from './string';
 
-// funcs
-export { default as dummy } from './funcs/dummy';
-
-// is
-export { default as isArray } from './is/isArray';
-export { default as isObject } from './is/isObject';
-export { default as isWeekday } from './is/isWeekday';
-
-// node
-export { default as delay } from './node/delay';
-export { default as env } from './node/env';
-
-// object
-export { default as objectEntries } from './object/objectEntries';
-export { default as objectFromEntries } from './object/objectFromEntries';
-export { default as objectKeys } from './object/objectKeys';
-export { default as objectMap } from './object/objectMap';
-export { default as objectPick } from './object/objectPick';
-
-// promise
-export { default as allSettledSequence } from './promise/allSettledSequence';
-
-// sort
-export { default as compareAsc } from './sort/compareAsc';
-export { default as compareDesc } from './sort/compareDesc';
-export { default as compareTransformAsc } from './sort/compareTransformAsc';
-export { default as compareTransformDesc } from './sort/compareTransformDesc';
-
-// string
-export { default as indent } from './string/indent';
-export { default as toCamelCase } from './string/toCamelCase';
-
-// types
-export type { Unpacked } from './types/array';
-export type { EqualType, Expect } from './types/common';
-export type { ExtractTypeFromTupleArray } from './types/extract';
-export type { Addition, Subtract } from './types/math';
-export type { ObjectClean, ObjectNormalize, ObjectType } from './types/object';
-export type {
-  SwaggerExtractProperties,
-  SwaggerProperty,
-  SwaggerPropertyArray,
-  SwaggerPropertyBoolean,
-  SwaggerPropertyNull,
-  SwaggerPropertyNumber,
-  SwaggerPropertyObject,
-  SwaggerPropertyString,
-} from './types/swagger';
-export type { Range, TupelLength, TupleOf } from './types/tuple';
-export type { UnionToTuple, UnionToIntersection } from './types/union';
+export type { Addition } from './types/math/addition';
+export type { EqualType } from './types/equalType';
+export type { Expect } from './types/expect';
+export type { ExtractTypeFromTupleArray } from './types/extractTypeFromTupleArray';
+export type { Subtract } from './types/math/subtract';
+export type { ObjectClean } from './types/object/objectClean';
+export type { ObjectNormalize } from './types/object/objectNormalize';
+export type { ObjectType } from './types/object/objectType';
+export type { SwaggerExtractProperties } from './types/swagger/swaggerExtractProperties';
+export type { SwaggerProperty } from './types/swagger/swaggerProperty';
+export type { SwaggerPropertyArray } from './types/swagger/swaggerPropertyArray';
+export type { SwaggerPropertyBoolean } from './types/swagger/swaggerPropertyBoolean';
+export type { SwaggerPropertyNull } from './types/swagger/swaggerPropertyNull';
+export type { SwaggerPropertyNumber } from './types/swagger/swaggerPropertyNumber';
+export type { SwaggerPropertyObject } from './types/swagger/swaggerPropertyObject';
+export type { SwaggerPropertyString } from './types/swagger/swaggerPropertyString';
+export type { Range } from './types/tupel/range';
+export type { TupelLength } from './types/tupel/tupelLength';
+export type { TupleOf } from './types/tupel/tupleOf';
+export type { UnionToTuple } from './types/unionToTuple';
+export type { UnionToIntersection } from './types/unionToIntersection';
+export type { Unpacked } from './types/unpacked';

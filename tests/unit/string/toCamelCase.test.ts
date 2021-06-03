@@ -1,5 +1,4 @@
-/* eslint-disable unicorn/no-null, @typescript-eslint/no-empty-function */
-import toCamelCase from '../../../src/string/toCamelCase';
+import { toCamelCase } from '../../../src/string/toCamelCase';
 
 describe('toCamelCase()', () => {
   test('it should work', () => {

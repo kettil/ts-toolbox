@@ -1,4 +1,4 @@
-import objectPick from '../../../src/object/objectPick';
+import { objectPick } from '../../../src/object/objectPick';
 
 describe('objectPick()', () => {
   test('it should work', () => {

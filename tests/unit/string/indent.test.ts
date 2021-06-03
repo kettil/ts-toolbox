@@ -1,4 +1,4 @@
-import indent from '../../../src/string/indent';
+import { indent } from '../../../src/string/indent';
 
 describe('indent()', () => {
   test('it should work', () => {

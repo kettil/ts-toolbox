@@ -12,4 +12,4 @@ const indent: Indent = (value: string, countOrChars: number | string = 2, char: 
     .join('\n');
 };
 
-export default indent;
+export { indent };

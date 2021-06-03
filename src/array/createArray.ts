@@ -14,4 +14,4 @@ const createArray: CreateArray = <T>(n: number, map?: (i: number) => T): T[] | u
   return data;
 };
 
-export default createArray;
+export { createArray };
