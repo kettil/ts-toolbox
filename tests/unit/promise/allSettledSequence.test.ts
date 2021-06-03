@@ -1,4 +1,4 @@
-import allSettledSequence, { allSettledSequenceReduce } from '../../../src/promise/allSettledSequence';
+import { allSettledSequence, allSettledSequenceReduce } from '../../../src/promise/allSettledSequence';
 
 describe('allSettledSequenceReduce()', () => {
   test('it should work', async () => {

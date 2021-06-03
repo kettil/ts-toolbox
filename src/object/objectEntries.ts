@@ -1,8 +1,8 @@
-import { EqualType } from '../types/common';
-import { ObjectType } from '../types/object';
-import { UnionToTuple } from '../types/union';
+import { EqualType } from '../types/equalType';
+import { ObjectType } from '../types/object/objectType';
+import { UnionToTuple } from '../types/unionToTuple';
 
-export type ObjectEntries<T> = EqualType<keyof T, number, false> extends true
+type ObjectEntries<T> = EqualType<keyof T, number, false> extends true
   ? ReadonlyArray<readonly [number, T[keyof T]]>
   : EqualType<keyof T, string, false> extends true
     ? ReadonlyArray<readonly [string, T[keyof T]]>
@@ -13,4 +13,5 @@ export type ObjectEntries<T> = EqualType<keyof T, number, false> extends true
 const objectEntries = <T extends ObjectType>(object: T): ObjectEntries<T> =>
   Object.entries(object) as unknown as ObjectEntries<T>;
 
-export default objectEntries;
+export type { ObjectEntries };
+export { objectEntries };

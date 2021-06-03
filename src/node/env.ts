@@ -1,13 +1,12 @@
-/* eslint-disable unicorn/prevent-abbreviations */
-type EnvType = {
+type EnvironmentType = {
   (): NodeJS.ProcessEnv;
   (key: string): string;
   (key: string, defaultValue: string | (() => string)): string;
   (key: string, defaultValue: number | (() => number)): number;
 };
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const env: EnvType = (key?: string, defaultValue?: any): any => {
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+const env: EnvironmentType = (key?: string, defaultValue?: unknown): any => {
   if (key === undefined) {
     return process.env;
   }
@@ -30,4 +29,4 @@ const env: EnvType = (key?: string, defaultValue?: any): any => {
   return value;
 };
 
-export default env;
+export { env };

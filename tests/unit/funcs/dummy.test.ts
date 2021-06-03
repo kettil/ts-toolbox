@@ -1,4 +1,4 @@
-import dummy from '../../../src/funcs/dummy';
+import { dummy } from '../../../src/funcs/dummy';
 
 describe('dummy()', () => {
   test('it should work', () => {

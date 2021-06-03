@@ -1,4 +1,4 @@
-import compareAsc from '../../../src/sort/compareAsc';
+import { compareAsc } from '../../../src/sort/compareAsc';
 
 describe('compareAsc()', () => {
   test.each([

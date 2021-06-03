@@ -1,4 +1,4 @@
-import compareTransformAsc from '../../../src/sort/compareTransformAsc';
+import { compareTransformAsc } from '../../../src/sort/compareTransformAsc';
 
 const mockTransform = jest.fn((value: { count: number }) => value.count);
 

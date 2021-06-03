@@ -1,4 +1,4 @@
-import objectKeys from '../../../src/object/objectKeys';
+import { objectKeys } from '../../../src/object/objectKeys';
 
 describe('objectKeys()', () => {
   test('it should work', () => {

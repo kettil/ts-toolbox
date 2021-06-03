@@ -1,5 +1,4 @@
-/* eslint-disable unicorn/prevent-abbreviations */
-import env from '../../../src/node/env';
+import { env } from '../../../src/node/env';
 
 const envKey = `TEST_RANDOM_${Date.now()}`;
 

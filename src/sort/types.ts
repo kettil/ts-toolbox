@@ -1,5 +1,7 @@
-export type SortValue = number | string;
+type SortValue = number | string;
 
-export type SortTransform<T> = (value: T) => SortValue;
+type SortTransform<T> = (value: T) => SortValue;
 
-export type SortCallback<T> = (a: T, b: T) => number;
+type SortCallback<T> = (a: T, b: T) => number;
+
+export type { SortValue, SortTransform, SortCallback };

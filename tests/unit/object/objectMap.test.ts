@@ -1,4 +1,4 @@
-import objectMap from '../../../src/object/objectMap';
+import { objectMap } from '../../../src/object/objectMap';
 
 describe('objectMap()', () => {
   test('it should work', () => {

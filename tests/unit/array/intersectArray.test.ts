@@ -1,4 +1,4 @@
-import intersectArray from '../../../src/array/intersectArray';
+import { intersectArray } from '../../../src/array/intersectArray';
 
 describe('intersectArray()', () => {
   test('it should work', () => {

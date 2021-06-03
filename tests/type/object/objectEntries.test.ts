@@ -1,6 +1,6 @@
 import { ObjectEntries } from '../../../src/object/objectEntries';
-import { Expect } from '../../../src/types/common';
-import { ObjectType } from '../../../src/types/object';
+import { Expect } from '../../../src/types/expect';
+import { ObjectType } from '../../../src/types/object/objectType';
 
 // ObjectEntries
 

@@ -1,4 +1,4 @@
-import createArray from '../../../src/array/createArray';
+import { createArray } from '../../../src/array/createArray';
 
 describe('createArray()', () => {
   test('it should work and return an array', () => {

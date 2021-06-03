@@ -11,4 +11,4 @@ const toCamelCase = (value: string): string => {
     .join('');
 };
 
-export default toCamelCase;
+export { toCamelCase };
