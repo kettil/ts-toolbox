@@ -20,6 +20,9 @@ The following additional ESLint plugins are included by default:
 | [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)                         | -                                                      |
 | [eslint-plugin-unicorn](https://www.npmjs.com/package/eslint-plugin-unicorn)                       | -                                                      |
 | [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node)                             | -                                                      |
+| [eslint-plugin-eslint-comments](https://www.npmjs.com/package/eslint-plugin-eslint-comments)       | -                                                      |
+| [eslint-plugin-sonarjs](https://www.npmjs.com/package/eslint-plugin-sonarjs)                       | -                                                      |
+| [eslint-plugin-regexp](https://www.npmjs.com/package/eslint-plugin-regexp)                         | -                                                      |
 | [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser)               | typescript                                             |
 | [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) | typescript                                             |
 | [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)                           | react                                                  |
