@@ -360,6 +360,7 @@ const rules = {
   'no-restricted-imports': ['off', { paths: [], patterns: [] }],
   'no-restricted-properties': [
     'error',
+    /* eslint-disable sonarjs/no-duplicate-string -- config file */
     { object: 'arguments', property: 'callee', message: 'arguments.callee is deprecated' },
     { object: 'global', property: 'isFinite', message: 'Please use Number.isFinite instead' },
     { object: 'self', property: 'isFinite', message: 'Please use Number.isFinite instead' },
@@ -370,6 +371,7 @@ const rules = {
     { property: '__defineGetter__', message: 'Please use Object.defineProperty instead.' },
     { property: '__defineSetter__', message: 'Please use Object.defineProperty instead.' },
     { object: 'Math', property: 'pow', message: 'Use the exponentiation operator (**) instead.' },
+    /* eslint-enable sonarjs/no-duplicate-string -- config file */
   ],
   'no-restricted-syntax': [
     'error',

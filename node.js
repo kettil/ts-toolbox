@@ -1,3 +1,4 @@
+/* eslint-disable import/max-dependencies -- brings all rules together */
 const deepMerge = require('./src/lib/deepEqual');
 const defaultObject = require('./src/lib/defaultObject');
 
@@ -12,6 +13,7 @@ const plugins = [
   require('./src/plugins/import'),
   require('./src/plugins/unicorn'),
   require('./src/plugins/eslintComments'),
+  require('./src/plugins/sonarjs'),
 
   // react
   require('./src/plugins/react'),
@@ -38,3 +40,4 @@ module.exports = plugins.reduce(
   }),
   defaultObject,
 );
+/* eslint-enable import/max-dependencies -- brings all rules together */

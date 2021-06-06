@@ -635,6 +635,7 @@ Object {
     "import",
     "unicorn",
     "eslint-comments",
+    "sonarjs",
     "jest",
   ],
   "rules": Object {
@@ -2401,6 +2402,81 @@ Object {
     "semi-style": Array [
       "error",
       "last",
+    ],
+    "sonarjs/cognitive-complexity": Array [
+      "error",
+    ],
+    "sonarjs/max-switch-cases": Array [
+      "error",
+    ],
+    "sonarjs/no-all-duplicated-branches": Array [
+      "error",
+    ],
+    "sonarjs/no-collapsible-if": Array [
+      "error",
+    ],
+    "sonarjs/no-collection-size-mischeck": Array [
+      "error",
+    ],
+    "sonarjs/no-duplicate-string": Array [
+      "error",
+    ],
+    "sonarjs/no-duplicated-branches": Array [
+      "error",
+    ],
+    "sonarjs/no-element-overwrite": Array [
+      "error",
+    ],
+    "sonarjs/no-extra-arguments": Array [
+      "error",
+    ],
+    "sonarjs/no-identical-conditions": Array [
+      "error",
+    ],
+    "sonarjs/no-identical-expressions": Array [
+      "error",
+    ],
+    "sonarjs/no-identical-functions": Array [
+      "error",
+    ],
+    "sonarjs/no-inverted-boolean-check": Array [
+      "error",
+    ],
+    "sonarjs/no-one-iteration-loop": Array [
+      "error",
+    ],
+    "sonarjs/no-redundant-boolean": Array [
+      "error",
+    ],
+    "sonarjs/no-redundant-jump": Array [
+      "error",
+    ],
+    "sonarjs/no-same-line-conditional": Array [
+      "error",
+    ],
+    "sonarjs/no-small-switch": Array [
+      "error",
+    ],
+    "sonarjs/no-unused-collection": Array [
+      "error",
+    ],
+    "sonarjs/no-use-of-empty-return-value": Array [
+      "error",
+    ],
+    "sonarjs/no-useless-catch": Array [
+      "error",
+    ],
+    "sonarjs/prefer-immediate-return": Array [
+      "error",
+    ],
+    "sonarjs/prefer-object-literal": Array [
+      "error",
+    ],
+    "sonarjs/prefer-single-boolean-return": Array [
+      "error",
+    ],
+    "sonarjs/prefer-while": Array [
+      "error",
     ],
     "sort-imports": Array [
       "off",
