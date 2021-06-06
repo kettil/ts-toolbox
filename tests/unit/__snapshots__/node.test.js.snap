@@ -412,6 +412,9 @@ Object {
         "**/src/bin/**/*",
       ],
       "rules": Object {
+        "import/max-dependencies": Array [
+          "off",
+        ],
         "import/no-unused-modules": Array [
           "off",
         ],

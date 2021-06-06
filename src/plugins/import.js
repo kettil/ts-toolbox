@@ -78,7 +78,10 @@ const overrides = [
   },
   {
     files: ['**/src/index.js', '**/src/index.ts', '**/src/bin/**/*'],
-    rules: { 'import/no-unused-modules': ['off'] },
+    rules: {
+      'import/no-unused-modules': ['off'],
+      'import/max-dependencies': ['off'],
+    },
   },
   {
     files: ['*.js'],
