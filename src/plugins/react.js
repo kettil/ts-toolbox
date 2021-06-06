@@ -94,7 +94,6 @@ const rules = {
       condition: 'parens-new-line',
       logical: 'parens-new-line',
       prop: 'parens-new-line',
-
       /* eslint-enable sonarjs/no-duplicate-string -- config file */
     },
   ],
