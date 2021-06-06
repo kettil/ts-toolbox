@@ -1,4 +1,3 @@
-/* eslint-disable id-blacklist */
 const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
@@ -222,6 +221,7 @@ const rules = {
   'no-floating-decimal': ['error'],
   'no-func-assign': ['error'],
   'no-global-assign': ['error', { exceptions: [] }],
+  // eslint-disable-next-line id-blacklist -- keywords are needed for the configuration
   'no-implicit-coercion': ['off', { boolean: false, number: true, string: true, allow: [] }],
   'no-implicit-globals': ['off'],
   'no-implied-eval': ['error'],
@@ -360,6 +360,7 @@ const rules = {
   'no-restricted-imports': ['off', { paths: [], patterns: [] }],
   'no-restricted-properties': [
     'error',
+    /* eslint-disable sonarjs/no-duplicate-string -- config file */
     { object: 'arguments', property: 'callee', message: 'arguments.callee is deprecated' },
     { object: 'global', property: 'isFinite', message: 'Please use Number.isFinite instead' },
     { object: 'self', property: 'isFinite', message: 'Please use Number.isFinite instead' },
@@ -370,6 +371,7 @@ const rules = {
     { property: '__defineGetter__', message: 'Please use Object.defineProperty instead.' },
     { property: '__defineSetter__', message: 'Please use Object.defineProperty instead.' },
     { object: 'Math', property: 'pow', message: 'Use the exponentiation operator (**) instead.' },
+    /* eslint-enable sonarjs/no-duplicate-string -- config file */
   ],
   'no-restricted-syntax': [
     'error',
@@ -435,6 +437,8 @@ const rules = {
   'no-unused-labels': ['error'],
   'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
   'no-use-before-define': ['error', { functions: true, classes: true, variables: true }],
+  // The rule covers less cases than the regexp rules
+  'no-useless-backreference': 'off',
   'no-useless-call': ['off'],
   'no-useless-catch': ['error'],
   'no-useless-computed-key': ['error'],
@@ -498,7 +502,7 @@ const rules = {
   'prefer-numeric-literals': ['error'],
   'prefer-object-spread': ['error'],
   'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
-  'prefer-regex-literals': ['off'],
+  'prefer-regex-literals': ['error'],
   'prefer-rest-params': ['error'],
   'prefer-spread': ['error'],
   'prefer-template': ['error'],

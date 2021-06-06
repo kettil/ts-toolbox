@@ -412,6 +412,9 @@ Object {
         "**/src/bin/**/*",
       ],
       "rules": Object {
+        "import/max-dependencies": Array [
+          "off",
+        ],
         "import/no-unused-modules": Array [
           "off",
         ],
@@ -631,6 +634,9 @@ Object {
     "@typescript-eslint",
     "import",
     "unicorn",
+    "eslint-comments",
+    "sonarjs",
+    "regexp",
     "jest",
   ],
   "rules": Object {
@@ -811,6 +817,31 @@ Object {
     "eqeqeq": Array [
       "error",
       "always",
+    ],
+    "eslint-comments/disable-enable-pair": Array [
+      "error",
+    ],
+    "eslint-comments/no-aggregating-enable": Array [
+      "error",
+    ],
+    "eslint-comments/no-duplicate-disable": Array [
+      "error",
+    ],
+    "eslint-comments/no-restricted-disable": "off",
+    "eslint-comments/no-unlimited-disable": Array [
+      "error",
+    ],
+    "eslint-comments/no-unused-disable": Array [
+      "error",
+    ],
+    "eslint-comments/no-unused-enable": Array [
+      "error",
+    ],
+    "eslint-comments/no-use": Array [
+      "off",
+    ],
+    "eslint-comments/require-description": Array [
+      "error",
     ],
     "for-direction": Array [
       "error",
@@ -1967,6 +1998,7 @@ Object {
         "variables": true,
       },
     ],
+    "no-useless-backreference": "off",
     "no-useless-call": Array [
       "off",
     ],
@@ -2317,7 +2349,7 @@ Object {
       },
     ],
     "prefer-regex-literals": Array [
-      "off",
+      "error",
     ],
     "prefer-rest-params": Array [
       "error",
@@ -2340,6 +2372,120 @@ Object {
       },
     ],
     "radix": Array [
+      "error",
+    ],
+    "regexp/control-character-escape": Array [
+      "error",
+    ],
+    "regexp/letter-case": Array [
+      "error",
+    ],
+    "regexp/match-any": Array [
+      "error",
+    ],
+    "regexp/negation": Array [
+      "error",
+    ],
+    "regexp/no-assertion-capturing-group": Array [
+      "error",
+    ],
+    "regexp/no-dupe-characters-character-class": Array [
+      "error",
+    ],
+    "regexp/no-empty-alternative": Array [
+      "error",
+    ],
+    "regexp/no-empty-group": Array [
+      "error",
+    ],
+    "regexp/no-empty-lookarounds-assertion": Array [
+      "error",
+    ],
+    "regexp/no-escape-backspace": Array [
+      "error",
+    ],
+    "regexp/no-invisible-character": Array [
+      "error",
+    ],
+    "regexp/no-octal": Array [
+      "error",
+    ],
+    "regexp/no-potentially-useless-backreference": Array [
+      "error",
+    ],
+    "regexp/no-useless-assertions": Array [
+      "error",
+    ],
+    "regexp/no-useless-backreference": Array [
+      "error",
+    ],
+    "regexp/no-useless-character-class": Array [
+      "error",
+    ],
+    "regexp/no-useless-dollar-replacements": Array [
+      "error",
+    ],
+    "regexp/no-useless-escape": Array [
+      "error",
+    ],
+    "regexp/no-useless-exactly-quantifier": Array [
+      "error",
+    ],
+    "regexp/no-useless-lazy": Array [
+      "error",
+    ],
+    "regexp/no-useless-non-capturing-group": Array [
+      "error",
+    ],
+    "regexp/no-useless-range": Array [
+      "error",
+    ],
+    "regexp/no-useless-two-nums-quantifier": Array [
+      "error",
+    ],
+    "regexp/optimal-quantifier-concatenation": Array [
+      "error",
+    ],
+    "regexp/order-in-character-class": Array [
+      "error",
+    ],
+    "regexp/prefer-d": Array [
+      "error",
+    ],
+    "regexp/prefer-plus-quantifier": Array [
+      "error",
+    ],
+    "regexp/prefer-predefined-assertion": Array [
+      "error",
+    ],
+    "regexp/prefer-quantifier": Array [
+      "error",
+    ],
+    "regexp/prefer-question-quantifier": Array [
+      "error",
+    ],
+    "regexp/prefer-range": Array [
+      "error",
+    ],
+    "regexp/prefer-regexp-test": Array [
+      "error",
+    ],
+    "regexp/prefer-star-quantifier": Array [
+      "error",
+    ],
+    "regexp/prefer-t": Array [
+      "error",
+    ],
+    "regexp/prefer-unicode-codepoint-escapes": Array [
+      "error",
+    ],
+    "regexp/prefer-w": Array [
+      "error",
+    ],
+    "regexp/sort-flags": Array [
+      "error",
+    ],
+    "regexp/unicode-escape": Array [
       "error",
     ],
     "require-atomic-updates": Array [
@@ -2372,6 +2518,81 @@ Object {
     "semi-style": Array [
       "error",
       "last",
+    ],
+    "sonarjs/cognitive-complexity": Array [
+      "error",
+    ],
+    "sonarjs/max-switch-cases": Array [
+      "error",
+    ],
+    "sonarjs/no-all-duplicated-branches": Array [
+      "error",
+    ],
+    "sonarjs/no-collapsible-if": Array [
+      "error",
+    ],
+    "sonarjs/no-collection-size-mischeck": Array [
+      "error",
+    ],
+    "sonarjs/no-duplicate-string": Array [
+      "error",
+    ],
+    "sonarjs/no-duplicated-branches": Array [
+      "error",
+    ],
+    "sonarjs/no-element-overwrite": Array [
+      "error",
+    ],
+    "sonarjs/no-extra-arguments": Array [
+      "error",
+    ],
+    "sonarjs/no-identical-conditions": Array [
+      "error",
+    ],
+    "sonarjs/no-identical-expressions": Array [
+      "error",
+    ],
+    "sonarjs/no-identical-functions": Array [
+      "error",
+    ],
+    "sonarjs/no-inverted-boolean-check": Array [
+      "error",
+    ],
+    "sonarjs/no-one-iteration-loop": Array [
+      "error",
+    ],
+    "sonarjs/no-redundant-boolean": Array [
+      "error",
+    ],
+    "sonarjs/no-redundant-jump": Array [
+      "error",
+    ],
+    "sonarjs/no-same-line-conditional": Array [
+      "error",
+    ],
+    "sonarjs/no-small-switch": Array [
+      "error",
+    ],
+    "sonarjs/no-unused-collection": Array [
+      "error",
+    ],
+    "sonarjs/no-use-of-empty-return-value": Array [
+      "error",
+    ],
+    "sonarjs/no-useless-catch": Array [
+      "error",
+    ],
+    "sonarjs/prefer-immediate-return": Array [
+      "error",
+    ],
+    "sonarjs/prefer-object-literal": Array [
+      "error",
+    ],
+    "sonarjs/prefer-single-boolean-return": Array [
+      "error",
+    ],
+    "sonarjs/prefer-while": Array [
+      "error",
     ],
     "sort-imports": Array [
       "off",
