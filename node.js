@@ -1,8 +1,7 @@
-/* eslint-disable node/global-require, import/order */
-
 const deepMerge = require('./src/lib/deepEqual');
 const defaultObject = require('./src/lib/defaultObject');
 
+/* eslint-disable node/global-require -- order is important */
 const plugins = [
   require('./src/plugins/eslint'),
   require('./src/plugins/node'),
@@ -12,6 +11,7 @@ const plugins = [
   require('./src/plugins/formatjs'),
   require('./src/plugins/import'),
   require('./src/plugins/unicorn'),
+  require('./src/plugins/eslintComments'),
 
   // react
   require('./src/plugins/react'),
@@ -23,6 +23,7 @@ const plugins = [
   require('./src/plugins/testingLibrary'),
   require('./src/plugins/testingLibraryJestDom'),
 ];
+/* eslint-enable node/global-require -- order is important */
 
 module.exports = plugins.reduce(
   (config, plugin) => ({

@@ -1,4 +1,3 @@
-/* eslint-disable id-blacklist */
 const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
@@ -222,6 +221,7 @@ const rules = {
   'no-floating-decimal': ['error'],
   'no-func-assign': ['error'],
   'no-global-assign': ['error', { exceptions: [] }],
+  // eslint-disable-next-line id-blacklist -- keywords are needed for the configuration
   'no-implicit-coercion': ['off', { boolean: false, number: true, string: true, allow: [] }],
   'no-implicit-globals': ['off'],
   'no-implied-eval': ['error'],

@@ -631,6 +631,7 @@ Object {
     "@typescript-eslint",
     "import",
     "unicorn",
+    "eslint-comments",
     "jest",
   ],
   "rules": Object {
@@ -811,6 +812,31 @@ Object {
     "eqeqeq": Array [
       "error",
       "always",
+    ],
+    "eslint-comments/disable-enable-pair": Array [
+      "error",
+    ],
+    "eslint-comments/no-aggregating-enable": Array [
+      "error",
+    ],
+    "eslint-comments/no-duplicate-disable": Array [
+      "error",
+    ],
+    "eslint-comments/no-restricted-disable": "off",
+    "eslint-comments/no-unlimited-disable": Array [
+      "error",
+    ],
+    "eslint-comments/no-unused-disable": Array [
+      "error",
+    ],
+    "eslint-comments/no-unused-enable": Array [
+      "error",
+    ],
+    "eslint-comments/no-use": Array [
+      "off",
+    ],
+    "eslint-comments/require-description": Array [
+      "error",
     ],
     "for-direction": Array [
       "error",
