@@ -1,5 +1,34 @@
 # Changelog
 
+# [3.0.0](https://github.com/kettil/eslint-config/compare/2.5.3...3.0.0) (2021-06-06)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.15.4 to 2.15.5 ([75781e0](https://github.com/kettil/eslint-config/commit/75781e0b34cbf6bc8a08ad18ffd2db1725b3878a))
+* **deps:** bump eslint-plugin-formatjs from 2.15.5 to 2.15.6 ([eeaf662](https://github.com/kettil/eslint-config/commit/eeaf6620f2db65475ab00e9005daaf613bc23127))
+* **deps:** bump eslint-plugin-unicorn from 32.0.1 to 33.0.0 ([f079eae](https://github.com/kettil/eslint-config/commit/f079eaeb28762c7246704a9bc04bd863c256fcd8))
+* **deps:** bump eslint-plugin-unicorn from 33.0.0 to 33.0.1 ([f898785](https://github.com/kettil/eslint-config/commit/f898785e3a5bd57fb0eb832d11b5050933b06d05))
+* **import:** disable import/max-dependencies rule for source index file ([b575aea](https://github.com/kettil/eslint-config/commit/b575aea4a7f7a97b0216738494c5752e6c2192a0))
+
+
+### Features
+
+* **eslint-comments:** add eslint-comments plugin ([cc05b37](https://github.com/kettil/eslint-config/commit/cc05b37a6a1be7abe2f9d4e65bd3883f6cb63087)), closes [#508](https://github.com/kettil/eslint-config/issues/508)
+* **regexp:** add eslint-plugin-regexp plugin ([2cacd7e](https://github.com/kettil/eslint-config/commit/2cacd7e96207400c614cd237228bc95edc84c2a9)), closes [#510](https://github.com/kettil/eslint-config/issues/510)
+* **sonarjs:** add eslint-plugin-sonarjs plugin ([92864fc](https://github.com/kettil/eslint-config/commit/92864fc65e31643d84b9ad747d8c8b14a62305ea)), closes [#507](https://github.com/kettil/eslint-config/issues/507)
+* **unicorn:** add rule unicorn/prefer-object-has-own ([6d6765b](https://github.com/kettil/eslint-config/commit/6d6765bde8ac5a69950ca5a0e013f2d2623e3799))
+* **unicorn:** add rule unicorn/prefer-prototype-methods ([841b070](https://github.com/kettil/eslint-config/commit/841b0707c6a692df9913b55bed7efcd4ea5c1f35))
+* **unicorn:** add rule unicorn/require-array-join-separator ([b731b47](https://github.com/kettil/eslint-config/commit/b731b473f5b1707a93e4a18e617f032b93ad482a))
+* **unicorn:** add rule unicorn/require-number-to-fixed-digits-argument ([8988697](https://github.com/kettil/eslint-config/commit/8988697ceeb3826fb0ac50a0ecc49195d44d4fd5))
+
+
+### BREAKING CHANGES
+
+* **regexp:** The new regexp plugin changes the handling with the code.
+* **sonarjs:** The new sonarjs plugin changes the handling with the code.
+* **eslint-comments:** The new plugin changes the behavior of eslint-disable comments.
+
 ## [2.5.3](https://github.com/kettil/eslint-config/compare/2.5.2...2.5.3) (2021-06-03)
 
 
