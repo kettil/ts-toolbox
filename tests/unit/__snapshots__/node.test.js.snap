@@ -636,6 +636,7 @@ Object {
     "unicorn",
     "eslint-comments",
     "sonarjs",
+    "regexp",
     "jest",
   ],
   "rules": Object {
@@ -1997,6 +1998,7 @@ Object {
         "variables": true,
       },
     ],
+    "no-useless-backreference": "off",
     "no-useless-call": Array [
       "off",
     ],
@@ -2347,7 +2349,7 @@ Object {
       },
     ],
     "prefer-regex-literals": Array [
-      "off",
+      "error",
     ],
     "prefer-rest-params": Array [
       "error",
@@ -2370,6 +2372,120 @@ Object {
       },
     ],
     "radix": Array [
+      "error",
+    ],
+    "regexp/control-character-escape": Array [
+      "error",
+    ],
+    "regexp/letter-case": Array [
+      "error",
+    ],
+    "regexp/match-any": Array [
+      "error",
+    ],
+    "regexp/negation": Array [
+      "error",
+    ],
+    "regexp/no-assertion-capturing-group": Array [
+      "error",
+    ],
+    "regexp/no-dupe-characters-character-class": Array [
+      "error",
+    ],
+    "regexp/no-empty-alternative": Array [
+      "error",
+    ],
+    "regexp/no-empty-group": Array [
+      "error",
+    ],
+    "regexp/no-empty-lookarounds-assertion": Array [
+      "error",
+    ],
+    "regexp/no-escape-backspace": Array [
+      "error",
+    ],
+    "regexp/no-invisible-character": Array [
+      "error",
+    ],
+    "regexp/no-octal": Array [
+      "error",
+    ],
+    "regexp/no-potentially-useless-backreference": Array [
+      "error",
+    ],
+    "regexp/no-useless-assertions": Array [
+      "error",
+    ],
+    "regexp/no-useless-backreference": Array [
+      "error",
+    ],
+    "regexp/no-useless-character-class": Array [
+      "error",
+    ],
+    "regexp/no-useless-dollar-replacements": Array [
+      "error",
+    ],
+    "regexp/no-useless-escape": Array [
+      "error",
+    ],
+    "regexp/no-useless-exactly-quantifier": Array [
+      "error",
+    ],
+    "regexp/no-useless-lazy": Array [
+      "error",
+    ],
+    "regexp/no-useless-non-capturing-group": Array [
+      "error",
+    ],
+    "regexp/no-useless-range": Array [
+      "error",
+    ],
+    "regexp/no-useless-two-nums-quantifier": Array [
+      "error",
+    ],
+    "regexp/optimal-quantifier-concatenation": Array [
+      "error",
+    ],
+    "regexp/order-in-character-class": Array [
+      "error",
+    ],
+    "regexp/prefer-d": Array [
+      "error",
+    ],
+    "regexp/prefer-plus-quantifier": Array [
+      "error",
+    ],
+    "regexp/prefer-predefined-assertion": Array [
+      "error",
+    ],
+    "regexp/prefer-quantifier": Array [
+      "error",
+    ],
+    "regexp/prefer-question-quantifier": Array [
+      "error",
+    ],
+    "regexp/prefer-range": Array [
+      "error",
+    ],
+    "regexp/prefer-regexp-test": Array [
+      "error",
+    ],
+    "regexp/prefer-star-quantifier": Array [
+      "error",
+    ],
+    "regexp/prefer-t": Array [
+      "error",
+    ],
+    "regexp/prefer-unicode-codepoint-escapes": Array [
+      "error",
+    ],
+    "regexp/prefer-w": Array [
+      "error",
+    ],
+    "regexp/sort-flags": Array [
+      "error",
+    ],
+    "regexp/unicode-escape": Array [
       "error",
     ],
     "require-atomic-updates": Array [

@@ -14,6 +14,7 @@ const plugins = [
   require('./src/plugins/unicorn'),
   require('./src/plugins/eslintComments'),
   require('./src/plugins/sonarjs'),
+  require('./src/plugins/regexp'),
 
   // react
   require('./src/plugins/react'),
