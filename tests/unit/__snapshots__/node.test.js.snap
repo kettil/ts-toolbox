@@ -2702,7 +2702,7 @@ Object {
       "never",
     ],
     "unicorn/better-regex": Array [
-      "error",
+      "off",
     ],
     "unicorn/catch-error-name": Array [
       "error",
