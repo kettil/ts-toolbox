@@ -1,7 +1,14 @@
 {
   "deps": {
     "ignore": {
-      "packages": []
+      "packages": [
+        "eslint-plugin-formatjs",
+        "eslint-plugin-jest-dom",
+        "eslint-plugin-jsx-a11y",
+        "eslint-plugin-react",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-testing-library"
+      ]
     }
   },
   "license": {
