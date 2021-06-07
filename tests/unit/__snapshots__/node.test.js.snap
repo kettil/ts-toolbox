@@ -2521,6 +2521,7 @@ Object {
     ],
     "sonarjs/cognitive-complexity": Array [
       "error",
+      15,
     ],
     "sonarjs/max-switch-cases": Array [
       "error",

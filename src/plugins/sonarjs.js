@@ -1,7 +1,8 @@
 const defaultObject = require('../lib/defaultObject');
+const eslint = require('./eslint');
 
 const rules = {
-  'sonarjs/cognitive-complexity': ['error'],
+  'sonarjs/cognitive-complexity': eslint.rules.complexity,
   'sonarjs/max-switch-cases': ['error'],
   'sonarjs/no-all-duplicated-branches': ['error'],
   'sonarjs/no-collapsible-if': ['error'],
