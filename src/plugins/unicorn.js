@@ -2,7 +2,8 @@ const defaultObject = require('../lib/defaultObject');
 const hasLibrary = require('../lib/hasLibrary');
 
 const rules = {
-  'unicorn/better-regex': ['error'],
+  // the plugin eslint-plugin-regexp takes over the regexp handling
+  'unicorn/better-regex': ['off'],
   'unicorn/catch-error-name': ['error'],
   'unicorn/consistent-destructuring': ['error'],
   'unicorn/consistent-function-scoping': ['error'],

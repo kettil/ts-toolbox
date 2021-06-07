@@ -789,6 +789,7 @@ Object {
     ],
     "curly": Array [
       "error",
+      "all",
     ],
     "default-case": Array [
       "error",
@@ -2702,7 +2703,7 @@ Object {
       "never",
     ],
     "unicorn/better-regex": Array [
-      "error",
+      "off",
     ],
     "unicorn/catch-error-name": Array [
       "error",
