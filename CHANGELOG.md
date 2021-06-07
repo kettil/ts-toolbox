@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.0.1](https://github.com/kettil/eslint-config/compare/3.0.0...3.0.1) (2021-06-07)
+
+
+### Bug Fixes
+
+* **eslint:** extend curly rule with "all" option ([d318b76](https://github.com/kettil/eslint-config/commit/d318b7604d93b18196ae0da6f3a1bb3bfcf5c6bb))
+* **sonarjs:** consistent complexity rule ([b8ffef2](https://github.com/kettil/eslint-config/commit/b8ffef2e2b5ff587881a340ad63bd2a70c6c186e))
+* **sonarjs:** update duplicate count from no-duplicate-string rule ([a3675fc](https://github.com/kettil/eslint-config/commit/a3675fca6fbf6107384d3456ba3365095a205e06))
+* **unicorn:** disable unicorn/better-regex rule ([4189371](https://github.com/kettil/eslint-config/commit/4189371db95b64b579f269748907f6fc093fd51d))
+
 # [3.0.0](https://github.com/kettil/eslint-config/compare/2.5.3...3.0.0) (2021-06-06)
 
 
