@@ -6,7 +6,7 @@ const rules = {
   'sonarjs/no-all-duplicated-branches': ['error'],
   'sonarjs/no-collapsible-if': ['error'],
   'sonarjs/no-collection-size-mischeck': ['error'],
-  'sonarjs/no-duplicate-string': ['error'],
+  'sonarjs/no-duplicate-string': ['error', 10],
   'sonarjs/no-duplicated-branches': ['error'],
   'sonarjs/no-element-overwrite': ['error'],
   'sonarjs/no-extra-arguments': ['error'],

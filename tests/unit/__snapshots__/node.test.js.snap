@@ -2536,6 +2536,7 @@ Object {
     ],
     "sonarjs/no-duplicate-string": Array [
       "error",
+      10,
     ],
     "sonarjs/no-duplicated-branches": Array [
       "error",
