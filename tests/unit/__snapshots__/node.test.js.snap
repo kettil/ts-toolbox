@@ -2383,6 +2383,12 @@ Object {
     ],
     "regexp/letter-case": Array [
       "error",
+      Object {
+        "caseInsensitive": "lowercase",
+        "controlEscape": "uppercase",
+        "hexadecimalEscape": "uppercase",
+        "unicodeEscape": "uppercase",
+      },
     ],
     "regexp/match-any": Array [
       "error",

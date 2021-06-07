@@ -2,7 +2,15 @@ const defaultObject = require('../lib/defaultObject');
 
 const rules = {
   'regexp/control-character-escape': ['error'],
-  'regexp/letter-case': ['error'],
+  'regexp/letter-case': [
+    'error',
+    {
+      caseInsensitive: 'lowercase',
+      unicodeEscape: 'uppercase',
+      hexadecimalEscape: 'uppercase',
+      controlEscape: 'uppercase',
+    },
+  ],
   'regexp/match-any': ['error'],
   'regexp/negation': ['error'],
   'regexp/no-assertion-capturing-group': ['error'], //  This rule will be marked as deprecated.
