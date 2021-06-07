@@ -789,6 +789,7 @@ Object {
     ],
     "curly": Array [
       "error",
+      "all",
     ],
     "default-case": Array [
       "error",
