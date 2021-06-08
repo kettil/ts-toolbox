@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.2](https://github.com/kettil/eslint-config/compare/3.0.1...3.0.2) (2021-06-08)
+
+
+### Bug Fixes
+
+* **eslint-comments:** update disable-enable-pair rule ([55dc996](https://github.com/kettil/eslint-config/commit/55dc9968578d0df65b1c022d7eecef1f8ebe4dbf))
+* **regexp:** change options from letter-case rule ([baee40f](https://github.com/kettil/eslint-config/commit/baee40f66cfaeda382ed2b38fb61120c2cd3627c))
+
 ## [3.0.1](https://github.com/kettil/eslint-config/compare/3.0.0...3.0.1) (2021-06-07)
 
 
