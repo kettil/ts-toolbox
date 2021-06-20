@@ -1,5 +1,21 @@
 # Changelog
 
+# [3.1.0](https://github.com/kettil/eslint-config/compare/3.0.3...3.1.0) (2021-06-20)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.26.1 to 4.27.0 ([d26b8df](https://github.com/kettil/eslint-config/commit/d26b8dfb59c3abbd8b99a8bbdfcbf96b4f4ea3f5))
+* **deps:** bump @typescript-eslint/parser from 4.26.1 to 4.27.0 ([159668c](https://github.com/kettil/eslint-config/commit/159668c6bcf56b9ca5cfc1edfb098f18b523ba82))
+* **deps:** bump eslint-plugin-regexp from 0.11.0 to 0.12.1 ([5e3244b](https://github.com/kettil/eslint-config/commit/5e3244b6a208f73eee7b30252f9e90ee441948fd))
+* **regexp:** replace deprecated rules ([23b99ce](https://github.com/kettil/eslint-config/commit/23b99ce43a2e0aec2314792b9d029b173e603143))
+
+
+### Features
+
+* **regexp:** add rule regexp/sort-alternatives ([b071503](https://github.com/kettil/eslint-config/commit/b071503a90b1d24ff29c79fbf174791e3bb5f178))
+* **sonarjs:** ignore the rule no-identical-functions for test files ([de7e107](https://github.com/kettil/eslint-config/commit/de7e1077b48511fdc5ced80fe487aec9e1517847))
+
 ## [3.0.3](https://github.com/kettil/eslint-config/compare/3.0.2...3.0.3) (2021-06-15)
 
 
