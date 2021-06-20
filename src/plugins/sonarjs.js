@@ -29,4 +29,13 @@ const rules = {
   'sonarjs/prefer-while': ['error'],
 };
 
-module.exports = { ...defaultObject, plugins: ['sonarjs'], rules };
+const overrides = [
+  {
+    files: ['*.test.js', '*.test.ts', '*.test.tsx'],
+    rules: {
+      'sonarjs/no-identical-functions': ['off'],
+    },
+  },
+];
+
+module.exports = { ...defaultObject, plugins: ['sonarjs'], rules, overrides };
