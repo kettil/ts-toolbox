@@ -1,5 +1,3 @@
-/* eslint-disable no-template-curly-in-string */
-
 // @semantic-release/changelog
 const changelogFile = 'CHANGELOG.md';
 const changelogTitle = '# Changelog';
@@ -23,7 +21,7 @@ const configuration = {
     ['@semantic-release/git', { assets }],
     '@semantic-release/github',
   ],
-
+  // eslint-disable-next-line no-template-curly-in-string -- @SR requires the notation
   tagFormat: '${version}',
 };
 
