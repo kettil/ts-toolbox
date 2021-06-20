@@ -2396,13 +2396,13 @@ Object {
     "regexp/negation": Array [
       "error",
     ],
-    "regexp/no-assertion-capturing-group": Array [
-      "error",
-    ],
     "regexp/no-dupe-characters-character-class": Array [
       "error",
     ],
     "regexp/no-empty-alternative": Array [
+      "error",
+    ],
+    "regexp/no-empty-capturing-group": Array [
       "error",
     ],
     "regexp/no-empty-group": Array [
@@ -2456,9 +2456,6 @@ Object {
     "regexp/optimal-quantifier-concatenation": Array [
       "error",
     ],
-    "regexp/order-in-character-class": Array [
-      "error",
-    ],
     "regexp/prefer-d": Array [
       "error",
     ],
@@ -2492,7 +2489,16 @@ Object {
     "regexp/prefer-w": Array [
       "error",
     ],
+    "regexp/sort-alternatives": Array [
+      "error",
+    ],
+    "regexp/sort-character-class-elements": Array [
+      "error",
+    ],
     "regexp/sort-flags": Array [
+      "error",
+    ],
+    "regexp/strict": Array [
       "error",
     ],
     "regexp/unicode-escape": Array [
