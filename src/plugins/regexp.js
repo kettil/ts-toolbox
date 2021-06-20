@@ -13,10 +13,9 @@ const rules = {
   ],
   'regexp/match-any': ['error'],
   'regexp/negation': ['error'],
-  'regexp/no-assertion-capturing-group': ['error'], //  This rule will be marked as deprecated.
   'regexp/no-dupe-characters-character-class': ['error'],
   'regexp/no-empty-alternative': ['error'],
-  // 'regexp/no-empty-capturing-group': ['error'], // This rule is not been released yet.
+  'regexp/no-empty-capturing-group': ['error'],
   'regexp/no-empty-group': ['error'],
   'regexp/no-empty-lookarounds-assertion': ['error'],
   'regexp/no-escape-backspace': ['error'],
@@ -34,7 +33,6 @@ const rules = {
   'regexp/no-useless-range': ['error'],
   'regexp/no-useless-two-nums-quantifier': ['error'],
   'regexp/optimal-quantifier-concatenation': ['error'],
-  'regexp/order-in-character-class': ['error'],
   'regexp/prefer-d': ['error'],
   'regexp/prefer-plus-quantifier': ['error'],
   'regexp/prefer-predefined-assertion': ['error'],
@@ -46,8 +44,9 @@ const rules = {
   'regexp/prefer-unicode-codepoint-escapes': ['error'],
   'regexp/prefer-t': ['error'],
   'regexp/prefer-w': ['error'],
+  'regexp/sort-character-class-elements': ['error'],
   'regexp/sort-flags': ['error'],
-  // 'regexp/strict': ['error'],
+  'regexp/strict': ['error'],
   'regexp/unicode-escape': ['error'],
 };
 
