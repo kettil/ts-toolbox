@@ -543,6 +543,18 @@ Object {
     },
     Object {
       "files": Array [
+        "*.test.js",
+        "*.test.ts",
+        "*.test.tsx",
+      ],
+      "rules": Object {
+        "sonarjs/no-identical-functions": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
         "tests/**/*.ts",
         "tests/**/*.tsx",
         "**/*.test.ts",
