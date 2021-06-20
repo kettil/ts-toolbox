@@ -2489,6 +2489,9 @@ Object {
     "regexp/prefer-w": Array [
       "error",
     ],
+    "regexp/sort-alternatives": Array [
+      "error",
+    ],
     "regexp/sort-character-class-elements": Array [
       "error",
     ],

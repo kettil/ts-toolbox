@@ -44,6 +44,7 @@ const rules = {
   'regexp/prefer-unicode-codepoint-escapes': ['error'],
   'regexp/prefer-t': ['error'],
   'regexp/prefer-w': ['error'],
+  'regexp/sort-alternatives': ['error'],
   'regexp/sort-character-class-elements': ['error'],
   'regexp/sort-flags': ['error'],
   'regexp/strict': ['error'],
