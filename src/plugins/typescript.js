@@ -142,6 +142,12 @@ const overrides = [
     parser: '@typescript-eslint/parser',
     parserOptions: { project: path.join('.', 'tsconfig.json') },
   },
+  {
+    files: ['tests/**/*.test.js', 'tests/**/*.test.ts', 'tests/**/*.test.tsx'],
+    rules: {
+      '@typescript-eslint/no-empty-function': ['off'],
+    },
+  },
 ];
 
 if (hasLibrary('typescript')) {

@@ -396,6 +396,18 @@ Object {
     },
     Object {
       "files": Array [
+        "tests/**/*.test.js",
+        "tests/**/*.test.ts",
+        "tests/**/*.test.tsx",
+      ],
+      "rules": Object {
+        "@typescript-eslint/no-empty-function": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
         "babel.config.js",
         "jest.config.js",
       ],
@@ -539,6 +551,18 @@ Object {
       ],
       "rules": Object {
         "unicorn/no-null": "off",
+      },
+    },
+    Object {
+      "files": Array [
+        "tests/**/*.test.js",
+        "tests/**/*.test.ts",
+        "tests/**/*.test.tsx",
+      ],
+      "rules": Object {
+        "unicorn/no-null": Array [
+          "off",
+        ],
       },
     },
     Object {
