@@ -1,5 +1,18 @@
 # Changelog
 
+# [3.2.0](https://github.com/kettil/eslint-config/compare/3.1.0...3.2.0) (2021-06-21)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.16.0 to 2.16.1 ([83d5250](https://github.com/kettil/eslint-config/commit/83d525006e23edf280013f1e21f5fa40fa06c73f))
+
+
+### Features
+
+* **typescript:** ignore the rule no-empty-function for test files ([7ce46ab](https://github.com/kettil/eslint-config/commit/7ce46abb1c55b12c3f021d1a208d6e5668834b54))
+* **unicorn:** ignore the rule no-null for test files ([4c5de7a](https://github.com/kettil/eslint-config/commit/4c5de7a19ab3e9c8012ad851ad41d8a42aafee3d))
+
 # [3.1.0](https://github.com/kettil/eslint-config/compare/3.0.3...3.1.0) (2021-06-20)
 
 
