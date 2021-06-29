@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.2.1](https://github.com/kettil/eslint-config/compare/3.2.0...3.2.1) (2021-06-29)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.27.0 to 4.28.0 ([edcf241](https://github.com/kettil/eslint-config/commit/edcf241136e6dc30ec061a7ed8857d9f1647a34e))
+* **deps:** bump @typescript-eslint/parser from 4.27.0 to 4.28.0 ([a4c8fbd](https://github.com/kettil/eslint-config/commit/a4c8fbd401d46d538f6f7c7ed95ff9deda21de12))
+* **deps:** bump eslint-plugin-formatjs from 2.16.1 to 2.17.0 ([62d4d5d](https://github.com/kettil/eslint-config/commit/62d4d5d072ac83f4ec0883bf3ec30f68804fa20d))
+
 # [3.2.0](https://github.com/kettil/eslint-config/compare/3.1.0...3.2.0) (2021-06-21)
 
 
