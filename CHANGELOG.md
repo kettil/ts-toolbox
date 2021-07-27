@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.2.4](https://github.com/kettil/eslint-config/compare/3.2.3...3.2.4) (2021-07-27)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.28.1 to 4.28.4 ([d943e8f](https://github.com/kettil/eslint-config/commit/d943e8fd4b1d22abc255d8f3d10a164be4c1b5f5))
+* **deps:** bump eslint-plugin-testing-library from 4.6.0 to 4.10.1 ([da89ead](https://github.com/kettil/eslint-config/commit/da89eadc966676d8e7f5d3f2338498b44175261f))
+* **deps:** bump eslint-plugin-unicorn from 33.0.1 to 34.0.1 ([01c22b9](https://github.com/kettil/eslint-config/commit/01c22b9651f3a22066c7f2d8226869e55c3beb96))
+
 ## [3.2.3](https://github.com/kettil/eslint-config/compare/3.2.2...3.2.3) (2021-07-13)
 
 
