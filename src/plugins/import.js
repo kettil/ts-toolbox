@@ -128,22 +128,22 @@ if (hasLibrary('jest')) {
       },
     },
     {
-      files: ['tests/type/**/*.test.ts', 'tests/type/**/*.test.tsx'],
+      files: ['**/tests/type/**/*.test.ts', '**/tests/type/**/*.test.tsx'],
       rules: { 'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }] },
     },
     {
-      files: ['tests/*/pre.ts', 'tests/*/post.ts', 'tests/*/pre.js', 'tests/*/post.js'],
+      files: ['**/tests/*/pre.ts', '**/tests/*/post.ts', '**/tests/*/pre.js', '**/tests/*/post.js'],
       rules: { 'import/no-unused-modules': ['error', { unusedExports: true, missingExports: false }] },
     },
     {
-      files: ['tests/shared/__mock__/*'],
+      files: ['**/tests/shared/__mock__/*'],
       rules: {
         'import/group-exports': ['off'],
         'import/no-default-export': ['off'],
       },
     },
     {
-      files: ['tests/type/**/*.test.ts'],
+      files: ['**/tests/type/**/*.test.ts'],
       rules: { 'import/group-exports': ['off'] },
     },
   );

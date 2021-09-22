@@ -35,10 +35,22 @@ const rules = {
   'jest/valid-title': ['error'],
 };
 
+overrides.push({
+  files: [
+    '**/tests/*/pre.ts',
+    '**/tests/*/post.ts',
+    '**/tests/*/setupTests.ts',
+    '**/tests/*/pre.js',
+    '**/tests/*/post.js',
+    '**/tests/*/setupTests.js',
+  ],
+  rules: { 'no-console': ['off'] },
+});
+
 if (hasLibrary('typescript')) {
   overrides.push(
     {
-      files: ['tests/**/*.ts', 'tests/**/*.tsx', '**/*.test.ts', '**/*.test.tsx'],
+      files: ['**/tests/**/*.ts', '**/tests/**/*.tsx', '**/*.test.ts', '**/*.test.tsx'],
       rules: {
         '@typescript-eslint/unbound-method': ['off'],
         'jest/unbound-method': ['error'],
@@ -53,11 +65,11 @@ if (hasLibrary('typescript')) {
     },
     {
       files: [
-        'tests/**/*.test.js',
-        'tests/**/*.test.ts',
-        'tests/**/*.test.tsx',
-        'tests/*/setupTests.ts',
-        'tests/*/setupTests.js',
+        '**/tests/**/*.test.js',
+        '**/tests/**/*.test.ts',
+        '**/tests/**/*.test.tsx',
+        '**/tests/*/setupTests.ts',
+        '**/tests/*/setupTests.js',
       ],
       rules: {
         '@typescript-eslint/no-explicit-any': ['off'],
@@ -66,7 +78,7 @@ if (hasLibrary('typescript')) {
       },
     },
     {
-      files: ['tests/shared/__mock__/*.ts'],
+      files: ['**/tests/shared/__mock__/*.ts'],
       rules: {
         '@typescript-eslint/no-explicit-any': ['off'],
         '@typescript-eslint/require-await': ['off'],
