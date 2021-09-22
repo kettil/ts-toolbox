@@ -1206,6 +1206,12 @@ Object {
     "jest/lowercase-name": Array [
       "error",
     ],
+    "jest/max-nested-describe": Array [
+      "error",
+      Object {
+        "max": 5,
+      },
+    ],
     "jest/no-alias-methods": Array [
       "error",
     ],
@@ -2577,6 +2583,9 @@ Object {
       "error",
       15,
     ],
+    "sonarjs/elseif-without-else": Array [
+      "error",
+    ],
     "sonarjs/max-switch-cases": Array [
       "error",
     ],
@@ -2602,6 +2611,9 @@ Object {
     "sonarjs/no-extra-arguments": Array [
       "error",
     ],
+    "sonarjs/no-gratuitous-expressions": Array [
+      "error",
+    ],
     "sonarjs/no-identical-conditions": Array [
       "error",
     ],
@@ -2611,7 +2623,16 @@ Object {
     "sonarjs/no-identical-functions": Array [
       "error",
     ],
+    "sonarjs/no-ignored-return": Array [
+      "error",
+    ],
     "sonarjs/no-inverted-boolean-check": Array [
+      "error",
+    ],
+    "sonarjs/no-nested-switch": Array [
+      "error",
+    ],
+    "sonarjs/no-nested-template-literals": Array [
       "error",
     ],
     "sonarjs/no-one-iteration-loop": Array [
@@ -2636,6 +2657,9 @@ Object {
       "error",
     ],
     "sonarjs/no-useless-catch": Array [
+      "error",
+    ],
+    "sonarjs/non-existent-operator": Array [
       "error",
     ],
     "sonarjs/prefer-immediate-return": Array [
