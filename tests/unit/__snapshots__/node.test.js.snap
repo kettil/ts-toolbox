@@ -2500,6 +2500,9 @@ Object {
     "regexp/no-trivially-nested-quantifier": Array [
       "error",
     ],
+    "regexp/no-unused-capturing-group": Array [
+      "error",
+    ],
     "regexp/no-useless-assertions": Array [
       "error",
     ],
