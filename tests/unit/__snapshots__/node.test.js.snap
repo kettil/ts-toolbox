@@ -2518,6 +2518,9 @@ Object {
     "regexp/no-useless-escape": Array [
       "error",
     ],
+    "regexp/no-useless-flag": Array [
+      "error",
+    ],
     "regexp/no-useless-lazy": Array [
       "error",
     ],
