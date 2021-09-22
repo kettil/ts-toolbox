@@ -28,6 +28,7 @@ const rules = {
   'regexp/no-non-standard-flag': ['error'],
   'regexp/no-obscure-range': ['error'],
   'regexp/no-octal': ['error'],
+  'regexp/no-optional-assertion': ['error'],
   'regexp/no-potentially-useless-backreference': ['error'],
   'regexp/no-useless-assertions': ['error'],
   'regexp/no-useless-backreference': ['error'],

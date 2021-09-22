@@ -2485,6 +2485,9 @@ Object {
     "regexp/no-octal": Array [
       "error",
     ],
+    "regexp/no-optional-assertion": Array [
+      "error",
+    ],
     "regexp/no-potentially-useless-backreference": Array [
       "error",
     ],
