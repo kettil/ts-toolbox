@@ -42,7 +42,6 @@ const rules = {
   'regexp/prefer-regexp-test': ['error'],
   'regexp/prefer-star-quantifier': ['error'],
   'regexp/prefer-unicode-codepoint-escapes': ['error'],
-  'regexp/prefer-t': ['error'],
   'regexp/prefer-w': ['error'],
   'regexp/sort-alternatives': ['error'],
   'regexp/sort-character-class-elements': ['error'],

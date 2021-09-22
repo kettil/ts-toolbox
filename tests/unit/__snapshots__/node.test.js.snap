@@ -2524,9 +2524,6 @@ Object {
     "regexp/prefer-star-quantifier": Array [
       "error",
     ],
-    "regexp/prefer-t": Array [
-      "error",
-    ],
     "regexp/prefer-unicode-codepoint-escapes": Array [
       "error",
     ],
