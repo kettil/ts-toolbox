@@ -2446,6 +2446,9 @@ Object {
     "regexp/no-dupe-characters-character-class": Array [
       "error",
     ],
+    "regexp/no-dupe-disjunctions": Array [
+      "error",
+    ],
     "regexp/no-empty-alternative": Array [
       "error",
     ],
