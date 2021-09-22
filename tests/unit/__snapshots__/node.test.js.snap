@@ -2479,6 +2479,9 @@ Object {
     "regexp/no-non-standard-flag": Array [
       "error",
     ],
+    "regexp/no-obscure-range": Array [
+      "error",
+    ],
     "regexp/no-octal": Array [
       "error",
     ],
