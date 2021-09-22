@@ -2497,6 +2497,9 @@ Object {
     "regexp/no-trivially-nested-assertion": Array [
       "error",
     ],
+    "regexp/no-trivially-nested-quantifier": Array [
+      "error",
+    ],
     "regexp/no-useless-assertions": Array [
       "error",
     ],
