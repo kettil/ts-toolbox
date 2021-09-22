@@ -2629,6 +2629,9 @@ Object {
     "sonarjs/no-nested-switch": Array [
       "error",
     ],
+    "sonarjs/no-nested-template-literals": Array [
+      "error",
+    ],
     "sonarjs/no-one-iteration-loop": Array [
       "error",
     ],
