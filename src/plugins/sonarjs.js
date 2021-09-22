@@ -12,6 +12,7 @@ const rules = {
   'sonarjs/no-duplicated-branches': ['error'],
   'sonarjs/no-element-overwrite': ['error'],
   'sonarjs/no-extra-arguments': ['error'],
+  'sonarjs/no-gratuitous-expressions': ['error'],
   'sonarjs/no-identical-conditions': ['error'],
   'sonarjs/no-identical-functions': ['error'],
   'sonarjs/no-identical-expressions': ['error'],

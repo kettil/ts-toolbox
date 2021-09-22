@@ -2611,6 +2611,9 @@ Object {
     "sonarjs/no-extra-arguments": Array [
       "error",
     ],
+    "sonarjs/no-gratuitous-expressions": Array [
+      "error",
+    ],
     "sonarjs/no-identical-conditions": Array [
       "error",
     ],
