@@ -2533,6 +2533,9 @@ Object {
     "regexp/no-useless-two-nums-quantifier": Array [
       "error",
     ],
+    "regexp/no-zero-quantifier": Array [
+      "error",
+    ],
     "regexp/optimal-quantifier-concatenation": Array [
       "error",
     ],
