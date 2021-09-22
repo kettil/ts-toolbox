@@ -21,6 +21,7 @@ const rules = {
   'regexp/no-empty-group': ['error'],
   'regexp/no-empty-lookarounds-assertion': ['error'],
   'regexp/no-escape-backspace': ['error'],
+  'regexp/no-invalid-regexp': ['error'],
   'regexp/no-invisible-character': ['error'],
   'regexp/no-octal': ['error'],
   'regexp/no-potentially-useless-backreference': ['error'],
