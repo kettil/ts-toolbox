@@ -2422,6 +2422,9 @@ Object {
     "radix": Array [
       "error",
     ],
+    "regexp/confusing-quantifier": Array [
+      "error",
+    ],
     "regexp/control-character-escape": Array [
       "error",
     ],
@@ -2443,6 +2446,9 @@ Object {
     "regexp/no-dupe-characters-character-class": Array [
       "error",
     ],
+    "regexp/no-dupe-disjunctions": Array [
+      "error",
+    ],
     "regexp/no-empty-alternative": Array [
       "error",
     ],
@@ -2458,13 +2464,43 @@ Object {
     "regexp/no-escape-backspace": Array [
       "error",
     ],
+    "regexp/no-invalid-regexp": Array [
+      "error",
+    ],
     "regexp/no-invisible-character": Array [
+      "error",
+    ],
+    "regexp/no-lazy-ends": Array [
+      "error",
+    ],
+    "regexp/no-legacy-features": Array [
+      "error",
+    ],
+    "regexp/no-non-standard-flag": Array [
+      "error",
+    ],
+    "regexp/no-obscure-range": Array [
       "error",
     ],
     "regexp/no-octal": Array [
       "error",
     ],
+    "regexp/no-optional-assertion": Array [
+      "error",
+    ],
     "regexp/no-potentially-useless-backreference": Array [
+      "error",
+    ],
+    "regexp/no-super-linear-backtracking": Array [
+      "error",
+    ],
+    "regexp/no-trivially-nested-assertion": Array [
+      "error",
+    ],
+    "regexp/no-trivially-nested-quantifier": Array [
+      "error",
+    ],
+    "regexp/no-unused-capturing-group": Array [
       "error",
     ],
     "regexp/no-useless-assertions": Array [
@@ -2482,7 +2518,7 @@ Object {
     "regexp/no-useless-escape": Array [
       "error",
     ],
-    "regexp/no-useless-exactly-quantifier": Array [
+    "regexp/no-useless-flag": Array [
       "error",
     ],
     "regexp/no-useless-lazy": Array [
@@ -2497,7 +2533,16 @@ Object {
     "regexp/no-useless-two-nums-quantifier": Array [
       "error",
     ],
+    "regexp/no-zero-quantifier": Array [
+      "error",
+    ],
+    "regexp/optimal-lookaround-quantifier": Array [
+      "error",
+    ],
     "regexp/optimal-quantifier-concatenation": Array [
+      "error",
+    ],
+    "regexp/prefer-character-class": Array [
       "error",
     ],
     "regexp/prefer-d": Array [
@@ -2522,9 +2567,6 @@ Object {
       "error",
     ],
     "regexp/prefer-star-quantifier": Array [
-      "error",
-    ],
-    "regexp/prefer-t": Array [
       "error",
     ],
     "regexp/prefer-unicode-codepoint-escapes": Array [
