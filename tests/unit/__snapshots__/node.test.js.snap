@@ -2494,6 +2494,9 @@ Object {
     "regexp/no-super-linear-backtracking": Array [
       "error",
     ],
+    "regexp/no-trivially-nested-assertion": Array [
+      "error",
+    ],
     "regexp/no-useless-assertions": Array [
       "error",
     ],

@@ -31,6 +31,7 @@ const rules = {
   'regexp/no-optional-assertion': ['error'],
   'regexp/no-potentially-useless-backreference': ['error'],
   'regexp/no-super-linear-backtracking': ['error'],
+  'regexp/no-trivially-nested-assertion': ['error'],
   'regexp/no-useless-assertions': ['error'],
   'regexp/no-useless-backreference': ['error'],
   'regexp/no-useless-character-class': ['error'],
