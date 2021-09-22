@@ -1,5 +1,12 @@
 # Changelog
 
+# [3.3.0](https://github.com/kettil/eslint-config/compare/3.2.5...3.3.0) (2021-09-22)
+
+
+### Features
+
+* add support for test file in monorepo ([a69e710](https://github.com/kettil/eslint-config/commit/a69e710702d006b2e7ba1a1a52bf774d02961ce8))
+
 ## [3.2.5](https://github.com/kettil/eslint-config/compare/3.2.4...3.2.5) (2021-08-03)
 
 
