@@ -1206,6 +1206,12 @@ Object {
     "jest/lowercase-name": Array [
       "error",
     ],
+    "jest/max-nested-describe": Array [
+      "error",
+      Object {
+        "max": 5,
+      },
+    ],
     "jest/no-alias-methods": Array [
       "error",
     ],

@@ -8,6 +8,7 @@ const rules = {
   'jest/consistent-test-it': ['error', { fn: 'test', withinDescribe: 'test' }],
   'jest/expect-expect': ['warn'],
   'jest/lowercase-name': ['error'],
+  'jest/max-nested-describe': ['error', { max: 5 }],
   'jest/no-alias-methods': ['error'],
   'jest/no-commented-out-tests': ['warn'],
   'jest/no-conditional-expect': ['error'],
