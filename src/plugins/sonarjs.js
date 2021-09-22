@@ -16,6 +16,7 @@ const rules = {
   'sonarjs/no-identical-conditions': ['error'],
   'sonarjs/no-identical-functions': ['error'],
   'sonarjs/no-identical-expressions': ['error'],
+  'sonarjs/no-ignored-return': ['error'],
   'sonarjs/no-inverted-boolean-check': ['error'],
   'sonarjs/no-nested-switch': ['error'],
   'sonarjs/no-nested-template-literals': ['error'],

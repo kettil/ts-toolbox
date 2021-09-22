@@ -2623,6 +2623,9 @@ Object {
     "sonarjs/no-identical-functions": Array [
       "error",
     ],
+    "sonarjs/no-ignored-return": Array [
+      "error",
+    ],
     "sonarjs/no-inverted-boolean-check": Array [
       "error",
     ],
