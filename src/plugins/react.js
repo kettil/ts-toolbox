@@ -108,6 +108,7 @@ const rules = {
   'react/no-find-dom-node': ['error'],
   'react/no-is-mounted': ['error'],
   'react/no-multi-comp': ['off'],
+  'react/no-namespace': ['error'],
   'react/no-redundant-should-component-update': ['error'],
   'react/no-render-return-value': ['error'],
   'react/no-set-state': ['off'],
@@ -202,3 +203,13 @@ if (hasLibrary('react')) {
 }
 
 module.exports = config;
+
+/*
+
+no-namespace
+https://github-redirect.dependabot.com/yannickcr/eslint-plugin-react/issues/2640
+
+prefer-exact-props
+https://github.com/yannickcr/eslint-plugin-react/pull/1547
+
+*/
