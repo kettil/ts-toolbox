@@ -2470,6 +2470,9 @@ Object {
     "regexp/no-invisible-character": Array [
       "error",
     ],
+    "regexp/no-lazy-ends": Array [
+      "error",
+    ],
     "regexp/no-octal": Array [
       "error",
     ],

@@ -23,6 +23,7 @@ const rules = {
   'regexp/no-escape-backspace': ['error'],
   'regexp/no-invalid-regexp': ['error'],
   'regexp/no-invisible-character': ['error'],
+  'regexp/no-lazy-ends': ['error'],
   'regexp/no-octal': ['error'],
   'regexp/no-potentially-useless-backreference': ['error'],
   'regexp/no-useless-assertions': ['error'],
