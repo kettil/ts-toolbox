@@ -1,5 +1,54 @@
 # Changelog
 
+# [3.4.0](https://github.com/kettil/eslint-config/compare/3.3.0...3.4.0) (2021-09-22)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.28.5 to 4.31.2 ([1519ff5](https://github.com/kettil/eslint-config/commit/1519ff5fd0cb9f0d2dd9d326e1c33b9cff3953c8))
+* **deps:** bump @typescript-eslint/parser from 4.28.5 to 4.31.2 ([4e8ab9d](https://github.com/kettil/eslint-config/commit/4e8ab9d68b26edb7399d4e75ff314e515c70933e))
+* **deps:** bump eslint-plugin-formatjs from 2.17.2 to 2.17.6 ([bddfb8b](https://github.com/kettil/eslint-config/commit/bddfb8b7650e7b4cf6affd7450340cf349e6daa6))
+* **deps:** bump eslint-plugin-import from 2.23.4 to 2.24.2 ([af7a01e](https://github.com/kettil/eslint-config/commit/af7a01ecd3029fe3a6d827f76e07969f7183301f))
+* **deps:** bump eslint-plugin-jest from 24.3.6 to 24.4.2 ([fcdf598](https://github.com/kettil/eslint-config/commit/fcdf598492d85d402ae7a0600624cf00e4b62097))
+* **deps:** bump eslint-plugin-jest-dom from 3.9.0 to 3.9.2 ([4329bcc](https://github.com/kettil/eslint-config/commit/4329bcc62b086d6650f30da7b5666c8790617810))
+* **deps:** bump eslint-plugin-react from 7.24.0 to 7.26.0 ([48995de](https://github.com/kettil/eslint-config/commit/48995dea00928cbb0a5b1be232d6670a749f186a))
+* **deps:** bump eslint-plugin-regexp from 0.12.1 to 1.1.0 ([7cd0772](https://github.com/kettil/eslint-config/commit/7cd07727e0407214b0b1737543875215617789e0))
+* **deps:** bump eslint-plugin-sonarjs from 0.8.0-125 to 0.10.0 ([32c5ee4](https://github.com/kettil/eslint-config/commit/32c5ee44bee1b4d347d18238403b01e4fa6e4c74))
+* **deps:** bump eslint-plugin-testing-library from 4.10.1 to 4.12.3 ([d43b473](https://github.com/kettil/eslint-config/commit/d43b47353e4a905020bbb2d098271e495c6b6f32))
+* **deps:** bump path-parse from 1.0.6 to 1.0.7 ([bb94a69](https://github.com/kettil/eslint-config/commit/bb94a6912c6d5bcf8caa3bca63374715d25f8f77))
+* **deps:** bump semver-regex from 3.1.2 to 3.1.3 ([e6f9942](https://github.com/kettil/eslint-config/commit/e6f994296bdb0d191f3a5bd7b982e7cd60c4c7f7))
+
+
+### Features
+
+* **jest:** add rule max-nested-describe ([3a8dddb](https://github.com/kettil/eslint-config/commit/3a8dddbe92796e302822967fd402c03235ebbb4e))
+* **react:** add rule no-namespace ([bfead2e](https://github.com/kettil/eslint-config/commit/bfead2e9a39949204e0a082bd7bc06e0043aa302))
+* **react:** add rule prefer-exact-props ([bd27de9](https://github.com/kettil/eslint-config/commit/bd27de9e2db6815dd42b1aa13afe988322fce2e5))
+* **regexp:** add rule confusing-quantifier ([84a74e2](https://github.com/kettil/eslint-config/commit/84a74e23dc25e62ed74822cdd34bf2d85a8fb7e1))
+* **regexp:** add rule no-dupe-disjunctions ([bfd8c97](https://github.com/kettil/eslint-config/commit/bfd8c97b7676d3c55bd4a24b7312c6d41cf162ca))
+* **regexp:** add rule no-invalid-regexp ([f6ccea7](https://github.com/kettil/eslint-config/commit/f6ccea762f08942f2489767084935715f90611f0))
+* **regexp:** add rule no-lazy-ends ([5d5ef0c](https://github.com/kettil/eslint-config/commit/5d5ef0cc19f1a99564ecafe95d89803d2b596776))
+* **regexp:** add rule no-legacy-features ([b7ad5f8](https://github.com/kettil/eslint-config/commit/b7ad5f85fccaad8ad1ce3af564c03c589c9b1476))
+* **regexp:** add rule no-non-standard-flag ([96d3bd8](https://github.com/kettil/eslint-config/commit/96d3bd8700b4fb8564aba09644220c96632a8b75))
+* **regexp:** add rule no-obscure-range ([e044014](https://github.com/kettil/eslint-config/commit/e044014b2c9dd85999c189edd06c7314bfb764af))
+* **regexp:** add rule no-optional-assertion ([66173a1](https://github.com/kettil/eslint-config/commit/66173a11454c7dd1370be7e97bf46c8150c73123))
+* **regexp:** add rule no-super-linear-backtracking ([5377c38](https://github.com/kettil/eslint-config/commit/5377c38ccfd68f5a71fbb122cf977f2b98cb258d))
+* **regexp:** add rule no-trivially-nested-assertion ([9b29c42](https://github.com/kettil/eslint-config/commit/9b29c4295ab72ca03df3ace09ba36f4bcb2e27d7))
+* **regexp:** add rule no-trivially-nested-quantifier ([d39b600](https://github.com/kettil/eslint-config/commit/d39b600e31a278855ea53f3ee3f656e4a6c92f43))
+* **regexp:** add rule no-unused-capturing-group ([eaf7e4f](https://github.com/kettil/eslint-config/commit/eaf7e4ff047074c995966497f3fa8ddf12d53662))
+* **regexp:** add rule no-useless-flag ([b16f3b8](https://github.com/kettil/eslint-config/commit/b16f3b8b5322a2fe59b4ed162c59a79d1f12f5c3))
+* **regexp:** add rule no-zero-quantifier ([eb11aeb](https://github.com/kettil/eslint-config/commit/eb11aeb62551ec83c501a01710f4c736e7533a1d))
+* **regexp:** add rule optimal-lookaround-quantifier ([01d6e40](https://github.com/kettil/eslint-config/commit/01d6e40530bdbefa54160d692cbac485ccd8da8b))
+* **regexp:** add rule prefer-character-class ([4f6c687](https://github.com/kettil/eslint-config/commit/4f6c687727ed7247775a34bbd6e9a8153e3bcc05))
+* **regexp:** remove rule no-useless-exactly-quantifier, as deprecated ([0127232](https://github.com/kettil/eslint-config/commit/0127232f51190ece0502b5324c5ec26fd7443e6f))
+* **regexp:** remove rule prefer-t, because deprecated ([86176c7](https://github.com/kettil/eslint-config/commit/86176c773e95c72158fe9788ff76959b548a7bf9))
+* **sonarjs:** add rule elseif-without-else ([e4055e7](https://github.com/kettil/eslint-config/commit/e4055e7ca884411f59e7519243cee94542368fc8))
+* **sonarjs:** add rule no-gratuitous-expressions ([221aa72](https://github.com/kettil/eslint-config/commit/221aa72f3b47b5c0cc8cf66323745cff6868a4a2))
+* **sonarjs:** add rule no-ignored-return ([43b623e](https://github.com/kettil/eslint-config/commit/43b623eebf82734c665aa56a29c0d8717904ff88))
+* **sonarjs:** add rule no-nested-switch ([068c3b8](https://github.com/kettil/eslint-config/commit/068c3b81a3feb30ad44f22d735aeb3f25ad6a217))
+* **sonarjs:** add rule no-nested-template-literals ([c0845f9](https://github.com/kettil/eslint-config/commit/c0845f97fb62ac9f303560aad061003b90c7b69c))
+* **sonarjs:** add rule non-existent-operator ([f082425](https://github.com/kettil/eslint-config/commit/f0824254b277b2441597925fe27d3fd037b26731))
+
 # [3.3.0](https://github.com/kettil/eslint-config/compare/3.2.5...3.3.0) (2021-09-22)
 
 
