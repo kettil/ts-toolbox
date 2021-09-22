@@ -2583,6 +2583,9 @@ Object {
       "error",
       15,
     ],
+    "sonarjs/elseif-without-else": Array [
+      "error",
+    ],
     "sonarjs/max-switch-cases": Array [
       "error",
     ],
