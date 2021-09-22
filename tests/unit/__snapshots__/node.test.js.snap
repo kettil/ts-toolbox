@@ -2482,9 +2482,6 @@ Object {
     "regexp/no-useless-escape": Array [
       "error",
     ],
-    "regexp/no-useless-exactly-quantifier": Array [
-      "error",
-    ],
     "regexp/no-useless-lazy": Array [
       "error",
     ],

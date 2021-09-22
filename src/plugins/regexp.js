@@ -27,7 +27,6 @@ const rules = {
   'regexp/no-useless-character-class': ['error'],
   'regexp/no-useless-dollar-replacements': ['error'],
   'regexp/no-useless-escape': ['error'],
-  'regexp/no-useless-exactly-quantifier': ['error'],
   'regexp/no-useless-lazy': ['error'],
   'regexp/no-useless-non-capturing-group': ['error'],
   'regexp/no-useless-range': ['error'],
