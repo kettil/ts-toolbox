@@ -45,6 +45,7 @@ const rules = {
   'regexp/no-useless-range': ['error'],
   'regexp/no-useless-two-nums-quantifier': ['error'],
   'regexp/no-zero-quantifier': ['error'],
+  'regexp/optimal-lookaround-quantifier': ['error'],
   'regexp/optimal-quantifier-concatenation': ['error'],
   'regexp/prefer-d': ['error'],
   'regexp/prefer-plus-quantifier': ['error'],

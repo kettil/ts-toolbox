@@ -2536,6 +2536,9 @@ Object {
     "regexp/no-zero-quantifier": Array [
       "error",
     ],
+    "regexp/optimal-lookaround-quantifier": Array [
+      "error",
+    ],
     "regexp/optimal-quantifier-concatenation": Array [
       "error",
     ],
