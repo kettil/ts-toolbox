@@ -47,6 +47,7 @@ const rules = {
   'regexp/no-zero-quantifier': ['error'],
   'regexp/optimal-lookaround-quantifier': ['error'],
   'regexp/optimal-quantifier-concatenation': ['error'],
+  'regexp/prefer-character-class': ['error'],
   'regexp/prefer-d': ['error'],
   'regexp/prefer-plus-quantifier': ['error'],
   'regexp/prefer-predefined-assertion': ['error'],

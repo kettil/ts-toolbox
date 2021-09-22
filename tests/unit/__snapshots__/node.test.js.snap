@@ -2542,6 +2542,9 @@ Object {
     "regexp/optimal-quantifier-concatenation": Array [
       "error",
     ],
+    "regexp/prefer-character-class": Array [
+      "error",
+    ],
     "regexp/prefer-d": Array [
       "error",
     ],
