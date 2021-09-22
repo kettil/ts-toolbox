@@ -1,6 +1,7 @@
 const defaultObject = require('../lib/defaultObject');
 
 const rules = {
+  'regexp/confusing-quantifier': ['error'],
   'regexp/control-character-escape': ['error'],
   'regexp/letter-case': [
     'error',
