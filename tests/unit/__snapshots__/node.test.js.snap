@@ -2476,6 +2476,9 @@ Object {
     "regexp/no-legacy-features": Array [
       "error",
     ],
+    "regexp/no-non-standard-flag": Array [
+      "error",
+    ],
     "regexp/no-octal": Array [
       "error",
     ],
