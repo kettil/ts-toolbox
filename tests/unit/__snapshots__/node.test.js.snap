@@ -2656,6 +2656,9 @@ Object {
     "sonarjs/no-useless-catch": Array [
       "error",
     ],
+    "sonarjs/non-existent-operator": Array [
+      "error",
+    ],
     "sonarjs/prefer-immediate-return": Array [
       "error",
     ],
