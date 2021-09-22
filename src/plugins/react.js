@@ -123,6 +123,7 @@ const rules = {
   'react/no-unused-state': ['error'],
   'react/no-will-update-set-state': ['error'],
   'react/prefer-es6-class': ['error', 'always'],
+  'react/prefer-exact-props': ['error'],
   'react/prefer-read-only-props': ['off'],
   'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
   'react/prop-types': ['off', { ignore: [], customValidators: [], skipUndeclared: false }],
@@ -203,13 +204,3 @@ if (hasLibrary('react')) {
 }
 
 module.exports = config;
-
-/*
-
-no-namespace
-https://github-redirect.dependabot.com/yannickcr/eslint-plugin-react/issues/2640
-
-prefer-exact-props
-https://github.com/yannickcr/eslint-plugin-react/pull/1547
-
-*/
