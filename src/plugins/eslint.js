@@ -1,5 +1,4 @@
 const defaultObject = require('../lib/defaultObject');
-const hasLibrary = require('../lib/hasLibrary');
 
 const rules = {
   'accessor-pairs': ['off'],
@@ -554,15 +553,6 @@ const rules = {
   yoda: ['error', 'never', { exceptRange: true, onlyEquality: true }],
 };
 
-const overrides = [];
-
-if (hasLibrary('jest')) {
-  overrides.push({
-    files: ['tests/*/pre.ts', 'tests/*/post.ts', 'tests/*/pre.js', 'tests/*/post.js'],
-    rules: { 'no-console': ['off'] },
-  });
-}
-
 module.exports = {
   ...defaultObject,
   env: { es6: true, node: true },
@@ -573,5 +563,4 @@ module.exports = {
   },
   settings: { 'import/extensions': ['.js'], 'import/resolver': { node: { extensions: ['.js'] } } },
   rules,
-  overrides,
 };

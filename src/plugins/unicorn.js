@@ -113,7 +113,7 @@ const overrides = [
     rules: { 'unicorn/no-null': 'off' },
   },
   {
-    files: ['tests/**/*.test.js', 'tests/**/*.test.ts', 'tests/**/*.test.tsx'],
+    files: ['**/tests/**/*.test.js', '**/tests/**/*.test.ts', '**/tests/**/*.test.tsx'],
     rules: {
       'unicorn/no-null': ['off'],
     },

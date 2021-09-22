@@ -62,19 +62,6 @@ Object {
   "overrides": Array [
     Object {
       "files": Array [
-        "tests/*/pre.ts",
-        "tests/*/post.ts",
-        "tests/*/pre.js",
-        "tests/*/post.js",
-      ],
-      "rules": Object {
-        "no-console": Array [
-          "off",
-        ],
-      },
-    },
-    Object {
-      "files": Array [
         "*.js",
       ],
       "rules": Object {
@@ -396,9 +383,9 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/**/*.test.js",
-        "tests/**/*.test.ts",
-        "tests/**/*.test.tsx",
+        "**/tests/**/*.test.js",
+        "**/tests/**/*.test.ts",
+        "**/tests/**/*.test.tsx",
       ],
       "rules": Object {
         "@typescript-eslint/no-empty-function": Array [
@@ -469,8 +456,8 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/type/**/*.test.ts",
-        "tests/type/**/*.test.tsx",
+        "**/tests/type/**/*.test.ts",
+        "**/tests/type/**/*.test.tsx",
       ],
       "rules": Object {
         "import/no-unused-modules": Array [
@@ -484,10 +471,10 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/*/pre.ts",
-        "tests/*/post.ts",
-        "tests/*/pre.js",
-        "tests/*/post.js",
+        "**/tests/*/pre.ts",
+        "**/tests/*/post.ts",
+        "**/tests/*/pre.js",
+        "**/tests/*/post.js",
       ],
       "rules": Object {
         "import/no-unused-modules": Array [
@@ -501,7 +488,7 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/shared/__mock__/*",
+        "**/tests/shared/__mock__/*",
       ],
       "rules": Object {
         "import/group-exports": Array [
@@ -514,7 +501,7 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/type/**/*.test.ts",
+        "**/tests/type/**/*.test.ts",
       ],
       "rules": Object {
         "import/group-exports": Array [
@@ -555,9 +542,9 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/**/*.test.js",
-        "tests/**/*.test.ts",
-        "tests/**/*.test.tsx",
+        "**/tests/**/*.test.js",
+        "**/tests/**/*.test.ts",
+        "**/tests/**/*.test.tsx",
       ],
       "rules": Object {
         "unicorn/no-null": Array [
@@ -579,8 +566,23 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/**/*.ts",
-        "tests/**/*.tsx",
+        "**/tests/*/pre.ts",
+        "**/tests/*/post.ts",
+        "**/tests/*/setupTests.ts",
+        "**/tests/*/pre.js",
+        "**/tests/*/post.js",
+        "**/tests/*/setupTests.js",
+      ],
+      "rules": Object {
+        "no-console": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
+        "**/tests/**/*.ts",
+        "**/tests/**/*.tsx",
         "**/*.test.ts",
         "**/*.test.tsx",
       ],
@@ -609,11 +611,11 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/**/*.test.js",
-        "tests/**/*.test.ts",
-        "tests/**/*.test.tsx",
-        "tests/*/setupTests.ts",
-        "tests/*/setupTests.js",
+        "**/tests/**/*.test.js",
+        "**/tests/**/*.test.ts",
+        "**/tests/**/*.test.tsx",
+        "**/tests/*/setupTests.ts",
+        "**/tests/*/setupTests.js",
       ],
       "rules": Object {
         "@typescript-eslint/no-explicit-any": Array [
@@ -629,7 +631,7 @@ Object {
     },
     Object {
       "files": Array [
-        "tests/shared/__mock__/*.ts",
+        "**/tests/shared/__mock__/*.ts",
       ],
       "rules": Object {
         "@typescript-eslint/no-explicit-any": Array [
