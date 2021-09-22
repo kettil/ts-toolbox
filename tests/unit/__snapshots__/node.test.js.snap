@@ -2473,6 +2473,9 @@ Object {
     "regexp/no-lazy-ends": Array [
       "error",
     ],
+    "regexp/no-legacy-features": Array [
+      "error",
+    ],
     "regexp/no-octal": Array [
       "error",
     ],
