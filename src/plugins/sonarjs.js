@@ -3,7 +3,6 @@ const eslint = require('./eslint');
 
 const rules = {
   'sonarjs/cognitive-complexity': eslint.rules.complexity,
-  'sonarjs/elseif-without-else': ['error'],
   'sonarjs/max-switch-cases': ['error'],
   'sonarjs/no-all-duplicated-branches': ['error'],
   'sonarjs/no-collapsible-if': ['error'],
