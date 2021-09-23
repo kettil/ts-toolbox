@@ -1,5 +1,12 @@
 # Changelog
 
+# [3.5.0](https://github.com/kettil/eslint-config/compare/3.4.0...3.5.0) (2021-09-23)
+
+
+### Features
+
+* **sonarjs:** remove rule elseif-without-else ([8217bfa](https://github.com/kettil/eslint-config/commit/8217bfa0c43fbb07d540d0a30f38dc66a93fcac6))
+
 # [3.4.0](https://github.com/kettil/eslint-config/compare/3.3.0...3.4.0) (2021-09-22)
 
 
