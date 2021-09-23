@@ -58,7 +58,7 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-regexp": "1.1.0",
     "eslint-plugin-sonarjs": "0.10.0",
-    "eslint-plugin-testing-library": "4.12.3",
+    "eslint-plugin-testing-library": "4.12.4",
     "eslint-plugin-unicorn": "34.0.1"
   },
   "devDependencies": {
