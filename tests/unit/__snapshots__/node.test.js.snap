@@ -2911,6 +2911,9 @@ Object {
     "unicorn/no-unused-properties": Array [
       "off",
     ],
+    "unicorn/no-useless-fallback-in-spread": Array [
+      "error",
+    ],
     "unicorn/no-zero-fractions": Array [
       "error",
     ],
