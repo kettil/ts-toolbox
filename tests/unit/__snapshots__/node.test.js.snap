@@ -2984,6 +2984,9 @@ Object {
     "unicorn/prefer-number-properties": Array [
       "error",
     ],
+    "unicorn/prefer-object-from-entries": Array [
+      "error",
+    ],
     "unicorn/prefer-object-has-own": Array [
       "error",
     ],
