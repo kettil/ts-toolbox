@@ -2881,6 +2881,9 @@ Object {
     "unicorn/no-hex-escape": Array [
       "error",
     ],
+    "unicorn/no-invalid-remove-event-listener": Array [
+      "off",
+    ],
     "unicorn/no-keyword-prefix": Array [
       "off",
     ],
