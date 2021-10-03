@@ -26,6 +26,7 @@ const rules = {
   'regexp/no-invisible-character': ['error'],
   'regexp/no-lazy-ends': ['error'],
   'regexp/no-legacy-features': ['error'],
+  'regexp/no-misleading-unicode-character': ['error'],
   'regexp/no-non-standard-flag': ['error'],
   'regexp/no-obscure-range': ['error'],
   'regexp/no-octal': ['error'],

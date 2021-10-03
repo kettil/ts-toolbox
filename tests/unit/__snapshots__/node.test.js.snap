@@ -2494,6 +2494,9 @@ Object {
     "regexp/no-legacy-features": Array [
       "error",
     ],
+    "regexp/no-misleading-unicode-character": Array [
+      "error",
+    ],
     "regexp/no-non-standard-flag": Array [
       "error",
     ],
