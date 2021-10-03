@@ -2920,6 +2920,9 @@ Object {
     "unicorn/no-useless-length-check": Array [
       "error",
     ],
+    "unicorn/no-useless-spread": Array [
+      "error",
+    ],
     "unicorn/no-zero-fractions": Array [
       "error",
     ],
