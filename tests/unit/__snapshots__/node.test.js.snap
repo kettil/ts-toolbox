@@ -2569,6 +2569,9 @@ Object {
     "regexp/prefer-d": Array [
       "error",
     ],
+    "regexp/prefer-named-capture-group": Array [
+      "off",
+    ],
     "regexp/prefer-plus-quantifier": Array [
       "error",
     ],
