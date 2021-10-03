@@ -1275,6 +1275,9 @@ Object {
     "jest/prefer-hooks-on-top": Array [
       "error",
     ],
+    "jest/prefer-to-be": Array [
+      "error",
+    ],
     "jest/prefer-to-be-null": Array [
       "error",
     ],

@@ -27,6 +27,7 @@ const rules = {
   'jest/no-try-expect': ['error'],
   'jest/prefer-expect-resolves': ['error'],
   'jest/prefer-hooks-on-top': ['error'],
+  'jest/prefer-to-be': ['error'],
   'jest/prefer-to-be-null': ['error'],
   'jest/prefer-to-be-undefined': ['error'],
   'jest/prefer-to-contain': ['error'],
