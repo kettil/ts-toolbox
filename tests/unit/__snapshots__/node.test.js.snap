@@ -2458,6 +2458,9 @@ Object {
     "regexp/negation": Array [
       "error",
     ],
+    "regexp/no-contradiction-with-assertion": Array [
+      "error",
+    ],
     "regexp/no-control-character": Array [
       "error",
     ],
