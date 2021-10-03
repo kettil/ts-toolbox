@@ -508,7 +508,7 @@ const rules = {
   radix: ['error'],
   'require-atomic-updates': ['off'],
   'require-await': ['error'],
-  'require-unicode-regexp': ['off'],
+  'require-unicode-regexp': ['error'],
   'require-yield': ['error'],
   'rest-spread-spacing': ['error', 'never'],
   semi: ['error', 'always'],

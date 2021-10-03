@@ -2458,6 +2458,12 @@ Object {
     "regexp/negation": Array [
       "error",
     ],
+    "regexp/no-contradiction-with-assertion": Array [
+      "error",
+    ],
+    "regexp/no-control-character": Array [
+      "error",
+    ],
     "regexp/no-dupe-characters-character-class": Array [
       "error",
     ],
@@ -2468,6 +2474,9 @@ Object {
       "error",
     ],
     "regexp/no-empty-capturing-group": Array [
+      "error",
+    ],
+    "regexp/no-empty-character-class": Array [
       "error",
     ],
     "regexp/no-empty-group": Array [
@@ -2489,6 +2498,9 @@ Object {
       "error",
     ],
     "regexp/no-legacy-features": Array [
+      "error",
+    ],
+    "regexp/no-misleading-unicode-character": Array [
       "error",
     ],
     "regexp/no-non-standard-flag": Array [
@@ -2563,6 +2575,12 @@ Object {
     "regexp/prefer-d": Array [
       "error",
     ],
+    "regexp/prefer-lookaround": Array [
+      "error",
+    ],
+    "regexp/prefer-named-capture-group": Array [
+      "off",
+    ],
     "regexp/prefer-plus-quantifier": Array [
       "error",
     ],
@@ -2590,6 +2608,9 @@ Object {
     "regexp/prefer-w": Array [
       "error",
     ],
+    "regexp/require-unicode-regexp": Array [
+      "error",
+    ],
     "regexp/sort-alternatives": Array [
       "error",
     ],
@@ -2612,7 +2633,7 @@ Object {
       "error",
     ],
     "require-unicode-regexp": Array [
-      "off",
+      "error",
     ],
     "require-yield": Array [
       "error",
