@@ -14,6 +14,7 @@ const rules = {
   ],
   'regexp/match-any': ['error'],
   'regexp/negation': ['error'],
+  'regexp/no-control-character': ['error'],
   'regexp/no-dupe-characters-character-class': ['error'],
   'regexp/no-dupe-disjunctions': ['error'],
   'regexp/no-empty-alternative': ['error'],
