@@ -2881,6 +2881,9 @@ Object {
     "unicorn/no-hex-escape": Array [
       "error",
     ],
+    "unicorn/no-invalid-remove-event-listener": Array [
+      "error",
+    ],
     "unicorn/no-keyword-prefix": Array [
       "off",
     ],
@@ -2910,6 +2913,15 @@ Object {
     ],
     "unicorn/no-unused-properties": Array [
       "off",
+    ],
+    "unicorn/no-useless-fallback-in-spread": Array [
+      "error",
+    ],
+    "unicorn/no-useless-length-check": Array [
+      "error",
+    ],
+    "unicorn/no-useless-spread": Array [
+      "error",
     ],
     "unicorn/no-zero-fractions": Array [
       "error",
@@ -2976,6 +2988,9 @@ Object {
       "error",
     ],
     "unicorn/prefer-number-properties": Array [
+      "error",
+    ],
+    "unicorn/prefer-object-from-entries": Array [
       "error",
     ],
     "unicorn/prefer-object-has-own": Array [
