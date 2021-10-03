@@ -37,6 +37,7 @@ const rules = {
   'unicorn/no-unsafe-regex': ['off'],
   'unicorn/no-unused-properties': ['off'],
   'unicorn/no-useless-fallback-in-spread': ['error'],
+  'unicorn/no-useless-length-check': ['error'],
   'unicorn/no-zero-fractions': ['error'],
   'unicorn/number-literal-case': ['error'],
   'unicorn/numeric-separators-style': [

@@ -2917,6 +2917,9 @@ Object {
     "unicorn/no-useless-fallback-in-spread": Array [
       "error",
     ],
+    "unicorn/no-useless-length-check": Array [
+      "error",
+    ],
     "unicorn/no-zero-fractions": Array [
       "error",
     ],
