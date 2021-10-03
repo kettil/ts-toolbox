@@ -60,6 +60,7 @@ const rules = {
   'regexp/prefer-star-quantifier': ['error'],
   'regexp/prefer-unicode-codepoint-escapes': ['error'],
   'regexp/prefer-w': ['error'],
+  'regexp/require-unicode-regexp': ['error'],
   'regexp/sort-alternatives': ['error'],
   'regexp/sort-character-class-elements': ['error'],
   'regexp/sort-flags': ['error'],

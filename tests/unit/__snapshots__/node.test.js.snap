@@ -2596,6 +2596,9 @@ Object {
     "regexp/prefer-w": Array [
       "error",
     ],
+    "regexp/require-unicode-regexp": Array [
+      "error",
+    ],
     "regexp/sort-alternatives": Array [
       "error",
     ],
