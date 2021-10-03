@@ -2473,6 +2473,9 @@ Object {
     "regexp/no-empty-capturing-group": Array [
       "error",
     ],
+    "regexp/no-empty-character-class": Array [
+      "error",
+    ],
     "regexp/no-empty-group": Array [
       "error",
     ],

@@ -19,6 +19,7 @@ const rules = {
   'regexp/no-dupe-disjunctions': ['error'],
   'regexp/no-empty-alternative': ['error'],
   'regexp/no-empty-capturing-group': ['error'],
+  'regexp/no-empty-character-class': ['error'],
   'regexp/no-empty-group': ['error'],
   'regexp/no-empty-lookarounds-assertion': ['error'],
   'regexp/no-escape-backspace': ['error'],
