@@ -73,6 +73,8 @@ const overrides = [
       '@typescript-eslint/no-namespace': ['error'],
       '@typescript-eslint/no-non-null-asserted-optional-chain': ['error'],
       '@typescript-eslint/no-non-null-assertion': ['warn'],
+      'no-restricted-imports': ['off'],
+      '@typescript-eslint/no-restricted-imports': ['off'],
       '@typescript-eslint/no-this-alias': ['error'],
       '@typescript-eslint/no-unnecessary-condition': ['error'],
       '@typescript-eslint/no-unnecessary-type-assertion': ['error'],

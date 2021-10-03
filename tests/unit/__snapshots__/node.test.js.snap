@@ -265,6 +265,9 @@ Object {
         "@typescript-eslint/no-non-null-assertion": Array [
           "warn",
         ],
+        "@typescript-eslint/no-restricted-imports": Array [
+          "off",
+        ],
         "@typescript-eslint/no-this-alias": Array [
           "error",
         ],
@@ -359,6 +362,9 @@ Object {
         "no-empty-function": "off",
         "no-new-symbol": "off",
         "no-redeclare": "off",
+        "no-restricted-imports": Array [
+          "off",
+        ],
         "no-return-await": Array [
           "off",
         ],
