@@ -1269,6 +1269,9 @@ Object {
     "jest/no-try-expect": Array [
       "error",
     ],
+    "jest/prefer-expect-resolves": Array [
+      "error",
+    ],
     "jest/prefer-hooks-on-top": Array [
       "error",
     ],
