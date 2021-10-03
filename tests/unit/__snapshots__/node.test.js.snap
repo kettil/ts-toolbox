@@ -2621,7 +2621,7 @@ Object {
       "error",
     ],
     "require-unicode-regexp": Array [
-      "off",
+      "error",
     ],
     "require-yield": Array [
       "error",
