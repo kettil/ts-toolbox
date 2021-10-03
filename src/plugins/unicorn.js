@@ -25,7 +25,7 @@ const rules = {
   'unicorn/no-fn-reference-in-iterator': ['error'],
   'unicorn/no-for-loop': ['error'],
   'unicorn/no-hex-escape': ['error'],
-  'unicorn/no-invalid-remove-event-listener': ['off'],
+  'unicorn/no-invalid-remove-event-listener': ['error'],
   'unicorn/no-keyword-prefix': ['off'],
   'unicorn/no-nested-ternary': ['error'],
   'unicorn/no-new-array': ['error'],

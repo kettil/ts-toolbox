@@ -2882,7 +2882,7 @@ Object {
       "error",
     ],
     "unicorn/no-invalid-remove-event-listener": Array [
-      "off",
+      "error",
     ],
     "unicorn/no-keyword-prefix": Array [
       "off",
