@@ -7,7 +7,6 @@ describe('isObject()', () => {
     expect(isTrue).toBeTruthy();
   });
 
-  /* eslint-disable-next-line unicorn/no-null, @typescript-eslint/no-empty-function */
   test.each([[null], ['string'], [Number.NaN], [13], [[]], [() => {}]])(
     'it should work with return value false (%p)',
     (value) => {

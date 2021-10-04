@@ -1,4 +1,3 @@
-/* eslint-disable import/max-dependencies */
 export * from './array';
 export * from './funcs';
 export * from './is';
