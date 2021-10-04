@@ -1,4 +1,4 @@
-/* eslint-disable import/no-cycle */
+/* eslint-disable import/no-cycle -- types have an interdependence */
 import { SwaggerProperty } from './swaggerProperty';
 import { SwaggerPropertyCommon } from './swaggerPropertyCommon';
 

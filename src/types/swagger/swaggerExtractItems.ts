@@ -1,4 +1,4 @@
-/* eslint-disable import/no-cycle */
+/* eslint-disable import/no-cycle -- types have an interdependence */
 import { Range } from '../tupel/range';
 import { SwaggerExtractProperty } from './swaggerExtractProperty';
 import { SwaggerExtractTuple } from './swaggerExtractTuple';

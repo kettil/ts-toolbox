@@ -5,7 +5,7 @@ type EnvironmentType = {
   (key: string, defaultValue: number | (() => number)): number;
 };
 
-/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any -- the typing is overwritten. */
 const env: EnvironmentType = (key?: string, defaultValue?: unknown): any => {
   if (key === undefined) {
     return process.env;
