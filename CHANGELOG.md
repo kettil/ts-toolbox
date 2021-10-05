@@ -1,5 +1,40 @@
 # Changelog
 
+# [3.6.0](https://github.com/kettil/eslint-config/compare/3.5.1...3.6.0) (2021-10-05)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 4.31.2 to 4.32.0 ([2dd1f99](https://github.com/kettil/eslint-config/commit/2dd1f99205e5e62a1626b4c7b9a742e9efd99e38))
+* **deps:** bump @typescript-eslint/parser from 4.31.2 to 4.32.0 ([7e6630d](https://github.com/kettil/eslint-config/commit/7e6630d15d143079e0f2714138c1770294596ed8))
+* **deps:** bump eslint-plugin-jest from 24.4.2 to 24.5.0 ([2abd6ba](https://github.com/kettil/eslint-config/commit/2abd6ba3fcb84688720de009a11b0efaf33da054))
+* **deps:** bump eslint-plugin-jest from 24.5.0 to 24.5.2 ([5ca76c6](https://github.com/kettil/eslint-config/commit/5ca76c6cf4ff5343b34e26dacadc83986d9e86c8))
+* **deps:** bump eslint-plugin-react from 7.26.0 to 7.26.1 ([2b97bdb](https://github.com/kettil/eslint-config/commit/2b97bdbd1b5dbc999a6d993813713304af1235fd))
+* **deps:** bump eslint-plugin-regexp from 1.1.0 to 1.3.1 ([50a4d3e](https://github.com/kettil/eslint-config/commit/50a4d3e3670cd7800fb0a788f582cb53731e9266))
+* **deps:** bump eslint-plugin-unicorn from 34.0.1 to 36.0.0 ([ba0979d](https://github.com/kettil/eslint-config/commit/ba0979d1bcf3ca7ba8f24666d66ecfb5fe086525))
+* **unicorn:** enable rule no-invalid-remove-event-listener ([e071d92](https://github.com/kettil/eslint-config/commit/e071d92c0fc5d19dde913a6f717d66517bceb0d3))
+
+
+### Features
+
+* **eslint:** enable rule require-unicode-regexp ([e1f75a9](https://github.com/kettil/eslint-config/commit/e1f75a9750b5e0f9c16e7347a5d8a8197336865e))
+* **jest:** add rule prefer-expect-resolves ([966b748](https://github.com/kettil/eslint-config/commit/966b748efcd6051d5750a7e2f637f605d92bd1cd))
+* **jest:** add rule prefer-to-be ([a9d8f67](https://github.com/kettil/eslint-config/commit/a9d8f67bd907a0b6cc6efab0a593af2030aec8f1))
+* **regexp:** add rule no-contradiction-with-assertion ([cc7ff99](https://github.com/kettil/eslint-config/commit/cc7ff992e36c66613c0cbc38df592c729c5d8ea7))
+* **regexp:** add rule no-control-character ([ca525d5](https://github.com/kettil/eslint-config/commit/ca525d5e426e7e9b53938ea46a7e302c2b8ee32a))
+* **regexp:** add rule no-empty-character-class ([a8c9c3b](https://github.com/kettil/eslint-config/commit/a8c9c3b32529017103753edd1f4cf9b5a545dd3f))
+* **regexp:** add rule no-misleading-unicode-character ([1985973](https://github.com/kettil/eslint-config/commit/1985973e89a8e029da91f11a834f971fb0d325dd))
+* **regexp:** add rule prefer-lookaround ([4c150bc](https://github.com/kettil/eslint-config/commit/4c150bc152fd4d956946203fe535aad7d2d4d92f))
+* **regexp:** add rule prefer-named-capture-group ([2394189](https://github.com/kettil/eslint-config/commit/23941890c60dc2dea5e4335e260b39bf98676750))
+* **regexp:** add rule require-unicode-regexp ([decfe86](https://github.com/kettil/eslint-config/commit/decfe869a9b0111594d585f056f25d4095287c08))
+* **typescript:** add rule no-non-null-asserted-nullish-coalescing ([4756017](https://github.com/kettil/eslint-config/commit/475601792f7141636d67a0f6684b4bb566e4a280))
+* **typescript:** add rule no-restricted-imports ([0d2e24c](https://github.com/kettil/eslint-config/commit/0d2e24cafd020610601978032435a823bd3ef40a))
+* **unicorn:** add rule no-invalid-remove-event-listener ([0815c42](https://github.com/kettil/eslint-config/commit/0815c428268f3738ddb86998533116493290cbbd))
+* **unicorn:** add rule no-useless-fallback-in-spread ([07632c9](https://github.com/kettil/eslint-config/commit/07632c90955d8824062a20f37a01822647b5f25e))
+* **unicorn:** add rule no-useless-length-check ([a99db0c](https://github.com/kettil/eslint-config/commit/a99db0c284701f58b8b4a1a688865c174ba60d95))
+* **unicorn:** add rule no-useless-spread ([26621be](https://github.com/kettil/eslint-config/commit/26621be5175dd87a577102aab83973b531b29a9d))
+* **unicorn:** add rule prefer-object-from-entries ([de83dfd](https://github.com/kettil/eslint-config/commit/de83dfd71f18256788dd14ae6c9d6ce1901f8a25))
+
 ## [3.5.1](https://github.com/kettil/eslint-config/compare/3.5.0...3.5.1) (2021-09-28)
 
 
