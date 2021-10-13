@@ -62,6 +62,7 @@ const rules = {
   'regexp/prefer-question-quantifier': ['error'],
   'regexp/prefer-range': ['error'],
   'regexp/prefer-regexp-test': ['error'],
+  'regexp/prefer-result-array-groups': ['error'],
   'regexp/prefer-star-quantifier': ['error'],
   'regexp/prefer-unicode-codepoint-escapes': ['error'],
   'regexp/prefer-w': ['error'],

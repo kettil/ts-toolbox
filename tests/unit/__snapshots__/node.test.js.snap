@@ -2602,6 +2602,9 @@ Object {
     "regexp/prefer-regexp-test": Array [
       "error",
     ],
+    "regexp/prefer-result-array-groups": Array [
+      "error",
+    ],
     "regexp/prefer-star-quantifier": Array [
       "error",
     ],
