@@ -2626,6 +2626,9 @@ Object {
     "regexp/unicode-escape": Array [
       "error",
     ],
+    "regexp/use-ignore-case": Array [
+      "error",
+    ],
     "require-atomic-updates": Array [
       "off",
     ],

@@ -70,6 +70,7 @@ const rules = {
   'regexp/sort-flags': ['error'],
   'regexp/strict': ['error'],
   'regexp/unicode-escape': ['error'],
+  'regexp/use-ignore-case': ['error'],
 };
 
 module.exports = { ...defaultObject, plugins: ['regexp'], rules };
