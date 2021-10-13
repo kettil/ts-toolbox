@@ -102,6 +102,7 @@ const rules = {
   'unicorn/require-array-join-separator': ['error'],
   'unicorn/require-number-to-fixed-digits-argument': ['error'],
   'unicorn/string-content': ['off'],
+  'unicorn/template-indent': ['off'],
   'unicorn/throw-new-error': ['error'],
 };
 
