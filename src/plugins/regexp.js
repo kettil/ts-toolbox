@@ -55,12 +55,14 @@ const rules = {
   'regexp/prefer-d': ['error'],
   'regexp/prefer-lookaround': ['error'],
   'regexp/prefer-named-capture-group': ['off'],
+  'regexp/prefer-named-replacement': ['off'],
   'regexp/prefer-plus-quantifier': ['error'],
   'regexp/prefer-predefined-assertion': ['error'],
   'regexp/prefer-quantifier': ['error'],
   'regexp/prefer-question-quantifier': ['error'],
   'regexp/prefer-range': ['error'],
   'regexp/prefer-regexp-test': ['error'],
+  'regexp/prefer-result-array-groups': ['error'],
   'regexp/prefer-star-quantifier': ['error'],
   'regexp/prefer-unicode-codepoint-escapes': ['error'],
   'regexp/prefer-w': ['error'],
@@ -70,6 +72,7 @@ const rules = {
   'regexp/sort-flags': ['error'],
   'regexp/strict': ['error'],
   'regexp/unicode-escape': ['error'],
+  'regexp/use-ignore-case': ['error'],
 };
 
 module.exports = { ...defaultObject, plugins: ['regexp'], rules };

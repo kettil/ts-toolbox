@@ -2581,6 +2581,9 @@ Object {
     "regexp/prefer-named-capture-group": Array [
       "off",
     ],
+    "regexp/prefer-named-replacement": Array [
+      "off",
+    ],
     "regexp/prefer-plus-quantifier": Array [
       "error",
     ],
@@ -2597,6 +2600,9 @@ Object {
       "error",
     ],
     "regexp/prefer-regexp-test": Array [
+      "error",
+    ],
+    "regexp/prefer-result-array-groups": Array [
       "error",
     ],
     "regexp/prefer-star-quantifier": Array [
@@ -2624,6 +2630,9 @@ Object {
       "error",
     ],
     "regexp/unicode-escape": Array [
+      "error",
+    ],
+    "regexp/use-ignore-case": Array [
       "error",
     ],
     "require-atomic-updates": Array [
