@@ -1281,6 +1281,9 @@ Object {
     "jest/prefer-to-have-length": Array [
       "error",
     ],
+    "jest/require-hook": Array [
+      "off",
+    ],
     "jest/valid-describe-callback": Array [
       "error",
     ],

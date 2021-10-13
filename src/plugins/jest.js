@@ -29,6 +29,7 @@ const rules = {
   'jest/prefer-to-be': ['error'],
   'jest/prefer-to-contain': ['error'],
   'jest/prefer-to-have-length': ['error'],
+  'jest/require-hook': ['off'],
   'jest/valid-describe-callback': ['error'],
   'jest/valid-expect-in-promise': ['error'],
   'jest/valid-expect': ['error'],
