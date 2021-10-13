@@ -1,5 +1,25 @@
 # Changelog
 
+# [3.7.0](https://github.com/kettil/eslint-config/compare/3.6.1...3.7.0) (2021-10-13)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-import from 2.24.2 to 2.25.2 ([a5fc757](https://github.com/kettil/eslint-config/commit/a5fc7572add373864ff4f990d2f1d4e2e284af00))
+* **deps:** bump eslint-plugin-jest from 24.5.2 to 25.0.5 ([87231c8](https://github.com/kettil/eslint-config/commit/87231c812f9ed3cad6f551bb2dc45420494135e1))
+* **deps:** bump eslint-plugin-regexp from 1.3.1 to 1.4.1 ([6a7c526](https://github.com/kettil/eslint-config/commit/6a7c52646ba5cc7a4a415ba3aa23b8a349095e8a))
+* **deps:** bump eslint-plugin-unicorn from 36.0.0 to 37.0.1 ([29917ff](https://github.com/kettil/eslint-config/commit/29917ff4636d68628475106b8e23042008d31f10))
+
+
+### Features
+
+* **jest:** add rule require-hook ([8a3d946](https://github.com/kettil/eslint-config/commit/8a3d946d5f4e8f019378b82d28ce309d7ea9f9ef))
+* **jest:** delete deleted rules ([d86a805](https://github.com/kettil/eslint-config/commit/d86a805f3de8cbfb3af513e64dca7200327190ae))
+* **regexp:** add rule prefer-named-replacement (off) ([ba525a7](https://github.com/kettil/eslint-config/commit/ba525a79e0e3b29187fd820eb9f123dd8b220e43))
+* **regexp:** add rule prefer-result-array-groups ([f45681b](https://github.com/kettil/eslint-config/commit/f45681b68aa48bfd15ac25a815a24433be60d311))
+* **regexp:** add rule use-ignore-case ([9d20b96](https://github.com/kettil/eslint-config/commit/9d20b9692b666e1b9f8b617da3f4ab98f69c4705))
+* **unicorn:** add rule template-indent (off) ([7fc7309](https://github.com/kettil/eslint-config/commit/7fc7309d9e82dd63565ae6b9ce6ffea6728950c7))
+
 ## [3.6.1](https://github.com/kettil/eslint-config/compare/3.6.0...3.6.1) (2021-10-12)
 
 
