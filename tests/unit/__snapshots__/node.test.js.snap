@@ -3105,6 +3105,9 @@ Object {
     "unicorn/string-content": Array [
       "off",
     ],
+    "unicorn/template-indent": Array [
+      "off",
+    ],
     "unicorn/throw-new-error": Array [
       "error",
     ],
