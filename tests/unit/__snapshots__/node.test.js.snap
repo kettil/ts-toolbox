@@ -1212,9 +1212,6 @@ Object {
     "jest/expect-expect": Array [
       "warn",
     ],
-    "jest/lowercase-name": Array [
-      "error",
-    ],
     "jest/max-nested-describe": Array [
       "error",
       Object {
@@ -1266,22 +1263,16 @@ Object {
     "jest/no-test-prefixes": Array [
       "error",
     ],
-    "jest/no-try-expect": Array [
-      "error",
-    ],
     "jest/prefer-expect-resolves": Array [
       "error",
     ],
     "jest/prefer-hooks-on-top": Array [
       "error",
     ],
+    "jest/prefer-lowercase-title": Array [
+      "error",
+    ],
     "jest/prefer-to-be": Array [
-      "error",
-    ],
-    "jest/prefer-to-be-null": Array [
-      "error",
-    ],
-    "jest/prefer-to-be-undefined": Array [
       "error",
     ],
     "jest/prefer-to-contain": Array [
@@ -1290,7 +1281,10 @@ Object {
     "jest/prefer-to-have-length": Array [
       "error",
     ],
-    "jest/valid-describe": Array [
+    "jest/require-hook": Array [
+      "off",
+    ],
+    "jest/valid-describe-callback": Array [
       "error",
     ],
     "jest/valid-expect": Array [
