@@ -2581,6 +2581,9 @@ Object {
     "regexp/prefer-named-capture-group": Array [
       "off",
     ],
+    "regexp/prefer-named-replacement": Array [
+      "off",
+    ],
     "regexp/prefer-plus-quantifier": Array [
       "error",
     ],

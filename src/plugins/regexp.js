@@ -55,6 +55,7 @@ const rules = {
   'regexp/prefer-d': ['error'],
   'regexp/prefer-lookaround': ['error'],
   'regexp/prefer-named-capture-group': ['off'],
+  'regexp/prefer-named-replacement': ['off'],
   'regexp/prefer-plus-quantifier': ['error'],
   'regexp/prefer-predefined-assertion': ['error'],
   'regexp/prefer-quantifier': ['error'],
