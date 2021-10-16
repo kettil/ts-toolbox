@@ -9,6 +9,7 @@ describe('main index', () => {
       'dummy',
       'isArray',
       'isObject',
+      'isString',
       'isWeekday',
       'delay',
       'env',
