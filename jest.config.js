@@ -1,26 +1,11 @@
-// eslint-disable-next-line import/no-extraneous-dependencies -- is ok, because config file
-const { config, createProject } = require('carna/configs/jest.config.js');
+/* eslint-disable-next-line import/no-extraneous-dependencies -- is a dev file */
+const { createJestConfig, createJestProject } = require('carna');
 
-module.exports = Object.assign(config, {
+module.exports = createJestConfig(__dirname, {
   projects: [
-    // createProject('<foldername>', '<color>', { /* extend config */})
     // => colors: red green yellow blue magenta cyan gray
-    createProject('unit', 'cyan', {}),
-    // createProject('integration', 'magenta', {}),
-    // createProject('e2e', 'yellow', {}),
+    createJestProject({ testFolder: 'unit', color: 'cyan', customeConfig: {} }),
   ],
 
   // extend options for this project
-
-  // ####################
-  // Temporary entry for the project start
-  coverageThreshold: {
-    global: {
-      statements: 0,
-      branches: 0,
-      functions: 0,
-      lines: 0,
-    },
-  },
-  // ####################
 });
