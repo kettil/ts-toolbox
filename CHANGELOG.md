@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.7.1](https://github.com/kettil/eslint-config/compare/3.7.0...3.7.1) (2021-10-19)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.17.8 to 2.17.9 ([8784604](https://github.com/kettil/eslint-config/commit/878460406913ed767e2139344a367dc2c280c982))
+* **deps:** bump eslint-plugin-jest from 25.0.5 to 25.0.6 ([d59441c](https://github.com/kettil/eslint-config/commit/d59441c55afc0f4f6a97412c741e2709ebef7fb6))
+* **deps:** bump eslint-plugin-jest from 25.0.6 to 25.2.1 ([4e937ca](https://github.com/kettil/eslint-config/commit/4e937cab481e0be5eee53e959e766f8063332cea))
+* **deps:** bump eslint-plugin-jest from 25.2.1 to 25.2.2 ([7519a4b](https://github.com/kettil/eslint-config/commit/7519a4bb39ed40cf358aa867b2d6fba5d6a552f3))
+
 # [3.7.0](https://github.com/kettil/eslint-config/compare/3.6.1...3.7.0) (2021-10-13)
 
 
