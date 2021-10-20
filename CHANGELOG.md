@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.1](https://github.com/kettil/tool-lib/compare/3.3.0...3.3.1) (2021-10-20)
+
+
+### Bug Fixes
+
+* **is:** adjustment of the type definition of isArray ([5a285c9](https://github.com/kettil/tool-lib/commit/5a285c9f1ce2e860a7dc7b328ba772b27987ef60))
+
 # [3.3.0](https://github.com/kettil/tool-lib/compare/3.2.1...3.3.0) (2021-10-16)
 
 
