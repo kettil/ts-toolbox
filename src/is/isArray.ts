@@ -1,3 +1,3 @@
-const isArray = <T extends unknown>(value: T): value is T extends unknown[] ? T : never => Array.isArray(value);
+const isArray = (value: unknown): value is unknown[] => Array.isArray(value);
 
 export { isArray };
