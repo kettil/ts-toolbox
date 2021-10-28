@@ -9,6 +9,7 @@ const rules = {
   'testing-library/consistent-data-testid': ['error'],
   'testing-library/no-await-sync-query': ['error'],
   'testing-library/no-container': ['error'],
+  'testing-library/no-debugging-utils': ['off'],
   'testing-library/no-manual-cleanup': ['error'],
   'testing-library/no-node-access': ['error'],
   'testing-library/no-render-in-setup': ['error'],
@@ -23,7 +24,7 @@ const rules = {
 
 if (hasLibrary('react')) {
   Object.assign(rules, {
-    'testing-library/no-debug': ['error'],
+    'testing-library/no-debugging-utils': ['error'],
     'testing-library/no-dom-import': ['error', 'react'],
   });
 }
