@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.1](https://github.com/kettil/commitlint-config/compare/2.0.0...2.0.1) (2021-11-02)
+
+
+### Bug Fixes
+
+* **deps:** bump semver-regex from 3.1.2 to 3.1.3 ([2d3265e](https://github.com/kettil/commitlint-config/commit/2d3265edf94952338b6929a01727dd98df85a329))
+* **deps:** bump tmpl from 1.0.4 to 1.0.5 ([56f4669](https://github.com/kettil/commitlint-config/commit/56f46698b65fdcefb64b0f5a81071b4c271ee7ce))
+
 # [2.0.0](https://github.com/kettil/commitlint-config/compare/1.0.1...2.0.0) (2021-04-25)
 
 
