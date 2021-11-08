@@ -31,7 +31,7 @@
     "url": "https://github.com/kettil/semantic-release-config/issues/new"
   },
   "dependencies": {
-    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "9.0.1"
   },
   "devDependencies": {
