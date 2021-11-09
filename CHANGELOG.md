@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.2](https://github.com/kettil/semantic-release-config/compare/2.0.1...2.0.2) (2021-11-09)
+
+
+### Bug Fixes
+
+* **deps:** bump @semantic-release/changelog from 5.0.1 to 6.0.1 ([ffd7bbb](https://github.com/kettil/semantic-release-config/commit/ffd7bbbb24dd523eae54f02e9ed914edc8e3d6db))
+* **deps:** bump @semantic-release/git from 9.0.0 to 9.0.1 ([fd97af4](https://github.com/kettil/semantic-release-config/commit/fd97af47890c1e7e7f2792c0f9fb0e10306179e0))
+* **deps:** bump @semantic-release/git from 9.0.1 to 10.0.1 ([d5e59e9](https://github.com/kettil/semantic-release-config/commit/d5e59e9362f63dca35ee8902e66450f8c4ee1a1c))
+* **deps:** bump semver-regex from 3.1.2 to 3.1.3 ([1e5e98b](https://github.com/kettil/semantic-release-config/commit/1e5e98bb8702233b60a50dcb45532640f203b0d2))
+* **deps:** bump tmpl from 1.0.4 to 1.0.5 ([735404d](https://github.com/kettil/semantic-release-config/commit/735404d9f91618493e4f338e31644773237b69fa))
+
 ## [2.0.1](https://github.com/kettil/semantic-release-config/compare/2.0.0...2.0.1) (2021-05-18)
 
 
