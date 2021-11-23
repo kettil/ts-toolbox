@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.7.3](https://github.com/kettil/eslint-config/compare/3.7.2...3.7.3) (2021-11-23)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-import from 2.25.2 to 2.25.3 ([17a8a10](https://github.com/kettil/eslint-config/commit/17a8a1063eb034faca2b1793ac7077c964dd4681))
+* **deps:** bump eslint-plugin-jest from 25.2.2 to 25.2.3 ([222647d](https://github.com/kettil/eslint-config/commit/222647d9484d6872080ffeb4078ba155a383164c))
+* **deps:** bump eslint-plugin-regexp from 1.4.1 to 1.5.0 ([5affdca](https://github.com/kettil/eslint-config/commit/5affdca36444664ba52a1dab8ba5f81ceeece7ab))
+* **deps:** bump eslint-plugin-testing-library from 4.12.4 to 5.0.0 ([652072c](https://github.com/kettil/eslint-config/commit/652072c7aaba59cfe1112b8ad53a0d25142bb059))
+* **testing-library:** rename the rule no-debug to no-debugging-utils ([4664947](https://github.com/kettil/eslint-config/commit/4664947261fe3f9a98ebf7502bd494dc20cb67b0))
+
 ## [3.7.2](https://github.com/kettil/eslint-config/compare/3.7.1...3.7.2) (2021-10-26)
 
 
