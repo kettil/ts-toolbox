@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.7.4](https://github.com/kettil/eslint-config/compare/3.7.3...3.7.4) (2021-12-07)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-formatjs from 2.18.0 to 2.19.0 ([7a18932](https://github.com/kettil/eslint-config/commit/7a189328b04edaee3899b9a3ba74b95b79744364))
+* **deps:** bump eslint-plugin-react-hooks from 4.2.0 to 4.3.0 ([7bd79ad](https://github.com/kettil/eslint-config/commit/7bd79addba2460bf5eeeb27fc5ecba26dc1c0f8b))
+* **deps:** bump eslint-plugin-regexp from 1.5.0 to 1.5.1 ([a9c2c56](https://github.com/kettil/eslint-config/commit/a9c2c56c43630d9e410b8a2a91d87ee01b79cf30))
+* **deps:** bump eslint-plugin-sonarjs from 0.10.0 to 0.11.0 ([e1ee62e](https://github.com/kettil/eslint-config/commit/e1ee62ed99e29ee370c07442fed1c16408a4bb13))
+
 ## [3.7.3](https://github.com/kettil/eslint-config/compare/3.7.2...3.7.3) (2021-11-23)
 
 
