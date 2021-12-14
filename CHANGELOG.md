@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.7.5](https://github.com/kettil/eslint-config/compare/3.7.4...3.7.5) (2021-12-14)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest from 25.2.3 to 25.3.0 ([f0612a3](https://github.com/kettil/eslint-config/commit/f0612a38c2c769e38fbdc4220bef07707c6e652e))
+* **deps:** bump eslint-plugin-jsx-a11y from 6.4.1 to 6.5.1 ([4ef7b38](https://github.com/kettil/eslint-config/commit/4ef7b3893491aaa9e87e3997f8e5dcad6d0ef5dd))
+* **deps:** bump eslint-plugin-react from 7.26.1 to 7.27.1 ([7e4f50c](https://github.com/kettil/eslint-config/commit/7e4f50cb0772621406c4a634258b7c904508bde1))
+* **deps:** bump eslint-plugin-testing-library from 5.0.0 to 5.0.1 ([5ab2090](https://github.com/kettil/eslint-config/commit/5ab2090e6fa2ce7738e21c1467360c15c30de5fe))
+
 ## [3.7.4](https://github.com/kettil/eslint-config/compare/3.7.3...3.7.4) (2021-12-07)
 
 
