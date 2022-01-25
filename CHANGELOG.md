@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.2](https://github.com/kettil/tool-lib/compare/3.3.1...3.3.2) (2022-01-25)
+
+
+### Bug Fixes
+
+* **deps:** bump nanoid from 3.1.30 to 3.2.0 ([7f1e786](https://github.com/kettil/tool-lib/commit/7f1e786d01e83833f6a4c12bad0deaff626d95f3))
+
 ## [3.3.1](https://github.com/kettil/tool-lib/compare/3.3.0...3.3.1) (2021-10-20)
 
 
