@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.7.9](https://github.com/kettil/eslint-config/compare/3.7.8...3.7.9) (2022-01-25)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest from 25.3.4 to 25.7.0 ([31625e6](https://github.com/kettil/eslint-config/commit/31625e644209dc421f798421e40bdd440c6c0e49))
+* **deps:** bump eslint-plugin-testing-library from 5.0.3 to 5.0.4 ([e6377d6](https://github.com/kettil/eslint-config/commit/e6377d6e3b38891b7d8a6937e31107168c524e0a))
+* **deps:** bump eslint-plugin-unicorn from 40.0.0 to 40.1.0 ([bf6bca3](https://github.com/kettil/eslint-config/commit/bf6bca3a4cd06e031770927022a3a7d922fe16a9))
+
 ## [3.7.8](https://github.com/kettil/eslint-config/compare/3.7.7...3.7.8) (2022-01-11)
 
 
