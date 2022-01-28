@@ -62,7 +62,7 @@
     "eslint-plugin-unicorn": "40.1.0"
   },
   "devDependencies": {
-    "carna": "6.2.14",
+    "carna": "7.0.0",
     "eslint": "7.32.0"
   }
 }
