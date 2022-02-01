@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/kettil/commitlint-config/compare/2.0.1...2.0.2) (2022-02-01)
+
+
+### Bug Fixes
+
+* **deps:** bump node-fetch from 2.6.5 to 2.6.7 ([816ea23](https://github.com/kettil/commitlint-config/commit/816ea2365aa58a4087caad2a0758606bc11438c9))
+
 ## [2.0.1](https://github.com/kettil/commitlint-config/compare/2.0.0...2.0.1) (2021-11-02)
 
 
