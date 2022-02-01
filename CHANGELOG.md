@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.10](https://github.com/kettil/eslint-config/compare/3.7.9...3.7.10) (2022-02-01)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest from 25.7.0 to 26.0.0 ([364c296](https://github.com/kettil/eslint-config/commit/364c296dec06e7c6992c1914cc9d50853f92e360))
+
 ## [3.7.9](https://github.com/kettil/eslint-config/compare/3.7.8...3.7.9) (2022-01-25)
 
 
