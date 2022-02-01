@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/kettil/semantic-release-config/compare/2.0.2...2.0.3) (2022-02-01)
+
+
+### Bug Fixes
+
+* **deps:** bump node-fetch from 2.6.6 to 2.6.7 ([9856067](https://github.com/kettil/semantic-release-config/commit/985606726c5945c510c21ba714d958e18ccc05c4))
+
 ## [2.0.2](https://github.com/kettil/semantic-release-config/compare/2.0.1...2.0.2) (2021-11-09)
 
 
