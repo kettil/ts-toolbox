@@ -35,6 +35,6 @@
     "@semantic-release/git": "10.0.1"
   },
   "devDependencies": {
-    "carna": "7.0.0"
+    "carna": "7.0.1"
   }
 }
