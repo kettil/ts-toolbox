@@ -33,6 +33,6 @@
     "url": "https://github.com/kettil/commitlint-config/issues/new"
   },
   "devDependencies": {
-    "carna": "7.0.0"
+    "carna": "7.0.1"
   }
 }
