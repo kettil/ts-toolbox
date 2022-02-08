@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.7.11](https://github.com/kettil/eslint-config/compare/3.7.10...3.7.11) (2022-02-08)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest from 26.0.0 to 26.1.0 ([b38e633](https://github.com/kettil/eslint-config/commit/b38e633b04e8fab51df45e260e810602aca447a0))
+* **deps:** bump eslint-plugin-testing-library from 5.0.4 to 5.0.5 ([b6889e2](https://github.com/kettil/eslint-config/commit/b6889e2c3b524de6dc2b80179f8ea3d5dc4303bd))
+* **deps:** bump glob-parent from 5.1.1 to 5.1.2 ([94bac0e](https://github.com/kettil/eslint-config/commit/94bac0e85f818ee99f7b6bbc062accc69721aa16))
+
 ## [3.7.10](https://github.com/kettil/eslint-config/compare/3.7.9...3.7.10) (2022-02-01)
 
 
