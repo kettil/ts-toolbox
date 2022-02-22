@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.7.12](https://github.com/kettil/eslint-config/compare/3.7.11...3.7.12) (2022-02-22)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jest from 26.1.0 to 26.1.1 ([d055bdf](https://github.com/kettil/eslint-config/commit/d055bdf0f9589a812480563eb908f1b7e11d7142))
+* **deps:** bump eslint-plugin-sonarjs from 0.11.0 to 0.12.0 ([50d8894](https://github.com/kettil/eslint-config/commit/50d8894ed8885712a4fe5722dedbd3d8df1876e3))
+
 ## [3.7.11](https://github.com/kettil/eslint-config/compare/3.7.10...3.7.11) (2022-02-08)
 
 
