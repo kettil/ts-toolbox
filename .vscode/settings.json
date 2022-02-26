@@ -1,0 +1,32 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  "prettier.configPath": "node_modules/carna/configs/prettierrc.json",
+
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "typescript"],
+
+  "vsicons.associations.files": [
+    {
+      "icon": "typescript",
+      "extensions": ["tsconfig.build.json"],
+      "filename": true,
+      "format": "svg"
+    }
+  ],
+
+  "vsicons.associations.folders": [
+    {
+      "icon": "test",
+      "extensions": ["type", "unit", "integration", "e2e"],
+      "format": "svg"
+    },
+    { "icon": "helper", "extensions": ["shared"], "format": "svg" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/carna/configs/typescriptrc.json",
+  "include": ["./src/**/*", "./tests/**/*", "./packages/*/src/**/*", "./packages/*/tests/**/*"],
+  "exclude": ["node_modules", "build", "packages/*/node_modules", "packages/*/build"],
+
+  "compilerOptions": {}
+}
