@@ -1,0 +1,40 @@
+{
+  "name": "@kettil/semantic-release-config",
+  "version": "2.0.3",
+  "description": "The library contains the semantic-release configuration",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "npx carna test",
+    "prepare": "[ \"$CI\" != \"\" ] || husky install ./node_modules/carna/configs/husky",
+    "analyse": "npx carna analyse",
+    "build": "npx carna build",
+    "prebuild": "rm -rf ./build",
+    "test:unit": "npx carna test -p unit -w"
+  },
+  "keywords": [
+    "semantic-release"
+  ],
+  "author": "Kjell Dießel <development@kettil.de>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14",
+    "npm": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/semantic-release-config"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/semantic-release-config/issues/new"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1"
+  },
+  "devDependencies": {
+    "carna": "7.0.3"
+  }
+}
