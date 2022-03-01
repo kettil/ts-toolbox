@@ -1,8 +1,8 @@
 import { defaultObject } from '../lib/defaultObject';
 import { hasLibrary } from '../lib/hasLibrary';
-import { DefaultObject } from '../types/defaultObject';
-import { Overrides } from '../types/overrides';
-import { Rules } from '../types/rules';
+import type { DefaultObject } from '../types/defaultObject';
+import type { Overrides } from '../types/overrides';
+import type { Rules } from '../types/rules';
 
 const rules: Rules = {
   // the plugin eslint-plugin-regexp takes over the regexp handling

@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/naming-convention -- external definition */
 import { defaultObject } from '../lib/defaultObject';
 import { hasLibrary } from '../lib/hasLibrary';
-import { DefaultObject } from '../types/defaultObject';
-import { Rules } from '../types/rules';
+import type { DefaultObject } from '../types/defaultObject';
+import type { Rules } from '../types/rules';
 
 const rules: Rules = {
   'jsx-a11y/accessible-emoji': ['error'],

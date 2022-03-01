@@ -1,3 +1,7 @@
+/* eslint-disable node/global-require -- tests if the package exists */
+/* eslint-disable import/no-dynamic-require -- tests if the package exists */
+/* eslint-disable @typescript-eslint/no-require-imports -- tests if the package exists */
+
 const hasLibrary = (...names: string[]): boolean => {
   if (names.length === 0) {
     throw new Error('Module names is missing');
@@ -5,11 +9,10 @@ const hasLibrary = (...names: string[]): boolean => {
 
   return names.some((name) => {
     try {
-      // eslint-disable-next-line node/global-require, import/no-dynamic-require -- tests if the package exists
       require(name);
 
       return true;
-    } catch (error) {
+    } catch (error: unknown) {
       return false;
     }
   });

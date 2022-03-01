@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention -- external name schema */
 import { defaultObject } from '../lib/defaultObject';
-import { DefaultObject } from '../types/defaultObject';
-import { Rules } from '../types/rules';
+import type { DefaultObject } from '../types/defaultObject';
+import type { Rules } from '../types/rules';
 
 const rules: Rules = {
   'accessor-pairs': ['off'],
@@ -75,7 +75,7 @@ const rules: Rules = {
   'constructor-super': ['error'],
   curly: ['error', 'all'],
   'default-case': ['error', { commentPattern: '^no default$' }],
-  'default-param-last': ['off'],
+  'default-param-last': ['error'],
   'dot-location': ['error', 'property'],
   'dot-notation': ['error', { allowKeywords: true, allowPattern: '' }],
   'eol-last': ['error', 'always'],
@@ -194,7 +194,7 @@ const rules: Rules = {
   'no-dupe-else-if': ['error'],
   'no-dupe-keys': ['error'],
   'no-duplicate-case': ['error'],
-  'no-duplicate-imports': ['off'],
+  'no-duplicate-imports': ['error', { includeExports: true }],
   'no-else-return': ['error', { allowElseIf: false }],
   'no-empty': ['error'],
   'no-empty-character-class': ['error'],
@@ -239,6 +239,7 @@ const rules: Rules = {
   'no-lone-blocks': ['error'],
   'no-lonely-if': ['error'],
   'no-loop-func': ['error'],
+  'no-loss-of-precision': ['error'],
   'no-magic-numbers': ['off', { ignore: [], ignoreArrayIndexes: true, enforceConst: true, detectObjects: false }],
   'no-misleading-character-class': ['error'],
   'no-mixed-operators': [
@@ -568,6 +569,4 @@ const createEslintConfig = (): DefaultObject => ({
   rules,
 });
 
-const eslintRules = rules;
-
-export { createEslintConfig, eslintRules };
+export { createEslintConfig, rules as eslintRules };

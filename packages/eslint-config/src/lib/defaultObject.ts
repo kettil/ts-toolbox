@@ -1,4 +1,4 @@
-import { DefaultObject } from '../types/defaultObject';
+import type { DefaultObject } from '../types/defaultObject';
 
 const defaultObject: DefaultObject = {
   env: {},
