@@ -1,6 +1,6 @@
 import { defaultObject } from '../lib/defaultObject';
-import { DefaultObject } from '../types/defaultObject';
-import { Rules } from '../types/rules';
+import type { DefaultObject } from '../types/defaultObject';
+import type { Rules } from '../types/rules';
 
 const rules: Rules = {
   'regexp/confusing-quantifier': ['error'],

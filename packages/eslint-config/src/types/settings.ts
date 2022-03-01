@@ -1,6 +1,6 @@
 type Extension = '.d.ts' | '.js' | '.jsx' | '.ts' | '.tsx';
 
-type Settings = {
+interface Settings {
   react?: { version?: 'detect' };
   'import/extensions'?: readonly Extension[];
   'import/external-module-folders'?: ['node_modules', 'node_modules/@types'];
@@ -10,6 +10,6 @@ type Settings = {
   'import/resolver'?: {
     node?: { extensions?: readonly Extension[] };
   };
-};
+}
 
 export type { Settings };

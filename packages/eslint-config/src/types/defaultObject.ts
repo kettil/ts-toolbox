@@ -7,7 +7,7 @@ import type { Plugins } from './plugins';
 import type { Rules } from './rules';
 import type { Settings } from './settings';
 
-type DefaultObject = {
+interface DefaultObject {
   env: Environment;
   rules: Rules;
   globals: Globals;
@@ -16,6 +16,6 @@ type DefaultObject = {
   parser: Parser;
   plugins: Plugins;
   overrides: Overrides;
-};
+}
 
 export type { DefaultObject };

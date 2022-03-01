@@ -15,7 +15,7 @@ import { createTypescriptConfig } from './configs/typescript';
 import { createUnicornConfig } from './configs/unicorn';
 import { deepMerge } from './lib/deepEqual';
 import { defaultObject } from './lib/defaultObject';
-import { DefaultObject } from './types/defaultObject';
+import type { DefaultObject } from './types/defaultObject';
 
 const createConfig = (): Readonly<DefaultObject> => {
   const plugins: readonly DefaultObject[] = [

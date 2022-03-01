@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/naming-convention -- external definition */
 import { defaultObject } from '../lib/defaultObject';
-import { DefaultObject } from '../types/defaultObject';
-import { Globals } from '../types/globals';
-import { Overrides } from '../types/overrides';
-import { Rules } from '../types/rules';
+import type { DefaultObject } from '../types/defaultObject';
+import type { Globals } from '../types/globals';
+import type { Overrides } from '../types/overrides';
+import type { Rules } from '../types/rules';
 
 const globals: Globals = {
   // ECMAScript

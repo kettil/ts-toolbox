@@ -1,7 +1,7 @@
 import { defaultObject } from '../lib/defaultObject';
-import { DefaultObject } from '../types/defaultObject';
-import { Overrides } from '../types/overrides';
-import { Rules } from '../types/rules';
+import type { DefaultObject } from '../types/defaultObject';
+import type { Overrides } from '../types/overrides';
+import type { Rules } from '../types/rules';
 import { eslintRules } from './eslint';
 
 const rules: Rules = {
