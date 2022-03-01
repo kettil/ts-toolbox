@@ -28,7 +28,7 @@
   },
   "license": {
     "ignore": {
-      "packages": []
+      "packages": ["argparse"]
     }
   },
   "test": {
