@@ -2,37 +2,37 @@
   "name": "@kettil/commitlint-config",
   "version": "2.0.2",
   "description": "The library contains the commitlint configuration",
-  "main": "src/index.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "test": "npx carna test",
-    "prepare": "[ \"$CI\" != \"\" ] || husky install ./node_modules/carna/configs/husky",
-    "analyse": "npx carna analyse",
-    "deps": "npx carna deps",
-    "license": "npx carna license",
-    "build": "npx carna build",
-    "prebuild": "rm -rf ./build",
-    "test:unit": "npx carna test -p unit -w"
-  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Kjell Dießel",
+      "email": "development@kettil.de"
+    }
+  ],
   "keywords": [
     "commitlint"
   ],
-  "author": "Kjell Dießel <development@kettil.de>",
-  "license": "MIT",
-  "engines": {
-    "node": ">=14",
-    "npm": ">=6"
+  "publishConfig": {
+    "access": "public"
   },
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
+  },
+  "main": "commitlint.js",
+  "types": "build/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./commitlint.js"
+    }
+  },
+  "scripts": {},
+  "homepage": "https://github.com/kettil/ts-toolbox/packages/commitlint-config#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kettil/commitlint-config"
+    "url": "https://github.com/kettil/ts-toolbox"
   },
   "bugs": {
-    "url": "https://github.com/kettil/commitlint-config/issues/new"
-  },
-  "devDependencies": {
-    "carna": "7.0.3"
+    "url": "https://github.com/kettil/ts-toolbox/issues/new"
   }
 }

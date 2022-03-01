@@ -1,9 +1,6 @@
 # ESLint rules collection
 
 ![npm](https://img.shields.io/npm/v/@kettil/eslint-config)
-![David](https://img.shields.io/david/kettil/eslint-config)
-![Release](https://github.com/kettil/eslint-config/workflows/Release/badge.svg)
-![GitHub](https://img.shields.io/github/license/kettil/eslint-config)
 
 The library is a collection of very strict ESLint rules.
 

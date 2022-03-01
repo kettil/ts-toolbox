@@ -9,4 +9,4 @@ package-lock.json
 
 # Project folders/files
 /CHANGELOG.md
-!.releaserc.js
+packages/*/CHANGELOG.md

@@ -1,9 +1,6 @@
 # commitlint-config
 
 ![npm](https://img.shields.io/npm/v/@kettil/commitlint-config)
-![David](https://img.shields.io/david/kettil/commitlint-config)
-![Release](https://github.com/kettil/commitlint-config/workflows/Release/badge.svg)
-![GitHub](https://img.shields.io/github/license/kettil/commitlint-config)
 
 The library contains the commitlint configuration.
 

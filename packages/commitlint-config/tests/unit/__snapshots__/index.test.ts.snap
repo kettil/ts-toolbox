@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createConfig() it should work 1`] = `
+Object {
+  "extends": Array [
+    "@commitlint/config-lerna-scopes",
+  ],
+  "rules": Object {
+    "body-leading-blank": Array [
+      2,
+      "always",
+    ],
+    "body-max-line-length": Array [
+      2,
+      "always",
+      120,
+    ],
+    "footer-leading-blank": Array [
+      2,
+      "always",
+    ],
+    "footer-max-line-length": Array [
+      2,
+      "always",
+      120,
+    ],
+    "header-max-length": Array [
+      2,
+      "always",
+      110,
+    ],
+    "scope-case": Array [
+      2,
+      "always",
+      "lower-case",
+    ],
+    "subject-case": Array [
+      2,
+      "never",
+      Array [
+        "sentence-case",
+        "start-case",
+        "pascal-case",
+        "upper-case",
+      ],
+    ],
+    "subject-empty": Array [
+      2,
+      "never",
+    ],
+    "subject-full-stop": Array [
+      2,
+      "never",
+      ".",
+    ],
+    "type-case": Array [
+      2,
+      "always",
+      "lower-case",
+    ],
+    "type-empty": Array [
+      2,
+      "never",
+    ],
+    "type-enum": Array [
+      2,
+      "always",
+      Array [
+        "build",
+        "chore",
+        "ci",
+        "docs",
+        "feat",
+        "fix",
+        "perf",
+        "refactor",
+        "revert",
+        "style",
+        "test",
+      ],
+    ],
+  },
+}
+`;

@@ -2,20 +2,13 @@
   "name": "@kettil/eslint-config",
   "version": "3.7.12",
   "description": "The library is a collection of very strict ESLint rules",
-  "main": "node.js",
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "test": "npx carna test",
-    "prepare": "[ \"$CI\" != \"\" ] || husky install ./node_modules/carna/configs/husky",
-    "analyse": "npx carna analyse",
-    "deps": "npx carna deps",
-    "license": "npx carna license",
-    "build": "npx carna build",
-    "prebuild": "rm -rf ./build",
-    "test:unit": "npx carna test -p unit -w"
-  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Kjell Dießel",
+      "email": "development@kettil.de"
+    }
+  ],
   "keywords": [
     "ecmascript",
     "es6",
@@ -31,19 +24,29 @@
     "react",
     "typescript"
   ],
-  "author": "Kjell Dießel <development@kettil.de>",
-  "license": "MIT",
   "engines": {
-    "node": ">=14",
-    "npm": ">=6"
+    "node": ">=16.12",
+    "npm": ">=8.1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "node.js",
+  "types": "build/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./node.js"
+    }
+  },
+  "homepage": "https://github.com/kettil/ts-toolbox/packages/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kettil/eslint-config"
+    "url": "https://github.com/kettil/ts-toolbox"
   },
   "bugs": {
-    "url": "https://github.com/kettil/eslint-config/issues/new"
+    "url": "https://github.com/kettil/ts-toolbox/issues/new"
   },
+  "scripts": {},
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
@@ -62,7 +65,6 @@
     "eslint-plugin-unicorn": "40.1.0"
   },
   "devDependencies": {
-    "carna": "7.0.3",
     "eslint": "7.32.0"
   }
 }

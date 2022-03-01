@@ -1,7 +1,29 @@
 {
   "deps": {
     "ignore": {
-      "packages": []
+      "packages": [
+        "@commitlint/config-lerna-scopes",
+        "@kettil/eslint-config",
+        "@semantic-release/changelog",
+        "@semantic-release/git",
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser",
+        "eslint-plugin-eslint-comments",
+        "eslint-plugin-formatjs",
+        "eslint-plugin-import",
+        "eslint-plugin-jest-dom",
+        "eslint-plugin-jest",
+        "eslint-plugin-jsx-a11y",
+        "eslint-plugin-node",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-react",
+        "eslint-plugin-regexp",
+        "eslint-plugin-sonarjs",
+        "eslint-plugin-testing-library",
+        "eslint-plugin-unicorn",
+        "eslint",
+        "multi-semantic-release"
+      ]
     }
   },
   "license": {
@@ -12,10 +34,10 @@
   "test": {
     "coverage": {
       "threshold": {
-        "statements": 0,
-        "branches": 0,
-        "functions": 0,
-        "lines": 0
+        "statements": 90,
+        "branches": 90,
+        "functions": 90,
+        "lines": 90
       }
     }
   }
