@@ -48,4 +48,4 @@ jobs:
         run: npm install
 
       - name: Run carna
-        run: npx carna ci
+        run: npx carna ci --build
