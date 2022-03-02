@@ -11,11 +11,13 @@ const rules: Rules = {
   'jest-dom/prefer-in-document': ['error'],
   'jest-dom/prefer-required': ['error'],
   'jest-dom/prefer-to-have-attribute': ['error'],
+  'jest-dom/prefer-to-have-class': ['error'],
+  'jest-dom/prefer-to-have-style': ['error'],
   'jest-dom/prefer-to-have-text-content': ['error'],
   'jest-dom/prefer-to-have-value': ['error'],
 };
 
-const createTestingLibraryJestDomConfig = (): DefaultObject => {
+const createJestDomConfig = (): DefaultObject => {
   const config = { ...defaultObject };
 
   if (hasLibrary('@testing-library/jest-dom')) {
@@ -26,4 +28,4 @@ const createTestingLibraryJestDomConfig = (): DefaultObject => {
   return config;
 };
 
-export { createTestingLibraryJestDomConfig };
+export { createJestDomConfig, rules as jestDomRules };

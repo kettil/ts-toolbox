@@ -3,6 +3,7 @@ import { createEslintCommentsConfig } from './configs/eslintComments';
 import { createFormatjsConfig } from './configs/formatjs';
 import { createImportConfig } from './configs/import';
 import { createJestConfig } from './configs/jest';
+import { createJestDomConfig } from './configs/jestDom';
 import { createJsxA11yConfig } from './configs/jsxA11y';
 import { createNodeConfig } from './configs/node';
 import { createReactConfig } from './configs/react';
@@ -10,7 +11,6 @@ import { createReactHooksConfig } from './configs/reactHooks';
 import { createRegexpConfig } from './configs/regexp';
 import { createSonarjsConfig } from './configs/sonarjs';
 import { createTestingLibraryConfig } from './configs/testingLibrary';
-import { createTestingLibraryJestDomConfig } from './configs/testingLibraryJestDom';
 import { createTypescriptConfig } from './configs/typescript';
 import { createUnicornConfig } from './configs/unicorn';
 import { deepMerge } from './lib/deepEqual';
@@ -39,7 +39,7 @@ const createConfig = (): Readonly<DefaultObject> => {
     // testing
     createJestConfig(),
     createTestingLibraryConfig(),
-    createTestingLibraryJestDomConfig(),
+    createJestDomConfig(),
   ];
 
   return plugins.reduce<DefaultObject>(

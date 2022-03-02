@@ -4562,6 +4562,12 @@ Object {
     "jest-dom/prefer-to-have-attribute": Array [
       "error",
     ],
+    "jest-dom/prefer-to-have-class": Array [
+      "error",
+    ],
+    "jest-dom/prefer-to-have-style": Array [
+      "error",
+    ],
     "jest-dom/prefer-to-have-text-content": Array [
       "error",
     ],
