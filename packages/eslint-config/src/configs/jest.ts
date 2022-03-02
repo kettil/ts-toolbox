@@ -11,25 +11,43 @@ const rules: Rules = {
   'jest/no-alias-methods': ['error'],
   'jest/no-commented-out-tests': ['warn'],
   'jest/no-conditional-expect': ['error'],
+  'jest/no-conditional-in-test': ['off'],
   'jest/no-deprecated-functions': ['error'],
   'jest/no-disabled-tests': ['warn'],
   'jest/no-done-callback': ['error'],
+  'jest/no-duplicate-hooks': ['off'],
   'jest/no-export': ['error'],
   'jest/no-focused-tests': ['error'],
+  'jest/no-hooks': ['off'],
   'jest/no-identical-title': ['error'],
+  'jest/no-if': ['off'],
   'jest/no-interpolation-in-snapshots': ['error'],
   'jest/no-jasmine-globals': ['error'],
   'jest/no-jest-import': ['error'],
+  'jest/no-large-snapshots': ['off'],
   'jest/no-mocks-import': ['error'],
+  'jest/no-restricted-matchers': ['off'],
   'jest/no-standalone-expect': ['error'],
   'jest/no-test-prefixes': ['error'],
+  'jest/no-test-return-statement': ['error'],
+  'jest/prefer-called-with': ['error'],
+  'jest/prefer-comparison-matcher': ['error'],
+  'jest/prefer-equality-matcher': ['error'],
+  'jest/prefer-expect-assertions': ['off'],
   'jest/prefer-expect-resolves': ['error'],
   'jest/prefer-hooks-on-top': ['error'],
   'jest/prefer-lowercase-title': ['error'],
+  'jest/prefer-snapshot-hint': ['off'],
+  'jest/prefer-spy-on': ['off'],
+  'jest/prefer-strict-equal': ['off'],
   'jest/prefer-to-be': ['error'],
   'jest/prefer-to-contain': ['error'],
   'jest/prefer-to-have-length': ['error'],
+  'jest/prefer-todo': ['error'],
   'jest/require-hook': ['off'],
+  'jest/require-to-throw-message': ['error'],
+  'jest/require-top-level-describe': ['error'],
+  'jest/unbound-method': ['off'],
   'jest/valid-describe-callback': ['error'],
   'jest/valid-expect-in-promise': ['error'],
   'jest/valid-expect': ['error'],
@@ -37,6 +55,17 @@ const rules: Rules = {
 };
 
 const overrides: Overrides = [
+  {
+    files: [
+      '**/tests/**/*.js',
+      '**/tests/**/*.ts',
+      '**/tests/**/*.tsx',
+      '**/*.test.js',
+      '**/*.test.ts',
+      '**/*.test.tsx',
+    ],
+    rules,
+  },
   {
     files: [
       '**/tests/*/pre.ts',
@@ -99,7 +128,6 @@ const createJestConfig = (): DefaultObject => {
   if (hasLibrary('jest')) {
     config.env = { 'jest/globals': true, jest: true };
     config.plugins = ['jest'];
-    config.rules = rules;
 
     config.overrides = [...overrides, ...(hasLibrary('typescript') ? typescriptOverrides : [])];
   }
@@ -107,4 +135,4 @@ const createJestConfig = (): DefaultObject => {
   return config;
 };
 
-export { createJestConfig };
+export { createJestConfig, rules as jestRules };
