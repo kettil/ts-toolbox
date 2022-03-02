@@ -16,4 +16,4 @@ const rules: Rules = {
 
 const createEslintCommentsConfig = (): DefaultObject => ({ ...defaultObject, plugins: ['eslint-comments'], rules });
 
-export { createEslintCommentsConfig };
+export { createEslintCommentsConfig, rules as eslintCommentsRules };
