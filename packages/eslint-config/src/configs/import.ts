@@ -169,4 +169,4 @@ const createImportConfig = (): DefaultObject => ({
   ],
 });
 
-export { createImportConfig };
+export { createImportConfig, rules as importRules };
