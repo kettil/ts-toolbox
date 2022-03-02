@@ -3702,6 +3702,166 @@ Object {
     },
     Object {
       "files": Array [
+        "**/tests/**/*.js",
+        "**/tests/**/*.ts",
+        "**/tests/**/*.tsx",
+        "**/*.test.js",
+        "**/*.test.ts",
+        "**/*.test.tsx",
+      ],
+      "rules": Object {
+        "jest/consistent-test-it": Array [
+          "error",
+          Object {
+            "fn": "test",
+            "withinDescribe": "test",
+          },
+        ],
+        "jest/expect-expect": Array [
+          "warn",
+        ],
+        "jest/max-nested-describe": Array [
+          "error",
+          Object {
+            "max": 5,
+          },
+        ],
+        "jest/no-alias-methods": Array [
+          "error",
+        ],
+        "jest/no-commented-out-tests": Array [
+          "warn",
+        ],
+        "jest/no-conditional-expect": Array [
+          "error",
+        ],
+        "jest/no-conditional-in-test": Array [
+          "off",
+        ],
+        "jest/no-deprecated-functions": Array [
+          "error",
+        ],
+        "jest/no-disabled-tests": Array [
+          "warn",
+        ],
+        "jest/no-done-callback": Array [
+          "error",
+        ],
+        "jest/no-duplicate-hooks": Array [
+          "off",
+        ],
+        "jest/no-export": Array [
+          "error",
+        ],
+        "jest/no-focused-tests": Array [
+          "error",
+        ],
+        "jest/no-hooks": Array [
+          "off",
+        ],
+        "jest/no-identical-title": Array [
+          "error",
+        ],
+        "jest/no-if": Array [
+          "off",
+        ],
+        "jest/no-interpolation-in-snapshots": Array [
+          "error",
+        ],
+        "jest/no-jasmine-globals": Array [
+          "error",
+        ],
+        "jest/no-jest-import": Array [
+          "error",
+        ],
+        "jest/no-large-snapshots": Array [
+          "off",
+        ],
+        "jest/no-mocks-import": Array [
+          "error",
+        ],
+        "jest/no-restricted-matchers": Array [
+          "off",
+        ],
+        "jest/no-standalone-expect": Array [
+          "error",
+        ],
+        "jest/no-test-prefixes": Array [
+          "error",
+        ],
+        "jest/no-test-return-statement": Array [
+          "error",
+        ],
+        "jest/prefer-called-with": Array [
+          "error",
+        ],
+        "jest/prefer-comparison-matcher": Array [
+          "error",
+        ],
+        "jest/prefer-equality-matcher": Array [
+          "error",
+        ],
+        "jest/prefer-expect-assertions": Array [
+          "off",
+        ],
+        "jest/prefer-expect-resolves": Array [
+          "error",
+        ],
+        "jest/prefer-hooks-on-top": Array [
+          "error",
+        ],
+        "jest/prefer-lowercase-title": Array [
+          "error",
+        ],
+        "jest/prefer-snapshot-hint": Array [
+          "off",
+        ],
+        "jest/prefer-spy-on": Array [
+          "off",
+        ],
+        "jest/prefer-strict-equal": Array [
+          "off",
+        ],
+        "jest/prefer-to-be": Array [
+          "error",
+        ],
+        "jest/prefer-to-contain": Array [
+          "error",
+        ],
+        "jest/prefer-to-have-length": Array [
+          "error",
+        ],
+        "jest/prefer-todo": Array [
+          "error",
+        ],
+        "jest/require-hook": Array [
+          "off",
+        ],
+        "jest/require-to-throw-message": Array [
+          "error",
+        ],
+        "jest/require-top-level-describe": Array [
+          "error",
+        ],
+        "jest/unbound-method": Array [
+          "off",
+        ],
+        "jest/valid-describe-callback": Array [
+          "error",
+        ],
+        "jest/valid-expect": Array [
+          "error",
+        ],
+        "jest/valid-expect-in-promise": Array [
+          "error",
+        ],
+        "jest/valid-title": Array [
+          "error",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
         "**/tests/*/pre.ts",
         "**/tests/*/post.ts",
         "**/tests/*/setupTests.ts",
@@ -4406,100 +4566,6 @@ Object {
       "error",
     ],
     "jest-dom/prefer-to-have-value": Array [
-      "error",
-    ],
-    "jest/consistent-test-it": Array [
-      "error",
-      Object {
-        "fn": "test",
-        "withinDescribe": "test",
-      },
-    ],
-    "jest/expect-expect": Array [
-      "warn",
-    ],
-    "jest/max-nested-describe": Array [
-      "error",
-      Object {
-        "max": 5,
-      },
-    ],
-    "jest/no-alias-methods": Array [
-      "error",
-    ],
-    "jest/no-commented-out-tests": Array [
-      "warn",
-    ],
-    "jest/no-conditional-expect": Array [
-      "error",
-    ],
-    "jest/no-deprecated-functions": Array [
-      "error",
-    ],
-    "jest/no-disabled-tests": Array [
-      "warn",
-    ],
-    "jest/no-done-callback": Array [
-      "error",
-    ],
-    "jest/no-export": Array [
-      "error",
-    ],
-    "jest/no-focused-tests": Array [
-      "error",
-    ],
-    "jest/no-identical-title": Array [
-      "error",
-    ],
-    "jest/no-interpolation-in-snapshots": Array [
-      "error",
-    ],
-    "jest/no-jasmine-globals": Array [
-      "error",
-    ],
-    "jest/no-jest-import": Array [
-      "error",
-    ],
-    "jest/no-mocks-import": Array [
-      "error",
-    ],
-    "jest/no-standalone-expect": Array [
-      "error",
-    ],
-    "jest/no-test-prefixes": Array [
-      "error",
-    ],
-    "jest/prefer-expect-resolves": Array [
-      "error",
-    ],
-    "jest/prefer-hooks-on-top": Array [
-      "error",
-    ],
-    "jest/prefer-lowercase-title": Array [
-      "error",
-    ],
-    "jest/prefer-to-be": Array [
-      "error",
-    ],
-    "jest/prefer-to-contain": Array [
-      "error",
-    ],
-    "jest/prefer-to-have-length": Array [
-      "error",
-    ],
-    "jest/require-hook": Array [
-      "off",
-    ],
-    "jest/valid-describe-callback": Array [
-      "error",
-    ],
-    "jest/valid-expect": Array [
-      "error",
-    ],
-    "jest/valid-expect-in-promise": Array [
-      "error",
-    ],
-    "jest/valid-title": Array [
       "error",
     ],
     "jsx-a11y/accessible-emoji": Array [
