@@ -26,6 +26,7 @@ const rules: Rules = {
   'jsx-a11y/aria-proptypes': ['error'],
   'jsx-a11y/aria-role': ['error', { ignoreNonDom: false, ignoreNonDOM: false }],
   'jsx-a11y/aria-unsupported-elements': ['error'],
+  'jsx-a11y/autocomplete-valid': ['error'],
   'jsx-a11y/click-events-have-key-events': ['error'],
   'jsx-a11y/control-has-associated-label': [
     'off',
@@ -115,4 +116,4 @@ const createJsxA11yConfig = (): DefaultObject => {
   return config;
 };
 
-export { createJsxA11yConfig };
+export { createJsxA11yConfig, rules as jsxA11yRules };
