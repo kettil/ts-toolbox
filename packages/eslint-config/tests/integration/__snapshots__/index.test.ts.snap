@@ -4633,6 +4633,9 @@ Object {
     "jsx-a11y/aria-unsupported-elements": Array [
       "error",
     ],
+    "jsx-a11y/autocomplete-valid": Array [
+      "error",
+    ],
     "jsx-a11y/click-events-have-key-events": Array [
       "error",
     ],
