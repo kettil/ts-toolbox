@@ -4033,13 +4033,25 @@ Object {
     "for-direction": Array [
       "error",
     ],
+    "formatjs/blocklist-elements": Array [
+      "off",
+    ],
+    "formatjs/enforce-default-message": Array [
+      "off",
+    ],
     "formatjs/enforce-description": Array [
+      "off",
+    ],
+    "formatjs/enforce-id": Array [
       "off",
     ],
     "formatjs/enforce-placeholders": Array [
       "error",
     ],
     "formatjs/enforce-plural-rules": Array [
+      "error",
+    ],
+    "formatjs/no-camel-case": Array [
       "error",
     ],
     "formatjs/no-complex-selectors": Array [
@@ -4050,6 +4062,15 @@ Object {
     ],
     "formatjs/no-emoji": Array [
       "error",
+    ],
+    "formatjs/no-id": Array [
+      "off",
+    ],
+    "formatjs/no-multiple-plurals": Array [
+      "off",
+    ],
+    "formatjs/no-multiple-whitespaces": Array [
+      "off",
     ],
     "formatjs/no-offset": Array [
       "error",
