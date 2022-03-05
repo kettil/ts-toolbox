@@ -19,4 +19,4 @@ const createReactHooksConfig = (): DefaultObject => {
   return config;
 };
 
-export { createReactHooksConfig };
+export { createReactHooksConfig, rules as reactHooksRules };
