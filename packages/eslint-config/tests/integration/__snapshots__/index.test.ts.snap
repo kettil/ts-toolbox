@@ -6176,6 +6176,12 @@ Object {
         "unnamedComponents": "function-expression",
       },
     ],
+    "react/hook-use-state": Array [
+      "off",
+    ],
+    "react/iframe-missing-sandbox": Array [
+      "error",
+    ],
     "react/jsx-boolean-value": Array [
       "error",
       "never",
@@ -6259,7 +6265,7 @@ Object {
         "when": "multiline",
       },
     ],
-    "react/jsx-new-line": Array [
+    "react/jsx-newline": Array [
       "error",
       Object {
         "prevent": false,
@@ -6276,6 +6282,9 @@ Object {
       },
     ],
     "react/jsx-no-comment-textnodes": Array [
+      "error",
+    ],
+    "react/jsx-no-constructed-context-values": Array [
       "error",
     ],
     "react/jsx-no-duplicate-props": Array [
@@ -6343,9 +6352,6 @@ Object {
         "ignoreCase": true,
       },
     ],
-    "react/jsx-sort-prop-types": Array [
-      "off",
-    ],
     "react/jsx-sort-props": Array [
       "off",
       Object {
@@ -6397,6 +6403,9 @@ Object {
     "react/no-array-index-key": Array [
       "error",
     ],
+    "react/no-arrow-function-lifecycle": Array [
+      "off",
+    ],
     "react/no-children-prop": Array [
       "error",
     ],
@@ -6419,6 +6428,9 @@ Object {
       "error",
     ],
     "react/no-find-dom-node": Array [
+      "error",
+    ],
+    "react/no-invalid-html-attribute": Array [
       "error",
     ],
     "react/no-is-mounted": Array [
@@ -6465,6 +6477,9 @@ Object {
       Object {
         "allowAsProps": false,
       },
+    ],
+    "react/no-unused-class-component-methods": Array [
+      "error",
     ],
     "react/no-unused-prop-types": Array [
       "error",
