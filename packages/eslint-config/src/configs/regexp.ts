@@ -5,6 +5,7 @@ import type { Rules } from '../types/rules';
 const rules: Rules = {
   'regexp/confusing-quantifier': ['error'],
   'regexp/control-character-escape': ['error'],
+  'regexp/hexadecimal-escape': ['error', 'never'],
   'regexp/letter-case': [
     'error',
     {
@@ -16,6 +17,7 @@ const rules: Rules = {
   ],
   'regexp/match-any': ['error'],
   'regexp/negation': ['error'],
+  'regexp/no-assertion-capturing-group': ['off'],
   'regexp/no-contradiction-with-assertion': ['error'],
   'regexp/no-control-character': ['error'],
   'regexp/no-dupe-characters-character-class': ['error'],
@@ -36,7 +38,9 @@ const rules: Rules = {
   'regexp/no-octal': ['error'],
   'regexp/no-optional-assertion': ['error'],
   'regexp/no-potentially-useless-backreference': ['error'],
+  'regexp/no-standalone-backslash': ['off'],
   'regexp/no-super-linear-backtracking': ['error'],
+  'regexp/no-super-linear-move': ['off'],
   'regexp/no-trivially-nested-assertion': ['error'],
   'regexp/no-trivially-nested-quantifier': ['error'],
   'regexp/no-unused-capturing-group': ['error'],
@@ -45,17 +49,23 @@ const rules: Rules = {
   'regexp/no-useless-character-class': ['error'],
   'regexp/no-useless-dollar-replacements': ['error'],
   'regexp/no-useless-escape': ['error'],
+  'regexp/no-useless-exactly-quantifier': ['off'],
   'regexp/no-useless-flag': ['error'],
   'regexp/no-useless-lazy': ['error'],
   'regexp/no-useless-non-capturing-group': ['error'],
+  'regexp/no-useless-non-greedy': ['off'],
+  'regexp/no-useless-quantifier': ['error'],
   'regexp/no-useless-range': ['error'],
   'regexp/no-useless-two-nums-quantifier': ['error'],
   'regexp/no-zero-quantifier': ['error'],
   'regexp/optimal-lookaround-quantifier': ['error'],
   'regexp/optimal-quantifier-concatenation': ['error'],
+  'regexp/order-in-character-class': ['off'],
   'regexp/prefer-character-class': ['error'],
   'regexp/prefer-d': ['error'],
+  'regexp/prefer-escape-replacement-dollar-char': ['error'],
   'regexp/prefer-lookaround': ['error'],
+  'regexp/prefer-named-backreference': ['off'],
   'regexp/prefer-named-capture-group': ['off'],
   'regexp/prefer-named-replacement': ['off'],
   'regexp/prefer-plus-quantifier': ['error'],
@@ -63,9 +73,11 @@ const rules: Rules = {
   'regexp/prefer-quantifier': ['error'],
   'regexp/prefer-question-quantifier': ['error'],
   'regexp/prefer-range': ['error'],
+  'regexp/prefer-regexp-exec': ['off'],
   'regexp/prefer-regexp-test': ['error'],
   'regexp/prefer-result-array-groups': ['error'],
   'regexp/prefer-star-quantifier': ['error'],
+  'regexp/prefer-t': ['off'],
   'regexp/prefer-unicode-codepoint-escapes': ['error'],
   'regexp/prefer-w': ['error'],
   'regexp/require-unicode-regexp': ['error'],
@@ -79,4 +91,4 @@ const rules: Rules = {
 
 const createRegexpConfig = (): DefaultObject => ({ ...defaultObject, plugins: ['regexp'], rules });
 
-export { createRegexpConfig };
+export { createRegexpConfig, rules as regexpRules };

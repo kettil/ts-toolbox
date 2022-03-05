@@ -1930,6 +1930,10 @@ Object {
     "regexp/control-character-escape": Array [
       "error",
     ],
+    "regexp/hexadecimal-escape": Array [
+      "error",
+      "never",
+    ],
     "regexp/letter-case": Array [
       "error",
       Object {
@@ -1944,6 +1948,9 @@ Object {
     ],
     "regexp/negation": Array [
       "error",
+    ],
+    "regexp/no-assertion-capturing-group": Array [
+      "off",
     ],
     "regexp/no-contradiction-with-assertion": Array [
       "error",
@@ -2005,8 +2012,14 @@ Object {
     "regexp/no-potentially-useless-backreference": Array [
       "error",
     ],
+    "regexp/no-standalone-backslash": Array [
+      "off",
+    ],
     "regexp/no-super-linear-backtracking": Array [
       "error",
+    ],
+    "regexp/no-super-linear-move": Array [
+      "off",
     ],
     "regexp/no-trivially-nested-assertion": Array [
       "error",
@@ -2032,6 +2045,9 @@ Object {
     "regexp/no-useless-escape": Array [
       "error",
     ],
+    "regexp/no-useless-exactly-quantifier": Array [
+      "off",
+    ],
     "regexp/no-useless-flag": Array [
       "error",
     ],
@@ -2039,6 +2055,12 @@ Object {
       "error",
     ],
     "regexp/no-useless-non-capturing-group": Array [
+      "error",
+    ],
+    "regexp/no-useless-non-greedy": Array [
+      "off",
+    ],
+    "regexp/no-useless-quantifier": Array [
       "error",
     ],
     "regexp/no-useless-range": Array [
@@ -2056,14 +2078,23 @@ Object {
     "regexp/optimal-quantifier-concatenation": Array [
       "error",
     ],
+    "regexp/order-in-character-class": Array [
+      "off",
+    ],
     "regexp/prefer-character-class": Array [
       "error",
     ],
     "regexp/prefer-d": Array [
       "error",
     ],
+    "regexp/prefer-escape-replacement-dollar-char": Array [
+      "error",
+    ],
     "regexp/prefer-lookaround": Array [
       "error",
+    ],
+    "regexp/prefer-named-backreference": Array [
+      "off",
     ],
     "regexp/prefer-named-capture-group": Array [
       "off",
@@ -2086,6 +2117,9 @@ Object {
     "regexp/prefer-range": Array [
       "error",
     ],
+    "regexp/prefer-regexp-exec": Array [
+      "off",
+    ],
     "regexp/prefer-regexp-test": Array [
       "error",
     ],
@@ -2094,6 +2128,9 @@ Object {
     ],
     "regexp/prefer-star-quantifier": Array [
       "error",
+    ],
+    "regexp/prefer-t": Array [
+      "off",
     ],
     "regexp/prefer-unicode-codepoint-escapes": Array [
       "error",
@@ -6619,6 +6656,10 @@ Object {
     "regexp/control-character-escape": Array [
       "error",
     ],
+    "regexp/hexadecimal-escape": Array [
+      "error",
+      "never",
+    ],
     "regexp/letter-case": Array [
       "error",
       Object {
@@ -6633,6 +6674,9 @@ Object {
     ],
     "regexp/negation": Array [
       "error",
+    ],
+    "regexp/no-assertion-capturing-group": Array [
+      "off",
     ],
     "regexp/no-contradiction-with-assertion": Array [
       "error",
@@ -6694,8 +6738,14 @@ Object {
     "regexp/no-potentially-useless-backreference": Array [
       "error",
     ],
+    "regexp/no-standalone-backslash": Array [
+      "off",
+    ],
     "regexp/no-super-linear-backtracking": Array [
       "error",
+    ],
+    "regexp/no-super-linear-move": Array [
+      "off",
     ],
     "regexp/no-trivially-nested-assertion": Array [
       "error",
@@ -6721,6 +6771,9 @@ Object {
     "regexp/no-useless-escape": Array [
       "error",
     ],
+    "regexp/no-useless-exactly-quantifier": Array [
+      "off",
+    ],
     "regexp/no-useless-flag": Array [
       "error",
     ],
@@ -6728,6 +6781,12 @@ Object {
       "error",
     ],
     "regexp/no-useless-non-capturing-group": Array [
+      "error",
+    ],
+    "regexp/no-useless-non-greedy": Array [
+      "off",
+    ],
+    "regexp/no-useless-quantifier": Array [
       "error",
     ],
     "regexp/no-useless-range": Array [
@@ -6745,14 +6804,23 @@ Object {
     "regexp/optimal-quantifier-concatenation": Array [
       "error",
     ],
+    "regexp/order-in-character-class": Array [
+      "off",
+    ],
     "regexp/prefer-character-class": Array [
       "error",
     ],
     "regexp/prefer-d": Array [
       "error",
     ],
+    "regexp/prefer-escape-replacement-dollar-char": Array [
+      "error",
+    ],
     "regexp/prefer-lookaround": Array [
       "error",
+    ],
+    "regexp/prefer-named-backreference": Array [
+      "off",
     ],
     "regexp/prefer-named-capture-group": Array [
       "off",
@@ -6775,6 +6843,9 @@ Object {
     "regexp/prefer-range": Array [
       "error",
     ],
+    "regexp/prefer-regexp-exec": Array [
+      "off",
+    ],
     "regexp/prefer-regexp-test": Array [
       "error",
     ],
@@ -6783,6 +6854,9 @@ Object {
     ],
     "regexp/prefer-star-quantifier": Array [
       "error",
+    ],
+    "regexp/prefer-t": Array [
+      "off",
     ],
     "regexp/prefer-unicode-codepoint-escapes": Array [
       "error",
