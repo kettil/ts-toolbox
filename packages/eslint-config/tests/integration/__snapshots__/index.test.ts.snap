@@ -2194,6 +2194,9 @@ Object {
       "error",
       15,
     ],
+    "sonarjs/elseif-without-else": Array [
+      "off",
+    ],
     "sonarjs/max-switch-cases": Array [
       "error",
     ],
@@ -2215,6 +2218,9 @@ Object {
     ],
     "sonarjs/no-element-overwrite": Array [
       "error",
+    ],
+    "sonarjs/no-empty-collection": Array [
+      "off",
     ],
     "sonarjs/no-extra-arguments": Array [
       "error",
@@ -6920,6 +6926,9 @@ Object {
       "error",
       15,
     ],
+    "sonarjs/elseif-without-else": Array [
+      "off",
+    ],
     "sonarjs/max-switch-cases": Array [
       "error",
     ],
@@ -6941,6 +6950,9 @@ Object {
     ],
     "sonarjs/no-element-overwrite": Array [
       "error",
+    ],
+    "sonarjs/no-empty-collection": Array [
+      "off",
     ],
     "sonarjs/no-extra-arguments": Array [
       "error",
