@@ -6,6 +6,7 @@ import { eslintRules } from './eslint';
 
 const rules: Rules = {
   'sonarjs/cognitive-complexity': eslintRules.complexity,
+  'sonarjs/elseif-without-else': ['off'],
   'sonarjs/max-switch-cases': ['error'],
   'sonarjs/no-all-duplicated-branches': ['error'],
   'sonarjs/no-collapsible-if': ['error'],
@@ -13,11 +14,12 @@ const rules: Rules = {
   'sonarjs/no-duplicate-string': ['error', 10],
   'sonarjs/no-duplicated-branches': ['error'],
   'sonarjs/no-element-overwrite': ['error'],
+  'sonarjs/no-empty-collection': ['off'],
   'sonarjs/no-extra-arguments': ['error'],
   'sonarjs/no-gratuitous-expressions': ['error'],
   'sonarjs/no-identical-conditions': ['error'],
-  'sonarjs/no-identical-functions': ['error'],
   'sonarjs/no-identical-expressions': ['error'],
+  'sonarjs/no-identical-functions': ['error'],
   'sonarjs/no-ignored-return': ['error'],
   'sonarjs/no-inverted-boolean-check': ['error'],
   'sonarjs/no-nested-switch': ['error'],
