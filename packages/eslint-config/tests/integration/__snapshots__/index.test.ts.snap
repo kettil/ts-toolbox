@@ -7127,8 +7127,14 @@ Object {
     "testing-library/await-async-utils": Array [
       "error",
     ],
+    "testing-library/await-fire-event": Array [
+      "off",
+    ],
     "testing-library/consistent-data-testid": Array [
       "error",
+    ],
+    "testing-library/no-await-sync-events": Array [
+      "off",
     ],
     "testing-library/no-await-sync-query": Array [
       "error",
@@ -7149,8 +7155,14 @@ Object {
     "testing-library/no-node-access": Array [
       "error",
     ],
+    "testing-library/no-promise-in-fire-event": Array [
+      "off",
+    ],
     "testing-library/no-render-in-setup": Array [
       "error",
+    ],
+    "testing-library/no-unnecessary-act": Array [
+      "off",
     ],
     "testing-library/no-wait-for-empty-callback": Array [
       "error",
@@ -7164,8 +7176,23 @@ Object {
     "testing-library/no-wait-for-snapshot": Array [
       "error",
     ],
+    "testing-library/prefer-explicit-assert": Array [
+      "off",
+    ],
+    "testing-library/prefer-find-by": Array [
+      "off",
+    ],
+    "testing-library/prefer-presence-queries": Array [
+      "off",
+    ],
+    "testing-library/prefer-query-by-disappearance": Array [
+      "off",
+    ],
     "testing-library/prefer-screen-queries": Array [
       "error",
+    ],
+    "testing-library/prefer-user-event": Array [
+      "off",
     ],
     "testing-library/prefer-wait-for": Array [
       "error",
