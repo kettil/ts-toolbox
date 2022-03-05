@@ -25,6 +25,8 @@ const rules: Rules = {
     'off',
     { namedComponents: 'function-expression', unnamedComponents: 'function-expression' },
   ],
+  'react/hook-use-state': ['off'],
+  'react/iframe-missing-sandbox': ['error'],
   'react/jsx-boolean-value': ['error', 'never'],
   'react/jsx-child-element-spacing': ['off'],
   'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
@@ -37,23 +39,18 @@ const rules: Rules = {
   'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
   'react/jsx-fragments': ['error', 'syntax'],
   'react/jsx-handler-names': ['off', { eventHandlerPrefix: 'handle', eventHandlerPropPrefix: 'on' }],
-  'react/jsx-indent': ['error', 2],
   'react/jsx-indent-props': ['error', 2],
+  'react/jsx-indent': ['error', 2],
   'react/jsx-key': ['error'],
   'react/jsx-max-depth': ['off'],
   'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'multiline' }],
-  'react/jsx-new-line': ['error', { prevent: false }],
+  'react/jsx-newline': ['error', { prevent: false }],
   'react/jsx-no-bind': [
     'error',
-    {
-      ignoreRefs: true,
-      allowArrowFunctions: true,
-      allowFunctions: false,
-      allowBind: false,
-      ignoreDOMComponents: true,
-    },
+    { ignoreRefs: true, allowArrowFunctions: true, allowFunctions: false, allowBind: false, ignoreDOMComponents: true },
   ],
   'react/jsx-no-comment-textnodes': ['error'],
+  'react/jsx-no-constructed-context-values': ['error'],
   'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
   'react/jsx-no-literals': ['off', { noStrings: true }],
   'react/jsx-no-script-url': ['off', [{ name: 'Link', props: ['to'] }]],
@@ -65,7 +62,6 @@ const rules: Rules = {
   'react/jsx-props-no-multi-spaces': ['error'],
   'react/jsx-props-no-spreading': ['off', { html: 'enforce', custom: 'enforce', exceptions: [] }],
   'react/jsx-sort-default-props': ['off', { ignoreCase: true }],
-  'react/jsx-sort-prop-types': ['off'],
   'react/jsx-sort-props': [
     'off',
     {
@@ -99,14 +95,16 @@ const rules: Rules = {
   'react/no-access-state-in-setstate': ['error'],
   'react/no-adjacent-inline-elements': ['off'],
   'react/no-array-index-key': ['error'],
+  'react/no-arrow-function-lifecycle': ['off'],
   'react/no-children-prop': ['error'],
-  'react/no-danger': ['warn'],
   'react/no-danger-with-children': ['error'],
+  'react/no-danger': ['warn'],
   'react/no-deprecated': ['error'],
   'react/no-did-mount-set-state': ['off'],
   'react/no-did-update-set-state': ['error'],
   'react/no-direct-mutation-state': ['error'],
   'react/no-find-dom-node': ['error'],
+  'react/no-invalid-html-attribute': ['error'],
   'react/no-is-mounted': ['error'],
   'react/no-multi-comp': ['off'],
   'react/no-namespace': ['error'],
@@ -120,6 +118,7 @@ const rules: Rules = {
   'react/no-unknown-property': ['error'],
   'react/no-unsafe': ['error', { checkAliases: true }],
   'react/no-unstable-nested-components': ['error', { allowAsProps: false }],
+  'react/no-unused-class-component-methods': ['error'],
   'react/no-unused-prop-types': ['error', { customValidators: [], skipShapeProps: true }],
   'react/no-unused-state': ['error'],
   'react/no-will-update-set-state': ['error'],
@@ -210,4 +209,4 @@ const createReactConfig = (): DefaultObject => {
   return config;
 };
 
-export { createReactConfig };
+export { createReactConfig, rules as reactRules };
