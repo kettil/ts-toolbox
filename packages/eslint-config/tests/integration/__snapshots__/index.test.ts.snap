@@ -3,7 +3,7 @@
 exports[`createConfig() it should work and hasLibrary returns false 1`] = `
 Object {
   "env": Object {
-    "es6": true,
+    "es2022": true,
     "node": true,
   },
   "globals": Object {
@@ -216,7 +216,7 @@ Object {
       "globalReturn": false,
       "impliedStrict": false,
     },
-    "ecmaVersion": 2020,
+    "ecmaVersion": "latest",
     "sourceType": "module",
   },
   "plugins": Array [
@@ -1889,6 +1889,9 @@ Object {
     "prefer-numeric-literals": Array [
       "error",
     ],
+    "prefer-object-has-own": Array [
+      "error",
+    ],
     "prefer-object-spread": Array [
       "error",
     ],
@@ -2408,6 +2411,9 @@ Object {
     "unicorn/custom-error-definition": Array [
       "off",
     ],
+    "unicorn/empty-brace-spaces": Array [
+      "error",
+    ],
     "unicorn/error-message": Array [
       "error",
     ],
@@ -2429,16 +2435,38 @@ Object {
     "unicorn/import-index": Array [
       "error",
     ],
+    "unicorn/import-style": Array [
+      "error",
+      Object {
+        "styles": Object {
+          "path": Object {
+            "named": true,
+          },
+        },
+      },
+    ],
     "unicorn/new-for-builtins": Array [
       "error",
     ],
     "unicorn/no-abusive-eslint-disable": Array [
       "error",
     ],
-    "unicorn/no-array-instanceof": Array [
+    "unicorn/no-array-callback-reference": Array [
+      "error",
+    ],
+    "unicorn/no-array-for-each": Array [
+      "off",
+    ],
+    "unicorn/no-array-method-this-argument": Array [
       "error",
     ],
     "unicorn/no-array-push-push": Array [
+      "error",
+    ],
+    "unicorn/no-array-reduce": Array [
+      "off",
+    ],
+    "unicorn/no-await-expression-member": Array [
       "error",
     ],
     "unicorn/no-console-spaces": Array [
@@ -2447,7 +2475,7 @@ Object {
     "unicorn/no-document-cookie": Array [
       "error",
     ],
-    "unicorn/no-fn-reference-in-iterator": Array [
+    "unicorn/no-empty-file": Array [
       "error",
     ],
     "unicorn/no-for-loop": Array [
@@ -2456,11 +2484,17 @@ Object {
     "unicorn/no-hex-escape": Array [
       "error",
     ],
+    "unicorn/no-instanceof-array": Array [
+      "error",
+    ],
     "unicorn/no-invalid-remove-event-listener": Array [
       "error",
     ],
     "unicorn/no-keyword-prefix": Array [
       "off",
+    ],
+    "unicorn/no-lonely-if": Array [
+      "error",
     ],
     "unicorn/no-nested-ternary": Array [
       "error",
@@ -2474,10 +2508,19 @@ Object {
     "unicorn/no-null": Array [
       "error",
     ],
+    "unicorn/no-object-as-default-parameter": Array [
+      "off",
+    ],
     "unicorn/no-process-exit": Array [
       "error",
     ],
     "unicorn/no-static-only-class": Array [
+      "error",
+    ],
+    "unicorn/no-thenable": Array [
+      "error",
+    ],
+    "unicorn/no-this-assignment": Array [
       "error",
     ],
     "unicorn/no-unreadable-array-destructuring": Array [
@@ -2495,7 +2538,13 @@ Object {
     "unicorn/no-useless-length-check": Array [
       "error",
     ],
+    "unicorn/no-useless-promise-resolve-reject": Array [
+      "error",
+    ],
     "unicorn/no-useless-spread": Array [
+      "error",
+    ],
+    "unicorn/no-useless-undefined": Array [
       "error",
     ],
     "unicorn/no-zero-fractions": Array [
@@ -2529,6 +2578,9 @@ Object {
     "unicorn/prefer-add-event-listener": Array [
       "error",
     ],
+    "unicorn/prefer-array-find": Array [
+      "error",
+    ],
     "unicorn/prefer-array-flat": Array [
       "error",
     ],
@@ -2538,29 +2590,65 @@ Object {
     "unicorn/prefer-array-index-of": Array [
       "error",
     ],
-    "unicorn/prefer-dataset": Array [
+    "unicorn/prefer-array-some": Array [
       "error",
     ],
-    "unicorn/prefer-event-key": Array [
+    "unicorn/prefer-at": Array [
+      "error",
+      Object {
+        "checkAllIndexAccess": true,
+      },
+    ],
+    "unicorn/prefer-code-point": Array [
       "error",
     ],
-    "unicorn/prefer-flat-map": Array [
+    "unicorn/prefer-date-now": Array [
       "error",
+    ],
+    "unicorn/prefer-default-parameters": Array [
+      "error",
+    ],
+    "unicorn/prefer-dom-node-append": Array [
+      "error",
+    ],
+    "unicorn/prefer-dom-node-dataset": Array [
+      "error",
+    ],
+    "unicorn/prefer-dom-node-remove": Array [
+      "error",
+    ],
+    "unicorn/prefer-dom-node-text-content": Array [
+      "error",
+    ],
+    "unicorn/prefer-export-from": Array [
+      "error",
+      Object {
+        "ignoreUsedVariables": true,
+      },
     ],
     "unicorn/prefer-includes": Array [
+      "error",
+    ],
+    "unicorn/prefer-json-parse-buffer": Array [
+      "error",
+    ],
+    "unicorn/prefer-keyboard-event-key": Array [
+      "error",
+    ],
+    "unicorn/prefer-math-trunc": Array [
       "error",
     ],
     "unicorn/prefer-modern-dom-apis": Array [
       "error",
     ],
+    "unicorn/prefer-module": Array [
+      "off",
+    ],
     "unicorn/prefer-negative-index": Array [
       "error",
     ],
-    "unicorn/prefer-node-append": Array [
-      "error",
-    ],
-    "unicorn/prefer-node-remove": Array [
-      "error",
+    "unicorn/prefer-node-protocol": Array [
+      "off",
     ],
     "unicorn/prefer-number-properties": Array [
       "error",
@@ -2568,7 +2656,7 @@ Object {
     "unicorn/prefer-object-from-entries": Array [
       "error",
     ],
-    "unicorn/prefer-object-has-own": Array [
+    "unicorn/prefer-optional-catch-binding": Array [
       "error",
     ],
     "unicorn/prefer-prototype-methods": Array [
@@ -2589,20 +2677,27 @@ Object {
     "unicorn/prefer-spread": Array [
       "error",
     ],
-    "unicorn/prefer-starts-ends-with": Array [
+    "unicorn/prefer-string-replace-all": Array [
       "error",
     ],
     "unicorn/prefer-string-slice": Array [
       "error",
     ],
+    "unicorn/prefer-string-starts-ends-with": Array [
+      "error",
+    ],
+    "unicorn/prefer-string-trim-start-end": Array [
+      "error",
+    ],
     "unicorn/prefer-switch": Array [
       "error",
     ],
-    "unicorn/prefer-text-content": Array [
+    "unicorn/prefer-ternary": Array [
       "error",
+      "only-single-line",
     ],
-    "unicorn/prefer-trim-start-end": Array [
-      "error",
+    "unicorn/prefer-top-level-await": Array [
+      "off",
     ],
     "unicorn/prefer-type-error": Array [
       "error",
@@ -2626,11 +2721,17 @@ Object {
         },
       },
     ],
+    "unicorn/relative-url-style": Array [
+      "error",
+    ],
     "unicorn/require-array-join-separator": Array [
       "error",
     ],
     "unicorn/require-number-to-fixed-digits-argument": Array [
       "error",
+    ],
+    "unicorn/require-post-message-target-origin": Array [
+      "off",
     ],
     "unicorn/string-content": Array [
       "off",
@@ -2694,7 +2795,7 @@ Object {
 exports[`createConfig() it should work and hasLibrary returns true 1`] = `
 Object {
   "env": Object {
-    "es6": true,
+    "es2022": true,
     "jest": true,
     "jest/globals": true,
     "node": true,
@@ -4039,7 +4140,7 @@ Object {
       "impliedStrict": false,
       "jsx": true,
     },
-    "ecmaVersion": 2020,
+    "ecmaVersion": "latest",
     "sourceType": "module",
   },
   "plugins": Array [
@@ -6100,6 +6201,9 @@ Object {
     "prefer-numeric-literals": Array [
       "error",
     ],
+    "prefer-object-has-own": Array [
+      "error",
+    ],
     "prefer-object-spread": Array [
       "error",
     ],
@@ -7219,6 +7323,9 @@ Object {
     "unicorn/custom-error-definition": Array [
       "off",
     ],
+    "unicorn/empty-brace-spaces": Array [
+      "error",
+    ],
     "unicorn/error-message": Array [
       "error",
     ],
@@ -7240,16 +7347,38 @@ Object {
     "unicorn/import-index": Array [
       "error",
     ],
+    "unicorn/import-style": Array [
+      "error",
+      Object {
+        "styles": Object {
+          "path": Object {
+            "named": true,
+          },
+        },
+      },
+    ],
     "unicorn/new-for-builtins": Array [
       "error",
     ],
     "unicorn/no-abusive-eslint-disable": Array [
       "error",
     ],
-    "unicorn/no-array-instanceof": Array [
+    "unicorn/no-array-callback-reference": Array [
+      "error",
+    ],
+    "unicorn/no-array-for-each": Array [
+      "off",
+    ],
+    "unicorn/no-array-method-this-argument": Array [
       "error",
     ],
     "unicorn/no-array-push-push": Array [
+      "error",
+    ],
+    "unicorn/no-array-reduce": Array [
+      "off",
+    ],
+    "unicorn/no-await-expression-member": Array [
       "error",
     ],
     "unicorn/no-console-spaces": Array [
@@ -7258,7 +7387,7 @@ Object {
     "unicorn/no-document-cookie": Array [
       "error",
     ],
-    "unicorn/no-fn-reference-in-iterator": Array [
+    "unicorn/no-empty-file": Array [
       "error",
     ],
     "unicorn/no-for-loop": Array [
@@ -7267,11 +7396,17 @@ Object {
     "unicorn/no-hex-escape": Array [
       "error",
     ],
+    "unicorn/no-instanceof-array": Array [
+      "error",
+    ],
     "unicorn/no-invalid-remove-event-listener": Array [
       "error",
     ],
     "unicorn/no-keyword-prefix": Array [
       "off",
+    ],
+    "unicorn/no-lonely-if": Array [
+      "error",
     ],
     "unicorn/no-nested-ternary": Array [
       "error",
@@ -7285,10 +7420,19 @@ Object {
     "unicorn/no-null": Array [
       "error",
     ],
+    "unicorn/no-object-as-default-parameter": Array [
+      "off",
+    ],
     "unicorn/no-process-exit": Array [
       "error",
     ],
     "unicorn/no-static-only-class": Array [
+      "error",
+    ],
+    "unicorn/no-thenable": Array [
+      "error",
+    ],
+    "unicorn/no-this-assignment": Array [
       "error",
     ],
     "unicorn/no-unreadable-array-destructuring": Array [
@@ -7306,7 +7450,13 @@ Object {
     "unicorn/no-useless-length-check": Array [
       "error",
     ],
+    "unicorn/no-useless-promise-resolve-reject": Array [
+      "error",
+    ],
     "unicorn/no-useless-spread": Array [
+      "error",
+    ],
+    "unicorn/no-useless-undefined": Array [
       "error",
     ],
     "unicorn/no-zero-fractions": Array [
@@ -7340,6 +7490,9 @@ Object {
     "unicorn/prefer-add-event-listener": Array [
       "error",
     ],
+    "unicorn/prefer-array-find": Array [
+      "error",
+    ],
     "unicorn/prefer-array-flat": Array [
       "error",
     ],
@@ -7349,29 +7502,65 @@ Object {
     "unicorn/prefer-array-index-of": Array [
       "error",
     ],
-    "unicorn/prefer-dataset": Array [
+    "unicorn/prefer-array-some": Array [
       "error",
     ],
-    "unicorn/prefer-event-key": Array [
+    "unicorn/prefer-at": Array [
+      "error",
+      Object {
+        "checkAllIndexAccess": true,
+      },
+    ],
+    "unicorn/prefer-code-point": Array [
       "error",
     ],
-    "unicorn/prefer-flat-map": Array [
+    "unicorn/prefer-date-now": Array [
       "error",
+    ],
+    "unicorn/prefer-default-parameters": Array [
+      "error",
+    ],
+    "unicorn/prefer-dom-node-append": Array [
+      "error",
+    ],
+    "unicorn/prefer-dom-node-dataset": Array [
+      "error",
+    ],
+    "unicorn/prefer-dom-node-remove": Array [
+      "error",
+    ],
+    "unicorn/prefer-dom-node-text-content": Array [
+      "error",
+    ],
+    "unicorn/prefer-export-from": Array [
+      "error",
+      Object {
+        "ignoreUsedVariables": true,
+      },
     ],
     "unicorn/prefer-includes": Array [
+      "error",
+    ],
+    "unicorn/prefer-json-parse-buffer": Array [
+      "error",
+    ],
+    "unicorn/prefer-keyboard-event-key": Array [
+      "error",
+    ],
+    "unicorn/prefer-math-trunc": Array [
       "error",
     ],
     "unicorn/prefer-modern-dom-apis": Array [
       "error",
     ],
+    "unicorn/prefer-module": Array [
+      "off",
+    ],
     "unicorn/prefer-negative-index": Array [
       "error",
     ],
-    "unicorn/prefer-node-append": Array [
-      "error",
-    ],
-    "unicorn/prefer-node-remove": Array [
-      "error",
+    "unicorn/prefer-node-protocol": Array [
+      "off",
     ],
     "unicorn/prefer-number-properties": Array [
       "error",
@@ -7379,7 +7568,7 @@ Object {
     "unicorn/prefer-object-from-entries": Array [
       "error",
     ],
-    "unicorn/prefer-object-has-own": Array [
+    "unicorn/prefer-optional-catch-binding": Array [
       "error",
     ],
     "unicorn/prefer-prototype-methods": Array [
@@ -7400,20 +7589,27 @@ Object {
     "unicorn/prefer-spread": Array [
       "error",
     ],
-    "unicorn/prefer-starts-ends-with": Array [
+    "unicorn/prefer-string-replace-all": Array [
       "error",
     ],
     "unicorn/prefer-string-slice": Array [
       "error",
     ],
+    "unicorn/prefer-string-starts-ends-with": Array [
+      "error",
+    ],
+    "unicorn/prefer-string-trim-start-end": Array [
+      "error",
+    ],
     "unicorn/prefer-switch": Array [
       "error",
     ],
-    "unicorn/prefer-text-content": Array [
+    "unicorn/prefer-ternary": Array [
       "error",
+      "only-single-line",
     ],
-    "unicorn/prefer-trim-start-end": Array [
-      "error",
+    "unicorn/prefer-top-level-await": Array [
+      "off",
     ],
     "unicorn/prefer-type-error": Array [
       "error",
@@ -7437,11 +7633,17 @@ Object {
         },
       },
     ],
+    "unicorn/relative-url-style": Array [
+      "error",
+    ],
     "unicorn/require-array-join-separator": Array [
       "error",
     ],
     "unicorn/require-number-to-fixed-digits-argument": Array [
       "error",
+    ],
+    "unicorn/require-post-message-target-origin": Array [
+      "off",
     ],
     "unicorn/string-content": Array [
       "off",

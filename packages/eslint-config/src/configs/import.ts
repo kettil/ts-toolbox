@@ -157,7 +157,7 @@ const jestOverrides: Overrides = [
 
 const createImportConfig = (): DefaultObject => ({
   ...defaultObject,
-  parserOptions: { sourceType: 'module', ecmaVersion: 2020 },
+  parserOptions: { sourceType: 'module', ecmaVersion: 'latest' },
   plugins: ['import'],
   rules,
   overrides: [
