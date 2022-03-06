@@ -1,4 +1,4 @@
-import { UnionToFunction } from './unionToFunction';
+import type { UnionToFunction } from './unionToFunction';
 
 // @see https://fettblog.eu/typescript-union-to-intersection/
 type UnionToTuple<U> = UnionToFunction<U> extends (a: infer A) => void

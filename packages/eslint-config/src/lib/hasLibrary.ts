@@ -12,7 +12,7 @@ const hasLibrary = (...names: string[]): boolean => {
       require(name);
 
       return true;
-    } catch (error: unknown) {
+    } catch {
       return false;
     }
   });

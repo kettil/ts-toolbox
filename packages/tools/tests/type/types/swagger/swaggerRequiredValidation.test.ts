@@ -1,5 +1,5 @@
-import { Expect } from '../../../../src/types/expect';
-import { SwaggerRequiredValidation } from '../../../../src/types/swagger/swaggerRequiredValidation';
+import type { Expect } from '../../../../src/types/expect';
+import type { SwaggerRequiredValidation } from '../../../../src/types/swagger/swaggerRequiredValidation';
 
 type SwaggerRequiredValidation1Value = SwaggerRequiredValidation<
   { type: 'object'; properties: { a: { type: 'boolean' } }; required: ['a'] },

@@ -1,8 +1,7 @@
-/* eslint-disable import/no-cycle -- types have an interdependence */
-import { ObjectNormalize } from '../object/objectNormalize';
-import { SwaggerExtractProperty } from './swaggerExtractProperty';
-import { SwaggerPropertyObject } from './swaggerPropertyObject';
-import { SwaggerRequiredValidation } from './swaggerRequiredValidation';
+import type { ObjectNormalize } from '../object/objectNormalize';
+import type { SwaggerExtractProperty } from './swaggerExtractProperty';
+import type { SwaggerPropertyObject } from './swaggerPropertyObject';
+import type { SwaggerRequiredValidation } from './swaggerRequiredValidation';
 
 type SwaggerExtractProperties<Props extends SwaggerPropertyObject> = ObjectNormalize<{
   readonly [K in keyof Props['properties']]: SwaggerExtractProperty<

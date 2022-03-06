@@ -1,5 +1,5 @@
 import { objectMap } from '../../../src/object/objectMap';
-import { Expect } from '../../../src/types/expect';
+import type { Expect } from '../../../src/types/expect';
 
 // objectMap
 

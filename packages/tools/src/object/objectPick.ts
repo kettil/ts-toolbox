@@ -1,4 +1,4 @@
-import { ObjectType } from '../types/object/objectType';
+import type { ObjectType } from '../types/object/objectType';
 
 const objectPick = <T extends ObjectType = ObjectType, P extends keyof T = keyof T>(
   data: T,

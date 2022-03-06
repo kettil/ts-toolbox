@@ -1,4 +1,4 @@
-import { EqualType } from './equalType';
+import type { EqualType } from './equalType';
 
 type Expect<Value, Expected, Result extends EqualType<Value, Expected, false>> = Result;
 

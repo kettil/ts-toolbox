@@ -1,6 +1,5 @@
-/* eslint-disable import/no-cycle -- types have an interdependence */
-import { SwaggerProperty } from './swaggerProperty';
-import { SwaggerPropertyCommon } from './swaggerPropertyCommon';
+import type { SwaggerProperty } from './swaggerProperty';
+import type { SwaggerPropertyCommon } from './swaggerPropertyCommon';
 
 type SwaggerPropertyArray = SwaggerPropertyCommon & {
   // Array

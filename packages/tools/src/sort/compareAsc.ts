@@ -1,5 +1,5 @@
 /* e1slint-disable @typescript-eslint/no-unused-vars */
-import { SortValue } from './types';
+import type { SortValue } from './types';
 
 const compareAsc = <T extends SortValue>(a: T, b: T): number => {
   if (typeof a === 'number' && typeof b === 'number') {

@@ -1,5 +1,5 @@
-import { ObjectClean } from './objectClean';
-import { ObjectType } from './objectType';
+import type { ObjectClean } from './objectClean';
+import type { ObjectType } from './objectType';
 
 type ObjectNormalizeRecursive<T> = T extends readonly [infer I, ...infer U]
   ? readonly [ObjectNormalizeRecursive<I>, ...ObjectNormalizeRecursive<U>]

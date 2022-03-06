@@ -1,7 +1,9 @@
-import { ExtractTypeFromTupleArray } from '../types/extractTypeFromTupleArray';
-import { ObjectType } from '../types/object/objectType';
-import { objectEntries, ObjectEntries } from './objectEntries';
-import { objectFromEntries, ObjectFromEntries } from './objectFromEntries';
+import type { ExtractTypeFromTupleArray } from '../types/extractTypeFromTupleArray';
+import type { ObjectType } from '../types/object/objectType';
+import type { ObjectEntries } from './objectEntries';
+import { objectEntries } from './objectEntries';
+import type { ObjectFromEntries } from './objectFromEntries';
+import { objectFromEntries } from './objectFromEntries';
 
 const objectMap = <R extends readonly [number | string, unknown], T extends ObjectType, F = ObjectEntries<T>>(
   object: T,

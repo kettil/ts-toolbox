@@ -1,4 +1,4 @@
-import { SwaggerPropertyString } from '../../../../src/types/swagger/swaggerPropertyString';
+import type { SwaggerPropertyString } from '../../../../src/types/swagger/swaggerPropertyString';
 
 export const testSwaggerPropertyString1: SwaggerPropertyString = { type: 'string' };
 export const testSwaggerPropertyString2: Required<SwaggerPropertyString> = {

@@ -1,5 +1,5 @@
-import { Expect } from '../../../src/types/expect';
-import { UnionToTuple } from '../../../src/types/unionToTuple';
+import type { Expect } from '../../../src/types/expect';
+import type { UnionToTuple } from '../../../src/types/unionToTuple';
 
 type UnionToTuple1Value = UnionToTuple<13 | 42>;
 export type UnionToTuple1Test = Expect<UnionToTuple1Value, readonly [13, 42], true>;

@@ -7,14 +7,19 @@ describe('toCamelCase()', () => {
     expect(result).toBe('lorem');
   });
 
-  test.each([['lorem ipsum'], ['LoremIpsum'], ['lorem-ipsum'], ['lorem_ipsum'], ['lorem,ipsum'], ['lorem.ipsum']])(
-    'it should work with %p',
-    (value) => {
-      const result = toCamelCase(value);
+  test.each([
+    ['lorem ipsum'],
+    ['LoremIpsum'],
+    ['lorem-ipsum'],
+    ['lorem_ipsum'],
+    ['lorem,ipsum'],
+    ['lorem.ipsum'],
+    ['lorem__ipsum'],
+  ])('it should work with %p', (value) => {
+    const result = toCamelCase(value);
 
-      expect(result).toBe('loremIpsum');
-    },
-  );
+    expect(result).toBe('loremIpsum');
+  });
 
   test('it should work with empty string', () => {
     const result = toCamelCase('');

@@ -1,4 +1,4 @@
-import { TupleOf } from './tupel/tupleOf';
+import type { TupleOf } from './tupel/tupleOf';
 
 type ExtractTypeFromTupleArray<T, Position extends number = 0> = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars -- by "_" the tuple size is dynamic

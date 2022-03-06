@@ -1,7 +1,7 @@
-type CreateArray = {
+interface CreateArray {
   (n: number): unknown[];
   <T>(n: number, map: (i: number) => T): T[];
-};
+}
 
 const createArray: CreateArray = <T>(n: number, map?: (i: number) => T): T[] | unknown[] => {
   const length = Math.max(0, Math.floor(n));

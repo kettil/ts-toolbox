@@ -1,5 +1,5 @@
-import { Expect } from '../../../src/types/expect';
-import { UnionToIntersection } from '../../../src/types/unionToIntersection';
+import type { Expect } from '../../../src/types/expect';
+import type { UnionToIntersection } from '../../../src/types/unionToIntersection';
 
 type UnionToIntersection1Value = UnionToIntersection<((a: string) => void) | ((b: number) => void)>;
 export type UnionToIntersection1Test = Expect<

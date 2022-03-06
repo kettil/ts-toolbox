@@ -1,4 +1,4 @@
-import { SwaggerPropertyCommon } from './swaggerPropertyCommon';
+import type { SwaggerPropertyCommon } from './swaggerPropertyCommon';
 
 type SwaggerPropertyString = SwaggerPropertyCommon & {
   type: 'string';

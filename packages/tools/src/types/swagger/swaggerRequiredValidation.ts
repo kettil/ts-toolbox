@@ -1,4 +1,4 @@
-import { SwaggerPropertyObject } from './swaggerPropertyObject';
+import type { SwaggerPropertyObject } from './swaggerPropertyObject';
 
 type SwaggerRequiredValidation<
   Props extends SwaggerPropertyObject,

@@ -2,13 +2,15 @@ import { allSettledSequence, allSettledSequenceReduce } from '../../../src/promi
 
 describe('allSettledSequenceReduce()', () => {
   test('it should work', async () => {
-    const promise = allSettledSequenceReduce(Promise.resolve([]), () => Promise.resolve());
+    const promise = allSettledSequenceReduce(Promise.resolve([]), async () => {});
 
     await expect(promise).resolves.toEqual([]);
   });
 
   test('it should throw a error', async () => {
-    const promise = allSettledSequenceReduce(Promise.resolve([]), () => Promise.reject(new Error('faulty task')));
+    const promise = allSettledSequenceReduce(Promise.resolve([]), () => {
+      throw new Error('faulty task');
+    });
 
     await expect(promise).resolves.toEqual([new Error('faulty task')]);
   });
@@ -16,7 +18,9 @@ describe('allSettledSequenceReduce()', () => {
   test('it should throw a object', async () => {
     const error = new Error('error42');
 
-    const promise = allSettledSequenceReduce(Promise.resolve([]), () => Promise.reject(error));
+    const promise = allSettledSequenceReduce(Promise.resolve([]), () => {
+      throw error;
+    });
 
     await expect(promise).resolves.toEqual([error]);
   });
@@ -25,18 +29,19 @@ describe('allSettledSequenceReduce()', () => {
     const error1 = new Error('error1');
     const error2 = new Error('error2');
 
-    await expect(allSettledSequenceReduce(Promise.resolve([error1, error2]), () => Promise.resolve())).resolves.toEqual(
-      [error1, error2],
-    );
+    await expect(allSettledSequenceReduce(Promise.resolve([error1, error2]), async () => {})).resolves.toEqual([
+      error1,
+      error2,
+    ]);
   });
 
   test('it should throw a error with existing errors', async () => {
     const error1 = new Error('error1');
     const error2 = new Error('error2');
 
-    const promise = allSettledSequenceReduce(Promise.resolve([error1, error2]), () =>
-      Promise.reject(new Error('faulty task')),
-    );
+    const promise = allSettledSequenceReduce(Promise.resolve([error1, error2]), () => {
+      throw new Error('faulty task');
+    });
 
     await expect(promise).resolves.toEqual([error1, error2, new Error('faulty task')]);
   });
@@ -50,9 +55,9 @@ describe('allSettledSequence()', () => {
   });
 
   test('it should work with three tasks', async () => {
-    const task = jest.fn(() => Promise.resolve());
+    const task = jest.fn(async () => {});
 
-    const promise = allSettledSequence([() => task(), () => task(), () => task()]);
+    const promise = allSettledSequence([async () => task(), async () => task(), async () => task()]);
 
     await expect(promise).resolves.toBeUndefined();
 
@@ -60,10 +65,12 @@ describe('allSettledSequence()', () => {
   });
 
   test('it should throw a error', async () => {
-    const task = jest.fn(() => Promise.resolve());
-    const error = jest.fn(() => Promise.reject(new Error('faulty task')));
+    const task = jest.fn(async () => {});
+    const error = jest.fn(() => {
+      throw new Error('faulty task');
+    });
 
-    const promise = allSettledSequence([() => task(), () => error(), () => task()]);
+    const promise = allSettledSequence([async () => task(), () => error(), async () => task()]);
 
     await expect(promise).rejects.toBeInstanceOf(Error);
 

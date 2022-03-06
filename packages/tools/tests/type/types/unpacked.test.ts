@@ -1,5 +1,5 @@
-import { Expect } from '../../../src/types/expect';
-import { Unpacked } from '../../../src/types/unpacked';
+import type { Expect } from '../../../src/types/expect';
+import type { Unpacked } from '../../../src/types/unpacked';
 
 type Unpacked1Value = Unpacked<string[]>;
 export type Unpacked1Test = Expect<Unpacked1Value, string, true>;

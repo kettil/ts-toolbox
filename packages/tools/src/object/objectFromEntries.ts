@@ -1,5 +1,5 @@
-import { ObjectType } from '../types/object/objectType';
-import { UnionToIntersection } from '../types/unionToIntersection';
+import type { ObjectType } from '../types/object/objectType';
+import type { UnionToIntersection } from '../types/unionToIntersection';
 
 type ObjectFromEntries<T extends ReadonlyArray<readonly [number | string, unknown]>> = UnionToIntersection<
   {

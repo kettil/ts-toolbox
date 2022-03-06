@@ -1,4 +1,4 @@
-import { ConfigObject } from './types/configObject';
+import type { ConfigObject } from './types/configObject';
 
 const createConfig = (): ConfigObject => {
   const types = ['build', 'chore', 'ci', 'docs', 'feat', 'fix', 'perf', 'refactor', 'revert', 'style', 'test'];
@@ -9,8 +9,8 @@ const createConfig = (): ConfigObject => {
       'body-leading-blank': [2, 'always'],
       'body-max-line-length': [2, 'always', 120],
       'footer-leading-blank': [2, 'always'],
-      'footer-max-line-length': [2, 'always', 120],
-      'header-max-length': [2, 'always', 110],
+      'footer-max-line-length': [2, 'always', 160],
+      'header-max-length': [2, 'always', 104],
       'scope-case': [2, 'always', 'lower-case'],
       'subject-case': [2, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],
       'subject-empty': [2, 'never'],

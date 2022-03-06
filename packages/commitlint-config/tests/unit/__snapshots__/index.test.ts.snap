@@ -22,12 +22,12 @@ Object {
     "footer-max-line-length": Array [
       2,
       "always",
-      120,
+      160,
     ],
     "header-max-length": Array [
       2,
       "always",
-      110,
+      104,
     ],
     "scope-case": Array [
       2,
