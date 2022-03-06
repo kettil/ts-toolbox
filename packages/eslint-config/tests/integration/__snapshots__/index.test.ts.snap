@@ -2826,6 +2826,9 @@ Object {
     "unicorn/template-indent": Array [
       "off",
     ],
+    "unicorn/text-encoding-identifier-case": Array [
+      "error",
+    ],
     "unicorn/throw-new-error": Array [
       "error",
     ],
@@ -7827,6 +7830,9 @@ Object {
     ],
     "unicorn/template-indent": Array [
       "off",
+    ],
+    "unicorn/text-encoding-identifier-case": Array [
+      "error",
     ],
     "unicorn/throw-new-error": Array [
       "error",
