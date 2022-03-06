@@ -281,6 +281,9 @@ Object {
         "allowSingleLine": true,
       },
     ],
+    "callback-return": Array [
+      "off",
+    ],
     "camelcase": Array [
       "error",
       Object {
@@ -385,6 +388,9 @@ Object {
         "commentPattern": "^no default$",
       },
     ],
+    "default-case-last": Array [
+      "error",
+    ],
     "default-param-last": Array [
       "error",
     ],
@@ -480,13 +486,22 @@ Object {
         "allowImplicit": true,
       },
     ],
+    "global-require": Array [
+      "off",
+    ],
     "grouped-accessor-pairs": Array [
       "off",
     ],
     "guard-for-in": Array [
       "error",
     ],
+    "handle-callback-err": Array [
+      "off",
+    ],
     "id-blacklist": Array [
+      "off",
+    ],
+    "id-denylist": Array [
       "error",
       "any",
       "number",
@@ -743,6 +758,9 @@ Object {
         "outerIIFEBody": 1,
       },
     ],
+    "indent-legacy": Array [
+      "off",
+    ],
     "init-declarations": Array [
       "off",
     ],
@@ -788,6 +806,9 @@ Object {
       "unix",
     ],
     "lines-around-comment": Array [
+      "off",
+    ],
+    "lines-around-directive": Array [
       "off",
     ],
     "lines-between-class-members": Array [
@@ -871,6 +892,12 @@ Object {
     "new-parens": Array [
       "error",
     ],
+    "newline-after-var": Array [
+      "off",
+    ],
+    "newline-before-return": Array [
+      "off",
+    ],
     "newline-per-chained-call": Array [
       "error",
       Object {
@@ -892,11 +919,17 @@ Object {
     "no-bitwise": Array [
       "error",
     ],
+    "no-buffer-constructor": Array [
+      "off",
+    ],
     "no-caller": Array [
       "error",
     ],
     "no-case-declarations": Array [
       "error",
+    ],
+    "no-catch-shadow": Array [
+      "off",
     ],
     "no-class-assign": Array [
       "error",
@@ -1156,6 +1189,9 @@ Object {
         ],
       },
     ],
+    "no-mixed-requires": Array [
+      "off",
+    ],
     "no-mixed-spaces-and-tabs": Array [
       "error",
     ],
@@ -1179,7 +1215,13 @@ Object {
         "maxEOF": 0,
       },
     ],
+    "no-native-reassign": Array [
+      "off",
+    ],
     "no-negated-condition": Array [
+      "off",
+    ],
+    "no-negated-in-lhs": Array [
       "off",
     ],
     "no-nested-ternary": Array [
@@ -1194,10 +1236,16 @@ Object {
     "no-new-object": Array [
       "error",
     ],
+    "no-new-require": Array [
+      "off",
+    ],
     "no-new-symbol": Array [
       "error",
     ],
     "no-new-wrappers": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -1227,7 +1275,19 @@ Object {
         "props": true,
       },
     ],
+    "no-path-concat": Array [
+      "off",
+    ],
     "no-plusplus": Array [
+      "error",
+    ],
+    "no-process-env": Array [
+      "off",
+    ],
+    "no-process-exit": Array [
+      "off",
+    ],
+    "no-promise-executor-return": Array [
       "error",
     ],
     "no-proto": Array [
@@ -1241,6 +1301,9 @@ Object {
     ],
     "no-regex-spaces": Array [
       "error",
+    ],
+    "no-restricted-exports": Array [
+      "off",
     ],
     "no-restricted-globals": Array [
       "error",
@@ -1311,6 +1374,9 @@ Object {
         "paths": Array [],
         "patterns": Array [],
       },
+    ],
+    "no-restricted-modules": Array [
+      "off",
     ],
     "no-restricted-properties": Array [
       "error",
@@ -1417,8 +1483,14 @@ Object {
     "no-shadow-restricted-names": Array [
       "error",
     ],
+    "no-spaced-func": Array [
+      "off",
+    ],
     "no-sparse-arrays": Array [
       "error",
+    ],
+    "no-sync": Array [
+      "off",
     ],
     "no-tabs": Array [
       "error",
@@ -1478,10 +1550,16 @@ Object {
     "no-unreachable": Array [
       "error",
     ],
+    "no-unreachable-loop": Array [
+      "error",
+    ],
     "no-unsafe-finally": Array [
       "error",
     ],
     "no-unsafe-negation": Array [
+      "error",
+    ],
+    "no-unsafe-optional-chaining": Array [
       "error",
     ],
     "no-unused-expressions": Array [
@@ -1493,6 +1571,9 @@ Object {
       },
     ],
     "no-unused-labels": Array [
+      "error",
+    ],
+    "no-unused-private-class-members": Array [
       "error",
     ],
     "no-unused-vars": Array [
@@ -1901,6 +1982,9 @@ Object {
         "allowEmptyReject": true,
       },
     ],
+    "prefer-reflect": Array [
+      "off",
+    ],
     "prefer-regex-literals": Array [
       "error",
     ],
@@ -2167,6 +2251,9 @@ Object {
     ],
     "require-await": Array [
       "error",
+    ],
+    "require-jsdoc": Array [
+      "off",
     ],
     "require-unicode-regexp": Array [
       "error",
@@ -2744,6 +2831,9 @@ Object {
     ],
     "use-isnan": Array [
       "error",
+    ],
+    "valid-jsdoc": Array [
+      "off",
     ],
     "valid-typeof": Array [
       "error",
@@ -4213,6 +4303,9 @@ Object {
         "allowSingleLine": true,
       },
     ],
+    "callback-return": Array [
+      "off",
+    ],
     "camelcase": Array [
       "error",
       Object {
@@ -4316,6 +4409,9 @@ Object {
       Object {
         "commentPattern": "^no default$",
       },
+    ],
+    "default-case-last": Array [
+      "error",
     ],
     "default-param-last": Array [
       "error",
@@ -4454,13 +4550,22 @@ Object {
         "allowImplicit": true,
       },
     ],
+    "global-require": Array [
+      "off",
+    ],
     "grouped-accessor-pairs": Array [
       "off",
     ],
     "guard-for-in": Array [
       "error",
     ],
+    "handle-callback-err": Array [
+      "off",
+    ],
     "id-blacklist": Array [
+      "off",
+    ],
+    "id-denylist": Array [
       "error",
       "any",
       "number",
@@ -4716,6 +4821,9 @@ Object {
         ],
         "outerIIFEBody": 1,
       },
+    ],
+    "indent-legacy": Array [
+      "off",
     ],
     "init-declarations": Array [
       "off",
@@ -5102,6 +5210,9 @@ Object {
     "lines-around-comment": Array [
       "off",
     ],
+    "lines-around-directive": Array [
+      "off",
+    ],
     "lines-between-class-members": Array [
       "error",
       "always",
@@ -5183,6 +5294,12 @@ Object {
     "new-parens": Array [
       "error",
     ],
+    "newline-after-var": Array [
+      "off",
+    ],
+    "newline-before-return": Array [
+      "off",
+    ],
     "newline-per-chained-call": Array [
       "error",
       Object {
@@ -5204,11 +5321,17 @@ Object {
     "no-bitwise": Array [
       "error",
     ],
+    "no-buffer-constructor": Array [
+      "off",
+    ],
     "no-caller": Array [
       "error",
     ],
     "no-case-declarations": Array [
       "error",
+    ],
+    "no-catch-shadow": Array [
+      "off",
     ],
     "no-class-assign": Array [
       "error",
@@ -5468,6 +5591,9 @@ Object {
         ],
       },
     ],
+    "no-mixed-requires": Array [
+      "off",
+    ],
     "no-mixed-spaces-and-tabs": Array [
       "error",
     ],
@@ -5491,7 +5617,13 @@ Object {
         "maxEOF": 0,
       },
     ],
+    "no-native-reassign": Array [
+      "off",
+    ],
     "no-negated-condition": Array [
+      "off",
+    ],
+    "no-negated-in-lhs": Array [
       "off",
     ],
     "no-nested-ternary": Array [
@@ -5506,10 +5638,16 @@ Object {
     "no-new-object": Array [
       "error",
     ],
+    "no-new-require": Array [
+      "off",
+    ],
     "no-new-symbol": Array [
       "error",
     ],
     "no-new-wrappers": Array [
+      "error",
+    ],
+    "no-nonoctal-decimal-escape": Array [
       "error",
     ],
     "no-obj-calls": Array [
@@ -5539,7 +5677,19 @@ Object {
         "props": true,
       },
     ],
+    "no-path-concat": Array [
+      "off",
+    ],
     "no-plusplus": Array [
+      "error",
+    ],
+    "no-process-env": Array [
+      "off",
+    ],
+    "no-process-exit": Array [
+      "off",
+    ],
+    "no-promise-executor-return": Array [
       "error",
     ],
     "no-proto": Array [
@@ -5553,6 +5703,9 @@ Object {
     ],
     "no-regex-spaces": Array [
       "error",
+    ],
+    "no-restricted-exports": Array [
+      "off",
     ],
     "no-restricted-globals": Array [
       "error",
@@ -5623,6 +5776,9 @@ Object {
         "paths": Array [],
         "patterns": Array [],
       },
+    ],
+    "no-restricted-modules": Array [
+      "off",
     ],
     "no-restricted-properties": Array [
       "error",
@@ -5729,8 +5885,14 @@ Object {
     "no-shadow-restricted-names": Array [
       "error",
     ],
+    "no-spaced-func": Array [
+      "off",
+    ],
     "no-sparse-arrays": Array [
       "error",
+    ],
+    "no-sync": Array [
+      "off",
     ],
     "no-tabs": Array [
       "error",
@@ -5790,10 +5952,16 @@ Object {
     "no-unreachable": Array [
       "error",
     ],
+    "no-unreachable-loop": Array [
+      "error",
+    ],
     "no-unsafe-finally": Array [
       "error",
     ],
     "no-unsafe-negation": Array [
+      "error",
+    ],
+    "no-unsafe-optional-chaining": Array [
       "error",
     ],
     "no-unused-expressions": Array [
@@ -5805,6 +5973,9 @@ Object {
       },
     ],
     "no-unused-labels": Array [
+      "error",
+    ],
+    "no-unused-private-class-members": Array [
       "error",
     ],
     "no-unused-vars": Array [
@@ -6212,6 +6383,9 @@ Object {
       Object {
         "allowEmptyReject": true,
       },
+    ],
+    "prefer-reflect": Array [
+      "off",
     ],
     "prefer-regex-literals": Array [
       "error",
@@ -7001,6 +7175,9 @@ Object {
     "require-await": Array [
       "error",
     ],
+    "require-jsdoc": Array [
+      "off",
+    ],
     "require-unicode-regexp": Array [
       "error",
     ],
@@ -7656,6 +7833,9 @@ Object {
     ],
     "use-isnan": Array [
       "error",
+    ],
+    "valid-jsdoc": Array [
+      "off",
     ],
     "valid-typeof": Array [
       "error",
