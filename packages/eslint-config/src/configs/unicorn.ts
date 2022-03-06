@@ -62,7 +62,7 @@ const rules: Rules = {
       hexadecimal: { minimumDigits: 0, groupLength: 2 },
       binary: { minimumDigits: 0, groupLength: 4 },
       octal: { minimumDigits: 0, groupLength: 4 },
-      // eslint-disable-next-line id-blacklist -- keyword is needed for the configuration
+      // eslint-disable-next-line id-denylist -- keyword is needed for the configuration
       number: { minimumDigits: 5, groupLength: 3 },
     },
   ],
