@@ -148,7 +148,7 @@ const createNodeConfig = (): DefaultObject => ({
   plugins: ['node'],
   parserOptions: {
     ecmaFeatures: { globalReturn: false },
-    ecmaVersion: 2020,
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
   rules,

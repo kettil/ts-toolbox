@@ -547,6 +547,7 @@ const rules: Rules = {
   'symbol-description': ['error'],
   'template-curly-spacing': ['error'],
   'template-tag-spacing': ['error', 'never'],
+  'prefer-object-has-own': ['error'],
   'unicode-bom': ['error', 'never'],
   'use-isnan': ['error'],
   'valid-typeof': ['error', { requireStringLiterals: true }],
@@ -559,10 +560,10 @@ const rules: Rules = {
 
 const createEslintConfig = (): DefaultObject => ({
   ...defaultObject,
-  env: { es6: true, node: true },
+  env: { node: true, es2022: true },
   globals: { Atomics: 'readonly', SharedArrayBuffer: 'readonly' },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 'latest',
     ecmaFeatures: { globalReturn: false, impliedStrict: false },
   },
   settings: { 'import/extensions': ['.js'], 'import/resolver': { node: { extensions: ['.js'] } } },

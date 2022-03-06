@@ -1,7 +1,7 @@
 interface ParserOptions {
   project?: string;
   sourceType?: 'module';
-  ecmaVersion?: 2020;
+  ecmaVersion?: 'latest';
   ecmaFeatures?: {
     globalReturn?: false;
     impliedStrict?: false;

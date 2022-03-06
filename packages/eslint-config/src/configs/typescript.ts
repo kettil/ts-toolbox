@@ -256,7 +256,7 @@ const createTypescriptConfig = (): DefaultObject => {
       'import/resolver': { node: { extensions: ['.ts', '.tsx', '.d.ts'] } },
     };
 
-    config.parserOptions = { ecmaVersion: 2020, sourceType: 'module' };
+    config.parserOptions = { ecmaVersion: 'latest', sourceType: 'module' };
     config.plugins = ['@typescript-eslint'];
     config.overrides = overrides;
   }
