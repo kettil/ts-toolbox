@@ -1,5 +1,5 @@
-import { EqualType } from '../../../src/types/equalType';
-import { Expect } from '../../../src/types/expect';
+import type { EqualType } from '../../../src/types/equalType';
+import type { Expect } from '../../../src/types/expect';
 
 type EqualType1Value = EqualType<[string], [string], false>;
 export type EqualType1Test = Expect<EqualType1Value, true, true>;

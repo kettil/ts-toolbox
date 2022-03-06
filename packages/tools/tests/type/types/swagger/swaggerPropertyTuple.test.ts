@@ -1,4 +1,4 @@
-import { SwaggerPropertyTuple } from '../../../../src/types/swagger/swaggerPropertyTuple';
+import type { SwaggerPropertyTuple } from '../../../../src/types/swagger/swaggerPropertyTuple';
 
 export const testSwaggerPropertyTuple1: SwaggerPropertyTuple = {
   type: 'array',

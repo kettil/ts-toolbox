@@ -1,5 +1,5 @@
-import { Expect } from '../../../../src/types/expect';
-import { ObjectNormalize } from '../../../../src/types/object/objectNormalize';
+import type { Expect } from '../../../../src/types/expect';
+import type { ObjectNormalize } from '../../../../src/types/object/objectNormalize';
 
 type ObjectNormalize1Value = ObjectNormalize<{
   a: string;

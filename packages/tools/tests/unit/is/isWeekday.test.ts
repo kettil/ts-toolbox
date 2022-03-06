@@ -1,18 +1,19 @@
-import { isWeekday, Weekday } from '../../../src/is/isWeekday';
+import type { Weekday } from '../../../src/is/isWeekday';
+import { isWeekday } from '../../../src/is/isWeekday';
 
 const getDayMock = jest.fn();
 
 let date: Date;
 
-beforeEach(() => {
-  getDayMock.mockReturnValue(1);
-
-  date = new Date();
-
-  date.getDay = getDayMock;
-});
-
 describe('isWeekday()', () => {
+  beforeEach(() => {
+    getDayMock.mockReturnValue(1);
+
+    date = new Date();
+
+    date.getDay = getDayMock;
+  });
+
   test.each<[Weekday, boolean]>([
     ['monday', true],
     ['tuesday', false],
@@ -25,6 +26,6 @@ describe('isWeekday()', () => {
     const isDay = isWeekday(weekday, date);
 
     expect(isDay).toBe(expected);
-    expect(getDayMock).toHaveBeenCalled();
+    expect(getDayMock).toHaveBeenCalledWith();
   });
 });

@@ -1,3 +1,5 @@
+import { isString } from '../is/isString';
+
 const toCamelCase = (value: string): string => {
   if (value.trim() === '') {
     return '';
@@ -7,7 +9,15 @@ const toCamelCase = (value: string): string => {
     .replace(/([A-Z])/gu, ' $1')
     .trim()
     .split(/[^\da-z]/iu)
-    .map((v, i) => (i === 0 ? v[0].toLowerCase() : v[0].toUpperCase()) + v.slice(1).toLowerCase())
+    .map((v, i) => {
+      const firstChar = v.at(0);
+
+      if (!isString(firstChar)) {
+        return '';
+      }
+
+      return (i === 0 ? firstChar.toLowerCase() : firstChar.toUpperCase()) + v.slice(1).toLowerCase();
+    })
     .join('');
 };
 

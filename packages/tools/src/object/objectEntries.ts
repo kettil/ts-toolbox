@@ -1,6 +1,6 @@
-import { EqualType } from '../types/equalType';
-import { ObjectType } from '../types/object/objectType';
-import { UnionToTuple } from '../types/unionToTuple';
+import type { EqualType } from '../types/equalType';
+import type { ObjectType } from '../types/object/objectType';
+import type { UnionToTuple } from '../types/unionToTuple';
 
 type ObjectEntries<T> = EqualType<keyof T, number, false> extends true
   ? ReadonlyArray<readonly [number, T[keyof T]]>

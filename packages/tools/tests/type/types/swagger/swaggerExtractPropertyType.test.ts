@@ -1,5 +1,5 @@
-import { Expect } from '../../../../src/types/expect';
-import { SwaggerExtractPropertyType } from '../../../../src/types/swagger/swaggerExtractPropertyType';
+import type { Expect } from '../../../../src/types/expect';
+import type { SwaggerExtractPropertyType } from '../../../../src/types/swagger/swaggerExtractPropertyType';
 
 type SwaggerExtractPropertyType1Value = SwaggerExtractPropertyType<string, true>;
 export type SwaggerExtractPropertyType1Test = Expect<SwaggerExtractPropertyType1Value, string, true>;

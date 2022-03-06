@@ -1,5 +1,5 @@
-import { Expect } from '../../../../src/types/expect';
-import { SwaggerExtractProperties } from '../../../../src/types/swagger/swaggerExtractProperties';
+import type { Expect } from '../../../../src/types/expect';
+import type { SwaggerExtractProperties } from '../../../../src/types/swagger/swaggerExtractProperties';
 
 type SwaggerExtractProperties1Value = SwaggerExtractProperties<{
   type: 'object';

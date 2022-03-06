@@ -1,5 +1,5 @@
-import { Expect } from '../../../src/types/expect';
-import { UnionToFunction } from '../../../src/types/unionToFunction';
+import type { Expect } from '../../../src/types/expect';
+import type { UnionToFunction } from '../../../src/types/unionToFunction';
 
 type UnionToFunction1Value = UnionToFunction<13 | 42>;
 export type UnionToFunction1Test = Expect<UnionToFunction1Value, ((f: 13) => void) & ((f: 42) => void), true>;

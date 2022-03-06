@@ -1,5 +1,5 @@
-import { Expect } from '../../../../src/types/expect';
-import { SwaggerExtractProperty } from '../../../../src/types/swagger/swaggerExtractProperty';
+import type { Expect } from '../../../../src/types/expect';
+import type { SwaggerExtractProperty } from '../../../../src/types/swagger/swaggerExtractProperty';
 
 //  Null
 

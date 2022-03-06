@@ -1,9 +1,9 @@
-import { Expect } from '../../../../src/types/expect';
-import { SwaggerPropertyBoolean } from '../../../../src/types/swagger/swaggerPropertyBoolean';
-import { SwaggerPropertyNull } from '../../../../src/types/swagger/swaggerPropertyNull';
-import { SwaggerPropertyNumber } from '../../../../src/types/swagger/swaggerPropertyNumber';
-import { SwaggerPropertySimple } from '../../../../src/types/swagger/swaggerPropertySimple';
-import { SwaggerPropertyString } from '../../../../src/types/swagger/swaggerPropertyString';
+import type { Expect } from '../../../../src/types/expect';
+import type { SwaggerPropertyBoolean } from '../../../../src/types/swagger/swaggerPropertyBoolean';
+import type { SwaggerPropertyNull } from '../../../../src/types/swagger/swaggerPropertyNull';
+import type { SwaggerPropertyNumber } from '../../../../src/types/swagger/swaggerPropertyNumber';
+import type { SwaggerPropertySimple } from '../../../../src/types/swagger/swaggerPropertySimple';
+import type { SwaggerPropertyString } from '../../../../src/types/swagger/swaggerPropertyString';
 
 export type SwaggerPropertySimple1Test = Expect<
   SwaggerPropertySimple,

@@ -1,13 +1,12 @@
-/* eslint-disable import/no-cycle -- types have an interdependence */
-import { SwaggerExtractItems } from './swaggerExtractItems';
-import { SwaggerExtractProperties } from './swaggerExtractProperties';
-import { SwaggerExtractPropertyType } from './swaggerExtractPropertyType';
-import { SwaggerProperty } from './swaggerProperty';
-import { SwaggerPropertyArray } from './swaggerPropertyArray';
-import { SwaggerPropertyNumber } from './swaggerPropertyNumber';
-import { SwaggerPropertyObject } from './swaggerPropertyObject';
-import { SwaggerPropertyString } from './swaggerPropertyString';
-import { SwaggerPropertyTuple } from './swaggerPropertyTuple';
+import type { SwaggerExtractItems } from './swaggerExtractItems';
+import type { SwaggerExtractProperties } from './swaggerExtractProperties';
+import type { SwaggerExtractPropertyType } from './swaggerExtractPropertyType';
+import type { SwaggerProperty } from './swaggerProperty';
+import type { SwaggerPropertyArray } from './swaggerPropertyArray';
+import type { SwaggerPropertyNumber } from './swaggerPropertyNumber';
+import type { SwaggerPropertyObject } from './swaggerPropertyObject';
+import type { SwaggerPropertyString } from './swaggerPropertyString';
+import type { SwaggerPropertyTuple } from './swaggerPropertyTuple';
 
 type SwaggerExtractProperty<
   Props extends SwaggerProperty,

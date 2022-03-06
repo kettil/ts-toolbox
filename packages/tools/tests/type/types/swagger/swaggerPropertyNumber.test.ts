@@ -1,4 +1,4 @@
-import { SwaggerPropertyNumber } from '../../../../src/types/swagger/swaggerPropertyNumber';
+import type { SwaggerPropertyNumber } from '../../../../src/types/swagger/swaggerPropertyNumber';
 
 export const testSwaggerPropertyNumber1: SwaggerPropertyNumber = { type: 'integer' };
 export const testSwaggerPropertyNumber2: SwaggerPropertyNumber = { type: 'number' };

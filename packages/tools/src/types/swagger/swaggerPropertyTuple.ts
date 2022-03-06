@@ -1,5 +1,5 @@
-import { SwaggerPropertyCommon } from './swaggerPropertyCommon';
-import { SwaggerPropertySimple } from './swaggerPropertySimple';
+import type { SwaggerPropertyCommon } from './swaggerPropertyCommon';
+import type { SwaggerPropertySimple } from './swaggerPropertySimple';
 
 type SwaggerPropertyTuple = SwaggerPropertyCommon & {
   type: 'array';

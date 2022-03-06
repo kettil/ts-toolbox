@@ -1,5 +1,5 @@
-import { Expect } from '../../../../src/types/expect';
-import { SwaggerExtractItems } from '../../../../src/types/swagger/swaggerExtractItems';
+import type { Expect } from '../../../../src/types/expect';
+import type { SwaggerExtractItems } from '../../../../src/types/swagger/swaggerExtractItems';
 
 type SwaggerExtractItems1Value = SwaggerExtractItems<{ type: 'array'; items: { type: 'string' } }>;
 export type SwaggerExtractItems1Test = Expect<SwaggerExtractItems1Value, readonly string[], true>;

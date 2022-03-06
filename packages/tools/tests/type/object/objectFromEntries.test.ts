@@ -1,5 +1,5 @@
-import { ObjectFromEntries } from '../../../src/object/objectFromEntries';
-import { Expect } from '../../../src/types/expect';
+import type { ObjectFromEntries } from '../../../src/object/objectFromEntries';
+import type { Expect } from '../../../src/types/expect';
 
 // ObjectFromEntries
 

@@ -1,10 +1,10 @@
 import { indent } from '../string/indent';
 
-const allSettledSequenceReduce = (promise: Promise<Error[]>, task: () => Promise<void>): Promise<Error[]> =>
+const allSettledSequenceReduce = async (promise: Promise<Error[]>, task: () => Promise<void>): Promise<Error[]> =>
   promise.then(async (errors) => {
     try {
       await task();
-    } catch (error) {
+    } catch (error: unknown) {
       if (error instanceof Error) {
         errors.push(error);
       } else {
@@ -16,7 +16,10 @@ const allSettledSequenceReduce = (promise: Promise<Error[]>, task: () => Promise
   });
 
 const allSettledSequence = async (tasks: Array<() => Promise<void>>): Promise<void> => {
-  const errors = await tasks.reduce(allSettledSequenceReduce, Promise.resolve([]));
+  const errors = await tasks.reduce<Promise<Error[]>>(
+    async (promise, task) => allSettledSequenceReduce(promise, task),
+    Promise.resolve([]),
+  );
 
   if (errors.length > 0) {
     /* istanbul ignore next */
