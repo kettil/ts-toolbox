@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention -- The naming convention is given by eslint */
 import { defaultObject } from '../lib/defaultObject';
 import type { DefaultObject } from '../types/defaultObject';
 import type { Rules } from '../types/rules';
