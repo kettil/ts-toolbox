@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention -- The naming convention is given by eslint */
 type Extension = '.d.ts' | '.js' | '.jsx' | '.ts' | '.tsx';
 
 interface Settings {

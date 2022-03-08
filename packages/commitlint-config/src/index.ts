@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention -- The naming convention is given by commitlint */
 import type { ConfigObject } from './types/configObject';
 
 const createConfig = (): ConfigObject => {
