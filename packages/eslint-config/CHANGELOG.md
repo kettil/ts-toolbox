@@ -1,5 +1,46 @@
 # Changelog
 
+# @kettil/eslint-config [4.0.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@3.7.13...@kettil/eslint-config@4.0.0) (2022-03-08)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-react from 7.29.2 to 7.29.3 ([8b8d79e](https://github.com/kettil/ts-toolbox/commit/8b8d79ea83117b9c6f09bf309a9c9a6c03b5cd79))
+* bump eslint-plugin-testing-library from 5.0.5 to 5.0.6 ([8c75952](https://github.com/kettil/ts-toolbox/commit/8c7595292be37c5e8446919a4e072f1d45018ad2))
+* bump eslint-plugin-unicorn from 40.1.0 to 41.0.0 ([fd19541](https://github.com/kettil/ts-toolbox/commit/fd195416a6bb050673a6ee47fdc9e536a6758496))
+
+
+### Features
+
+* **eslint-config:** add the rule unicorn/text-encoding-identifier-case ([4b1c502](https://github.com/kettil/ts-toolbox/commit/4b1c502db724198a9111932f15b5e26fdd3342fb))
+* **eslint-config:** missing [@typescript-eslint](https://github.com/typescript-eslint) rules added and generally adjusted ([017705f](https://github.com/kettil/ts-toolbox/commit/017705fcfb43f1de90a774aa0a83f4a8898028da))
+* **eslint-config:** missing eslint rules added and generally adjusted ([4cabe50](https://github.com/kettil/ts-toolbox/commit/4cabe50209f0f8182ffdef6f811dbfeb4923b0fc))
+* **eslint-config:** missing formatjs rules added and generally adjusted ([c635f1f](https://github.com/kettil/ts-toolbox/commit/c635f1f570709c8a5bb80570ea531ccbdfe26932))
+* **eslint-config:** missing jest rules added and generally adjusted ([3dd8d22](https://github.com/kettil/ts-toolbox/commit/3dd8d22f4c2a42609a21284d1cc3e2f7062775a3))
+* **eslint-config:** missing jest-dom rules added and generally adjusted ([06e080e](https://github.com/kettil/ts-toolbox/commit/06e080e4e627339ee646f881fafd0fb96605d1e1))
+* **eslint-config:** missing jsx-a11y rules added and generally adjusted ([ce14e13](https://github.com/kettil/ts-toolbox/commit/ce14e137f6fa6cbd13f6058815810a06429db28b))
+* **eslint-config:** missing node rules added and generally adjusted ([10c0280](https://github.com/kettil/ts-toolbox/commit/10c028023ff9fb2aac8a83016b8bf360f750bf54))
+* **eslint-config:** missing react rules added and generally adjusted ([e609f67](https://github.com/kettil/ts-toolbox/commit/e609f674b73b7abf092388fdeac58d2ca71ebd67))
+* **eslint-config:** missing regexp rules added and generally adjusted ([b5d2752](https://github.com/kettil/ts-toolbox/commit/b5d2752a6edfec18fe974b0a403678df57b072b1))
+* **eslint-config:** missing sonarjs rules added and generally adjusted ([672a4c5](https://github.com/kettil/ts-toolbox/commit/672a4c596d55ec7ed45b941dce8e31532704d134))
+* **eslint-config:** missing testing-library rules added and generally adjusted ([4e26456](https://github.com/kettil/ts-toolbox/commit/4e264565990b197698876ddd587a9c19e48d7eb0))
+* **eslint-config:** missing unicorn rules added and generally adjusted ([8be8987](https://github.com/kettil/ts-toolbox/commit/8be8987d000749cce9d025e6caba740a36ab863a))
+
+
+### BREAKING CHANGES
+
+* **eslint-config:** The missing eslint rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing unicorn rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing testing-library rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing regexp rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing react rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing node rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing jsx-a11y rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing jest-dom rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing jest rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing formatjs rules have been added and a few rules have been adjusted where by the code needs to be modified.
+* **eslint-config:** The missing typescript rules have been added and a few rules have been adjusted where by the code needs to be modified.
+
 ## @kettil/eslint-config [3.7.13](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@3.7.12...@kettil/eslint-config@3.7.13) (2022-03-01)
 
 
