@@ -24,7 +24,9 @@ describe('main index', () => {
       'compareTransformAsc',
       'compareTransformDesc',
       'indent',
+      'lowercaseFirst',
       'toCamelCase',
+      'uppercaseFirst',
     ];
 
     expect(Object.keys(tools)).toEqual(expected);
