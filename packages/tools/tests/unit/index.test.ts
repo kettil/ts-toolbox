@@ -8,6 +8,7 @@ describe('main index', () => {
       'uniqueArray',
       'noop',
       'isArray',
+      'isNil',
       'isObject',
       'isString',
       'isWeekday',
