@@ -10,6 +10,7 @@ describe('main index', () => {
       'isArray',
       'isFunction',
       'isNil',
+      'isNumber',
       'isObject',
       'isString',
       'isWeekday',
