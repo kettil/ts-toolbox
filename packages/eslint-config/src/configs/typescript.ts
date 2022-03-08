@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention -- The naming convention is given by eslint */
 import { join } from 'path';
 import { defaultObject } from '../lib/defaultObject';
 import { hasLibrary } from '../lib/hasLibrary';
