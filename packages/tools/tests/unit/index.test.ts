@@ -6,6 +6,7 @@ describe('main index', () => {
       'createArray',
       'intersectArray',
       'uniqueArray',
+      'ms',
       'noop',
       'isArray',
       'isFunction',
