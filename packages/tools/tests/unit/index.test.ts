@@ -31,7 +31,7 @@ describe('main index', () => {
       'dotCase',
       'indent',
       'kebabCase',
-      'lowercaseFirst',
+      'lowerCaseFirst',
       'upperCaseFirst',
     ];
 
