@@ -28,6 +28,7 @@ describe('main index', () => {
       'compareTransformAsc',
       'compareTransformDesc',
       'camelCase',
+      'dotCase',
       'indent',
       'lowercaseFirst',
       'uppercaseFirst',
