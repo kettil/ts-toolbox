@@ -1,5 +1,5 @@
 import { splitCase } from './splitCase';
-import { uppercaseFirst } from './uppercaseFirst';
+import { upperCaseFirst } from './upperCaseFirst';
 
 const camelCase = (value: string): string => {
   if (value.trim() === '') {
@@ -7,7 +7,7 @@ const camelCase = (value: string): string => {
   }
 
   return splitCase(value)
-    .map((v, i) => (i === 0 ? v : uppercaseFirst(v)))
+    .map((v, i) => (i === 0 ? v : upperCaseFirst(v)))
     .join('');
 };
 

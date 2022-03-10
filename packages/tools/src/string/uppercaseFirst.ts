@@ -1,13 +1,4 @@
-import { isString } from '../is';
+// eslint-disable-next-line unicorn/prefer-at -- charAt does not return undefined
+const upperCaseFirst = (value: string): string => value.charAt(0).toUpperCase() + value.slice(1);
 
-const uppercaseFirst = (value: string, lowercaseRest = false): string => {
-  const [firstChar, ...restChars] = value;
-
-  if (!isString(firstChar)) {
-    return '';
-  }
-
-  return firstChar.toUpperCase() + (lowercaseRest ? restChars.join('').toLowerCase() : restChars.join(''));
-};
-
-export { uppercaseFirst };
+export { upperCaseFirst };

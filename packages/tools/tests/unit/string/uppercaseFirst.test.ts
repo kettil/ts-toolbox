@@ -1,33 +1,27 @@
-import { uppercaseFirst } from '../../../src/string/uppercaseFirst';
+import { upperCaseFirst } from '../../../src/string/upperCaseFirst';
 
 describe('uppercaseFirst()', () => {
   test('it should work', () => {
-    const result = uppercaseFirst('Lorem');
+    const result = upperCaseFirst('Lorem');
 
     expect(result).toBe('Lorem');
   });
 
   test('it should work with empty string', () => {
-    const result = uppercaseFirst('');
+    const result = upperCaseFirst('');
 
     expect(result).toBe('');
   });
 
   test('it should work with upper chars', () => {
-    const result = uppercaseFirst('LOREM');
+    const result = upperCaseFirst('LOREM');
 
     expect(result).toBe('LOREM');
   });
 
   test('it should work with lower chars', () => {
-    const result = uppercaseFirst('lorem');
+    const result = upperCaseFirst('lorem');
 
     expect(result).toBe('Lorem');
-  });
-
-  test('it should work with lowercase option', () => {
-    const result = uppercaseFirst('loremFoo', true);
-
-    expect(result).toBe('Loremfoo');
   });
 });

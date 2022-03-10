@@ -32,7 +32,7 @@ describe('main index', () => {
       'indent',
       'kebabCase',
       'lowercaseFirst',
-      'uppercaseFirst',
+      'upperCaseFirst',
     ];
 
     expect(Object.keys(tools)).toEqual(expected);
