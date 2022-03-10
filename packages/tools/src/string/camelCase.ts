@@ -7,7 +7,7 @@ const camelCase = (value: string): string => {
   }
 
   return splitCase(value)
-    .map((v, i) => (i === 0 ? v.toLowerCase() : uppercaseFirst(v)))
+    .map((v, i) => (i === 0 ? v : uppercaseFirst(v)))
     .join('');
 };
 
