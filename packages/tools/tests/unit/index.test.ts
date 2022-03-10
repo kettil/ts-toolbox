@@ -30,6 +30,7 @@ describe('main index', () => {
       'camelCase',
       'dotCase',
       'indent',
+      'kebabCase',
       'lowercaseFirst',
       'uppercaseFirst',
     ];
