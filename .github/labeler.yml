@@ -1,0 +1,18 @@
+test:
+  - packages/*/tests/**/*"
+
+documentation:
+  - docs/**/*
+  - packages/*/docs/**/*
+
+package/commitlint-config:
+  - packages/commitlint-config/**/*
+
+package/eslint-config:
+  - packages/eslint-config/**/*
+
+package/semantic-release-config:
+  - packages/semantic-release-config/**/*
+
+package/tools:
+  - packages/tools/**/*
