@@ -8,9 +8,13 @@ describe('indent()', () => {
   });
 
   test('it should work with multilines', () => {
-    const result = indent('lorem\nipsum\nfoo');
+    const result = indent(`lorem
+ipsum
+foo`);
 
-    expect(result).toBe('  lorem\n  ipsum\n  foo');
+    expect(result).toBe(`  lorem
+  ipsum
+  foo`);
   });
 
   test('it should work with empty string', () => {
@@ -20,20 +24,37 @@ describe('indent()', () => {
   });
 
   test('it should work with indent string', () => {
-    const result = indent('- lorem\n  ipsum');
+    const result = indent(`- lorem
+  ipsum`);
 
-    expect(result).toBe('  - lorem\n    ipsum');
+    expect(result).toBe(`  - lorem
+    ipsum`);
   });
 
   test('it should work with multilines and special chars', () => {
-    const result = indent('lorem\nipsum\nfoo', '> ');
+    const result = indent(
+      `lorem
+ipsum
+foo`,
+      '> ',
+    );
 
-    expect(result).toBe('> lorem\n> ipsum\n> foo');
+    expect(result).toBe(`> lorem
+> ipsum
+> foo`);
   });
 
   test('it should work with multilines and repeat special chars', () => {
-    const result = indent('lorem\nipsum\nfoo', 2, '> ');
+    const result = indent(
+      `lorem
+ipsum
+foo`,
+      2,
+      '> ',
+    );
 
-    expect(result).toBe('> > lorem\n> > ipsum\n> > foo');
+    expect(result).toBe(`> > lorem
+> > ipsum
+> > foo`);
   });
 });
