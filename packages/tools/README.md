@@ -9,3 +9,7 @@ A collection from differents helper functions and types
 ```bash
 npm install @kettil/tool-lib
 ```
+
+## Documentation
+
+- [String functions](./docs/string.md)
