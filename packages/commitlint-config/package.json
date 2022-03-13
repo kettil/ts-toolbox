@@ -27,7 +27,7 @@
     }
   },
   "scripts": {},
-  "homepage": "https://github.com/kettil/ts-toolbox/packages/commitlint-config#readme",
+  "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/commitlint-config#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/kettil/ts-toolbox"

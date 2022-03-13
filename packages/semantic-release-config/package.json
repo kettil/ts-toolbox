@@ -25,7 +25,7 @@
     }
   },
   "scripts": {},
-  "homepage": "https://github.com/kettil/ts-toolbox/packages/semantic-release-config#readme",
+  "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/semantic-release-config#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/kettil/ts-toolbox"
