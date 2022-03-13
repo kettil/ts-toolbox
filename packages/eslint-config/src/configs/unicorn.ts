@@ -138,6 +138,13 @@ const rules: Rules = {
 
 const overrides: Overrides = [
   {
+    files: ['*.ts', '*.tsx'],
+    rules: {
+      // makes the "Type Guard" function useless, because the corresponding type is not taken over
+      'unicorn/no-array-callback-reference': ['off'],
+    },
+  },
+  {
     files: ['*.tsx'],
     excludedFiles: ['index.tsx', 'index.test.tsx', '_app.tsx', '_document.tsx'],
     rules: { 'unicorn/filename-case': ['error', { case: 'pascalCase' }] },

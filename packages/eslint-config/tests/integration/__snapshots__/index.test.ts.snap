@@ -153,6 +153,17 @@ Object {
       },
     },
     Object {
+      "files": Array [
+        "*.ts",
+        "*.tsx",
+      ],
+      "rules": Object {
+        "unicorn/no-array-callback-reference": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
       "excludedFiles": Array [
         "index.tsx",
         "index.test.tsx",
@@ -3901,6 +3912,17 @@ Object {
       ],
       "rules": Object {
         "import/group-exports": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
+        "*.ts",
+        "*.tsx",
+      ],
+      "rules": Object {
+        "unicorn/no-array-callback-reference": Array [
           "off",
         ],
       },
