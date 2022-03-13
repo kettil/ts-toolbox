@@ -6,8 +6,12 @@ describe('main index', () => {
       'createArray',
       'intersectArray',
       'uniqueArray',
-      'dummy',
+      'ms',
+      'noop',
       'isArray',
+      'isFunction',
+      'isNil',
+      'isNumber',
       'isObject',
       'isString',
       'isWeekday',
@@ -23,8 +27,12 @@ describe('main index', () => {
       'compareDesc',
       'compareTransformAsc',
       'compareTransformDesc',
+      'camelCase',
+      'dotCase',
       'indent',
-      'toCamelCase',
+      'kebabCase',
+      'lowerCaseFirst',
+      'upperCaseFirst',
     ];
 
     expect(Object.keys(tools)).toEqual(expected);

@@ -1,20 +1,14 @@
+import { assert, _ } from '@kettil/types';
 import { objectPick } from '../../../src/object/objectPick';
-import type { Expect } from '../../../src/types/expect';
 
-// objectPick
+const objectPick1 = objectPick({ a: 13, b: 42 }, ['a']);
 
-const objectPick1Value = objectPick({ a: 13, b: 42 }, ['a']);
+assert(_ as typeof objectPick1, _ as { a: number });
 
-export type ObjectPick1Test = Expect<typeof objectPick1Value, { a: number }, true>;
+const objectPick2 = objectPick({ a: 13, b: '42' } as const, ['b']);
 
-const objectPick2Value = objectPick({ a: 13, b: '42' } as const, ['b']);
+assert(_ as typeof objectPick2, _ as { readonly b: '42' });
 
-export type ObjectPick2Test = Expect<typeof objectPick2Value, { readonly b: '42' }, true>;
+const objectPick3 = objectPick({ a: 13, b: '42', c: true, d: { e: 'A' } } as const, ['b', 'c', 'd']);
 
-const objectPick3Value = objectPick({ a: 13, b: '42', c: true, d: { e: 'A' } } as const, ['b', 'c', 'd']);
-
-export type ObjectPick3Test = Expect<
-  typeof objectPick3Value,
-  { readonly b: '42'; readonly c: true; readonly d: { readonly e: 'A' } },
-  true
->;
+assert(_ as typeof objectPick3, _ as { readonly b: '42'; readonly c: true; readonly d: { readonly e: 'A' } });

@@ -1,40 +1,30 @@
+import { assert, _ } from '@kettil/types';
 import type { ObjectFromEntries } from '../../../src/object/objectFromEntries';
-import type { Expect } from '../../../src/types/expect';
 
-// ObjectFromEntries
+type TypeWithObjectFromEntries1 = ObjectFromEntries<Array<[number | string, unknown]>>;
 
-type ObjectFromEntries1Value = ObjectFromEntries<Array<[number | string, unknown]>>;
-export type ObjectFromEntries1Test = Expect<
-  ObjectFromEntries1Value,
-  { [K in number]: unknown } & { [K in string]: unknown },
-  true
->;
+assert(_ as TypeWithObjectFromEntries1, _ as { [K in number]: unknown } & { [K in string]: unknown });
 
-type ObjectFromEntries2Value = ObjectFromEntries<Array<[number | string, number]>>;
-export type ObjectFromEntries2Test = Expect<
-  ObjectFromEntries2Value,
-  { [K in number]: number } & { [K in string]: number },
-  true
->;
+type TypeWithObjectFromEntries2 = ObjectFromEntries<Array<[number | string, number]>>;
 
-type ObjectFromEntries3Value = ObjectFromEntries<Array<[number | string, number]>>;
-export type ObjectFromEntries3Test = Expect<ObjectFromEntries3Value, Record<number | string, string>, false>;
+assert(_ as TypeWithObjectFromEntries2, _ as { [K in number]: number } & { [K in string]: number });
 
-type ObjectFromEntries4Value = ObjectFromEntries<Array<[string, number]>>;
-export type ObjectFromEntries4Test = Expect<ObjectFromEntries4Value, Record<string, number>, true>;
+type TypeWithObjectFromEntries3 = ObjectFromEntries<Array<[string, number]>>;
 
-type ObjectFromEntries5Value = ObjectFromEntries<Array<[number, string]>>;
-export type ObjectFromEntries5Test = Expect<ObjectFromEntries5Value, Record<number, string>, true>;
+assert(_ as TypeWithObjectFromEntries3, _ as Record<string, number>);
 
-type ObjectFromEntries6Value = ObjectFromEntries<Array<[number, Record<string, number>]>>;
-export type ObjectFromEntries6Test = Expect<ObjectFromEntries6Value, Record<number, Record<string, number>>, true>;
+type TypeWithObjectFromEntries4 = ObjectFromEntries<Array<[number, string]>>;
 
-type ObjectFromEntries7Value = ObjectFromEntries<[['a', 42], ['b', 13], ['c', 'foo']]>;
-export type ObjectFromEntries7Test = Expect<ObjectFromEntries7Value, { a: 42 } & { b: 13 } & { c: 'foo' }, true>;
+assert(_ as TypeWithObjectFromEntries4, _ as Record<number, string>);
 
-type ObjectFromEntries8Value = ObjectFromEntries<[['a', number], ['b', string], ['c', string]]>;
-export type ObjectFromEntries8Test = Expect<
-  ObjectFromEntries8Value,
-  { a: number } & { b: string } & { c: string },
-  true
->;
+type TypeWithObjectFromEntries5 = ObjectFromEntries<Array<[number, Record<string, number>]>>;
+
+assert(_ as TypeWithObjectFromEntries5, _ as Record<number, Record<string, number>>);
+
+type TypeWithObjectFromEntries6 = ObjectFromEntries<[['a', 42], ['b', 13], ['c', 'foo']]>;
+
+assert(_ as TypeWithObjectFromEntries6, _ as { a: 42 } & { b: 13 } & { c: 'foo' });
+
+type TypeWithObjectFromEntries7 = ObjectFromEntries<[['a', number], ['b', string], ['c', string]]>;
+
+assert(_ as TypeWithObjectFromEntries7, _ as { a: number } & { b: string } & { c: string });

@@ -16,3 +16,6 @@ package/semantic-release-config:
 
 package/tools:
   - packages/tools/**/*
+
+package/types:
+  - packages/types/**/*
