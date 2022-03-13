@@ -1,6 +1,6 @@
 # commitlint-config
 
-![npm](https://img.shields.io/npm/v/@kettil/commitlint-config)
+[![npm](https://img.shields.io/npm/v/@kettil/commitlint-config)](https://www.npmjs.com/package/@kettil/commitlint-config)
 
 The library contains the commitlint configuration.
 

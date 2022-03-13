@@ -1,6 +1,6 @@
 # ESLint rules collection
 
-![npm](https://img.shields.io/npm/v/@kettil/eslint-config)
+[![npm](https://img.shields.io/npm/v/@kettil/eslint-config)](https://www.npmjs.com/package/@kettil/eslint-config)
 
 The library is a collection of very strict ESLint rules.
 

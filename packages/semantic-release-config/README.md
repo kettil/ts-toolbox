@@ -1,6 +1,6 @@
 # semantic-release-config
 
-![npm](https://img.shields.io/npm/v/@kettil/semantic-release-config)
+[![npm](https://img.shields.io/npm/v/@kettil/semantic-release-config)](https://www.npmjs.com/package/@kettil/semantic-release-config)
 
 The library contains the semantic-release configuration.
 

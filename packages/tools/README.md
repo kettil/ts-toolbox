@@ -1,6 +1,6 @@
 # Tool collection
 
-![npm](https://img.shields.io/npm/v/@kettil/tools)
+[![npm](https://img.shields.io/npm/v/@kettil/tools)](https://www.npmjs.com/package/@kettil/tools)
 
 A collection from differents helper functions
 
