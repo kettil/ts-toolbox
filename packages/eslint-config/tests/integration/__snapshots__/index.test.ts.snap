@@ -2526,6 +2526,7 @@ Object {
       "error",
       Object {
         "styles": Object {
+          "chalk": false,
           "path": Object {
             "named": true,
           },
@@ -7541,6 +7542,7 @@ Object {
       "error",
       Object {
         "styles": Object {
+          "chalk": false,
           "path": Object {
             "named": true,
           },

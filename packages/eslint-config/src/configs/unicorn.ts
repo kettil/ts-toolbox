@@ -19,7 +19,7 @@ const rules: Rules = {
   'unicorn/explicit-length-check': ['error'],
   'unicorn/filename-case': ['error', { case: 'camelCase' }],
   'unicorn/import-index': ['error'],
-  'unicorn/import-style': ['error', { styles: { path: { named: true } } }],
+  'unicorn/import-style': ['error', { styles: { path: { named: true }, chalk: false } }],
   'unicorn/new-for-builtins': ['error'],
   'unicorn/no-abusive-eslint-disable': ['error'],
   'unicorn/no-array-callback-reference': ['error'],
