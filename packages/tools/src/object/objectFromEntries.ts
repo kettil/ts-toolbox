@@ -1,5 +1,4 @@
-import type { ObjectType } from '../types/object/objectType';
-import type { UnionToIntersection } from '../types/unionToIntersection';
+import type { ObjectType, UnionToIntersection } from '@kettil/types';
 
 type ObjectFromEntries<T extends ReadonlyArray<readonly [number | string, unknown]>> = UnionToIntersection<
   {

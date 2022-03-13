@@ -1,12 +1,10 @@
+import { assert, _ } from '@kettil/types';
 import { objectMap } from '../../../src/object/objectMap';
-import type { Expect } from '../../../src/types/expect';
 
-// objectMap
+const objectMap1 = objectMap({ a: 13, b: 42 }, (k, v) => [k, v * 2]);
 
-const objectMap1Value = objectMap({ a: 13, b: 42 }, (k, v) => [k, v * 2]);
+assert(_ as typeof objectMap1, _ as { a: number } & { b: number });
 
-export type ObjectMap1Test = Expect<typeof objectMap1Value, { a: number } & { b: number }, true>;
+const objectMap2 = objectMap({ a: 13, b: 42 } as const, (k, v) => [k, v]);
 
-const objectMap2Value = objectMap({ a: 13, b: 42 } as const, (k, v) => [k, v]);
-
-export type ObjectMap2Test = Expect<typeof objectMap2Value, { a: 13 | 42 } & { b: 13 | 42 }, true>;
+assert(_ as typeof objectMap2, _ as { a: 13 | 42 } & { b: 13 | 42 });

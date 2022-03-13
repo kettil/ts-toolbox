@@ -2,12 +2,12 @@
 
 ![npm](https://img.shields.io/npm/v/@kettil/tools)
 
-A collection from differents helper functions and types
+A collection from differents helper functions
 
 ## Installation
 
 ```bash
-npm install @kettil/tool-lib
+npm install @kettil/tools
 ```
 
 ## Documentation
