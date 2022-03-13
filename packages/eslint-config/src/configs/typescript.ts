@@ -44,7 +44,7 @@ const rules: Rules = {
   '@typescript-eslint/lines-between-class-members': eslintRules['lines-between-class-members'],
   '@typescript-eslint/member-delimiter-style': ['error'],
   '@typescript-eslint/member-ordering': ['off'],
-  '@typescript-eslint/method-signature-style': ['error', 'method'], // TOD0 tests
+  '@typescript-eslint/method-signature-style': ['off'],
   '@typescript-eslint/naming-convention': [
     'error',
     {

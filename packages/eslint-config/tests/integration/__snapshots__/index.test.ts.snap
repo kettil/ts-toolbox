@@ -3143,8 +3143,7 @@ Object {
           "off",
         ],
         "@typescript-eslint/method-signature-style": Array [
-          "error",
-          "method",
+          "off",
         ],
         "@typescript-eslint/naming-convention": Array [
           "error",
