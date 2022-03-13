@@ -1,5 +1,39 @@
 # Changelog
 
+# @kettil/tools [4.0.0](https://github.com/kettil/ts-toolbox/compare/@kettil/tools@3.3.2...@kettil/tools@4.0.0) (2022-03-13)
+
+
+### Features
+
+* create the new package "types" (moved from "tools") ([61e63c6](https://github.com/kettil/ts-toolbox/commit/61e63c693f8a46c6c80aa308d69214338f81e6de))
+* **tools:** add dotCase function ([ab3d654](https://github.com/kettil/ts-toolbox/commit/ab3d65496e4606d8ae6d8e58bc023d7b726b2f19))
+* **tools:** add isFunction function ([0cfb052](https://github.com/kettil/ts-toolbox/commit/0cfb0525daa9ac04562a1041a7259c0bce5bb67a))
+* **tools:** add isNil function ([8802e2e](https://github.com/kettil/ts-toolbox/commit/8802e2efd2dc64475733f18dedb8ddcbec62b4af))
+* **tools:** add isNumber function ([af5bfa1](https://github.com/kettil/ts-toolbox/commit/af5bfa1718427e3aa8794a1060efa741f64232a5))
+* **tools:** add kebabCase function ([917ca18](https://github.com/kettil/ts-toolbox/commit/917ca18ee99965de7817f3983046dfc5b6f17f1f))
+* **tools:** add lowercaseFirst function ([b82c0ab](https://github.com/kettil/ts-toolbox/commit/b82c0ab84cc08213b21fb12485e54b093b9cc4d0))
+* **tools:** add ms function ([b2247c5](https://github.com/kettil/ts-toolbox/commit/b2247c5eaad72bd501983cf4ea3f3ca9c8c9a4ce))
+* **tools:** add splitCase function (internal) ([693fea4](https://github.com/kettil/ts-toolbox/commit/693fea492b546f7788d40ec27372e299182119e8))
+* **tools:** add uppercaseFirst function ([f6b8973](https://github.com/kettil/ts-toolbox/commit/f6b8973448c080f443ef6f59b8bf5741f2d6ee81))
+* **tools:** extends Unpacked type with Set and Promise ([7342fb8](https://github.com/kettil/ts-toolbox/commit/7342fb85533198d36bfbebfbf9baeb4920d28a12))
+* **tools:** rename the "dummy" function to "noop" ([e409f9d](https://github.com/kettil/ts-toolbox/commit/e409f9dcef6dcb47b859484d950882b9feed1b8b))
+* **tools:** rename the function toCamelCase to camelCase ([584dec7](https://github.com/kettil/ts-toolbox/commit/584dec70cfe237ee0a3f02f5f62095b5060aa06b))
+
+
+### BREAKING CHANGES
+
+* The general type definition has been moved from the "tools" package to the new "types" package.
+* **tools:** For a consistent naming scheme the function toCamelCase has been unnamed to camelCase
+* **tools:** The "dummy" function is renamed to "noop", because the name describes the function better.
+
+
+
+
+
+### Dependencies
+
+* **@kettil/types:** upgraded to 1.0.0
+
 ## [3.3.2](https://github.com/kettil/tool-lib/compare/3.3.1...3.3.2) (2022-01-25)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@kettil/tools",
-  "version": "3.3.2",
+  "version": "4.0.0",
   "description": "A collection from differents helper functions",
   "license": "MIT",
   "contributors": [
@@ -36,6 +36,6 @@
   },
   "scripts": {},
   "dependencies": {
-    "@kettil/types": "0.1.0"
+    "@kettil/types": "1.0.0"
   }
 }
