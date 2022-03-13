@@ -1,38 +1,34 @@
+import type { ObjectType } from '@kettil/types';
+import { assert, _ } from '@kettil/types';
 import type { ObjectEntries } from '../../../src/object/objectEntries';
-import type { Expect } from '../../../src/types/expect';
-import type { ObjectType } from '../../../src/types/object/objectType';
 
-// ObjectEntries
+type TypeWithObjectEntries1 = ObjectEntries<ObjectType>;
 
-type ObjectEntries1Value = ObjectEntries<ObjectType>;
-export type ObjectEntries1Test = Expect<ObjectEntries1Value, ReadonlyArray<readonly [number | string, unknown]>, true>;
+assert(_ as TypeWithObjectEntries1, _ as ReadonlyArray<readonly [number | string, unknown]>);
 
-type ObjectEntries2Value = ObjectEntries<Record<number | string, number>>;
-export type ObjectEntries2Test = Expect<ObjectEntries2Value, ReadonlyArray<readonly [number | string, number]>, true>;
+type TypeWithObjectEntries2 = ObjectEntries<ObjectType<number>>;
 
-type ObjectEntries3Value = ObjectEntries<Record<string, number>>;
-export type ObjectEntries3Test = Expect<ObjectEntries3Value, ReadonlyArray<readonly [string, number]>, true>;
+assert(_ as TypeWithObjectEntries2, _ as ReadonlyArray<readonly [number | string, number]>);
 
-type ObjectEntries4Value = ObjectEntries<Record<number, string>>;
-export type ObjectEntries4Test = Expect<ObjectEntries4Value, ReadonlyArray<readonly [number, string]>, true>;
+type TypeWithObjectEntries3 = ObjectEntries<Record<string, number>>;
 
-type ObjectEntries5Value = ObjectEntries<Record<number, Record<string, number>>>;
-export type ObjectEntries5Test = Expect<
-  ObjectEntries5Value,
-  ReadonlyArray<readonly [number, Record<string, number>]>,
-  true
->;
+assert(_ as TypeWithObjectEntries3, _ as ReadonlyArray<readonly [string, number]>);
 
-type ObjectEntries6Value = ObjectEntries<{ a: 42; b: 13; c: 'foo' }>;
-export type ObjectEntries6Test = Expect<
-  ObjectEntries6Value,
-  readonly [readonly ['a', 42], readonly ['b', 13], readonly ['c', 'foo']],
-  true
->;
+type TypeWithObjectEntries4 = ObjectEntries<Record<number, string>>;
 
-type ObjectEntries7Value = ObjectEntries<{ readonly a: number; readonly b: string; readonly c: string }>;
-export type ObjectEntries7Test = Expect<
-  ObjectEntries7Value,
-  readonly [readonly ['a', number], readonly ['b', string], readonly ['c', string]],
-  true
->;
+assert(_ as TypeWithObjectEntries4, _ as ReadonlyArray<readonly [number, string]>);
+
+type TypeWithObjectEntries5 = ObjectEntries<Record<number, Record<string, number>>>;
+
+assert(_ as TypeWithObjectEntries5, _ as ReadonlyArray<readonly [number, Record<string, number>]>);
+
+type TypeWithObjectEntries6 = ObjectEntries<{ a: 42; b: 13; c: 'foo' }>;
+
+assert(_ as TypeWithObjectEntries6, _ as readonly [readonly ['a', 42], readonly ['b', 13], readonly ['c', 'foo']]);
+
+type TypeWithObjectEntries7 = ObjectEntries<{ readonly a: number; readonly b: string; readonly c: string }>;
+
+assert(
+  _ as TypeWithObjectEntries7,
+  _ as readonly [readonly ['a', number], readonly ['b', string], readonly ['c', string]],
+);

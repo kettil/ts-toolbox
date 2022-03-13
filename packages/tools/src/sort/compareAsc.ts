@@ -1,4 +1,3 @@
-/* e1slint-disable @typescript-eslint/no-unused-vars */
 import type { SortValue } from './types';
 
 const compareAsc = <T extends SortValue>(a: T, b: T): number => {

@@ -1,5 +1,4 @@
-import type { ExtractTypeFromTupleArray } from '../types/extractTypeFromTupleArray';
-import type { ObjectType } from '../types/object/objectType';
+import type { ExtractTypeFromTupleArray, ObjectType } from '@kettil/types';
 import type { ObjectEntries } from './objectEntries';
 import { objectEntries } from './objectEntries';
 import type { ObjectFromEntries } from './objectFromEntries';
