@@ -110,6 +110,12 @@ const typescriptOverrides: Overrides = [
     },
   },
   {
+    files: ['**/tests/*/setupTests.ts', '**/tests/*/setupTests.js'],
+    rules: {
+      'jest/require-top-level-describe': ['off'],
+    },
+  },
+  {
     files: ['**/tests/shared/__mock__/*.ts'],
     rules: {
       '@typescript-eslint/no-explicit-any': ['off'],

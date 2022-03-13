@@ -4198,6 +4198,17 @@ Object {
     },
     Object {
       "files": Array [
+        "**/tests/*/setupTests.ts",
+        "**/tests/*/setupTests.js",
+      ],
+      "rules": Object {
+        "jest/require-top-level-describe": Array [
+          "off",
+        ],
+      },
+    },
+    Object {
+      "files": Array [
         "**/tests/shared/__mock__/*.ts",
       ],
       "rules": Object {
