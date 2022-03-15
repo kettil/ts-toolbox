@@ -1,5 +1,20 @@
 # Changelog
 
+# @kettil/eslint-config [4.1.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.0.2...@kettil/eslint-config@4.1.0) (2022-03-15)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-react from 7.29.3 to 7.29.4 ([1f7c052](https://github.com/kettil/ts-toolbox/commit/1f7c0528b542171f89b83806178f78bacbb8e315))
+
+
+### Features
+
+* **eslint-config:** disable the rule @typescript-eslint/method-signature-style ([44bfd54](https://github.com/kettil/ts-toolbox/commit/44bfd54110c8a94b6902bea3468d62843dbb02f9))
+* **eslint-config:** disable the rule unicorn/no-array-callback-reference for TS files ([53064ae](https://github.com/kettil/ts-toolbox/commit/53064aea68d6980dc13afc18de1bff0231063e72))
+* **eslint-config:** override the rule jest/require-top-level-describe for jest "setupTests" files ([dbf27cb](https://github.com/kettil/ts-toolbox/commit/dbf27cb34c3db17679dd7a652b5f9596be41f8cf))
+* **eslint-config:** update the rule unicorn/import-style ([85e5124](https://github.com/kettil/ts-toolbox/commit/85e5124cdf1735eba5b463e3abc5ddd90dd6ef45))
+
 ## @kettil/eslint-config [4.0.2](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.0.1...@kettil/eslint-config@4.0.2) (2022-03-13)
 
 
