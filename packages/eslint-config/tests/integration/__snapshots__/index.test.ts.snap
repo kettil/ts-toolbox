@@ -3069,7 +3069,7 @@ Object {
         ],
         "@typescript-eslint/consistent-type-definitions": Array [
           "error",
-          "interface",
+          "type",
         ],
         "@typescript-eslint/consistent-type-imports": Array [
           "error",
