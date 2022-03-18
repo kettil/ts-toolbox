@@ -3,7 +3,7 @@ import type { Applicable } from './applicable';
 import type { Case } from './case';
 import type { Level } from './level';
 
-interface ConfigObject {
+type ConfigObject = {
   extends?: string[] | string;
   rules?: {
     'body-full-stop'?: [Level, Applicable, string];
@@ -39,6 +39,6 @@ interface ConfigObject {
     'type-max-length'?: [Level, Applicable, number];
     'type-min-length'?: [Level, Applicable, number];
   };
-}
+};
 
 export type { ConfigObject };

@@ -1,4 +1,4 @@
-interface ParserOptions {
+type ParserOptions = {
   project?: string;
   sourceType?: 'module';
   ecmaVersion?: 'latest';
@@ -7,6 +7,6 @@ interface ParserOptions {
     impliedStrict?: false;
     jsx?: true;
   };
-}
+};
 
 export type { ParserOptions };

@@ -1,9 +1,9 @@
-interface EnvironmentType {
+type EnvironmentType = {
   (): NodeJS.ProcessEnv;
   (key: string): string;
   (key: string, defaultValue: string | (() => string)): string;
   (key: string, defaultValue: number | (() => number)): number;
-}
+};
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any -- the typing is overwritten. */
 const env: EnvironmentType = (key?: string, defaultValue?: number | string | (() => number | string)): any => {

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention -- The naming convention is given by eslint */
 type Extension = '.d.ts' | '.js' | '.jsx' | '.ts' | '.tsx';
 
-interface Settings {
+type Settings = {
   react?: { version?: 'detect' };
   'import/extensions'?: readonly Extension[];
   'import/external-module-folders'?: ['node_modules', 'node_modules/@types'];
@@ -11,6 +11,6 @@ interface Settings {
   'import/resolver'?: {
     node?: { extensions?: readonly Extension[] };
   };
-}
+};
 
 export type { Settings };
