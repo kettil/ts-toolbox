@@ -1,5 +1,21 @@
 # Changelog
 
+# @kettil/eslint-config [4.2.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.1.0...@kettil/eslint-config@4.2.0) (2022-03-22)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.14.0 to 5.15.0 ([60fb294](https://github.com/kettil/ts-toolbox/commit/60fb294ce5b63a7fcb941b673eb526b91f9530fa))
+* bump @typescript-eslint/parser from 5.14.0 to 5.15.0 ([9480c6d](https://github.com/kettil/ts-toolbox/commit/9480c6d5491cae3219417da56e1564e342eab1e5))
+* bump eslint-plugin-jest from 26.1.1 to 26.1.2 ([f7990db](https://github.com/kettil/ts-toolbox/commit/f7990db7eff29ec35a344435f481d3cbb814c8b1))
+* bump eslint-plugin-regexp from 1.5.1 to 1.6.0 ([b9d2055](https://github.com/kettil/ts-toolbox/commit/b9d2055b261f21c92f03ab0d5371ada61d63e9d5))
+* bump eslint-plugin-unicorn from 41.0.0 to 41.0.1 ([99240ec](https://github.com/kettil/ts-toolbox/commit/99240ec0e39aed566c9a5b750d62b9228038e67a))
+
+
+### Features
+
+* **eslint-config:** update the rule @typescript-eslint/consistent-type-definitions ([2576aed](https://github.com/kettil/ts-toolbox/commit/2576aedd175ec42a512efcb18fb61dea7e6849c5))
+
 # @kettil/eslint-config [4.1.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.0.2...@kettil/eslint-config@4.1.0) (2022-03-15)
 
 
