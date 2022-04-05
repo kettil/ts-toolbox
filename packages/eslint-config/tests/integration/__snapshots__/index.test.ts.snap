@@ -2743,6 +2743,9 @@ Object {
     "unicorn/prefer-modern-dom-apis": Array [
       "error",
     ],
+    "unicorn/prefer-modern-math-apis": Array [
+      "error",
+    ],
     "unicorn/prefer-module": Array [
       "off",
     ],
@@ -7774,6 +7777,9 @@ Object {
       "error",
     ],
     "unicorn/prefer-modern-dom-apis": Array [
+      "error",
+    ],
+    "unicorn/prefer-modern-math-apis": Array [
       "error",
     ],
     "unicorn/prefer-module": Array [
