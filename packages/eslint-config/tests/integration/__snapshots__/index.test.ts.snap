@@ -2625,6 +2625,9 @@ Object {
     "unicorn/no-unreadable-array-destructuring": Array [
       "error",
     ],
+    "unicorn/no-unreadable-iife": Array [
+      "error",
+    ],
     "unicorn/no-unsafe-regex": Array [
       "off",
     ],
@@ -7659,6 +7662,9 @@ Object {
       "error",
     ],
     "unicorn/no-unreadable-array-destructuring": Array [
+      "error",
+    ],
+    "unicorn/no-unreadable-iife": Array [
       "error",
     ],
     "unicorn/no-unsafe-regex": Array [
