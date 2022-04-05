@@ -7466,6 +7466,9 @@ Object {
       "error",
       "react",
     ],
+    "testing-library/no-global-regexp-flag-in-query": Array [
+      "off",
+    ],
     "testing-library/no-manual-cleanup": Array [
       "error",
     ],
