@@ -2752,6 +2752,9 @@ Object {
     "unicorn/prefer-module": Array [
       "off",
     ],
+    "unicorn/prefer-native-coercion-functions": Array [
+      "error",
+    ],
     "unicorn/prefer-negative-index": Array [
       "error",
     ],
@@ -7790,6 +7793,9 @@ Object {
     ],
     "unicorn/prefer-module": Array [
       "off",
+    ],
+    "unicorn/prefer-native-coercion-functions": Array [
+      "error",
     ],
     "unicorn/prefer-negative-index": Array [
       "error",
