@@ -1082,7 +1082,7 @@ Object {
       },
     ],
     "no-implicit-coercion": Array [
-      "off",
+      "error",
       Object {
         "allow": Array [],
         "boolean": false,
@@ -5521,7 +5521,7 @@ Object {
       },
     ],
     "no-implicit-coercion": Array [
-      "off",
+      "error",
       Object {
         "allow": Array [],
         "boolean": false,
