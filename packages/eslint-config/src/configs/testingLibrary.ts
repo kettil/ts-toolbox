@@ -14,6 +14,7 @@ const rules: Rules = {
   'testing-library/no-container': ['error'],
   'testing-library/no-debugging-utils': ['off'],
   'testing-library/no-dom-import': ['off'],
+  'testing-library/no-global-regexp-flag-in-query': ['off'],
   'testing-library/no-manual-cleanup': ['error'],
   'testing-library/no-node-access': ['error'],
   'testing-library/no-promise-in-fire-event': ['off'],
