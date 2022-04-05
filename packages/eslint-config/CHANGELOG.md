@@ -1,5 +1,15 @@
 # Changelog
 
+## @kettil/eslint-config [4.2.2](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.2.1...@kettil/eslint-config@4.2.2) (2022-04-05)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.16.0 to 5.17.0 ([82af9a7](https://github.com/kettil/ts-toolbox/commit/82af9a7de81fe74e95b79a8ba39131b912370b6a))
+* bump @typescript-eslint/parser from 5.16.0 to 5.17.0 ([82347bf](https://github.com/kettil/ts-toolbox/commit/82347bfe1d95981defae446033b6a7fb41cee12c))
+* bump eslint-plugin-react-hooks from 4.3.0 to 4.4.0 ([715df9a](https://github.com/kettil/ts-toolbox/commit/715df9aa476bb361aa2da98e5d09f86ccf6f27de))
+* bump eslint-plugin-sonarjs from 0.12.0 to 0.13.0 ([f9b4f14](https://github.com/kettil/ts-toolbox/commit/f9b4f1472914b9c089a6918c86e2c4656129f6e2))
+
 ## @kettil/eslint-config [4.2.1](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.2.0...@kettil/eslint-config@4.2.1) (2022-03-29)
 
 
