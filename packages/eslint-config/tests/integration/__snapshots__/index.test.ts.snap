@@ -2643,6 +2643,9 @@ Object {
     "unicorn/no-useless-spread": Array [
       "error",
     ],
+    "unicorn/no-useless-switch-case": Array [
+      "error",
+    ],
     "unicorn/no-useless-undefined": Array [
       "error",
     ],
@@ -7671,6 +7674,9 @@ Object {
       "error",
     ],
     "unicorn/no-useless-spread": Array [
+      "error",
+    ],
+    "unicorn/no-useless-switch-case": Array [
       "error",
     ],
     "unicorn/no-useless-undefined": Array [
