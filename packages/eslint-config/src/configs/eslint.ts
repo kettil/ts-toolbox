@@ -234,7 +234,7 @@ const rules: Rules = {
   'no-func-assign': ['error'],
   'no-global-assign': ['error', { exceptions: [] }],
   // eslint-disable-next-line id-denylist -- keywords are needed for the configuration
-  'no-implicit-coercion': ['off', { boolean: false, number: true, string: true, allow: [] }],
+  'no-implicit-coercion': ['error', { boolean: false, number: true, string: true, allow: [] }],
   'no-implicit-globals': ['off'],
   'no-implied-eval': ['error'],
   'no-import-assign': ['error'],
