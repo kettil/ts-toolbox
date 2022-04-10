@@ -2,11 +2,16 @@ test:
   - packages/*/tests/**/*"
 
 documentation:
+  - README.md
   - docs/**/*
+  - packages/*/README.md
   - packages/*/docs/**/*
 
 package/commitlint-config:
   - packages/commitlint-config/**/*
+
+package/errors:
+  - packages/errors/**/*
 
 package/eslint-config:
   - packages/eslint-config/**/*
