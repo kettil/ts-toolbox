@@ -17,6 +17,13 @@ module.exports = createJestConfig(__dirname, {
     createJestProject({
       color: 'yellow',
       testFolder: 'unit',
+      workspaceFolder: 'errors',
+      customeConfig: {},
+    }),
+
+    createJestProject({
+      color: 'yellow',
+      testFolder: 'unit',
       workspaceFolder: 'semantic-release-config',
       customeConfig: {},
     }),
