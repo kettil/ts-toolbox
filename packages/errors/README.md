@@ -1,4 +1,4 @@
-# Exceptions
+# Custom Errors
 
 [![npm](https://img.shields.io/npm/v/@kettil/errors)](https://www.npmjs.com/package/@kettil/errors)
 
