@@ -1,6 +1,6 @@
 import { normalizeErrorInstance } from './normalizeErrorInstance';
-import type { CustomErrorJson } from './types/customErrorJson';
 import type { CustomErrorProps } from './types/customErrorProps';
+import type { NormalizeErrorObject } from './types/normalizeErrorObject';
 
 abstract class CustomErrorAbstract<ErrorCode extends string> extends Error {
   readonly code: CustomErrorProps<ErrorCode>['code'];
@@ -20,7 +20,7 @@ abstract class CustomErrorAbstract<ErrorCode extends string> extends Error {
     this.statusCode = statusCode;
   }
 
-  toJSON(): Readonly<CustomErrorJson> {
+  toJSON(): Readonly<NormalizeErrorObject> {
     return normalizeErrorInstance(this);
   }
 }

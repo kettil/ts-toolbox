@@ -1,4 +1,5 @@
 import { ExternalServiceError } from './externalServiceError';
+import { GenericAggregateError } from './genericAggregateError';
 import { GenericError } from './genericError';
 import { NotImplementedError } from './notImplementedError';
 import { OutsideRangeError } from './outsideRangeError';
@@ -7,6 +8,7 @@ import { WrongTypeError } from './wrongTypeError';
 
 const defaultErrors = {
   ExternalServiceError,
+
   GenericError,
   NotImplementedError,
   OutsideRangeError,
@@ -14,4 +16,8 @@ const defaultErrors = {
   WrongTypeError,
 } as const;
 
-export { defaultErrors };
+const defaultAggregateErrors = {
+  GenericAggregateError,
+} as const;
+
+export { defaultErrors, defaultAggregateErrors };
