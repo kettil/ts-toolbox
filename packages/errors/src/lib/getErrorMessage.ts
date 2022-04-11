@@ -10,7 +10,7 @@ const getErrorMessage = <ErrorCode extends string>({
 }): string => {
   const { message } = metadata;
 
-  if (isString(message, true)) {
+  if (isString(message) && message.trim() !== '') {
     return message;
   }
 
