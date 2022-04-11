@@ -1,3 +1,5 @@
+/* eslint-disable max-classes-per-file -- test file */
+import { customAggregateError } from '../../../src';
 import { customError } from '../../../src/lib/customError';
 import { isError } from '../../../src/lib/isError';
 
@@ -30,6 +32,16 @@ describe('isError()', () => {
     class ErrorClass extends customError({ code: 'TestError' }) {}
 
     const parameter1 = new ErrorClass('message');
+
+    const isTruthy = isError(parameter1);
+
+    expect(isTruthy).toBeTruthy();
+  });
+
+  test('return true if called with customAggregateError instance', () => {
+    class ErrorClass extends customAggregateError({ code: 'TestError' }) {}
+
+    const parameter1 = new ErrorClass([]);
 
     const isTruthy = isError(parameter1);
 

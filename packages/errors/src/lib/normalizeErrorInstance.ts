@@ -1,17 +1,18 @@
-import { isObject, isString } from '@kettil/tools';
-import type { CustomErrorJson } from './types/customErrorJson';
+import { isArray, isObject, isString } from '@kettil/tools';
+import type { NormalizeErrorObject } from './types/normalizeErrorObject';
 
 const normalizeErrorInstance = (error: {
   message: string;
-  cause?: Error;
+  errors?: Array<AggregateError | Error>;
+  cause?: AggregateError | Error;
   stack?: string;
   code?: string;
   statusCode?: number;
   data?: Record<number | string, unknown>;
-}): Readonly<CustomErrorJson> => {
-  const { message, cause, stack, code, data } = error;
+}): Readonly<NormalizeErrorObject> => {
+  const { message, cause, errors, stack, code, data } = error;
 
-  const json: CustomErrorJson = {
+  const json: NormalizeErrorObject = {
     code: code ?? 'Error',
     message,
   };
@@ -30,6 +31,10 @@ const normalizeErrorInstance = (error: {
 
   if (cause instanceof Error) {
     json.cause = normalizeErrorInstance(cause);
+  }
+
+  if (isArray(errors) && errors.length > 0) {
+    json.errors = errors.map((v) => normalizeErrorInstance(v));
   }
 
   return json;

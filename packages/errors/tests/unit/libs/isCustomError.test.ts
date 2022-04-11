@@ -1,5 +1,6 @@
 /* eslint-disable max-classes-per-file -- test file */
 import { customError } from '../../../src/lib/customError';
+import { GenericAggregateError } from '../../../src/lib/defaultErrors/genericAggregateError';
 import { isCustomError } from '../../../src/lib/isCustomError';
 
 describe('isCustomError()', () => {
@@ -30,6 +31,14 @@ describe('isCustomError()', () => {
     const parameter1 = new ErrorClass('message');
 
     const isTruthy = isCustomError(parameter1, ErrorClassType);
+
+    expect(isTruthy).toBeFalsy();
+  });
+
+  test('return false if called with "CustomAggregateError" instance', () => {
+    const parameter1 = new GenericAggregateError([]);
+
+    const isTruthy = isCustomError(parameter1);
 
     expect(isTruthy).toBeFalsy();
   });
