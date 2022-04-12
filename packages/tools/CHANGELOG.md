@@ -1,5 +1,17 @@
 # Changelog
 
+# @kettil/tools [4.1.0](https://github.com/kettil/ts-toolbox/compare/@kettil/tools@4.0.0...@kettil/tools@4.1.0) (2022-04-12)
+
+
+### Bug Fixes
+
+* **tools:** remove the isString extension, because it can lead to incorrect type checking ([182a4dd](https://github.com/kettil/ts-toolbox/commit/182a4dd244657069365aae584e3964fd960c16bf))
+
+
+### Features
+
+* **tools:** isString extended by a check for empty string ([2935c98](https://github.com/kettil/ts-toolbox/commit/2935c9887bf40cd4aa190229f2ee6540c7ff7c3a))
+
 # @kettil/tools [4.0.0](https://github.com/kettil/ts-toolbox/compare/@kettil/tools@3.3.2...@kettil/tools@4.0.0) (2022-03-13)
 
 
