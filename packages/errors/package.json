@@ -1,6 +1,6 @@
 {
   "name": "@kettil/errors",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple creation of customized error classes.",
   "license": "MIT",
   "contributors": [
@@ -37,6 +37,6 @@
   },
   "scripts": {},
   "dependencies": {
-    "@kettil/tools": "4.0.0"
+    "@kettil/tools": "4.1.0"
   }
 }
