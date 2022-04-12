@@ -1,5 +1,27 @@
 # Changelog
 
+# @kettil/eslint-config [4.3.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.2.2...@kettil/eslint-config@4.3.0) (2022-04-12)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.17.0 to 5.18.0 ([eb67da1](https://github.com/kettil/ts-toolbox/commit/eb67da17acdab1a13906416fd2421a0dd22f9ab6))
+* bump @typescript-eslint/parser from 5.17.0 to 5.18.0 ([f79121b](https://github.com/kettil/ts-toolbox/commit/f79121b9af5ae776b3d09014c54c1aa7faffa26b))
+* bump eslint-plugin-import from 2.25.4 to 2.26.0 ([1aa4bf3](https://github.com/kettil/ts-toolbox/commit/1aa4bf301c834a803d129b62cec72545aa45729f))
+* bump eslint-plugin-jest from 26.1.3 to 26.1.4 ([107ee5b](https://github.com/kettil/ts-toolbox/commit/107ee5b503c9e16c324a0d803613dad0a3e77853))
+* bump eslint-plugin-testing-library from 5.1.0 to 5.2.1 ([dc95c29](https://github.com/kettil/ts-toolbox/commit/dc95c29e5e07c88cb97082292501050d45ea13d7))
+* bump eslint-plugin-unicorn from 41.0.1 to 42.0.0 ([12a2b68](https://github.com/kettil/ts-toolbox/commit/12a2b68aa9cd606e6bc77fa9a86a6c097bd5c1f7))
+
+
+### Features
+
+* **eslint-config:** activate the rule no-implicit-coercion ([d84fa93](https://github.com/kettil/ts-toolbox/commit/d84fa93ed9a4d424094609c0c2853ac11f5da238))
+* **eslint-config:** add the rule testing-library/no-global-regexp-flag-in-query ([6d1b89c](https://github.com/kettil/ts-toolbox/commit/6d1b89c1302a8d0a8589531b312ff923b84437af))
+* **eslint-config:** add the rule unicorn/no-unreadable-iife ([dfc479d](https://github.com/kettil/ts-toolbox/commit/dfc479d4a5d4876ef730b4fe10e88c109b985bc7))
+* **eslint-config:** add the rule unicorn/no-useless-switch-case ([2f9fca6](https://github.com/kettil/ts-toolbox/commit/2f9fca6e7115b5724796e12ea8573245074307de))
+* **eslint-config:** add the rule unicorn/prefer-modern-math-apis ([d063dcc](https://github.com/kettil/ts-toolbox/commit/d063dccd292550bf6be3e1eed34b60361fefb4a6))
+* **eslint-config:** add the rule unicorn/prefer-native-coercion-functions ([0b4039b](https://github.com/kettil/ts-toolbox/commit/0b4039bd0db85b70501e78cf76d099e28fa1db1b))
+
 ## @kettil/eslint-config [4.2.2](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.2.1...@kettil/eslint-config@4.2.2) (2022-04-05)
 
 
