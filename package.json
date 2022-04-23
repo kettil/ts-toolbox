@@ -20,8 +20,8 @@
     "clean": "rm -rf ./node_modules ./packages/*/node_modules && npm run precarna:build",
     "precarna:build": "rm -rf ./build ./packages/*/build",
     "prepare": "[ \"$CI\" != \"\" ] || ( ls node_modules/husky > /dev/null 2>&1 && husky install ./node_modules/carna/configs/husky )",
-    "test:watch": "npx carna test -w",
-    "test": "npx carna test"
+    "test": "npx carna test",
+    "test:watch": "npx carna test -w"
   },
   "workspaces": [
     "packages/*"

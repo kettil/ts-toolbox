@@ -24,6 +24,13 @@ module.exports = createJestConfig(__dirname, {
     createJestProject({
       color: 'yellow',
       testFolder: 'unit',
+      workspaceFolder: 'npm-package-json-lint-config',
+      customeConfig: {},
+    }),
+
+    createJestProject({
+      color: 'yellow',
+      testFolder: 'unit',
       workspaceFolder: 'semantic-release-config',
       customeConfig: {},
     }),
