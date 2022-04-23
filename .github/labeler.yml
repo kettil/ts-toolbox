@@ -16,6 +16,9 @@ package/errors:
 package/eslint-config:
   - packages/eslint-config/**/*
 
+package/npm-package-json-lint-config:
+  - packages/npm-package-json-lint-config/**/*
+
 package/semantic-release-config:
   - packages/semantic-release-config/**/*
 
