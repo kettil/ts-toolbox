@@ -1,6 +1,0 @@
-{
-  "extends": "@kettil/npm-package-json-lint-config",
-  "rules": {
-    "valid-values-name-scope": ["error", ["@kettil"]]
-  }
-}
