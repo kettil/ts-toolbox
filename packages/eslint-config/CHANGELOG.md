@@ -1,5 +1,13 @@
 # Changelog
 
+## @kettil/eslint-config [4.3.2](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.3.1...@kettil/eslint-config@4.3.2) (2022-04-23)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.19.0 to 5.20.0 ([a4e68ff](https://github.com/kettil/ts-toolbox/commit/a4e68ff67d58a44a9526b4406267f15b82516ec1))
+* bump @typescript-eslint/parser from 5.19.0 to 5.20.0 ([f111ad5](https://github.com/kettil/ts-toolbox/commit/f111ad5ff372411e0aa166724413b91835387067))
+
 ## @kettil/eslint-config [4.3.1](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.3.0...@kettil/eslint-config@4.3.1) (2022-04-19)
 
 
