@@ -7,11 +7,11 @@ const config: DefaultObject = {
   rules: {
     ...defaultConfig.rules,
 
+    'require-dependencies': 'off',
+    'require-homepage': 'off',
+    'require-keywords': 'off',
     'require-publishConfig': 'off',
-
-    'repository-type': 'off',
-    'homepage-type': 'off',
-    'keywords-type': 'off',
+    'require-repository': 'off',
 
     'valid-values-private': ['error', [true]],
   },
