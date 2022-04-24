@@ -1,22 +1,15 @@
 {
   "name": "@kettil/semantic-release-config",
   "version": "2.0.3",
-  "description": "The library contains the semantic-release configuration",
+  "description": "The library contains the semantic-release configuration.",
   "license": "MIT",
+  "private": false,
   "contributors": [
     {
       "name": "Kjell Dießel",
       "email": "development@kettil.de"
     }
   ],
-  "keywords": ["semantic-release"],
-  "engines": {
-    "node": ">=16.12",
-    "npm": ">=8.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "releaserc.js",
   "types": "build/index.d.ts",
   "exports": {
@@ -25,6 +18,11 @@
     }
   },
   "scripts": {},
+  "dependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1"
+  },
+  "devDependencies": {},
   "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/semantic-release-config#readme",
   "repository": {
     "type": "git",
@@ -33,8 +31,12 @@
   "bugs": {
     "url": "https://github.com/kettil/ts-toolbox/issues/new"
   },
-  "dependencies": {
-    "@semantic-release/changelog": "6.0.1",
-    "@semantic-release/git": "10.0.1"
+  "keywords": ["semantic-release"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
   }
 }

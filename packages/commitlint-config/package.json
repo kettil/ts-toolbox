@@ -1,14 +1,33 @@
 {
   "name": "@kettil/commitlint-config",
   "version": "2.0.2",
-  "description": "The library contains the commitlint configuration",
+  "description": "The library contains the commitlint configuration.",
   "license": "MIT",
+  "private": true,
   "contributors": [
     {
       "name": "Kjell Dießel",
       "email": "development@kettil.de"
     }
   ],
+  "main": "commitlint.js",
+  "types": "build/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./commitlint.js"
+    }
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/commitlint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/ts-toolbox"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/ts-toolbox/issues/new"
+  },
   "keywords": [
     "commitlint"
   ],
@@ -18,21 +37,5 @@
   "engines": {
     "node": ">=16.12",
     "npm": ">=8.1"
-  },
-  "main": "commitlint.js",
-  "types": "build/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./commitlint.js"
-    }
-  },
-  "scripts": {},
-  "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/commitlint-config#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kettil/ts-toolbox"
-  },
-  "bugs": {
-    "url": "https://github.com/kettil/ts-toolbox/issues/new"
   }
 }

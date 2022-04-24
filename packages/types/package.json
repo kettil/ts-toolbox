@@ -1,24 +1,15 @@
 {
   "name": "@kettil/types",
   "version": "1.0.0",
-  "description": "A collection from differents helper types",
+  "description": "A collection from differents helper types.",
   "license": "MIT",
+  "private": false,
   "contributors": [
     {
       "name": "Kjell Dießel",
       "email": "development@kettil.de"
     }
   ],
-  "keywords": [
-    "types"
-  ],
-  "engines": {
-    "node": ">=16.12",
-    "npm": ">=8.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "exports": {
@@ -26,6 +17,9 @@
       "require": "./build/index.js"
     }
   },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
   "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/types#readme",
   "repository": {
     "type": "git",
@@ -34,5 +28,14 @@
   "bugs": {
     "url": "https://github.com/kettil/ts-toolbox/issues/new"
   },
-  "scripts": {}
+  "keywords": [
+    "types"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
+  }
 }
