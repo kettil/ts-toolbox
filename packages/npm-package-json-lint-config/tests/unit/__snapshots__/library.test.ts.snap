@@ -79,6 +79,7 @@ Object {
         "types",
         "module",
         "bin",
+        "workspaces",
         "scripts",
         "dependencies",
         "devDependencies",
