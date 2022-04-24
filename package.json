@@ -2,18 +2,17 @@
   "name": "toolbox",
   "version": "0.1.0",
   "description": "The central package.json for this monorepo.",
-  "private": true,
   "license": "MIT",
+  "private": true,
   "contributors": [
     {
       "name": "Kjell Dießel",
       "email": "development@kettil.de"
     }
   ],
-  "engines": {
-    "node": ">=16.12",
-    "npm": ">=8.1"
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "analyse": "npx carna analyse",
     "build": "npx carna build",
@@ -23,14 +22,15 @@
     "test": "npx carna test",
     "test:watch": "npx carna test -w"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@commitlint/config-lerna-scopes": "16.2.2",
     "@types/node": "17.0.26",
     "carna": "7.1.6",
     "multi-semantic-release": "2.12.0",
     "typescript": "4.6.3"
+  },
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
   }
 }

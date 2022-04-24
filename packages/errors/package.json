@@ -3,23 +3,13 @@
   "version": "1.0.0",
   "description": "Simple creation of customized error classes.",
   "license": "MIT",
+  "private": false,
   "contributors": [
     {
       "name": "Kjell Dießel",
       "email": "development@kettil.de"
     }
   ],
-  "keywords": [
-    "error",
-    "exceptions"
-  ],
-  "engines": {
-    "node": ">=16.12",
-    "npm": ">=8.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "exports": {
@@ -27,6 +17,11 @@
       "require": "./build/index.js"
     }
   },
+  "scripts": {},
+  "dependencies": {
+    "@kettil/tools": "4.1.0"
+  },
+  "devDependencies": {},
   "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/errors#readme",
   "repository": {
     "type": "git",
@@ -35,8 +30,15 @@
   "bugs": {
     "url": "https://github.com/kettil/ts-toolbox/issues/new"
   },
-  "scripts": {},
-  "dependencies": {
-    "@kettil/tools": "4.1.0"
+  "keywords": [
+    "error",
+    "exceptions"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
   }
 }

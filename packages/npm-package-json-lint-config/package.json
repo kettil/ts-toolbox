@@ -1,26 +1,15 @@
 {
   "name": "@kettil/npm-package-json-lint-config",
   "version": "1.1.0",
-  "description": "The library is a collection of npm-package-json-lint rules",
+  "description": "The library is a collection of npm-package-json-lint rules.",
   "license": "MIT",
+  "private": false,
   "contributors": [
     {
       "name": "Kjell Dießel",
       "email": "development@kettil.de"
     }
   ],
-  "keywords": [
-    "lint",
-    "npm-package-json-lint",
-    "package.json"
-  ],
-  "engines": {
-    "node": ">=16.12",
-    "npm": ">=8.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "library.js",
   "types": "build/index.d.ts",
   "exports": {
@@ -40,6 +29,9 @@
       "require": "./monorepo.js"
     }
   },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
   "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/npm-package-json-lint-config#readme",
   "repository": {
     "type": "git",
@@ -48,7 +40,16 @@
   "bugs": {
     "url": "https://github.com/kettil/ts-toolbox/issues/new"
   },
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "keywords": [
+    "lint",
+    "npm-package-json-lint",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
+  }
 }

@@ -1,24 +1,15 @@
 {
   "name": "@kettil/tools",
   "version": "4.1.0",
-  "description": "A collection from differents helper functions",
+  "description": "A collection from differents helper functions.",
   "license": "MIT",
+  "private": false,
   "contributors": [
     {
       "name": "Kjell Dießel",
       "email": "development@kettil.de"
     }
   ],
-  "keywords": [
-    "tools"
-  ],
-  "engines": {
-    "node": ">=16.12",
-    "npm": ">=8.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "exports": {
@@ -26,6 +17,11 @@
       "require": "./build/index.js"
     }
   },
+  "scripts": {},
+  "dependencies": {
+    "@kettil/types": "1.0.0"
+  },
+  "devDependencies": {},
   "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/tools#readme",
   "repository": {
     "type": "git",
@@ -34,8 +30,14 @@
   "bugs": {
     "url": "https://github.com/kettil/ts-toolbox/issues/new"
   },
-  "scripts": {},
-  "dependencies": {
-    "@kettil/types": "1.0.0"
+  "keywords": [
+    "tools"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
   }
 }
