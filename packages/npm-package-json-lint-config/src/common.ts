@@ -144,6 +144,7 @@ const config: DefaultObject = {
         'types',
         'module',
         'bin',
+        'workspaces',
         'scripts',
         'dependencies',
         'devDependencies',
