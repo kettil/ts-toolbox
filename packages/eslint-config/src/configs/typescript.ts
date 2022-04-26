@@ -149,6 +149,7 @@ const rules: Rules = {
   '@typescript-eslint/return-await': ['error', 'in-try-catch'],
   '@typescript-eslint/semi': eslintRules.semi,
   '@typescript-eslint/sort-type-union-intersection-members': ['error'],
+  '@typescript-eslint/space-before-blocks': eslintRules['space-before-blocks'],
   '@typescript-eslint/space-before-function-paren': eslintRules['space-before-function-paren'],
   '@typescript-eslint/space-infix-ops': eslintRules['space-infix-ops'],
   '@typescript-eslint/strict-boolean-expressions': [
@@ -205,6 +206,7 @@ const rules: Rules = {
   'prefer-rest-params': ['error'],
   'prefer-spread': ['error'],
   'require-await': ['off'], // see @typescript-eslint/require-await
+  'space-before-blocks': ['off'], // see @typescript-eslint/space-before-blocks
   'space-before-function-paren': ['off'], // @typescript-eslint/space-before-function-paren
   'space-infix-ops': ['off'], // see @typescript-eslint/space-infix-ops
   camelcase: ['off'], // see @typescript-eslint/naming-convention
