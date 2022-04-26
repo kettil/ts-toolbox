@@ -3343,6 +3343,9 @@ Object {
         "@typescript-eslint/no-redeclare": Array [
           "error",
         ],
+        "@typescript-eslint/no-redundant-type-constituents": Array [
+          "error",
+        ],
         "@typescript-eslint/no-require-imports": Array [
           "error",
         ],
