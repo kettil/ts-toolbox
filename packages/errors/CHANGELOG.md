@@ -1,5 +1,12 @@
 # Changelog
 
+# @kettil/errors [1.1.0](https://github.com/kettil/ts-toolbox/compare/@kettil/errors@1.0.0...@kettil/errors@1.1.0) (2022-04-26)
+
+
+### Features
+
+* **errors:** make data keys required fields ([9f34376](https://github.com/kettil/ts-toolbox/commit/9f34376a545c3d8f311c694a4aba380cf017bf05))
+
 # @kettil/errors 1.0.0 (2022-04-12)
 
 
