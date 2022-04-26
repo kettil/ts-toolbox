@@ -1,27 +1,24 @@
-import { normalizeErrorInstance } from './normalizeErrorInstance';
-import type { CustomErrorProps } from './types/customErrorProps';
+import { normalizeErrorInstanceToObject } from './normalizeErrorInstanceToObject';
+import type { CustomErrorAbstractProps } from './types/customErrorAbstractProps';
 import type { NormalizeErrorObject } from './types/normalizeErrorObject';
 
 abstract class CustomErrorAbstract<ErrorCode extends string> extends Error {
-  readonly code: CustomErrorProps<ErrorCode>['code'];
+  readonly code: CustomErrorAbstractProps<ErrorCode>['code'];
 
-  readonly statusCode: CustomErrorProps<ErrorCode>['statusCode'];
+  readonly statusCode: CustomErrorAbstractProps<ErrorCode>['statusCode'];
 
-  readonly data?: CustomErrorProps<ErrorCode>['data'];
+  readonly data?: CustomErrorAbstractProps<ErrorCode>['data'];
 
-  override readonly cause?: Error['cause'];
-
-  constructor({ code, data, message, cause, statusCode }: CustomErrorProps<ErrorCode>) {
-    super(message);
+  constructor({ code, data, message, cause, statusCode }: CustomErrorAbstractProps<ErrorCode>) {
+    super(message, { cause });
 
     this.code = code;
     this.data = data;
-    this.cause = cause;
     this.statusCode = statusCode;
   }
 
   toJSON(): Readonly<NormalizeErrorObject> {
-    return normalizeErrorInstance(this);
+    return normalizeErrorInstanceToObject(this);
   }
 }
 

@@ -1,12 +1,24 @@
 import type { CustomAggregateErrorAbstract } from '../customAggregateErrorAbstract';
-import type { CustomAggregateErrorParameter } from './customAggregateErrorParameter';
 import type { CustomAggregateErrorProps } from './customAggregateErrorProps';
 
-type CustomAggregateErrorClass<ErrorCode extends string = string> = {
-  new (errors: CustomAggregateErrorProps<ErrorCode>['errors']): CustomAggregateErrorAbstract<ErrorCode>;
-  new (metadata: CustomAggregateErrorParameter): CustomAggregateErrorAbstract<ErrorCode>;
+type CustomAggregateErrorClass<
+  ErrorCode extends string,
+  RequiredDataKeys extends readonly string[] | undefined,
+> = RequiredDataKeys extends readonly string[]
+  ? {
+    new (
+      metadata: CustomAggregateErrorProps & {
+        readonly data: Record<RequiredDataKeys[number], unknown>;
+      },
+    ): CustomAggregateErrorAbstract<ErrorCode>;
 
-  readonly code: ErrorCode;
-};
+    readonly code: ErrorCode;
+  }
+  : {
+    new (errors: CustomAggregateErrorProps['errors']): CustomAggregateErrorAbstract<ErrorCode>;
+    new (metadata: CustomAggregateErrorProps): CustomAggregateErrorAbstract<ErrorCode>;
+
+    readonly code: ErrorCode;
+  };
 
 export type { CustomAggregateErrorClass };

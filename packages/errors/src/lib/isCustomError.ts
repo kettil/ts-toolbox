@@ -4,7 +4,7 @@ import type { CustomErrorClass } from './types/customErrorClass';
 
 const isCustomError = <ErrorName extends string>(
   error: unknown,
-  errorType?: CustomErrorClass<ErrorName>,
+  errorType?: CustomErrorClass<ErrorName, string[] | undefined>,
 ): error is CustomErrorAbstract<ErrorName> =>
   isError(error) && error instanceof CustomErrorAbstract && (errorType === undefined || errorType.code === error.code);
 

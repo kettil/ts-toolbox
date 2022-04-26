@@ -1,8 +1,6 @@
-type CustomErrorProps<ErrorCode extends string> = {
-  readonly code: ErrorCode;
-  readonly message: string;
-  readonly statusCode: number;
-  readonly data?: Record<number | string, unknown>;
+type CustomErrorProps = {
+  readonly message?: string;
+  readonly data?: Record<string, unknown>;
   readonly cause?: Error['cause'];
 };
 

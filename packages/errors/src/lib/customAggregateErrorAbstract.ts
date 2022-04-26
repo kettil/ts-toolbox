@@ -1,27 +1,27 @@
-import { normalizeErrorInstance } from './normalizeErrorInstance';
-import type { CustomAggregateErrorProps } from './types/customAggregateErrorProps';
+import { normalizeErrorInstanceToObject } from './normalizeErrorInstanceToObject';
+import type { CustomAggregateErrorAbstractProps } from './types/customAggregateErrorAbstractProps';
 import type { NormalizeErrorObject } from './types/normalizeErrorObject';
 
 abstract class CustomAggregateErrorAbstract<ErrorCode extends string> extends AggregateError {
-  readonly code: CustomAggregateErrorProps<ErrorCode>['code'];
+  readonly code: CustomAggregateErrorAbstractProps<ErrorCode>['code'];
 
-  readonly statusCode: CustomAggregateErrorProps<ErrorCode>['statusCode'];
+  readonly statusCode: CustomAggregateErrorAbstractProps<ErrorCode>['statusCode'];
 
-  readonly data?: CustomAggregateErrorProps<ErrorCode>['data'];
+  readonly data?: CustomAggregateErrorAbstractProps<ErrorCode>['data'];
 
-  override readonly errors: CustomAggregateErrorProps<ErrorCode>['errors'];
+  // In the context of the Aggregate Error the "cause" variable should not be used.
+  override readonly cause: undefined = undefined;
 
-  constructor({ code, data, message, errors, statusCode }: CustomAggregateErrorProps<ErrorCode>) {
-    super(message);
+  constructor({ code, data, message, errors, statusCode }: CustomAggregateErrorAbstractProps<ErrorCode>) {
+    super(errors, message);
 
     this.code = code;
     this.data = data;
-    this.errors = errors;
     this.statusCode = statusCode;
   }
 
   toJSON(): Readonly<NormalizeErrorObject> {
-    return normalizeErrorInstance(this);
+    return normalizeErrorInstanceToObject(this);
   }
 }
 
