@@ -3467,6 +3467,9 @@ Object {
             ],
           },
         ],
+        "@typescript-eslint/parameter-properties": Array [
+          "off",
+        ],
         "@typescript-eslint/prefer-as-const": Array [
           "error",
         ],
