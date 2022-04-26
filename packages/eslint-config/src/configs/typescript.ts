@@ -96,6 +96,7 @@ const rules: Rules = {
   '@typescript-eslint/no-non-null-assertion': ['warn'],
   '@typescript-eslint/no-parameter-properties': ['off'],
   '@typescript-eslint/no-redeclare': eslintRules['no-redeclare'],
+  '@typescript-eslint/no-redundant-type-constituents': ['error'],
   '@typescript-eslint/no-require-imports': ['error'],
   '@typescript-eslint/no-restricted-imports': ['off'],
   '@typescript-eslint/no-shadow': eslintRules['no-shadow'],
