@@ -1,5 +1,23 @@
 # Changelog
 
+# @kettil/eslint-config [4.4.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.3.3...@kettil/eslint-config@4.4.0) (2022-04-26)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.20.0 to 5.21.0 ([c58dcae](https://github.com/kettil/ts-toolbox/commit/c58dcaeb0acd2451942abc59ffea49fa49149fce))
+* bump @typescript-eslint/parser from 5.20.0 to 5.21.0 ([2dfe5f6](https://github.com/kettil/ts-toolbox/commit/2dfe5f6a92de0fc9c54684afd63d1b4027564a8c))
+
+
+### Features
+
+* **eslint-config:** add the rule @typescript-eslint/consistent-type-exports ([0c4e8fb](https://github.com/kettil/ts-toolbox/commit/0c4e8fb5157c534c4c362248daf85052363a3ff3))
+* **eslint-config:** add the rule @typescript-eslint/no-redundant-type-constituents ([f2ef7ee](https://github.com/kettil/ts-toolbox/commit/f2ef7ee7732ed6fe753b4b759f326b8d17b4b5e1))
+* **eslint-config:** add the rule @typescript-eslint/no-useless-empty-export ([964e9c4](https://github.com/kettil/ts-toolbox/commit/964e9c43dc8df297f9c7472eaba7fdda8296f306))
+* **eslint-config:** add the rule @typescript-eslint/parameter-properties ([50fde4d](https://github.com/kettil/ts-toolbox/commit/50fde4d31f2eeb6cae2ea08ce4e17f37d4c44161))
+* **eslint-config:** add the rule @typescript-eslint/space-before-blocks ([7c399ae](https://github.com/kettil/ts-toolbox/commit/7c399ae2a19755bb3377958ff3d910cf8e6550b8))
+* **eslint-config:** add the rule no-constant-binary-expression ([8b2de11](https://github.com/kettil/ts-toolbox/commit/8b2de11a91bceafc98c5bd354408daa5c5a84f0f))
+
 ## @kettil/eslint-config [4.3.3](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.3.2...@kettil/eslint-config@4.3.3) (2022-04-26)
 
 
