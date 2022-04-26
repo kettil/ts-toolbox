@@ -271,4 +271,4 @@ const createTypescriptConfig = (): DefaultObject => {
   return config;
 };
 
-export { createTypescriptConfig };
+export { createTypescriptConfig, rules as typescriptRules };
