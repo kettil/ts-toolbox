@@ -1,5 +1,13 @@
 # Changelog
 
+## @kettil/eslint-config [4.3.3](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.3.2...@kettil/eslint-config@4.3.3) (2022-04-26)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-jest from 26.1.4 to 26.1.5 ([e30e544](https://github.com/kettil/ts-toolbox/commit/e30e5444fd4e4b79fa46228206a0e80b78ada3a3))
+* bump eslint-plugin-regexp from 1.6.0 to 1.7.0 ([c582e2f](https://github.com/kettil/ts-toolbox/commit/c582e2f569bd836313e444cebfda5cc03f1443bf))
+
 ## @kettil/eslint-config [4.3.2](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.3.1...@kettil/eslint-config@4.3.2) (2022-04-23)
 
 
