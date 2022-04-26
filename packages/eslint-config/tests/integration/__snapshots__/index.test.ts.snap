@@ -3573,6 +3573,9 @@ Object {
         "@typescript-eslint/sort-type-union-intersection-members": Array [
           "error",
         ],
+        "@typescript-eslint/space-before-blocks": Array [
+          "error",
+        ],
         "@typescript-eslint/space-before-function-paren": Array [
           "error",
           Object {
@@ -3753,6 +3756,9 @@ Object {
           "off",
         ],
         "semi": Array [
+          "off",
+        ],
+        "space-before-blocks": Array [
           "off",
         ],
         "space-before-function-paren": Array [
