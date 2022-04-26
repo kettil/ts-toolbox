@@ -183,4 +183,4 @@ const createUnicornConfig = (): DefaultObject => ({
   overrides: [...overrides, ...(hasLibrary('next') ? nextOverrides : [])],
 });
 
-export { createUnicornConfig };
+export { createUnicornConfig, rules as unicornRules };
