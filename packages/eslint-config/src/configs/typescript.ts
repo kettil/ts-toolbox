@@ -120,6 +120,7 @@ const rules: Rules = {
   '@typescript-eslint/non-nullable-type-assertion-style': ['error'],
   '@typescript-eslint/object-curly-spacing': ['error', 'always'],
   '@typescript-eslint/padding-line-between-statements': eslintRules['padding-line-between-statements'],
+  '@typescript-eslint/parameter-properties': ['off'],
   '@typescript-eslint/prefer-as-const': ['error'],
   '@typescript-eslint/prefer-enum-initializers': ['error'],
   '@typescript-eslint/prefer-for-of': ['off'],
