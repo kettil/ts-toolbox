@@ -964,6 +964,9 @@ Object {
     "no-const-assign": Array [
       "error",
     ],
+    "no-constant-binary-expression": Array [
+      "error",
+    ],
     "no-constant-condition": Array [
       "error",
     ],
@@ -5422,6 +5425,9 @@ Object {
       "error",
     ],
     "no-const-assign": Array [
+      "error",
+    ],
+    "no-constant-binary-expression": Array [
       "error",
     ],
     "no-constant-condition": Array [
