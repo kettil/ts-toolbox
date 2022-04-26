@@ -1,7 +1,7 @@
 import { isArray, isObject, isString } from '@kettil/tools';
 import type { NormalizeErrorObject } from './types/normalizeErrorObject';
 
-const normalizeErrorInstance = (error: {
+const normalizeErrorInstanceToObject = (error: {
   message: string;
   errors?: Array<AggregateError | Error>;
   cause?: AggregateError | Error;
@@ -30,14 +30,14 @@ const normalizeErrorInstance = (error: {
   }
 
   if (cause instanceof Error) {
-    json.cause = normalizeErrorInstance(cause);
+    json.cause = normalizeErrorInstanceToObject(cause);
   }
 
   if (isArray(errors) && errors.length > 0) {
-    json.errors = errors.map((v) => normalizeErrorInstance(v));
+    json.errors = errors.map((v) => normalizeErrorInstanceToObject(v));
   }
 
   return json;
 };
 
-export { normalizeErrorInstance };
+export { normalizeErrorInstanceToObject };

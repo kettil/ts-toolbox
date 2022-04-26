@@ -4,7 +4,7 @@ import type { CustomAggregateErrorClass } from './types/customAggregateErrorClas
 
 const isCustomAggregateError = <ErrorName extends string>(
   error: unknown,
-  errorType?: CustomAggregateErrorClass<ErrorName>,
+  errorType?: CustomAggregateErrorClass<ErrorName, string[] | undefined>,
 ): error is CustomAggregateErrorAbstract<ErrorName> =>
   isError(error) &&
   error instanceof CustomAggregateErrorAbstract &&

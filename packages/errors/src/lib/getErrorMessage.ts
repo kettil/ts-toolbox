@@ -1,11 +1,11 @@
 import { isString } from '@kettil/tools';
 import type { CustomErrorProps } from './types/customErrorProps';
 
-const getErrorMessage = <ErrorCode extends string>({
+const getErrorMessage = ({
   metadata,
   defaultMessage,
 }: {
-  metadata: Partial<CustomErrorProps<ErrorCode>>;
+  metadata: CustomErrorProps;
   defaultMessage: string;
 }): string => {
   const { message } = metadata;

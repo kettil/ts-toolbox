@@ -46,22 +46,29 @@ class ExampleError extends customError({
   // "defaultMessage" is undefined, then the converted "code"
   // value is used. ("UniqueErrorCode" => "Unique error code.")
   defaultMessage: 'Error message.', // optional
+  // Which keys are required in the data object, then when
+  // throwing the error, an object must always be passed where
+  // the object "data" has the defined keys.
+  requiredDataKeys: ['key1'] as const, // optional
 })
 
 // The simplest kind. Error message is the default message.
+// The call is only possible if "requiredDataKeys" is undefined.
 throw new ExampleError();
 
 // The natural kind. Overwrites the default message.
+// The call is only possible if "requiredDataKeys" is undefined.
 throw new ExampleError('Other error message.');
 
 // The complete kind. All parameters are optional.
+// If "requiredDataKeys" is defined, then "data" is required
 throw new ExampleError({
   message: 'Error message.',
-  // Status code for the web API context.
-  statusCode: 404,
   // Error instance from a previous error.
   cause: otherErrorVariable,
   // Additional data relevant to the context of the error.
+  // If "requiredDataKeys" is defined, then the object
+  // must contain the defined keys.
   data: { foo: 42 },
 });
 ```
@@ -83,18 +90,24 @@ class ExampleAggregateError extends customAggregateError({
   // "defaultMessage" is undefined, then the converted "code"
   // value is used. ("UniqueErrorCode" => "Unique error code.")
   defaultMessage: 'Error message.', // optional
+  // Which keys are required in the data object, then when
+  // throwing the error, an object must always be passed where
+  // the object "data" has the defined keys.
+  requiredDataKeys: ['key1'] as const, // optional
 })
 
 // The simplest kind. An array with errors
+// The call is only possible if "requiredDataKeys" is undefined.
 throw new ExampleAggregateError([/* ... */]);
 
 // The complete kind. All parameters except "errors" are optional.
+// If "requiredDataKeys" is defined, then "data" is required
 throw new ExampleAggregateError({
   errors: [/* ... */],
   message: 'Error message.',
-  // Status code for the web API context.
-  statusCode: 404,
   // Additional data relevant to the context of the error.
+  // If "requiredDataKeys" is defined, then the object
+  // must contain the defined keys.
   data: { foo: 42 },
 });
 ```
