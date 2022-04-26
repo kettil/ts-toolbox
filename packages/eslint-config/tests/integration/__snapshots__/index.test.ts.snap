@@ -3417,6 +3417,9 @@ Object {
         "@typescript-eslint/no-useless-constructor": Array [
           "error",
         ],
+        "@typescript-eslint/no-useless-empty-export": Array [
+          "error",
+        ],
         "@typescript-eslint/no-var-requires": Array [
           "error",
         ],

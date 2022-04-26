@@ -118,6 +118,7 @@ const rules: Rules = {
   '@typescript-eslint/no-unused-vars': ['error'],
   '@typescript-eslint/no-use-before-define': ['error'],
   '@typescript-eslint/no-useless-constructor': eslintRules['no-useless-constructor'],
+  '@typescript-eslint/no-useless-empty-export': ['error'],
   '@typescript-eslint/no-var-requires': ['error'],
   '@typescript-eslint/non-nullable-type-assertion-style': ['error'],
   '@typescript-eslint/object-curly-spacing': ['error', 'always'],
