@@ -21,6 +21,7 @@ const rules: Rules = {
   '@typescript-eslint/consistent-indexed-object-style': ['off'],
   '@typescript-eslint/consistent-type-assertions': ['error'],
   '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+  '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: false }],
   '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: true }],
   '@typescript-eslint/default-param-last': ['error'],
   '@typescript-eslint/dot-notation': ['error', { allowKeywords: true, allowPattern: '' }],
