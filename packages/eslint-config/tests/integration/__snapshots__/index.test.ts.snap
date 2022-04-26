@@ -3083,6 +3083,12 @@ Object {
           "error",
           "type",
         ],
+        "@typescript-eslint/consistent-type-exports": Array [
+          "error",
+          Object {
+            "fixMixedExportsWithInlineTypeSpecifier": false,
+          },
+        ],
         "@typescript-eslint/consistent-type-imports": Array [
           "error",
           Object {
