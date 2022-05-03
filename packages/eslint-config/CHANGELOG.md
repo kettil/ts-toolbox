@@ -1,5 +1,13 @@
 # Changelog
 
+## @kettil/eslint-config [4.4.1](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.4.0...@kettil/eslint-config@4.4.1) (2022-05-03)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-formatjs from 3.1.0 to 3.1.1 ([90e9278](https://github.com/kettil/ts-toolbox/commit/90e927881280e4901b3f672f857be247c09db116))
+* bump eslint-plugin-react-hooks from 4.4.0 to 4.5.0 ([5a12b71](https://github.com/kettil/ts-toolbox/commit/5a12b7119ad53dab58a708e27b80be16b186edd5))
+
 # @kettil/eslint-config [4.4.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.3.3...@kettil/eslint-config@4.4.0) (2022-04-26)
 
 
