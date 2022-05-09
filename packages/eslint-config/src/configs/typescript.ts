@@ -68,6 +68,7 @@ const rules: Rules = {
   '@typescript-eslint/no-confusing-non-null-assertion': ['error'],
   '@typescript-eslint/no-confusing-void-expression': ['error'],
   '@typescript-eslint/no-dupe-class-members': eslintRules['no-dupe-class-members'],
+  '@typescript-eslint/no-duplicate-enum-values': ['error'],
   '@typescript-eslint/no-duplicate-imports': eslintRules['no-duplicate-imports'],
   '@typescript-eslint/no-dynamic-delete': ['off'],
   '@typescript-eslint/no-empty-function': ['error'],

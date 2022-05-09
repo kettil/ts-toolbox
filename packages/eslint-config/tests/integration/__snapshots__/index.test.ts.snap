@@ -3248,6 +3248,9 @@ Object {
         "@typescript-eslint/no-dupe-class-members": Array [
           "error",
         ],
+        "@typescript-eslint/no-duplicate-enum-values": Array [
+          "error",
+        ],
         "@typescript-eslint/no-duplicate-imports": Array [
           "error",
           Object {
