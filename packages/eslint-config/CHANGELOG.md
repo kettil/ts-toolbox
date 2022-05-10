@@ -1,5 +1,20 @@
 # Changelog
 
+# @kettil/eslint-config [4.5.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.4.1...@kettil/eslint-config@4.5.0) (2022-05-10)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.21.0 to 5.22.0 ([895a6f4](https://github.com/kettil/ts-toolbox/commit/895a6f4948e83a24337880c1e439d5254f37dc88))
+* bump @typescript-eslint/eslint-plugin from 5.22.0 to 5.23.0 ([9a539d6](https://github.com/kettil/ts-toolbox/commit/9a539d69bb9076a49b37de3016d7779aab59e58d))
+* bump @typescript-eslint/parser from 5.21.0 to 5.23.0 ([fdee728](https://github.com/kettil/ts-toolbox/commit/fdee7287d7ec2f5920f6e3e7f167fc8b1a8b65db))
+* bump eslint-plugin-testing-library from 5.3.1 to 5.4.0 ([62495ba](https://github.com/kettil/ts-toolbox/commit/62495baac176bf63f208127e3498d38df7e111d1))
+
+
+### Features
+
+* **eslint-config:** add the rule @typescript-eslint/no-duplicate-enum-values ([4dcdfa4](https://github.com/kettil/ts-toolbox/commit/4dcdfa4742bd7d5fafce46c3cb3e50c7c119485f))
+
 ## @kettil/eslint-config [4.4.1](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.4.0...@kettil/eslint-config@4.4.1) (2022-05-03)
 
 
