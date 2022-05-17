@@ -1,5 +1,12 @@
 # Changelog
 
+## @kettil/eslint-config [4.5.1](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.5.0...@kettil/eslint-config@4.5.1) (2022-05-17)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-testing-library from 5.4.0 to 5.5.0 ([a6b1b0d](https://github.com/kettil/ts-toolbox/commit/a6b1b0da3af59e7ca56aca82ba21e10aef532da3))
+
 # @kettil/eslint-config [4.5.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.4.1...@kettil/eslint-config@4.5.0) (2022-05-10)
 
 
