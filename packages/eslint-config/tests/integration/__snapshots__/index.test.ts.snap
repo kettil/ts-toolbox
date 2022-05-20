@@ -6704,6 +6704,9 @@ Object {
         "ignoreCase": true,
       },
     ],
+    "react/jsx-no-leaked-render": Array [
+      "error",
+    ],
     "react/jsx-no-literals": Array [
       "off",
       Object {

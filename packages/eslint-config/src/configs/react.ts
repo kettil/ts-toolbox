@@ -52,6 +52,7 @@ const rules: Rules = {
   'react/jsx-no-comment-textnodes': ['error'],
   'react/jsx-no-constructed-context-values': ['error'],
   'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
+  'react/jsx-no-leaked-render': ['error'],
   'react/jsx-no-literals': ['off', { noStrings: true }],
   'react/jsx-no-script-url': ['off', [{ name: 'Link', props: ['to'] }]],
   'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'always' }],
