@@ -3207,6 +3207,18 @@ Object {
           },
           Object {
             "custom": Object {
+              "match": true,
+              "regex": "^[0-9]$",
+            },
+            "filter": Object {
+              "match": true,
+              "regex": "^[0-9]$",
+            },
+            "format": null,
+            "selector": "objectLiteralProperty",
+          },
+          Object {
+            "custom": Object {
               "match": false,
               "regex": "^I[A-Z]",
             },

@@ -55,6 +55,13 @@ const rules: Rules = {
     },
     { selector: 'parameter', format: ['strictCamelCase', 'StrictPascalCase'], leadingUnderscore: 'allow' },
     { selector: 'typeLike', format: ['StrictPascalCase'] },
+    {
+      selector: 'objectLiteralProperty',
+      // eslint-disable-next-line unicorn/no-null -- required for eslint
+      format: null,
+      custom: { regex: '^[0-9]$', match: true },
+      filter: { regex: '^[0-9]$', match: true },
+    },
     { selector: 'interface', format: ['PascalCase'], custom: { regex: '^I[A-Z]', match: false } },
     {
       selector: 'variable',
