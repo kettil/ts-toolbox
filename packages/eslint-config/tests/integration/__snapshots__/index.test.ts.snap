@@ -3215,7 +3215,10 @@ Object {
               "regex": "^[0-9]$",
             },
             "format": null,
-            "selector": "objectLiteralProperty",
+            "selector": Array [
+              "objectLiteralProperty",
+              "typeProperty",
+            ],
           },
           Object {
             "custom": Object {

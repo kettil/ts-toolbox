@@ -56,7 +56,7 @@ const rules: Rules = {
     { selector: 'parameter', format: ['strictCamelCase', 'StrictPascalCase'], leadingUnderscore: 'allow' },
     { selector: 'typeLike', format: ['StrictPascalCase'] },
     {
-      selector: 'objectLiteralProperty',
+      selector: ['objectLiteralProperty', 'typeProperty'],
       // eslint-disable-next-line unicorn/no-null -- required for eslint
       format: null,
       custom: { regex: '^[0-9]$', match: true },
