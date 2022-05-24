@@ -1,5 +1,26 @@
 # Changelog
 
+# @kettil/eslint-config [4.6.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.5.1...@kettil/eslint-config@4.6.0) (2022-05-24)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.23.0 to 5.25.0 ([d29bb47](https://github.com/kettil/ts-toolbox/commit/d29bb470de0d956765137789154b818e50a4ecc5))
+* bump @typescript-eslint/eslint-plugin from 5.25.0 to 5.26.0 ([a003944](https://github.com/kettil/ts-toolbox/commit/a0039449867f12c4416b73f949dfa078fe0846ad))
+* bump @typescript-eslint/parser from 5.23.0 to 5.25.0 ([ac95cd1](https://github.com/kettil/ts-toolbox/commit/ac95cd1f8f5d451bfee710c902d4d69c585f4c5d))
+* bump @typescript-eslint/parser from 5.25.0 to 5.26.0 ([3e309be](https://github.com/kettil/ts-toolbox/commit/3e309be72a2dd42e29258670c787365eeba2f63c))
+* bump eslint-plugin-formatjs from 3.1.1 to 3.1.4 ([d871b25](https://github.com/kettil/ts-toolbox/commit/d871b257210ea24ed9da89f40ca65c45291642f6))
+* bump eslint-plugin-jest from 26.1.5 to 26.2.2 ([dd642ef](https://github.com/kettil/ts-toolbox/commit/dd642ef390beec4f3e0454828a9390a4f24894f6))
+* bump eslint-plugin-jest-dom from 4.0.1 to 4.0.2 ([817e6f7](https://github.com/kettil/ts-toolbox/commit/817e6f7779f2662f9dcba31350012e9469675a7d))
+* bump eslint-plugin-react from 7.29.4 to 7.30.0 ([1d200f5](https://github.com/kettil/ts-toolbox/commit/1d200f51413225a7f52feb13b223a1ae7f41e75b))
+* **eslint-config:** fix handling with object keys with only numbers ([11ebdb8](https://github.com/kettil/ts-toolbox/commit/11ebdb836d8ed23404dedaae355ee8a440f77db6))
+* **eslint-config:** update the rule @typescript-eslint/naming-convention ([ff35e9a](https://github.com/kettil/ts-toolbox/commit/ff35e9a649490181bdc085e1d7986edb6cff5fbc))
+
+
+### Features
+
+* **eslint-config:** add the rule react/jsx-no-leaked-render ([2381476](https://github.com/kettil/ts-toolbox/commit/238147659c04978bd79efd5c57c509ed9b2b00f6))
+
 ## @kettil/eslint-config [4.5.1](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.5.0...@kettil/eslint-config@4.5.1) (2022-05-17)
 
 
