@@ -62,6 +62,13 @@ const rules: Rules = {
       custom: { regex: '^[0-9]$', match: true },
       filter: { regex: '^[0-9]$', match: true },
     },
+    {
+      selector: ['objectLiteralProperty', 'typeProperty'],
+      // eslint-disable-next-line unicorn/no-null -- required for eslint
+      format: null,
+      custom: { regex: '^[a-z][a-z0-9]*(?:[-.][a-z][a-z0-9]*)+$', match: true },
+      filter: { regex: '^[a-z][a-z0-9]*(?:[-.][a-z][a-z0-9]*)+$', match: true },
+    },
     { selector: 'interface', format: ['PascalCase'], custom: { regex: '^I[A-Z]', match: false } },
     {
       selector: 'variable',
