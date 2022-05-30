@@ -1,4 +1,3 @@
-
 import type { ConfigObject } from './types/configObject';
 
 const createConfig = (): ConfigObject => {

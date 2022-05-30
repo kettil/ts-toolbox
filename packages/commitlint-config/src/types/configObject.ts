@@ -1,4 +1,3 @@
-
 import type { Applicable } from './applicable';
 import type { Case } from './case';
 import type { Level } from './level';
