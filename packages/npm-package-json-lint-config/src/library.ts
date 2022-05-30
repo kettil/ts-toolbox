@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/naming-convention -- external definition */
 import { config as defaultConfig } from './common';
 import type { DefaultObject } from './types';
 
