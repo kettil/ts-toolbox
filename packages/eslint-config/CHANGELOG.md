@@ -1,5 +1,19 @@
 # Changelog
 
+# @kettil/eslint-config [4.7.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.6.0...@kettil/eslint-config@4.7.0) (2022-05-31)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.26.0 to 5.27.0 ([398d3da](https://github.com/kettil/ts-toolbox/commit/398d3da20f9454d020d786560edfd45553b675b5))
+* bump @typescript-eslint/parser from 5.26.0 to 5.27.0 ([b2d86f1](https://github.com/kettil/ts-toolbox/commit/b2d86f18e340791619b1a4315d842b96bfc60599))
+* bump eslint-plugin-testing-library from 5.5.0 to 5.5.1 ([7103a68](https://github.com/kettil/ts-toolbox/commit/7103a686cc7da01e5302a01fb04f9bb9c0e73d93))
+
+
+### Features
+
+* **eslint-config:** update the rule @typescript-eslint/naming-convention ([86ca194](https://github.com/kettil/ts-toolbox/commit/86ca194ba039b7141c333fc0c8525c7f0e7691d9))
+
 # @kettil/eslint-config [4.6.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.5.1...@kettil/eslint-config@4.6.0) (2022-05-24)
 
 
