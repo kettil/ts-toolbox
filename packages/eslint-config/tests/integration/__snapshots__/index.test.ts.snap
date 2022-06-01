@@ -4170,6 +4170,9 @@ Object {
         "jest/prefer-expect-resolves": Array [
           "error",
         ],
+        "jest/prefer-hooks-in-order": Array [
+          "error",
+        ],
         "jest/prefer-hooks-on-top": Array [
           "error",
         ],
