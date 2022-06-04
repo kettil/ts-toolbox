@@ -1,5 +1,17 @@
 # Changelog
 
+# @kettil/eslint-config [4.8.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.7.0...@kettil/eslint-config@4.8.0) (2022-06-04)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-jest from 26.2.2 to 26.4.6 ([631cf0d](https://github.com/kettil/ts-toolbox/commit/631cf0d9f8f722bca812e3efcada5cbde691f0d5))
+
+
+### Features
+
+* **eslint-config:** add the rule jest/prefer-hooks-in-order ([dcc15ef](https://github.com/kettil/ts-toolbox/commit/dcc15ef3fd914ef2a151946bd8f8e6e9715990cb))
+
 # @kettil/eslint-config [4.7.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.6.0...@kettil/eslint-config@4.7.0) (2022-05-31)
 
 
