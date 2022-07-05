@@ -3076,6 +3076,10 @@ Object {
             "before": false,
           },
         ],
+        "@typescript-eslint/consistent-generic-constructors": Array [
+          "error",
+          "constructor",
+        ],
         "@typescript-eslint/consistent-indexed-object-style": Array [
           "off",
         ],

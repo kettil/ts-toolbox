@@ -18,6 +18,7 @@ const rules: Rules = {
   '@typescript-eslint/class-literal-property-style': ['off'],
   '@typescript-eslint/comma-dangle': eslintRules['comma-dangle'],
   '@typescript-eslint/comma-spacing': eslintRules['comma-spacing'],
+  '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
   '@typescript-eslint/consistent-indexed-object-style': ['off'],
   '@typescript-eslint/consistent-type-assertions': ['error'],
   '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
