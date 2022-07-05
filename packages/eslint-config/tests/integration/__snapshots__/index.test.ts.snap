@@ -2746,6 +2746,9 @@ Object {
     "unicorn/prefer-keyboard-event-key": Array [
       "error",
     ],
+    "unicorn/prefer-logical-operator-over-ternary": Array [
+      "error",
+    ],
     "unicorn/prefer-math-trunc": Array [
       "error",
     ],
@@ -7856,6 +7859,9 @@ Object {
       "error",
     ],
     "unicorn/prefer-keyboard-event-key": Array [
+      "error",
+    ],
+    "unicorn/prefer-logical-operator-over-ternary": Array [
       "error",
     ],
     "unicorn/prefer-math-trunc": Array [
