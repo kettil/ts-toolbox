@@ -2728,6 +2728,9 @@ Object {
     "unicorn/prefer-dom-node-text-content": Array [
       "error",
     ],
+    "unicorn/prefer-event-target": Array [
+      "error",
+    ],
     "unicorn/prefer-export-from": Array [
       "error",
       Object {
@@ -7831,6 +7834,9 @@ Object {
       "error",
     ],
     "unicorn/prefer-dom-node-text-content": Array [
+      "error",
+    ],
+    "unicorn/prefer-event-target": Array [
       "error",
     ],
     "unicorn/prefer-export-from": Array [
