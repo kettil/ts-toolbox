@@ -15,6 +15,7 @@ const rules: Rules = {
   'formatjs/no-complex-selectors': ['error', { limit: 3 }],
   'formatjs/no-emoji': ['error'],
   'formatjs/no-id': ['off'],
+  'formatjs/no-literal-string-in-jsx': ['error'],
   'formatjs/no-multiple-plurals': ['off'],
   'formatjs/no-multiple-whitespaces': ['off'],
   'formatjs/no-offset': ['error'],

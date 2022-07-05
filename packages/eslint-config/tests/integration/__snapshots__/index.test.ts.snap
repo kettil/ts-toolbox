@@ -4619,6 +4619,9 @@ Object {
     "formatjs/no-id": Array [
       "off",
     ],
+    "formatjs/no-literal-string-in-jsx": Array [
+      "error",
+    ],
     "formatjs/no-multiple-plurals": Array [
       "off",
     ],
