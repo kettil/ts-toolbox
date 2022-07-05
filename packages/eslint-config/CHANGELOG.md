@@ -1,5 +1,14 @@
 # Changelog
 
+## @kettil/eslint-config [4.8.3](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.8.2...@kettil/eslint-config@4.8.3) (2022-07-05)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-jsx-a11y from 6.5.1 to 6.6.0 ([0285495](https://github.com/kettil/ts-toolbox/commit/0285495841c6e71271c797506b4526984dd9e2f3))
+* bump eslint-plugin-react from 7.30.0 to 7.30.1 ([3fac712](https://github.com/kettil/ts-toolbox/commit/3fac7129e4ec3f6282d5968615f731542268b479))
+* bump eslint-plugin-react-hooks from 4.5.0 to 4.6.0 ([1a44af7](https://github.com/kettil/ts-toolbox/commit/1a44af777b54820bc3a90c81f271020b05eacc92))
+
 ## @kettil/eslint-config [4.8.2](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.8.1...@kettil/eslint-config@4.8.2) (2022-06-07)
 
 
