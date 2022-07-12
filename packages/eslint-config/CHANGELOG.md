@@ -1,5 +1,24 @@
 # Changelog
 
+# @kettil/eslint-config [4.9.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.8.3...@kettil/eslint-config@4.9.0) (2022-07-12)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.27.1 to 5.30.5 ([4ead99e](https://github.com/kettil/ts-toolbox/commit/4ead99e4fb5dbde659717f97937d936f33e18dc4))
+* bump @typescript-eslint/parser from 5.27.1 to 5.30.5 ([c056278](https://github.com/kettil/ts-toolbox/commit/c056278728f46edd24328932c100deabaed66f76))
+* bump eslint-plugin-formatjs from 3.1.5 to 4.0.2 ([f46a263](https://github.com/kettil/ts-toolbox/commit/f46a2631d47218ed75abbfd6af58bad3d4094b13))
+* bump eslint-plugin-unicorn from 42.0.0 to 43.0.0 ([e0c23af](https://github.com/kettil/ts-toolbox/commit/e0c23af9be7979fdd0c952f7cd5a9fe5aa05ce79))
+* bump eslint-plugin-unicorn from 43.0.0 to 43.0.1 ([b745dd1](https://github.com/kettil/ts-toolbox/commit/b745dd1a9161489ac033b82feeaa6eac8b5815e7))
+
+
+### Features
+
+* **eslint-config:** add the rule @typescript-eslint/consistent-generic-constructors ([18ded62](https://github.com/kettil/ts-toolbox/commit/18ded6212a15c2f41d6d5037addd2d99aeb34222))
+* **eslint-config:** add the rule formatjs/no-literal-string-in-jsx ([90d0d9e](https://github.com/kettil/ts-toolbox/commit/90d0d9ef67844e86345b0fc57d063aad3cadc2c6))
+* **eslint-config:** add the rule unicorn/prefer-event-target ([a4e9e28](https://github.com/kettil/ts-toolbox/commit/a4e9e2898e89e956013b336d7a219dc3211e7bb9))
+* **eslint-config:** add the rule unicorn/prefer-logical-operator-over-ternary ([decf9b6](https://github.com/kettil/ts-toolbox/commit/decf9b617bb101beb127f049551f64c3aeb25a70))
+
 ## @kettil/eslint-config [4.8.3](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.8.2...@kettil/eslint-config@4.8.3) (2022-07-05)
 
 
