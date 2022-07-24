@@ -1,3 +1,4 @@
+/* eslint-disable jest/max-expects -- error testing */
 /* eslint-disable jest/no-conditional-expect -- error testing */
 /* eslint-disable max-classes-per-file -- test file */
 import { customAggregateError } from '../../../src/lib/customAggregateError';
