@@ -4093,6 +4093,12 @@ Object {
         "jest/expect-expect": Array [
           "warn",
         ],
+        "jest/max-expects": Array [
+          "error",
+          Object {
+            "max": 10,
+          },
+        ],
         "jest/max-nested-describe": Array [
           "error",
           Object {
