@@ -1,5 +1,22 @@
 # Changelog
 
+# @kettil/eslint-config [4.10.0](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.9.1...@kettil/eslint-config@4.10.0) (2022-07-26)
+
+
+### Bug Fixes
+
+* bump @typescript-eslint/eslint-plugin from 5.30.6 to 5.30.7 ([b6ea4df](https://github.com/kettil/ts-toolbox/commit/b6ea4df8869d498750e804de6cf9570905543ce6))
+* bump @typescript-eslint/parser from 5.30.6 to 5.30.7 ([1e50fb2](https://github.com/kettil/ts-toolbox/commit/1e50fb20ec47354286313f8dae29ced99359eecf))
+* bump eslint-plugin-jest from 26.5.3 to 26.6.0 ([c130ae9](https://github.com/kettil/ts-toolbox/commit/c130ae9cd5eda5127954a983e6bbaae324c8992f))
+* bump eslint-plugin-jsx-a11y from 6.6.0 to 6.6.1 ([4756c01](https://github.com/kettil/ts-toolbox/commit/4756c01601ed2108a2700a599a8e9b5d5a124668))
+* bump eslint-plugin-sonarjs from 0.13.0 to 0.14.0 ([ab95bd3](https://github.com/kettil/ts-toolbox/commit/ab95bd3d1a7551f4aa460960933d303a958f5ef1))
+* bump eslint-plugin-unicorn from 43.0.1 to 43.0.2 ([3c2fd90](https://github.com/kettil/ts-toolbox/commit/3c2fd902eb975ecf6024dbb32e22fb5be0c3e67f))
+
+
+### Features
+
+* **eslint-config:** add the rule jest/max-expects ([2092096](https://github.com/kettil/ts-toolbox/commit/20920961eb2b458dcc178076345dc971b7e12615))
+
 ## @kettil/eslint-config [4.9.1](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.9.0...@kettil/eslint-config@4.9.1) (2022-07-19)
 
 
