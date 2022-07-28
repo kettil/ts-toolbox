@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@commitlint/config-lerna-scopes": "17.0.2",
-    "@types/node": "18.6.1",
+    "@types/node": "18.6.2",
     "carna": "8.1.12",
     "multi-semantic-release": "2.13.0",
     "typescript": "4.7.4"
