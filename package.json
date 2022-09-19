@@ -26,7 +26,7 @@
     "@commitlint/config-lerna-scopes": "17.0.2",
     "@types/node": "18.7.18",
     "carna": "8.1.16",
-    "multi-semantic-release": "3.0.0",
+    "multi-semantic-release": "3.0.1",
     "typescript": "4.7.4"
   },
   "engines": {
