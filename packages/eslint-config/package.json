@@ -1,6 +1,6 @@
 {
   "name": "@kettil/eslint-config",
-  "version": "4.10.8",
+  "version": "4.10.9",
   "description": "The library is a collection of very strict ESLint rules.",
   "license": "MIT",
   "private": false,
