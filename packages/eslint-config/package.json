@@ -36,7 +36,7 @@
     "eslint-plugin-unicorn": "43.0.2"
   },
   "devDependencies": {
-    "eslint": "8.23.1"
+    "eslint": "8.27.0"
   },
   "homepage": "https://github.com/kettil/ts-toolbox/tree/main/packages/eslint-config#readme",
   "repository": {
