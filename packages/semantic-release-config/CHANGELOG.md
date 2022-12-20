@@ -1,5 +1,12 @@
 # Changelog
 
+## @kettil/semantic-release-config [2.0.4](https://github.com/kettil/ts-toolbox/compare/@kettil/semantic-release-config@2.0.3...@kettil/semantic-release-config@2.0.4) (2022-12-20)
+
+
+### Bug Fixes
+
+* bump @semantic-release/changelog from 6.0.1 to 6.0.2 ([9d13c47](https://github.com/kettil/ts-toolbox/commit/9d13c47444ad3fa0d13e0f83820ff922b06a2dc7))
+
 ## [2.0.3](https://github.com/kettil/semantic-release-config/compare/2.0.2...2.0.3) (2022-02-01)
 
 

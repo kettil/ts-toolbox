@@ -1,6 +1,6 @@
 {
   "name": "@kettil/semantic-release-config",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "The library contains the semantic-release configuration.",
   "license": "MIT",
   "private": false,
@@ -31,7 +31,9 @@
   "bugs": {
     "url": "https://github.com/kettil/ts-toolbox/issues/new"
   },
-  "keywords": ["semantic-release"],
+  "keywords": [
+    "semantic-release"
+  ],
   "publishConfig": {
     "access": "public"
   },
