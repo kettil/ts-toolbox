@@ -1,5 +1,12 @@
 # Changelog
 
+## @kettil/eslint-config [4.10.13](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.10.12...@kettil/eslint-config@4.10.13) (2023-01-03)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-sonarjs from 0.16.0 to 0.17.0 ([7b8f7b5](https://github.com/kettil/ts-toolbox/commit/7b8f7b591b3349e1963ef308612d3c2ed55f3d82))
+
 ## @kettil/eslint-config [4.10.12](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.10.11...@kettil/eslint-config@4.10.12) (2022-12-06)
 
 
