@@ -1,5 +1,12 @@
 # Changelog
 
+## @kettil/eslint-config [4.10.14](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.10.13...@kettil/eslint-config@4.10.14) (2023-08-22)
+
+
+### Bug Fixes
+
+* bump eslint-plugin-jest-dom from 4.0.3 to 5.0.2 ([593502d](https://github.com/kettil/ts-toolbox/commit/593502dc7024cd2816a91badc7ec2e2b3b3cd5d5))
+
 ## @kettil/eslint-config [4.10.13](https://github.com/kettil/ts-toolbox/compare/@kettil/eslint-config@4.10.12...@kettil/eslint-config@4.10.13) (2023-01-03)
 
 
